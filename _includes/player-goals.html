@@ -1,0 +1,89 @@
+<h2>Goal Involvements</h2>
+
+<div class="goal-table-filter">
+  <label for="goal-filter">Filter Goals</label>
+  <input id="goal-filter" type="text" class="table-filter" data-table="goals-table" placeholder="Search for player, opponent, competition, etc." />
+</div>
+
+<div class="table-container">
+  <table id="player-goals" class="goals-table">
+    <thead>
+      <tr>
+        <th class="left">Scorer</th>
+        <th class="left">Official Assist</th>
+        <th class="left">1st Assist</th>
+        <th class="left">2nd Assist</th>
+        <th class="left">Season</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="right">Min</th>
+        <th class="left">Opponent</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
+        <th class="left">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for goal in site.data.stats-2019-2020.goals %}
+        {% if goal.id_scorer == include.player or goal.id_assist_official == include.player or goal.id_assist_1st == include.player or goal.id_assist_2nd == include.player %}
+          <tr data-scorer="{{ goal.id_scorer }}">
+            <td class="left" data-sort="{{ goal.id_scorer }}">
+              <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
+              </div>
+              <a href="{{ goal.id_scorer }}">
+                <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
+              </a>
+            </td>
+            <td class="left"><a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a></td>
+            <td class="left"><a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a></td>
+            <td class="left"><a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a></td>
+            <td class="left">{{ goal.season }}</td>
+            <td class="left">{{ goal.comp }}</td>
+            <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
+            <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
+            <td class="left">{{ goal.opponent }}</td>
+            <td class="left">{{ goal.venue }}</td>
+            <td class="right">{{ goal.gf }}</td>
+            <td class="right">{{ goal.ga }}</td>
+            <td class="right">{{ goal.gd }}</td>
+            <td class="left">{{ goal.note }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+      {% for goal in site.data.stats-2018-2019.goals %}
+        {% if goal.id_scorer == include.player or goal.id_assist_official == include.player or goal.id_assist_1st == include.player or goal.id_assist_2nd == include.player %}
+          <tr data-scorer="{{ goal.id_scorer }}">
+            <td class="left" data-sort="{{ goal.id_scorer }}">
+              <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
+              </div>
+              <a href="{{ goal.id_scorer }}">
+                <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
+              </a>
+            </td>
+            <td class="left"><a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a></td>
+            <td class="left"><a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a></td>
+            <td class="left"><a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a></td>
+            <td class="left">{{ goal.season }}</td>
+            <td class="left">{{ goal.comp }}</td>
+            <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
+            <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
+            <td class="left">{{ goal.opponent }}</td>
+            <td class="left">{{ goal.venue }}</td>
+            <td class="right">{{ goal.gf }}</td>
+            <td class="right">{{ goal.ga }}</td>
+            <td class="right">{{ goal.gd }}</td>
+            <td class="left">{{ goal.note }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  new Tablesort(document.getElementById('player-goals'), { descending: true });
+</script>
+
+{% include table-search-script.html %}

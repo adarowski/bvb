@@ -1,0 +1,46 @@
+<h2>Player Stats</h2>
+
+<div class="table-container">
+  <table id="player-stats" class="player-stats-table">
+    <thead>
+      <tr>
+        <th class="left"></th>
+        <th class="left"></th>
+        <th class="left"></th>
+        <th class="center" colspan="4">Assists</th>
+        <th class="left"></th>
+        <th class="left"></th>
+        <th class="center" colspan="4">Per 90</th>
+        <th class="center" colspan="2">Involvement</th>
+      </tr>
+      <tr>
+        <th class="left">Season</th>
+        <th class="right">Mins</th>
+        <th class="right">Goals</th>
+        <th class="right">Official</th>
+        <th class="right">1st</th>
+        <th class="right">2nd</th>
+        <th class="right">Total</th>
+        <th class="right">Points</th>
+        <th class="right">PK</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">Points</th>
+        <th class="right">Points-PK</th>
+        <th class="right">Goals On</th>
+        <th class="right">Involve%</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% include player-stats-row.html player=include.player directory="stats-2019-2020" comp="bundesliga" long_label="2019-20 Bundesliga" short_label="19-20 BuLi" %}
+      {% include player-stats-row.html player=include.player directory="stats-2019-2020" comp="ucl" long_label="2019-20 Champions League" short_label="19-20 UCL" %}
+      {% include player-stats-row.html player=include.player directory="stats-2019-2020" comp="cup" long_label="2019-20 DFB-Pokal" short_label="19-20 Cup" %}
+      {% include player-stats-row.html player=include.player directory="stats-2019-2020" comp="supercup" long_label="2019-20 DFL-Supercup" short_label="19-20 SCup" %}
+      {% include player-stats-row.html player=include.player directory="stats-2019-2020" comp="all" long_label="2019-20 All Competitions" short_label="19-20 All" %}
+      {% include player-stats-row.html player=include.player directory="stats-2018-2019" comp="bundesliga" long_label="2018-19 Bundesliga" short_label="18-19 BuLi" %}
+      {% include player-stats-row.html player=include.player directory="stats-2018-2019" comp="ucl" long_label="2018-19 Champions League" short_label="18-19 UCL" %}
+      {% include player-stats-row.html player=include.player directory="stats-2018-2019" comp="cup" long_label="2018-19 DFB-Pokal" short_label="18-19 Cup" %}
+      {% include player-stats-row.html player=include.player directory="stats-2018-2019" comp="all" long_label="2018-19 All Competitions" short_label="18-19 All" %}
+    </tbody>
+  </table>
+</div>

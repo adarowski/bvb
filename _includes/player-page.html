@@ -1,0 +1,12 @@
+{% include player-header.html player=include.player %}
+{% for player in site.data.players %}
+  {% if player.id == include.player %}
+    {% if player.has_stats == "true" %}
+      {% include player-stats.html player=include.player %}
+      {% include player-goals.html player=include.player %}
+    {% else %}
+      <p>{{ player.first }} {{ player.last }} doesn’t have any stats yet.</p>
+    {% endif %}
+    <p><a href="https://fbref.com/en/players/{{ player.fbref }}/">{{ player.first }} {{ player.last }} on FBref</a></p>
+  {% endif %}
+{% endfor %}

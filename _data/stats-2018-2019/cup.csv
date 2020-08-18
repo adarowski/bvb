@@ -1,0 +1,25 @@
+id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
+akanji,Manuel,Akanji,🇨🇭,Switzerland,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
+alcacer,Paco,Alcácer,🇪🇸,Spain,75,0,1,1,0,1,1,0,0.00,1.20,1.20,1.20,2,50.0%,inactive
+bruun-larsen,Jacob,Bruun Larsen,🇩🇰,Denmark,30,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
+burki,Roman,Bürki,🇨🇭,Switzerland,120,0,0,0,1,1,1,0,0.00,0.75,0.75,0.75,2,50.0%,active
+dahoud,Mahmoud,Dahoud,🇩🇪,Germany,223,0,0,0,1,1,1,0,0.00,0.40,0.40,0.40,6,16.7%,active
+delaney,Thomas,Delaney,🇩🇰,Denmark,175,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
+diallo,Abdou,Diallo,🇫🇷,France,253,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,inactive
+gotze,Mario,Götze,🇩🇪,Germany,153,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,inactive
+guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,221,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
+hakimi,Achraf,Hakimi,🇲🇦,Morocco,240,1,0,0,0,0,1,0,0.38,0.00,0.38,0.38,6,16.7%,inactive
+hitz,Marwin,Hitz,🇨🇭,Switzerland,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,active
+kagawa,Shinji,Kagawa,🇯🇵,Japan,78,0,0,1,0,1,1,0,0.00,1.15,1.15,1.15,2,50.0%,inactive
+oelschlagel,Eric,Oelschlägel,🇩🇪,Germany,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,inactive
+philipp,Maximilian,Philipp,🇩🇪,Germany,207,1,1,1,0,1,2,0,0.43,0.43,0.87,0.87,7,28.6%,inactive
+piszczek,Łukasz,Piszczek,🇵🇱,Poland,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
+pulisic,Christian,Pulisic,🇺🇸,United States,317,2,0,1,1,2,4,0,0.57,0.57,1.14,1.14,6,66.7%,inactive
+reus,Marco,Reus,🇩🇪,Germany,207,3,1,1,0,1,4,1,1.30,0.43,1.74,1.30,4,100.0%,active
+sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,73,0,1,1,0,1,1,0,0.00,1.23,1.23,1.23,3,33.3%,active
+schmelzer,Marcel,Schmelzer,🇩🇪,Germany,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
+toprak,Ömer,Toprak,🇹🇷,Turkey,240,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,6,0.0%,inactive
+weigl,Julian,Weigl,🇩🇪,Germany,240,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,6,0.0%,inactive
+witsel,Axel,Witsel,🇧🇪,Belgium,202,1,0,0,1,1,2,0,0.45,0.45,0.89,0.89,6,33.3%,active
+wolf,Marius,Wolf,🇩🇪,Germany,186,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,active
+zagadou,Dan-Axel,Zagadou,🇫🇷,France,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,active

@@ -1,0 +1,57 @@
+<div class="goal-table-filter">
+  <label for="goal-filter">Filter Goals</label>
+  <input id="goal-filter" type="text" class="table-filter" data-table="goals-table" placeholder="Search for player, opponent, competition, etc." />
+</div>
+
+<div class="table-container">
+  <table id="{{ include.directory }}-goals" class="goals-table">
+    <thead>
+      <tr>
+        <th class="left">Scorer</th>
+        <th class="left">Official Assist</th>
+        <th class="left">1st Assist</th>
+        <th class="left">2nd Assist</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="right">Min</th>
+        <th class="left">Opponent</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
+        <th class="left">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for goal in site.data.[include.directory].goals %}
+        <tr data-scorer="{{ goal.id_scorer }}">
+          <td class="left" data-sort="{{ goal.id_scorer }}">
+            <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
+            </div>
+            <a href="{{ goal.id_scorer }}">
+              <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
+            </a>
+          </td>
+          <td class="left">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
+          <td class="left">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
+          <td class="left">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
+          <td class="left">{{ goal.comp }}</td>
+          <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
+          <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
+          <td class="left">{{ goal.opponent }}</td>
+          <td class="left">{{ goal.venue }}</td>
+          <td class="right">{{ goal.gf }}</td>
+          <td class="right">{{ goal.ga }}</td>
+          <td class="right">{{ goal.gd }}</td>
+          <td class="left"><span>{{ goal.note }}</span></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  new Tablesort(document.getElementById('{{ include.directory }}-goals'));
+</script>
+
+{% include table-search-script.html %}

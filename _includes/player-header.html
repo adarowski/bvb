@@ -1,0 +1,45 @@
+<div class="player-header">
+  {% for player in site.data.players %}
+    {% if player.id == include.player %}
+      {% if player.has_photo == "true" %}
+        <img src="assets/images/500/{{ player.id }}.png" class="{{ player.active }}" alt="{{ player.first }} {{ player.last }} Photo" width="200" />
+      {% endif %}
+      <div class="player-data">
+        <h1>{{ player.first }} {{ player.last }}</h1>
+        <ul>
+          <li>
+            <strong>
+              {% if player.active == "active" %}
+                #{{ player.number }}
+                •
+              {% endif %}
+              {{ player.position }}
+            </strong>
+          </li>
+          <li><strong>Born:</strong> {{ player.dob | date: '%B %-d, %Y' }}</li>
+          <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
+          <li>
+            <strong>Joined:</strong> From {{ player.joined_from }} for {{ player.fee }} on {{ player.joined_date | date: '%B %-d, %Y' }}
+            {% if player.joined_note != nil %}
+              ({{ player.joined_note }})
+            {% endif %}
+          </li>
+          {% if player.active == "active" %}
+            <li><strong>Contract Expires:</strong> {{ player.contract_expires | date: '%B %-d, %Y' }}</li>
+          {% endif %}
+          {% if player.active == "loan" %}
+            <li><strong>Loaned:</strong> To {{ player.loaned_to }} until {{ player.loaned_until | date: '%B %-d, %Y' }}</li>
+          {% endif %}
+          {% if player.active == "inactive" %}
+            <li>
+              <strong>Departed:</strong> To {{ player.departed_to }} for {{ player.departed_fee }} on {{ player.departed_date | date: '%B %-d, %Y' }}
+              {% if player.departed_note != nil %}
+                ({{ player.departed_note }})
+              {% endif %}
+            </li>
+          {% endif %}
+        </ul>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>

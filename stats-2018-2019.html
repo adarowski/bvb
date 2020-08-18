@@ -1,0 +1,34 @@
+---
+layout: default
+title: 2018-19 Stats
+body_class: stats
+---
+
+<h2>
+  {{ page.title }}
+  <a href="./">(2019-20)</a>
+</h2>
+
+<ul class="table-toggles">
+  <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
+  <li><button class="table-toggle show-ucl">Champions League</button></li>
+  <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
+  <li class="hide"><button class="table-toggle show-supercup">DFL-Supercup</button></li>
+  <li><button class="table-toggle show-all">All Competitions</button></li>
+</ul>
+
+{% include stats-table.html directory="stats-2018-2019" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2018-2019" comp="ucl" %}
+{% include stats-table.html directory="stats-2018-2019" comp="cup" %}
+{% include stats-table.html directory="stats-2018-2019" comp="all" %}
+
+<p><strong>Note:</strong> Marco Reus is given an extra Bundesliga goal because his shot was deflected in for an own goal by Marcel Sabitzer. With hockey-style scoring, Reus would be credited with the goal.</p>
+
+{% include stats-table-script.html season="2018-2019" %}
+
+<script>
+  new Tablesort(document.getElementById('stats-2018-2019-bundesliga'), { descending: true });
+  new Tablesort(document.getElementById('stats-2018-2019-ucl'), { descending: true });
+  new Tablesort(document.getElementById('stats-2018-2019-cup'), { descending: true });
+  new Tablesort(document.getElementById('stats-2018-2019-all'), { descending: true });
+</script>

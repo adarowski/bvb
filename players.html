@@ -1,0 +1,154 @@
+---
+layout: default
+title: Players
+body_class: players
+---
+
+<h2>Active Players</h2>
+
+<div class="table-container">
+  <table id="active-players-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="left">Position</th>
+        <th class="right">Number</th>
+        <th class="left">Nationality</th>
+        <th class="left">Date of Birth</th>
+        <th class="left">Joined</th>
+        <th class="left">From</th>
+        <th class="left">Fee</th>
+        <th class="left">Contract Until</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players %}
+        {% if player.active == "active" %}
+          <tr>
+            <td class="left" data-sort="{{ player.last }}">
+              {% if player.has_photo == "true" %}
+                <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
+              {% else %}
+                <div class="player-photo"></div>
+              {% endif %}
+              <a href="{{ player.id }}">
+                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+              </a>
+            </td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
+            <td class="left">{{ player.joined_from }}</td>
+            <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
+            <td class="left" data-sort="{{ player.contract_expires }}">{{ player.contract_expires | date: '%B %-d, %Y' }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2>Players on Loan</h2>
+
+<div class="table-container">
+  <table id="loan-players-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="left">Position</th>
+        <th class="left">Nationality</th>
+        <th class="left">Date of Birth</th>
+        <th class="left">Joined</th>
+        <th class="left">From</th>
+        <th class="left">Fee</th>
+        <th class="left">Contract Until</th>
+        <th class="left">Loaned To</th>
+        <th class="left">Until</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players %}
+        {% if player.active == "loan" %}
+          <tr>
+            <td class="left" data-sort="{{ player.last }}">
+              {% if player.has_photo == "true" %}
+                <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
+              {% else %}
+                <div class="player-photo"></div>
+              {% endif %}
+              <a href="{{ player.id }}">
+                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+              </a>
+            </td>
+            <td class="left">{{ player.position }}</td>
+            <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
+            <td class="left">{{ player.joined_from }}</td>
+            <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
+            <td class="left" data-sort="{{ player.contract_expires }}">{{ player.contract_expires | date: '%B %-d, %Y' }}</td>
+            <td class="left">{{ player.loaned_to }}</td>
+            <td class="left" data-sort="{{ player.loaned_until }}">{{ player.loaned_until | date: '%B %-d, %Y' }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2>Former Players</h2>
+
+<div class="table-container">
+  <table id="former-players-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="left">Position</th>
+        <th class="left">Nationality</th>
+        <th class="left">Date of Birth</th>
+        <th class="left">Joined</th>
+        <th class="left">From</th>
+        <th class="left">Fee</th>
+        <th class="left">Departed</th>
+        <th class="left">To</th>
+        <th class="left">For</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players %}
+        {% if player.active == "inactive" %}
+          <tr>
+            <td class="left" data-sort="{{ player.last }}">
+              {% if player.has_photo == "true" %}
+                <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
+              {% else %}
+                <div class="player-photo"></div>
+              {% endif %}
+              <a href="{{ player.id }}">
+                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+              </a>
+            </td>
+            <td class="left">{{ player.position }}</td>
+            <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
+            <td class="left">{{ player.joined_from }}</td>
+            <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
+            <td class="left" data-sort="{{ player.departed_date }}">{{ player.departed_date | date: '%B %-d, %Y' }}</td>
+            <td class="left">{{ player.departed_to }}</td>
+            <td class="left" data-sort="{{ player.departed_fee_alt }}">{{ player.departed_fee }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+
+<script>
+  new Tablesort(document.getElementById('active-players-list'));
+  new Tablesort(document.getElementById('loan-players-list'));
+  new Tablesort(document.getElementById('former-players-list'));
+</script>

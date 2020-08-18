@@ -1,0 +1,557 @@
+$black: #000000;
+$yellow: #FDE100;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: white;
+  font-size: 14px;
+  color: $black;
+  line-height: 1.4;
+  margin: 0;
+  -webkit-text-size-adjust:none;
+  -ms-text-size-adjust:none;
+  -moz-text-size-adjust:none;
+  text-size-adjust:none;
+}
+
+a {
+  color: #1E78C8;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+header {
+  line-height: 1;
+  position: relative;
+
+  h1 {
+    background-color: $black;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    padding-left: 115px;
+
+    @media all and (max-width: 900px) {
+      height: auto;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 22px;
+      line-height: 1.2;
+      padding-left: 105px;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        color: rgba(255,255,255,0.8);
+      }
+    }
+  }
+
+  nav {
+    background-color: $yellow;
+    display: flex;
+    align-items: center;
+    padding-left: 115px;
+    padding-top: 4px;
+
+    @media all and (max-width: 900px) {
+      padding-left: 105px;
+    }
+
+    ul {
+      list-style: none;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+
+      @media all and (max-width: 900px) {
+        font-size: 16px;
+      }
+    }
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      color: $black;
+      font-weight: bold;
+      display: block;
+      padding: 3px 0 6px;
+      border-bottom: 3px solid transparent;
+
+      &:hover {
+        color: rgba($black,0.8);
+      }
+    }
+  }
+
+  .logo img {
+    display: block;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top: 7px;
+    left: 20px;
+
+    @media all and (max-width: 900px) {
+      top: 10px;
+      left: 10px;
+    }
+  }
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+h2 {
+  margin: 0 0 20px;
+  font-size: 20px;
+
+  a {
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 5px;
+  }
+}
+
+h3 {
+  font-size: 18px;
+  color: $black;
+  margin: 0 0 20px;
+}
+
+.container {
+  padding: 20px;
+
+  @media all and (max-width: 900px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+  }
+}
+
+.table-container {
+  overflow-x: scroll;
+  margin-right: -20px;
+
+  @media all and (max-width: 900px) {
+    margin-left: -11px;
+    margin-right: -11px;
+  }
+}
+
+table {
+  white-space: nowrap;
+  background-color: white;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-variant-numeric: tabular-nums;
+  font-size: 16px;
+}
+
+tr {
+  &.row-all {
+    th, td {
+      background-color: #FFF9CC;
+    }
+
+    &:hover {
+      th, td {
+        background-color: #FEF6B2;
+      }
+    }
+  }
+}
+
+th, td {
+  padding: 8px 10px;
+  border-color: #ddd;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  vertical-align: middle;
+  line-height: 1;
+  background-color: white;
+
+  &:first-child {
+    border-left-width: 1px;
+    left: 0px;
+    position: sticky;
+    z-index: 1;
+  }
+
+  &.left {
+    text-align: left;
+  }
+
+  &.center {
+    text-align: center;
+  }
+
+  &.right {
+    text-align: right;
+  }
+}
+
+thead {
+  border-top: 1px solid #444;
+
+  th {
+    font-weight: bold;
+    background-color: $black;
+    color: $yellow;
+    border-color: #444;
+  }
+
+  th[role=columnheader] {
+  	cursor: pointer;
+  }
+
+  th[aria-sort=ascending],
+  th[aria-sort=descending] {
+    background-color: $yellow;
+    color: $black;
+  }
+}
+
+tbody {
+  tr:hover {
+    th, td {
+      background-color: #f6f6f6;
+    }
+  }
+}
+
+.player-photo {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  background-size: 50px 50px;
+  background-position: -10px 0;
+  margin-top: -6px;
+  margin-bottom: -6px;
+  margin-left: -8px;
+
+  &.loan {
+    filter: grayscale(100%);
+  }
+
+  &.inactive {
+    filter: grayscale(100%);
+    opacity: 0.5;
+  }
+
+  img {
+    margin-left: -100px;
+  }
+}
+
+.key {
+  max-width: 800px;
+
+  h3 {
+    margin: 0;
+  }
+
+  p, ul {
+    color: #666;
+    margin: 0 0 20px;
+    font-size: 14px;
+  }
+
+  p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    strong {
+      color: $black;
+    }
+
+    li {
+      margin-top: 5px;
+    }
+  }
+}
+
+.stats-table,
+.player-stats-table,
+.goals-table {
+  &.hide {
+    display: none;
+  }
+}
+
+.table-toggles {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px;
+
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: none;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #3e90d6;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+
+    &.selected {
+      color: $black;
+
+      border-color: $yellow;
+    }
+
+    &:active,
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover {
+      color: $black;
+    }
+  }
+}
+
+.goal-table-filter {
+  margin: 0 0 20px;
+  display: flex;
+  max-width: 600px;
+  align-items: center;
+
+  label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
+
+.table-filter {
+  font-size: 16px;
+  padding: 4px 8px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.goals-table {
+  td:empty:before {
+    content: "None";
+    color: #bbb;
+  }
+}
+
+.stats-table,
+.player-stats-table {
+  [data-value="0"],
+  [data-value="0.00"],
+  [data-value="0.0%"] {
+    color: #bbb;
+  }
+}
+
+.player-header {
+  display: flex;
+  background-color: #f6f6f6;
+  background-image: linear-gradient(#fff, rgba($yellow, 0.3));
+  border-bottom: 5px solid $yellow;
+  padding: 0 20px 0 20px;
+  align-items: center;
+  margin: 0 -20px 20px;;
+
+  &.home {
+    align-items: flex-end;
+    overflow-x: scroll;
+
+    a {
+      margin-left: -100px;
+
+      &:nth-child(1) {
+        margin-left: 0;
+
+        @media all and (max-width: 900px) {
+          margin-left: -40px;
+        }
+      }
+
+      &:nth-child(3) {
+        z-index: 3;
+      }
+
+      &:nth-child(2),
+      &:nth-child(4) {
+        z-index: 2;
+      }
+
+      &:nth-child(1) img {
+        width: 270px;
+      }
+
+      &:nth-child(4) img {
+        width: 260px;
+      }
+
+      &:nth-child(5) img {
+        width: 270px;
+      }
+    }
+
+    img {
+      display: block;
+      width: 280px;
+
+      @media all and (max-width: 900px) {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+  }
+
+  @media all and (max-width: 900px) {
+    align-items: flex-end;
+    margin: 0 -10px 20px;
+    padding-left: 0;
+  }
+
+  img {
+    width: 300px;
+    margin-right: 40px;
+
+    &.loan {
+      filter: grayscale(100%);
+    }
+
+    &.inactive {
+      filter: grayscale(100%);
+      opacity: 0.5;
+    }
+
+    @media all and (max-width: 900px) {
+      width: 160px;
+      margin-right: 5px;
+      margin-left: -30px;
+    }
+  }
+
+  .player-data {
+    margin-bottom: 20px;
+    max-width: 600px;
+
+    @media all and (max-width: 900px) {
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+  }
+
+  h1 {
+    font-size: 36px;
+
+    @media all and (max-width: 900px) {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+
+    @media all and (max-width: 900px) {
+      font-size: 13px;
+    }
+  }
+
+  li {
+    margin-bottom: 5px;
+
+    @media all and (max-width: 900px) {
+      margin-bottom: 2px;
+    }
+
+    &:first-child {
+      font-size: 20px;
+
+      @media all and (max-width: 900px) {
+        font-size: 13px;
+      }
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+
+      @media all and (max-width: 900px) {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
+
+.hide-on-small {
+  @media all and (max-width: 900px) {
+    display: none;
+  }
+}
+
+.hide-on-large {
+  @media all and (min-width: 901px) {
+    display: none;
+  }
+}
+
+footer {
+  padding: 20px 20px 40px;
+  border-top: 5px solid $black;
+  background-color: #f6f6f6;
+  margin-top: 40px;
+
+  @media all and (max-width: 900px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.hide {
+  display: none !important;;
+}
+
+body.stats li.stats a,
+body.goals li.goals a,
+body.player li.players a,
+body.players li.players a {
+  border-color: rgba($black,0.4);
+}
