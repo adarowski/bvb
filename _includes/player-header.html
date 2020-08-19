@@ -25,7 +25,14 @@
             {% endif %}
           </li>
           {% if player.active == "active" %}
-            <li><strong>Contract Expires:</strong> {{ player.contract_expires | date: '%B %-d, %Y' }}</li>
+            <li>
+              {% if player.fee == "Loan" %}
+                <strong>Loan Ends:</strong>
+              {% else %}
+                <strong>Contract Expires:</strong>
+              {% endif %}
+              {{ player.contract_expires | date: '%B %-d, %Y' }}
+            </li>
           {% endif %}
           {% if player.active == "loan" %}
             <li><strong>Loaned:</strong> To {{ player.loaned_to }} until {{ player.loaned_until | date: '%B %-d, %Y' }}</li>
