@@ -1,0 +1,17 @@
+---
+layout: default
+title: 2020-21 Preseason Stats
+body_class: stats
+---
+
+<h2>
+  {{ page.title }}
+  <a href="./">2019-20</a>
+  <a href="stats-2018-2019">2018-19</a>
+</h2>
+
+{% include stats-table.html directory="stats-2020-2021-preseason" comp="preseason" %}
+
+<script>
+  new Tablesort(document.getElementById('stats-2020-2021-preseason-preseason'), { descending: true });
+</script>

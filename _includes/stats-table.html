@@ -34,7 +34,7 @@
     <tbody>
       {% for player in site.data.[include.directory].[include.comp] %}
         <tr>
-          <td class="left" data-sort="{{ player.last }}">
+          <td class="left" data-sort="{{ player.id }}">
             <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)">
             </div>
             <a href="{{ player.id }}">

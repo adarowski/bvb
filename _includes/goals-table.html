@@ -32,9 +32,9 @@
               <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
             </a>
           </td>
-          <td class="left">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
-          <td class="left">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
+          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
+          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
+          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
           <td class="left">{{ goal.comp }}</td>
           <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
           <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
