@@ -39,9 +39,16 @@
           {% endif %}
           {% if player.active == "inactive" %}
             <li>
-              <strong>Departed:</strong> To {{ player.departed_to }} for {{ player.departed_fee }} on {{ player.departed_date | date: '%B %-d, %Y' }}
-              {% if player.departed_note != nil %}
-                ({{ player.departed_note }})
+              <strong>Departed:</strong>
+              {% if player.departed_to == "TBD" %}
+                {{ player.departed_date | date: '%B %-d, %Y' }}
+              {% elsif player.departed_to == "Retirement" %}
+                {{ player.departed_to}} on {{ player.departed_date | date: '%B %-d, %Y' }}
+              {% else %}
+                To {{ player.departed_to }} for {{ player.departed_fee }} on {{ player.departed_date | date: '%B %-d, %Y' }}
+                {% if player.departed_note != nil %}
+                  ({{ player.departed_note }})
+                {% endif %}
               {% endif %}
             </li>
           {% endif %}

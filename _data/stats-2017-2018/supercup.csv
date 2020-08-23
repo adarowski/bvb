@@ -1,0 +1,15 @@
+id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
+aubameyang,Pierre-Emerick,Aubameyang,🇬🇦,Gabon,120,1,0,,,0,1,0,0.75,0.00,0.75,0.75,2,50.0%,inactive
+bartra,Marc,Bartra,🇪🇸,Spain,120,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
+burki,Roman,Bürki,🇨🇭,Switzerland,120,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
+castro,Gonzalo,Castro,🇩🇪,Germany,120,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
+dahoud,Mahmoud,Dahoud,🇩🇪,Germany,45,0,0,,,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
+dembele,Ousmane,Dembélé,🇫🇷,France,120,0,1,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
+papastathopoulos,Sokratis,Papastathopoulos,🇬🇷,Greece,120,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
+passlack,Felix,Passlack,🇩🇪,Germany,44,0,0,,,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
+philipp,Maximilian,Philipp,🇩🇪,Germany,31,0,0,,,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,inactive
+piszczek,Łukasz,Piszczek,🇵🇱,Poland,120,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
+pulisic,Christian,Pulisic,🇺🇸,United States,89,1,0,,,0,0,0,1.01,0.00,1.01,1.01,2,0.0%,inactive
+rode,Sebastian,Rode,🇩🇪,Germany,75,0,0,,,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,inactive
+sahin,Nuri,Şahin,🇹🇷,Turkey,120,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
+zagadou,Dan-Axel,Zagadou,🇫🇷,France,76,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active

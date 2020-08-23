@@ -1,6 +1,7 @@
 <script>
   var showBundesliga = document.querySelector('.show-bundesliga');
   var showUcl = document.querySelector('.show-ucl');
+  var showUel = document.querySelector('.show-uel');
   var showCup = document.querySelector('.show-cup');
   var showSupercup = document.querySelector('.show-supercup');
   var showAll = document.querySelector('.show-all');
@@ -9,6 +10,7 @@
 
   var tableBundesliga = document.querySelector('#stats-{{ include.season }}-bundesliga');
   var tableUcl = document.querySelector('#stats-{{ include.season }}-ucl');
+  var tableUel = document.querySelector('#stats-{{ include.season }}-uel');
   var tableCup = document.querySelector('#stats-{{ include.season }}-cup');
   var tableSupercup = document.querySelector('#stats-{{ include.season }}-supercup');
   var tableAll = document.querySelector('#stats-{{ include.season }}-all');
@@ -46,6 +48,17 @@
     });
     tableUcl.classList.remove('hide');
     showUcl.classList.add('selected');
+  });
+
+  showUel.addEventListener('click', function () {
+    allTables.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    tableUel.classList.remove('hide');
+    showUel.classList.add('selected');
   });
 
   showCup.addEventListener('click', function () {

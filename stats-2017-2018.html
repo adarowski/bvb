@@ -1,0 +1,39 @@
+---
+layout: default
+title: 2017-18 Stats
+body_class: stats
+---
+
+<h2>
+  {{ page.title }}
+  <a href="./">2019-20</a>
+  <a href="stats-2018-2019">2018-19</a>
+  <a href="stats-2020-2021-preseason">2020-21 Preseason</a>
+</h2>
+
+<ul class="table-toggles">
+  <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
+  <li><button class="table-toggle show-ucl">Champions League</button></li>
+  <li><button class="table-toggle show-uel">Europa League</button></li>
+  <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
+  <li><button class="table-toggle show-supercup">DFL-Supercup</button></li>
+  <li><button class="table-toggle show-all">All Competitions</button></li>
+</ul>
+
+{% include stats-table.html directory="stats-2017-2018" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2017-2018" comp="ucl" %}
+{% include stats-table.html directory="stats-2017-2018" comp="uel" %}
+{% include stats-table.html directory="stats-2017-2018" comp="cup" %}
+{% include stats-table.html directory="stats-2017-2018" comp="supercup" %}
+{% include stats-table.html directory="stats-2017-2018" comp="all" %}
+
+{% include stats-table-script.html season="2017-2018" %}
+
+<script>
+  new Tablesort(document.getElementById('stats-2017-2018-bundesliga'), { descending: true });
+  new Tablesort(document.getElementById('stats-2017-2018-ucl'), { descending: true });
+  new Tablesort(document.getElementById('stats-2017-2018-uel'), { descending: true });
+  new Tablesort(document.getElementById('stats-2017-2018-cup'), { descending: true });
+  new Tablesort(document.getElementById('stats-2017-2018-supercup'), { descending: true });
+  new Tablesort(document.getElementById('stats-2017-2018-all'), { descending: true });
+</script>
