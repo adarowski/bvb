@@ -4,11 +4,11 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2017-18,Bundesliga,MD1,1,Wolfsburg,Away,60,60,3,3,0,Pierre-Emerick,Aubameyang,Pulisic,Pulisic,Piszczek,,aubameyang,pulisic,pulisic,piszczek,inactive
 2017-18,Bundesliga,MD2,2,Hertha Berlin,Home,15,15,1,0,1,Pierre-Emerick,Aubameyang,Şahin,Şahin,Zagadou,,aubameyang,sahin,sahin,zagadou,inactive
 2017-18,Bundesliga,MD2,2,Hertha Berlin,Home,57,57,2,0,2,Nuri,Şahin,,Philipp,Pulisic,No Assists (Philipp shot deflected to Şahin),sahin,,philipp,pulisic,inactive
-2017-18,Bundesliga,MD4,4,Köln,Home,2,2,1,0,1,Maximilian,Philipp,Yarmolenko,Yarmolenko,,,philipp,yarmolenko,yarmolenko,,inactive
-2017-18,Bundesliga,MD4,4,Köln,Home,45+1,45.1,2,0,2,Sokratis,Papastathopoulos,,,,No Official Assist (Keeper blocked the corner and it fell to Papastathopoulos); No 2nd Assist (??? took corner),papastathopoulos,,,,inactive
+2017-18,Bundesliga,MD4,4,Köln,Home,2,2,1,0,1,Maximilian,Philipp,Yarmolenko,Yarmolenko,,No 2nd Assist (Philipp won the ball),philipp,yarmolenko,yarmolenko,,inactive
+2017-18,Bundesliga,MD4,4,Köln,Home,45+1,45.1,2,0,2,Sokratis,Papastathopoulos,,Yarmolenko,,No Official Assist (Keeper blocked the corner and it fell to Papastathopoulos); No 2nd Assist Yarmolenko took corner),papastathopoulos,,yarmolenko,,inactive
 2017-18,Bundesliga,MD4,4,Köln,Home,59,59,3,0,3,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,,inactive
 2017-18,Bundesliga,MD4,4,Köln,Home,60,60,4,0,4,Pierre-Emerick,Aubameyang,Piszczek,Piszczek,Yarmolenko,,aubameyang,piszczek,piszczek,yarmolenko,inactive
-2017-18,Bundesliga,MD4,4,Köln,Home,69,69,5,0,5,Maximilian,Philipp,Dahoud,Dahoud,,,philipp,dahoud,dahoud,,inactive
+2017-18,Bundesliga,MD4,4,Köln,Home,69,69,5,0,5,Maximilian,Philipp,Dahoud,Dahoud,Schürrle,,philipp,dahoud,dahoud,sokratis,inactive
 2017-18,Bundesliga,MD5,5,Hamburger SV,Away,24,24,1,0,1,Shinji,Kagawa,Toprak,Toprak,Yarmolenko,,kagawa,toprak,toprak,yarmolenko,inactive
 2017-18,Bundesliga,MD5,5,Hamburger SV,Away,63,63,2,0,2,Pierre-Emerick,Aubameyang,,Yarmolenko,Pulisic,No Official Assist (Yarmolenko shot tapped in by Aubameyang),aubameyang,,yarmolenko,pulisic,inactive
 2017-18,Bundesliga,MD5,5,Hamburger SV,Away,79,79,3,0,3,Christian,Pulisic,Dahoud,Dahoud,Piszczek,,pulisic,dahoud,dahoud,piszczek,inactive
@@ -16,14 +16,14 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2017-18,Bundesliga,MD6,6,Gladbach,Home,38,38,2,0,2,Maximilian,Philipp,Toljan,Toljan,Dahoud,,philipp,toljan,toljan,dahoud,inactive
 2017-18,Bundesliga,MD6,6,Gladbach,Home,45,45,3,0,3,Pierre-Emerick,Aubameyang,Philipp,Philipp,Papastathopoulos,,aubameyang,philipp,philipp,papastathopoulos,inactive
 2017-18,Bundesliga,MD6,6,Gladbach,Home,49,49,4,0,4,Pierre-Emerick,Aubameyang,,Götze,,No Official Assist (Aubameyang scored after his own rebound); No 2nd Assist (Götze free kick),aubameyang,,gotze,,inactive
-2017-18,Bundesliga,MD6,6,Gladbach,Home,69,69,5,0,5,Pierre-Emerick,Aubameyang,Dahoud,Dahoud,,,aubameyang,dahoud,dahoud,,inactive
-2017-18,Bundesliga,MD6,6,Gladbach,Home,79,79,6,1,5,Julian,Weigl,,,,,weigl,,,,inactive
+2017-18,Bundesliga,MD6,6,Gladbach,Home,62,62,5,0,5,Pierre-Emerick,Aubameyang,Dahoud,Dahoud,,No 2nd Assist (A Pulisic block deflected a pass to Dahoud),aubameyang,dahoud,dahoud,,inactive
+2017-18,Bundesliga,MD6,6,Gladbach,Home,79,79,6,1,5,Julian,Weigl,,,,No Assists (Weigl won the ball),weigl,,,,inactive
 2017-18,Bundesliga,MD7,7,Augsburg,Away,4,4,1,0,1,Andriy,Yarmolenko,,Kagawa,,No Official Assist (Kagawa corner struck a defender and fell to Yarmolenko),yarmolenko,,kagawa,,inactive
 2017-18,Bundesliga,MD7,7,Augsburg,Away,23,23,2,1,1,Shinji,Kagawa,Yarmolenko,Yarmolenko,Aubameyang,,kagawa,yarmolenko,yarmolenko,aubameyang,inactive
 2017-18,Bundesliga,MD8,8,RB Leipzig,Home,4,4,1,0,1,Pierre-Emerick,Aubameyang,,,,No Assists (Aubameyang won the ball),aubameyang,,,,inactive
 2017-18,Bundesliga,MD8,8,RB Leipzig,Home,64,64,2,3,-1,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,,inactive
 2017-18,Bundesliga,MD9,9,Frankfurt,Away,18,18,1,0,1,Nuri,Şahin,Bartra,Bartra,Philipp,Philipp pass blocked to Bartra,sahin,bartra,bartra,philipp,inactive
-2017-18,Bundesliga,MD9,9,Frankfurt,Away,57,57,2,0,2,Maximilian,Philipp,Götze,Götze,,,philipp,gotze,gotze,,inactive
+2017-18,Bundesliga,MD9,9,Frankfurt,Away,57,57,2,0,2,Maximilian,Philipp,Götze,Götze,Şahin,,philipp,gotze,gotze,sahin,inactive
 2017-18,Bundesliga,MD10,10,Hannover 96,Away,27,27,1,1,0,Dan-Axel,Zagadou,,Şahin,Bartra,No Official Assist (Sahin shot blocked to Zagadou),zagadou,,sahin,bartra,active
 2017-18,Bundesliga,MD10,10,Hannover 96,Away,52,52,2,2,0,Andriy,Yarmolenko,,Schmelzer,Pulisic,No Official Assist (Schmelzer cross blocked to Yarmolenko),yarmolenko,,schmelzer,pulisic,inactive
 2017-18,Bundesliga,MD11,11,Bayern Munich,Home,88,88,1,3,-2,Marc,Bartra,Castro,Castro,Pulisic,,bartra,castro,castro,pulisic,inactive
@@ -37,20 +37,20 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2017-18,Bundesliga,MD16,16,Mainz 05,Away,55,55,1,0,1,Sokratis,Papastathopoulos,,Toprak,Kagawa,No Official Assist (Toprak shot saved and fell to Papastathopoulos),papastathopoulos,,toprak,kagawa,inactive
 2017-18,Bundesliga,MD16,16,Mainz 05,Away,89,89,2,0,2,Shinji,Kagawa,Aubameyang,Aubameyang,Yarmolenko,,kagawa,aubameyang,aubameyang,yarmolenko,inactive
 2017-18,Bundesliga,MD17,17,Hoffenheim,Home,63,63,1,1,0,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,,inactive
-2017-18,Bundesliga,MD17,17,Hoffenheim,Home,89,89,2,1,1,Christian,Pulisic,,Kagawa,,No Official Assist (Kagawa pass took a deflection),pulisic,,kagawa,,inactive
+2017-18,Bundesliga,MD17,17,Hoffenheim,Home,89,89,2,1,1,Christian,Pulisic,,Kagawa,Dahoud,No Official Assist (Kagawa pass took a deflection),pulisic,,kagawa,dahoud,inactive
 2017-18,Bundesliga,MD19,19,Hertha Berlin,Away,71,71,1,1,0,Shinji,Kagawa,Sancho,Sancho,,No 2nd Assist (Sancho won the ball),kagawa,sancho,sancho,,inactive
 2017-18,Bundesliga,MD20,20,Freiburg,Home,9,9,1,0,1,Shinji,Kagawa,,Piszczek,Castro,No Official Assist (Castro’s ball deflected off several players and fell to Piszczek; Piszczek’s shot blocked and fell to Kagawa),kagawa,,piszczek,castro,inactive
-2017-18,Bundesliga,MD20,20,Freiburg,Home,90+3,90.3,2,2,0,Jeremy,Toljan,,,,,toljan,,,,loan
+2017-18,Bundesliga,MD20,20,Freiburg,Home,90+3,90.3,2,2,0,Jeremy,Toljan,,Yarmolenko,Kagawa,No Official Assist (Yarmolenko's cross blocked to Toljan),toljan,,yarmolenko,kagawa,loan
 2017-18,Bundesliga,MD21,21,Köln,Away,35,35,1,0,1,Michy,Batshuayi,Toljan,Toljan,Kagawa,,batshuayi,toljan,toljan,kagawa,inactive
 2017-18,Bundesliga,MD21,21,Köln,Away,62,62,2,1,1,Michy,Batshuayi,Pulisic,Pulisic,Bürki,Combination (Bürki to Pulisic to Batshuayi to Pulisic to Batshuayi),batshuayi,pulisic,pulisic,burki,inactive
 2017-18,Bundesliga,MD21,21,Köln,Away,84,84,3,2,1,André,Schürrle,Batshuayi,Batshuayi,Kagawa,,schurrle,batshuayi,batshuayi,kagawa,inactive
 2017-18,Bundesliga,MD22,22,Hamburger SV,Home,49,49,1,0,1,Michy,Batshuayi,Pulisic,Pulisic,Reus,,batshuayi,pulisic,pulisic,reus,inactive
-2017-18,Bundesliga,MD22,22,Hamburger SV,Home,90+2,90.2,2,0,2,Mario,Götze,Schürrle,Schürrle,,,gotze,schurrle,schurrle,,inactive
+2017-18,Bundesliga,MD22,22,Hamburger SV,Home,90+2,90.2,2,0,2,Mario,Götze,Schürrle,Schürrle,Batshuayi,,gotze,schurrle,schurrle,batshuayi,inactive
 2017-18,Bundesliga,MD23,23,Gladbach,Away,32,32,1,0,1,Marco,Reus,Schürrle,Schürrle,Götze,,reus,schurrle,schurrle,gotze,active
 2017-18,Bundesliga,MD24,24,Augsburg,Home,16,16,1,0,1,Marco,Reus,,Schürrle,Götze,No Official Assist (Schürrle cross blocked and fell to Reus),reus,,schurrle,gotze,active
-2017-18,Bundesliga,MD25,25,RB Leipzig,Away,38,38,1,0,1,Marco,Reus,Dahoud,Dahoud,,,reus,dahoud,dahoud,,active
-2017-18,Bundesliga,MD26,26,Frankfurt,Home,11,11,1,0,1,Christian,Pulisic,,Dahoud,,No Official Assist (Pulisic cross deflected in for an own goal),pulisic,,dahoud,,inactive
-2017-18,Bundesliga,MD26,26,Frankfurt,Home,77,77,2,1,1,Michy,Batshuayi,Pulisic,Pulisic,,Combination (??? to Pulisic to Batshuayi to Pulisic to Batshuayi),batshuayi,pulisic,pulisic,,inactive
+2017-18,Bundesliga,MD25,25,RB Leipzig,Away,38,38,1,0,1,Marco,Reus,Dahoud,Dahoud,Toprak,,reus,dahoud,dahoud,toprak,active
+2017-18,Bundesliga,MD26,26,Frankfurt,Home,11,11,1,0,1,Christian,Pulisic,,Dahoud,,No Official Assist (Pulisic cross deflected in for an own goal); No 2nd Assist (Dahoud won the ball),pulisic,,dahoud,,inactive
+2017-18,Bundesliga,MD26,26,Frankfurt,Home,77,77,2,1,1,Michy,Batshuayi,Pulisic,Pulisic,Weigl,Combination Weigl to Pulisic to Batshuayi to Pulisic to Batshuayi),batshuayi,pulisic,pulisic,weigl,inactive
 2017-18,Bundesliga,MD26,26,Frankfurt,Home,90+4,90.4,3,2,1,Michy,Batshuayi,Piszczek,Piszczek,Castro,,batshuayi,piszczek,piszczek,castro,inactive
 2017-18,Bundesliga,MD27,27,Hannover 96,Home,24,24,1,0,1,Michy,Batshuayi,Schürrle,Schürrle,,No 2nd Assist (Schürrle corner),batshuayi,schurrle,schurrle,,inactive
 2017-18,Bundesliga,MD29,29,Stuttgart,Home,38,38,1,0,1,Christian,Pulisic,Piszczek,Piszczek,Papastathopoulos,,pulisic,piszczek,piszczek,papastathopoulos,inactive
@@ -61,7 +61,7 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2017-18,Bundesliga,MD31,31,Leverkusen,Home,63,63,3,0,3,Maximilian,Philipp,Sancho,Sancho,Akanji,,philipp,sancho,sancho,akanji,inactive
 2017-18,Bundesliga,MD31,31,Leverkusen,Home,79,79,4,0,4,Marco,Reus,Sancho,Sancho,Dahoud,,reus,sancho,sancho,dahoud,active
 2017-18,Bundesliga,MD32,32,Werder Bremen,Away,19,19,1,0,1,Marco,Reus,,Philipp,Piszczek,No Official Assist (Philipp shot blocked and fell to Reus),reus,,philipp,piszczek,active
-2017-18,Bundesliga,MD33,33,Mainz 05,Home,16,16,1,2,-1,Maximilian,Philipp,Sancho,Sancho,,,philipp,sancho,sancho,,inactive
+2017-18,Bundesliga,MD33,33,Mainz 05,Home,16,16,1,2,-1,Maximilian,Philipp,Sancho,Sancho,Akanji,,philipp,sancho,sancho,akanji,inactive
 2017-18,Bundesliga,MD34,34,Hoffenheim,Away,58,58,1,1,0,Marco,Reus,Guerreiro,Guerreiro,Sancho,Combination (Sancho to Guerreiro to Reus to Guerreiro to Reus),reus,guerreiro,guerreiro,sancho,active
 2017-18,Champions League,GR-1,1,Tottenham,Away,11,11,1,1,0,Andriy,Yarmolenko,Kagawa,Kagawa,Piszczek,Combination (Piszczek to Yarmolenko to Kagawa to Yarmolenko),yarmolenko,kagawa,kagawa,piszczek,inactive
 2017-18,Champions League,GR-2,2,Real Madrid,Home,54,54,1,2,-1,Pierre-Emerick,Aubameyang,Castro,Castro,Philipp,,aubameyang,castro,castro,philipp,inactive
@@ -70,15 +70,15 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2017-18,Champions League,GR-5,5,Tottenham,Home,31,31,1,0,1,Pierre-Emerick,Aubameyang,Yarmolenko,Yarmolenko,Guerreiro,,aubameyang,yarmolenko,yarmolenko,guerreiro,inactive
 2017-18,Champions League,GR-6,6,Real Madrid,Away,43,43,1,2,-1,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,,No Assist (Schmelzer won the ball),aubameyang,schmelzer,schmelzer,,inactive
 2017-18,Champions League,GR-6,6,Real Madrid,Away,48,48,2,2,0,Pierre-Emerick,Aubameyang,,Kagawa,Şahin,No Official Assist (Aubameyang scored on his own rebound),aubameyang,,kagawa,sahin,inactive
-2017-18,Europa League,R32-1,7,Atalanta,Home,30,30,1,0,1,André,Schürrle,Piszczek,Piszczek,,,schurrle,piszczek,piszczek,,inactive
-2017-18,Europa League,R32-1,7,Atalanta,Home,65,65,2,2,0,Michy,Batshuayi,Götze,Götze,,,batshuayi,gotze,gotze,,inactive
+2017-18,Europa League,R32-1,7,Atalanta,Home,30,30,1,0,1,André,Schürrle,Piszczek,Piszczek,Batshuayi,,schurrle,piszczek,piszczek,batshuayi,inactive
+2017-18,Europa League,R32-1,7,Atalanta,Home,65,65,2,2,0,Michy,Batshuayi,Götze,Götze,Schürrle,,batshuayi,gotze,gotze,schurrle,inactive
 2017-18,Europa League,R32-1,7,Atalanta,Home,90+1,90.1,3,2,1,Michy,Batshuayi,Götze,Götze,,No 2nd Assist (Götze won the ball),batshuayi,gotze,gotze,,inactive
-2017-18,Europa League,R32-2,8,Atalanta,Away,83,83,1,1,0,Marcel,Schmelzer,,Reus,,No Assists (Reus shot saved and fell to Schmelzer),schmelzer,,reus,,active
+2017-18,Europa League,R32-2,8,Atalanta,Away,83,83,1,1,0,Marcel,Schmelzer,,Reus,Piszczek,No Assists (Reus shot saved and fell to Schmelzer),schmelzer,,reus,piszczek,active
 2017-18,Europa League,R16-1,9,Red Bull Salzburg,Home,62,62,1,2,-1,André,Schürrle,Pulisic,Pulisic,Reus,,schurrle,pulisic,pulisic,reus,inactive
 2017-18,DFB-Pokal,R1,1,Rielasingen,Away,12,12,1,0,1,Marc,Bartra,Beste,Beste,Şahin,,bartra,beste,beste,sahin,inactive
 2017-18,DFB-Pokal,R1,1,Rielasingen,Away,41,41,2,0,2,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,,inactive
 2017-18,DFB-Pokal,R1,1,Rielasingen,Away,55,55,3,0,3,Pierre-Emerick,Aubameyang,Dahoud,Dahoud,Şahin,,aubameyang,dahoud,dahoud,sahin,inactive
-2017-18,DFB-Pokal,R1,1,Rielasingen,Away,80,80,4,0,4,Pierre-Emerick,Aubameyang,,Dahoud,,No Assists (Dahoud shot deflected to Aubameyang),aubameyang,,dahoud,,inactive
+2017-18,DFB-Pokal,R1,1,Rielasingen,Away,80,80,4,0,4,Pierre-Emerick,Aubameyang,,Dahoud,Kagawa,No Assists (Dahoud shot deflected to Aubameyang),aubameyang,,dahoud,kagawa,inactive
 2017-18,DFB-Pokal,R2,2,Magdeburg,Away,42,42,1,0,1,Gonzalo,Castro,Isak,Isak,Yarmolenko,,castro,isak,isak,yarmolenko,inactive
 2017-18,DFB-Pokal,R2,2,Magdeburg,Away,47,47,2,0,2,Alexander,Isak,Philipp,Philipp,Yarmolenko,,isak,philipp,philipp,yarmolenko,inactive
 2017-18,DFB-Pokal,R2,2,Magdeburg,Away,73,73,3,0,3,Andriy,Yarmolenko,,,,No Assists (Penalty),yarmolenko,,,,inactive

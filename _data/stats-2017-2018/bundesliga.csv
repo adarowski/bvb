@@ -1,31 +1,31 @@
 id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
-akanji,Manuel,Akanji,🇨🇭,Switzerland,904,0,0,,,0,0,0,0.00,0.00,0.00,0.00,15,0.0%,active
-aubameyang,Pierre-Emerick,Aubameyang,🇬🇦,Gabon,1416,13,3,,,0,13,3,0.83,0.00,0.83,0.64,39,33.3%,inactive
-bartra,Marc,Bartra,🇪🇸,Spain,807,2,1,,,0,2,0,0.22,0.00,0.22,0.22,15,13.3%,inactive
-batshuayi,Michy,Batshuayi,🇧🇪,Belgium,839,7,1,,,0,7,0,0.75,0.00,0.75,0.75,14,50.0%,inactive
-bruun-larsen,Jacob,Bruun Larsen,🇩🇰,Denmark,7,0,0,,,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,inactive
-burki,Roman,Bürki,🇨🇭,Switzerland,2969,0,0,,,0,0,0,0.00,0.00,0.00,0.00,60,0.0%,active
-castro,Gonzalo,Castro,🇩🇪,Germany,1206,0,2,,,0,0,0,0.00,0.00,0.00,0.00,27,0.0%,inactive
-dahoud,Mahmoud,Dahoud,🇩🇪,Germany,1146,0,4,,,0,0,0,0.00,0.00,0.00,0.00,28,0.0%,active
-gomez,Sergio,Gómez,🇪🇸,Spain,9,0,0,,,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
-gotze,Mario,Götze,🇩🇪,Germany,1601,2,3,,,0,2,0,0.11,0.00,0.11,0.11,35,5.7%,inactive
-guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,547,1,1,,,0,1,0,0.16,0.00,0.16,0.16,11,9.1%,active
-isak,Alexander,Isak,🇸🇪,Sweden,119,0,0,,,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
-kagawa,Shinji,Kagawa,🇯🇵,Japan,1166,5,2,,,0,5,0,0.39,0.00,0.39,0.39,20,25.0%,inactive
-papastathopoulos,Sokratis,Papastathopoulos,🇬🇷,Greece,2373,2,0,,,0,2,0,0.08,0.00,0.08,0.08,52,3.8%,inactive
-passlack,Felix,Passlack,🇩🇪,Germany,13,0,0,,,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
-philipp,Maximilian,Philipp,🇩🇪,Germany,1203,9,1,,,0,9,0,0.67,0.00,0.67,0.67,31,29.0%,inactive
-piszczek,Łukasz,Piszczek,🇵🇱,Poland,2138,0,3,,,0,0,0,0.00,0.00,0.00,0.00,45,0.0%,active
-pulisic,Christian,Pulisic,🇺🇸,United States,2302,4,5,,,0,4,0,0.16,0.00,0.16,0.16,49,8.2%,inactive
-reus,Marco,Reus,🇩🇪,Germany,928,7,0,,,0,7,0,0.68,0.00,0.68,0.68,16,43.8%,active
-sahin,Nuri,Şahin,🇹🇷,Turkey,1225,2,2,,,0,2,0,0.15,0.00,0.15,0.15,28,7.1%,inactive
-sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,690,1,4,,,0,1,0,0.13,0.00,0.13,0.13,13,7.7%,active
-schmelzer,Marcel,Schmelzer,🇩🇪,Germany,1491,0,0,,,0,0,0,0.00,0.00,0.00,0.00,24,0.0%,active
-schurrle,André,Schürrle,🇩🇪,Germany,1236,1,6,,,0,1,0,0.07,0.00,0.07,0.07,17,5.9%,inactive
-subotic,Neven,Subotić,🇷🇸,Serbia,271,0,0,,,0,0,0,0.00,0.00,0.00,0.00,4,0.0%,inactive
-toljan,Jeremy,Toljan,🇩🇪,Germany,1211,1,2,,,0,1,0,0.07,0.00,0.07,0.07,26,3.8%,loan
-toprak,Ömer,Toprak,🇹🇷,Turkey,2020,0,1,,,0,0,0,0.00,0.00,0.00,0.00,49,0.0%,inactive
-weidenfeller,Roman,Weidenfeller,🇩🇪,Germany,91,0,0,,,0,0,0,0.00,0.00,0.00,0.00,4,0.0%,inactive
-weigl,Julian,Weigl,🇩🇪,Germany,1944,1,0,,,0,1,0,0.05,0.00,0.05,0.05,40,2.5%,inactive
-yarmolenko,Andriy,Yarmolenko,🇺🇦,Ukraine,1039,3,3,,,0,3,0,0.26,0.00,0.26,0.26,22,13.6%,inactive
-zagadou,Dan-Axel,Zagadou,🇫🇷,France,657,1,0,,,0,1,0,0.14,0.00,0.14,0.14,18,5.6%,active
+akanji,Manuel,Akanji,🇨🇭,Switzerland,904,0,0,0,2,2,2,0,0.00,0.20,0.20,0.20,15,13.3%,active
+aubameyang,Pierre-Emerick,Aubameyang,🇬🇦,Gabon,1416,13,3,4,1,5,18,3,0.83,0.32,1.14,0.95,39,46.2%,inactive
+bartra,Marc,Bartra,🇪🇸,Spain,807,2,1,1,1,2,4,0,0.22,0.22,0.45,0.45,15,26.7%,inactive
+batshuayi,Michy,Batshuayi,🇧🇪,Belgium,839,7,1,1,1,2,9,0,0.75,0.21,0.97,0.97,14,64.3%,inactive
+bruun-larsen,Jacob,Bruun Larsen,🇩🇰,Denmark,7,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,inactive
+burki,Roman,Bürki,🇨🇭,Switzerland,2969,0,0,0,1,1,1,0,0.00,0.03,0.03,0.03,60,1.7%,active
+castro,Gonzalo,Castro,🇩🇪,Germany,1206,0,2,2,2,4,4,0,0.00,0.30,0.30,0.30,27,14.8%,inactive
+dahoud,Mahmoud,Dahoud,🇩🇪,Germany,1146,0,4,5,5,10,10,0,0.00,0.79,0.79,0.79,28,35.7%,active
+gomez,Sergio,Gómez,🇪🇸,Spain,9,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
+gotze,Mario,Götze,🇩🇪,Germany,1601,2,3,4,5,9,11,0,0.11,0.51,0.62,0.62,35,31.4%,inactive
+guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,547,1,1,1,1,2,3,0,0.16,0.33,0.49,0.49,11,27.3%,active
+isak,Alexander,Isak,🇸🇪,Sweden,119,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
+kagawa,Shinji,Kagawa,🇯🇵,Japan,1166,5,2,3,4,7,12,0,0.39,0.54,0.93,0.93,20,60.0%,inactive
+papastathopoulos,Sokratis,Papastathopoulos,🇬🇷,Greece,2373,2,0,0,2,2,4,0,0.08,0.08,0.15,0.15,52,7.7%,inactive
+passlack,Felix,Passlack,🇩🇪,Germany,13,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
+philipp,Maximilian,Philipp,🇩🇪,Germany,1203,9,1,3,1,4,13,0,0.67,0.30,0.97,0.97,31,41.9%,inactive
+piszczek,Łukasz,Piszczek,🇵🇱,Poland,2138,0,3,4,3,7,7,0,0.00,0.29,0.29,0.29,45,15.6%,active
+pulisic,Christian,Pulisic,🇺🇸,United States,2302,4,5,6,5,11,15,0,0.16,0.43,0.59,0.59,49,30.6%,inactive
+reus,Marco,Reus,🇩🇪,Germany,928,7,0,0,1,1,8,0,0.68,0.10,0.78,0.78,16,50.0%,active
+sahin,Nuri,Şahin,🇹🇷,Turkey,1225,2,2,4,1,5,7,0,0.15,0.37,0.51,0.51,28,25.0%,inactive
+sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,690,1,4,4,1,5,6,0,0.13,0.65,0.78,0.78,13,46.2%,active
+schmelzer,Marcel,Schmelzer,🇩🇪,Germany,1491,0,0,1,1,2,2,0,0.00,0.12,0.12,0.12,24,8.3%,active
+schurrle,André,Schürrle,🇩🇪,Germany,1236,1,6,6,0,6,7,0,0.07,0.44,0.51,0.51,17,41.2%,inactive
+subotic,Neven,Subotić,🇷🇸,Serbia,271,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,4,0.0%,inactive
+toljan,Jeremy,Toljan,🇩🇪,Germany,1211,1,2,2,0,2,3,0,0.07,0.15,0.22,0.22,26,11.5%,loan
+toprak,Ömer,Toprak,🇹🇷,Turkey,2020,0,1,2,1,3,3,0,0.00,0.13,0.13,0.13,49,6.1%,inactive
+weidenfeller,Roman,Weidenfeller,🇩🇪,Germany,91,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,4,0.0%,inactive
+weigl,Julian,Weigl,🇩🇪,Germany,1944,1,0,0,3,3,4,0,0.05,0.14,0.19,0.19,40,10.0%,inactive
+yarmolenko,Andriy,Yarmolenko,🇺🇦,Ukraine,1039,3,3,5,4,9,12,0,0.26,0.78,1.04,1.04,22,54.5%,inactive
+zagadou,Dan-Axel,Zagadou,🇫🇷,France,657,1,0,0,1,1,2,0,0.14,0.14,0.27,0.27,18,11.1%,active
