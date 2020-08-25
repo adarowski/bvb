@@ -1,0 +1,97 @@
+<script>
+  var showAll = document.querySelector('.show-all');
+  var showBundesliga = document.querySelector('.show-bundesliga');
+  var showUcl = document.querySelector('.show-ucl');
+  var showUel = document.querySelector('.show-uel');
+  var showCup = document.querySelector('.show-cup');
+  var showSupercup = document.querySelector('.show-supercup');
+
+  var allButtons = document.querySelectorAll('.table-toggle');
+
+  var rowsBundesliga = document.querySelectorAll('.row-bundesliga');
+  var rowsUcl = document.querySelectorAll('.row-ucl');
+  var rowsUel = document.querySelectorAll('.row-uel');
+  var rowsCup = document.querySelectorAll('.row-cup');
+  var rowsSupercup = document.querySelectorAll('.row-supercup');
+
+  var allRows = document.querySelectorAll('.player-stats-table tbody tr');
+
+  window.onload = function() {
+    showAll.classList.add('selected');
+  };
+
+  showBundesliga.addEventListener('click', function () {
+    allRows.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    rowsBundesliga.forEach((row) => {
+      row.classList.remove('hide');
+    });
+    showBundesliga.classList.add('selected');
+  });
+
+  showUcl.addEventListener('click', function () {
+    allRows.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    rowsUcl.forEach((row) => {
+      row.classList.remove('hide');
+    });
+    showUcl.classList.add('selected');
+  });
+
+  showUel.addEventListener('click', function () {
+    allRows.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    rowsUel.forEach((row) => {
+      row.classList.remove('hide');
+    });
+    showUel.classList.add('selected');
+  });
+
+  showCup.addEventListener('click', function () {
+    allRows.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    rowsCup.forEach((row) => {
+      row.classList.remove('hide');
+    });
+    showCup.classList.add('selected');
+  });
+
+  showSupercup.addEventListener('click', function () {
+    allRows.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    rowsSupercup.forEach((row) => {
+      row.classList.remove('hide');
+    });
+    showSupercup.classList.add('selected');
+  });
+
+  showAll.addEventListener('click', function () {
+    allRows.forEach((table) => {
+      table.classList.remove('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    showAll.classList.add('selected');
+  });
+</script>

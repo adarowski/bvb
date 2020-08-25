@@ -1,5 +1,14 @@
 <h2>Player Stats</h2>
 
+<ul class="table-toggles">
+  <li><button class="table-toggle show-all">All Competitions</button></li>
+  <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
+  <li><button class="table-toggle show-ucl">Champions League</button></li>
+  <li><button class="table-toggle show-uel">Europa League</button></li>
+  <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
+  <li><button class="table-toggle show-supercup">DFL-Supercup</button></li>
+</ul>
+
 <div class="table-container">
   <table id="player-stats" class="player-stats-table">
     <thead>
@@ -50,3 +59,5 @@
     </tbody>
   </table>
 </div>
+
+{% include player-stats-table-script.html %}
