@@ -1,11 +1,11 @@
 season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd,active
-2018-19,Bundesliga,MD1,1,RB Leipzig,Home,21,21,1,1,0,Mahmoud,Dahoud,Schmelzer,Schmelzer,Philipp,,dahoud,schmelzer,schmelzer,philipp,active
-2018-19,Bundesliga,MD1,1,RB Leipzig,Home,40,40,2,1,1,Marco,Reus,,,,No Assists (Reus direct free kick was deflected in for an own goal),reus,,,,active
-2018-19,Bundesliga,MD1,1,RB Leipzig,Home,43,43,3,1,2,Axel,Witsel,,Delaney,Pulisic,No Official Assist (Delaney shot saved and fell to Witsel),witsel,,delaney,pulisic,active
-2018-19,Bundesliga,MD1,1,RB Leipzig,Home,90+1,90.1,4,1,3,Marco,Reus,Sancho,Sancho,Dahoud,,reus,sancho,sancho,dahoud,active
-2018-19,Bundesliga,MD3,3,Frankfurt,Home,36,36,1,0,1,Abdou,Diallo,,Bruun Larsen,,"No Official Assist (Diallo scored on his third attempt), No 2nd Assist (Bruun Larsen corner)",diallo,,bruun-larsen,,inactive
-2018-19,Bundesliga,MD3,3,Frankfurt,Home,72,72,2,1,1,Marius,Wolf,Sancho,Sancho,Alcácer,,wolf,sancho,sancho,alcácer,active
-2018-19,Bundesliga,MD3,3,Frankfurt,Home,88,88,3,1,2,Paco,Alcácer,,Sancho,,No Official Assist (Sancho pass deflected to Alcácer); No 2nd Assist (Sancho corner); Combination (Sancho to Alcácer to Sancho to Alcácer),alcacer,,sancho,,inactive
+2018-19,Bundesliga,MD1,1,RB Leipzig,Home,21,21,1,1,0,Mahmoud,Dahoud,Schmelzer,Schmelzer,Philipp,,dahoud,schmelzer,schmelzer,philipp,44742
+2018-19,Bundesliga,MD1,1,RB Leipzig,Home,40,40,2,1,1,Marco,Reus,,,,No Assists (Reus direct free kick was deflected in for an own goal),reus,,,,45107
+2018-19,Bundesliga,MD1,1,RB Leipzig,Home,43,43,3,1,2,Axel,Witsel,,Delaney,Pulisic,No Official Assist (Delaney shot saved and fell to Witsel),witsel,,delaney,pulisic,44742
+2018-19,Bundesliga,MD1,1,RB Leipzig,Home,90+1,90.1,4,1,3,Marco,Reus,Sancho,Sancho,Dahoud,,reus,sancho,sancho,dahoud,45107
+2018-19,Bundesliga,MD3,3,Frankfurt,Home,36,36,1,0,1,Abdou,Diallo,,Bruun Larsen,,"No Official Assist (Diallo scored on his third attempt), No 2nd Assist (Bruun Larsen corner)",diallo,,bruun-larsen,,
+2018-19,Bundesliga,MD3,3,Frankfurt,Home,72,72,2,1,1,Marius,Wolf,Sancho,Sancho,Alcácer,,wolf,sancho,sancho,alcácer,45107
+2018-19,Bundesliga,MD3,3,Frankfurt,Home,88,88,3,1,2,Paco,Alcácer,,Sancho,,No Official Assist (Sancho pass deflected to Alcácer); No 2nd Assist (Sancho corner); Combination (Sancho to Alcácer to Sancho to Alcácer),alcacer,,sancho,,
 2018-19,Bundesliga,MD4,4,Hoffenheim,Away,84,84,1,1,0,Christian,Pulisic,Reus,Reus,Schmelzer,,pulisic,reus,reus,schmelzer,inactive
 2018-19,Bundesliga,MD5,5,Nürnberg,Home,9,9,1,0,1,Jacob,Bruun Larsen,Pulisic,Pulisic,Hakimi,,bruun-larsen,pulisic,pulisic,hakimi,inactive
 2018-19,Bundesliga,MD5,5,Nürnberg,Home,32,32,2,0,2,Marco,Reus,Philipp,Philipp,Pulisic,,reus,phillip,phillip,pulisic,active
@@ -72,7 +72,7 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2018-19,Bundesliga,MD30,30,Freiburg,Away,79,79,3,0,3,Mario,Götze,Reus,Reus,Sancho,,gotze,reus,reus,sancho,inactive
 2018-19,Bundesliga,MD30,30,Freiburg,Away,87,87,4,0,4,Paco,Alcácer,,,,No Assists (Penalty),alcacer,,,,inactive
 2018-19,Bundesliga,MD31,31,Schalke 04,Home,14,14,1,0,1,Mario,Götze,Sancho,Sancho,Witsel,,gotze,sancho,sancho,witsel,inactive
-2018-19,Bundesliga,MD31,31,Schalke 04,Home,84,84,2,3,-1,Axel,Witsel,Brandt,Bruun Larsen,Akanji,,witsel,bruun larsen,bruun-larsen,akanji,active
+2018-19,Bundesliga,MD31,31,Schalke 04,Home,84,84,2,3,-1,Axel,Witsel,Bruun Larsen,Bruun Larsen,Akanji,,witsel,bruun-larsen,bruun-larsen,akanji,active
 2018-19,Bundesliga,MD32,32,Werder Bremen,Away,6,6,1,0,1,Christian,Pulisic,Delaney,Delaney,,No 2nd Assist (Delaney won the ball),pulisic,delaney,delaney,,inactive
 2018-19,Bundesliga,MD32,32,Werder Bremen,Away,41,41,2,0,2,Paco,Alcácer,,,,No Assists (Direct free kick),alcacer,,,,inactive
 2018-19,Bundesliga,MD33,33,Düsseldorf,Home,41,41,1,0,1,Christian,Pulisic,Delaney,Delaney,Guerreiro,,pulisic,delaney,delaney,guerreiro,inactive
