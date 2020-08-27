@@ -29,7 +29,7 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2017-18,Bundesliga,MD11,11,Bayern Munich,Home,88,88,1,3,-2,Marc,Bartra,Castro,Castro,Pulisic,,bartra,castro,castro,pulisic,inactive
 2017-18,Bundesliga,MD12,12,Stuttgart,Away,45+3,45.3,1,1,0,Maximilian,Philipp,,Schürrle,,No Official Assist (Philipp scored on Schürrle’s saved penalty rebound),philipp,,schurrle,,inactive
 2017-18,Bundesliga,MD13,13,Schalke 04,Home,12,12,1,0,1,Pierre-Emerick,Aubameyang,,Şahin,Pulisic,No Official Assist (Şahin pass deflected to Aubameyang),aubameyang,,sahin,pulisic,inactive
-2017-18,Bundesliga,MD13,13,Schalke 04,Home,18,18,2,0,2,Nuri,Şahin,,,,No Assists (Şahin free kick was deflected in for an own goal),sahin,,,,inactive
+2017-18,Bundesliga,MD13,13,Schalke 04,Home,18,18,2,0,2,Nuri,Şahin,,,,Own Goal awarded to Şahin; No Assists (Şahin free kick),sahin,,,,inactive
 2017-18,Bundesliga,MD13,13,Schalke 04,Home,20,20,3,0,3,Mario,Götze,Aubameyang,Aubameyang,Yarmolenko,,gotze,aubameyang,aubameyang,yarmolenko,inactive
 2017-18,Bundesliga,MD13,13,Schalke 04,Home,25,25,4,0,4,Raphaël,Guerreiro,,Aubameyang,Götze,No Official Assist (Aubameyang shot blocked and fell to Guerreiro),guerreiro,,aubameyang,gotze,active
 2017-18,Bundesliga,MD14,14,Leverkusen,Away,73,73,1,1,0,Andriy,Yarmolenko,Schürrle,Schürrle,Guerreiro,,yarmolenko,schurrle,schurrle,guerreiro,inactive
@@ -49,7 +49,7 @@ season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,sco
 2017-18,Bundesliga,MD23,23,Gladbach,Away,32,32,1,0,1,Marco,Reus,Schürrle,Schürrle,Götze,,reus,schurrle,schurrle,gotze,active
 2017-18,Bundesliga,MD24,24,Augsburg,Home,16,16,1,0,1,Marco,Reus,,Schürrle,Götze,No Official Assist (Schürrle cross blocked and fell to Reus),reus,,schurrle,gotze,active
 2017-18,Bundesliga,MD25,25,RB Leipzig,Away,38,38,1,0,1,Marco,Reus,Dahoud,Dahoud,Toprak,,reus,dahoud,dahoud,toprak,active
-2017-18,Bundesliga,MD26,26,Frankfurt,Home,11,11,1,0,1,Christian,Pulisic,,Dahoud,,No Official Assist (Pulisic cross deflected in for an own goal); No 2nd Assist (Dahoud won the ball),pulisic,,dahoud,,inactive
+2017-18,Bundesliga,MD26,26,Frankfurt,Home,11,11,1,0,1,Christian,Pulisic,,Dahoud,,Own Goal awarded to Pulisic; No Official Assist (Pulisic cross deflected in); No 2nd Assist (Dahoud won the ball),pulisic,,dahoud,,inactive
 2017-18,Bundesliga,MD26,26,Frankfurt,Home,77,77,2,1,1,Michy,Batshuayi,Pulisic,Pulisic,Weigl,Combination Weigl to Pulisic to Batshuayi to Pulisic to Batshuayi),batshuayi,pulisic,pulisic,weigl,inactive
 2017-18,Bundesliga,MD26,26,Frankfurt,Home,90+4,90.4,3,2,1,Michy,Batshuayi,Piszczek,Piszczek,Castro,,batshuayi,piszczek,piszczek,castro,inactive
 2017-18,Bundesliga,MD27,27,Hannover 96,Home,24,24,1,0,1,Michy,Batshuayi,Schürrle,Schürrle,,No 2nd Assist (Schürrle corner),batshuayi,schurrle,schurrle,,inactive
