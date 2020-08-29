@@ -26,8 +26,17 @@
       {% for goal in site.data.[include.directory].goals %}
         <tr data-scorer="{{ goal.id_scorer }}">
           <td class="left" data-sort="{{ goal.id_scorer }}">
-            <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
-            </div>
+            {% for player in site.data.players %}
+              {% if player.id == goal.id_scorer %}
+                {% if player.has_photo == "true" %}
+                  <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
+                  </div>
+                {% else %}
+                  <div class="player-photo">
+                  </div>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
             <a href="{{ goal.id_scorer }}">
               <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
             </a>
