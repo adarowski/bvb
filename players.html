@@ -101,7 +101,7 @@ body_class: players
 <h2>Reserve and Youth Players</h2>
 
 <div class="table-container">
-  <table id="active-players-list" class="players-table">
+  <table id="reserve-players-list" class="players-table">
     <thead>
       <tr>
         <th class="left">Player</th>
@@ -196,5 +196,6 @@ body_class: players
 <script>
   new Tablesort(document.getElementById('active-players-list'));
   new Tablesort(document.getElementById('loan-players-list'));
+  new Tablesort(document.getElementById('reserve-players-list'));
   new Tablesort(document.getElementById('former-players-list'));
 </script>
