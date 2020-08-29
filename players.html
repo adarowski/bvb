@@ -98,6 +98,52 @@ body_class: players
   </table>
 </div>
 
+<h2>Reserve and Youth Players</h2>
+
+<div class="table-container">
+  <table id="active-players-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="left">Position</th>
+        <th class="right">Number</th>
+        <th class="left">Nationality</th>
+        <th class="left">Date of Birth</th>
+        <th class="left">Joined</th>
+        <th class="left">From</th>
+        <th class="left">Fee</th>
+        <th class="left">Contract Until</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players %}
+        {% if player.active == "reserve" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              {% if player.has_photo == "true" %}
+                <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
+              {% else %}
+                <div class="player-photo"></div>
+              {% endif %}
+              <a href="{{ player.id }}">
+                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+              </a>
+            </td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.joined_from }}">{{ player.joined_from_country }} {{ player.joined_from }}</td>
+            <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
+            <td class="left" data-sort="{{ player.contract_expires }}">{{ player.contract_expires | date: '%B %-d, %Y' }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
 <h2>Former Players</h2>
 
 <div class="table-container">

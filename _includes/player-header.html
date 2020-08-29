@@ -9,7 +9,7 @@
         <ul>
           <li>
             <strong>
-              {% if player.active == "active" %}
+              {% if player.active == "active" or player.active == "reserve" %}
                 #{{ player.number }}
                 •
               {% endif %}
@@ -24,7 +24,7 @@
               ({{ player.joined_note }})
             {% endif %}
           </li>
-          {% if player.active == "active" %}
+          {% if player.active == "active" or player.active == "reserve" %}
             <li>
               {% if player.fee == "Loan" %}
                 <strong>Loan Ends:</strong>
