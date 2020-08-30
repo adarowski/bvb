@@ -16,7 +16,7 @@
               {{ player.position }}
             </strong>
           </li>
-          <li><strong>Born:</strong> {{ player.dob | date: '%B %-d, %Y' }}</li>
+          <li><strong>Born:</strong> {{ player.dob | date: '%B %-d, %Y' }} <span class="player-age"><span></li>
           <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
           <li>
             <strong>Joined:</strong> From {{ player.joined_from }} for {{ player.fee }} on {{ player.joined_date | date: '%B %-d, %Y' }}
@@ -54,6 +54,19 @@
           {% endif %}
         </ul>
       </div>
+
+      <script>
+        function calculate_age(dob) {
+          var diff_ms = Date.now() - dob.getTime();
+          var age_dt = new Date(diff_ms);
+          return Math.abs(age_dt.getUTCFullYear() - 1970);
+        }
+
+        var playerAge = document.querySelector('.player-age');
+
+        playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + " years old)"));
+      </script>
+
     {% endif %}
   {% endfor %}
 </div>
