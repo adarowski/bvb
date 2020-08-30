@@ -1,26 +1,26 @@
-season,comp,round,round_alt,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd,active
-2020-21,Preseason,1,1,Altach,Neutral,14,14,1,0,1,Gio,Reyna,Haaland,Haaland,Bellingham,,reyna,haaland,haaland,bellingham,active
-2020-21,Preseason,1,1,Altach,Neutral,36,36,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active
-2020-21,Preseason,1,1,Altach,Neutral,45+2,45.2,3,0,3,Erling,Haaland,Bellingham,Bellingham,Pherai,,haaland,bellingham,bellingham,pherai,active
-2020-21,Preseason,1,1,Altach,Neutral,75,75,4,0,4,Thorgan,Hazard,,,,No Assists (Penalty),hazard,,,,active
-2020-21,Preseason,1,1,Altach,Neutral,85,85,5,0,5,Emre,Can,Meunier,Meunier,Guerreiro,,can,meunier,meunier,guerreiro,active
-2020-21,Preseason,1,1,Altach,Neutral,90,90,6,0,6,Julian,Brandt,Guerreiro,Guerreiro,Passlack,,brandt,guerreiro,guerreiro,passlack,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,9,9,1,0,1,Gio,Reyna,,Guerreiro,Meunier,No Official Assist (Pass from Guerreiro deflected to Reyna); Combination (Meunier to Reyna to Guerreiro to Reyna),reyna,,guerreiro,meunier,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,23,23,2,0,2,Gio,Reyna,Akanji,Akanji,Pherai,,reyna,akanji,akanji,pherai,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,41,41,3,1,2,Raphaël,Guerreiro,Knauff,Knauff,Can,,guerreiro,knauff,knauff,can,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,44,44,4,1,3,Immanuel,Pherai,Witsel,Witsel,Passlack,,pherai,witsel,witsel,passlack,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,52,52,5,1,4,Jadon,Sancho,Can,Can,Duman,No 2nd Assist (Sancho corner),sancho,can,can,duman,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,65,65,6,2,4,Emre,Can,Sancho,Sancho,,,can,sancho,sancho,,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,73,73,7,2,5,Marius,Wolf,Can,Can,Delaney,Delaney shot saved and fell to Can,wolf,can,can,delaney,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,76,76,8,2,6,Thorgan,Hazard,,,,No Assists (Penalty),hazard,,,,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,78,78,9,2,7,Jude,Bellingham,Sancho,Sancho,Hazard,Combination (Hazard to Bellingham to Sancho to Bellingham),bellingham,sancho,sancho,hazard,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,81,81,10,2,8,Taylan,Duman,Bellingham,Bellingham,Hazard,,duman,bellingham,bellingham,hazard,active
-2020-21,Preseason,2,2,Austria Wien,Neutral,86,86,11,2,9,Nico,Schulz,Sancho,Sancho,Wolf,,schulz,sancho,sancho,wolf,active
-2020-21,Preseason,3,3,MSV Duisburg,Away,13,13,1,0,1,Gio,Reyna,Hazard,Hazard,,No 2nd Assist (Hazard won the ball),reyna,hazard,hazard,,active
-2020-21,Preseason,3,3,MSV Duisburg,Away,14,14,2,0,2,Thorgan,Hazard,Bellingham,Bellingham,Reyna,,hazard,bellingham,bellingham,reyna,active
-2020-21,Preseason,3,3,MSV Duisburg,Away,26,26,3,0,3,Jadon,Sancho,,Reyna,Duman,No Official Assist (Reyna shot blocked to Sancho); Combination Duman to Sancho to Reyna to Sancho),sancho,,reyna,duman,active
-2020-21,Preseason,3,3,MSV Duisburg,Away,49,49,4,1,3,Ansgar,Knauff,Delaney,Delaney,Bellingham,,knauff,delaney,delaney,bellingham,active
-2020-21,Preseason,3,3,MSV Duisburg,Away,59,59,5,1,4,Ansgar,Knauff,Akanji,Akanji,,No Official Assist (Akanji free kick hit the bar and fell to Knauff); No 2nd Assist (Akanji free kick),knauff,akanji,akanji,,active
-2020-21,Preseason,4,4,Feyenoord,Neutral,52,52,1,3,-2,Axel,Witsel,Knauff,Knauff,Pherai,,witsel,knauff,knauff,pherai,active
-2020-21,Preseason,5,5,SC Paderborn,Home,30,30,1,0,1,Immanuel,Pherai,,Knauff,Schulz,No Official Assist (Knauff shot saved and fell to Pherai),pherai,,knauff,schulz,active
-2020-21,Preseason,6,6,VfL Bochum,Home,67,67,1,3,-2,Mats,Hummels,Tachie,Tachie,Hazard,,hummels,tachie,tachie,hazard,active
+season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd,active
+2020-21,Preseason,1,1,2020-08-12,Altach,Neutral,14,14,1,0,1,Gio,Reyna,Haaland,Haaland,Bellingham,,reyna,haaland,haaland,bellingham,active
+2020-21,Preseason,1,1,2020-08-12,Altach,Neutral,36,36,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active
+2020-21,Preseason,1,1,2020-08-12,Altach,Neutral,45+2,45.2,3,0,3,Erling,Haaland,Bellingham,Bellingham,Pherai,,haaland,bellingham,bellingham,pherai,active
+2020-21,Preseason,1,1,2020-08-12,Altach,Neutral,75,75,4,0,4,Thorgan,Hazard,,,,No Assists (Penalty),hazard,,,,active
+2020-21,Preseason,1,1,2020-08-12,Altach,Neutral,85,85,5,0,5,Emre,Can,Meunier,Meunier,Guerreiro,,can,meunier,meunier,guerreiro,active
+2020-21,Preseason,1,1,2020-08-12,Altach,Neutral,90,90,6,0,6,Julian,Brandt,Guerreiro,Guerreiro,Passlack,,brandt,guerreiro,guerreiro,passlack,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,9,9,1,0,1,Gio,Reyna,,Guerreiro,Meunier,No Official Assist (Pass from Guerreiro deflected to Reyna); Combination (Meunier to Reyna to Guerreiro to Reyna),reyna,,guerreiro,meunier,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,23,23,2,0,2,Gio,Reyna,Akanji,Akanji,Pherai,,reyna,akanji,akanji,pherai,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,41,41,3,1,2,Raphaël,Guerreiro,Knauff,Knauff,Can,,guerreiro,knauff,knauff,can,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,44,44,4,1,3,Immanuel,Pherai,Witsel,Witsel,Passlack,,pherai,witsel,witsel,passlack,reserve
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,52,52,5,1,4,Jadon,Sancho,Can,Can,Duman,No 2nd Assist (Sancho corner),sancho,can,can,duman,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,65,65,6,2,4,Emre,Can,Sancho,Sancho,,,can,sancho,sancho,,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,73,73,7,2,5,Marius,Wolf,Can,Can,Delaney,Delaney shot saved and fell to Can,wolf,can,can,delaney,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,76,76,8,2,6,Thorgan,Hazard,,,,No Assists (Penalty),hazard,,,,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,78,78,9,2,7,Jude,Bellingham,Sancho,Sancho,Hazard,Combination (Hazard to Bellingham to Sancho to Bellingham),bellingham,sancho,sancho,hazard,active
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,81,81,10,2,8,Taylan,Duman,Bellingham,Bellingham,Hazard,,duman,bellingham,bellingham,hazard,reserve
+2020-21,Preseason,2,2,2020-08-16,Austria Wien,Neutral,86,86,11,2,9,Nico,Schulz,Sancho,Sancho,Wolf,,schulz,sancho,sancho,wolf,active
+2020-21,Preseason,3,3,2020-08-22,MSV Duisburg,Away,13,13,1,0,1,Gio,Reyna,Hazard,Hazard,,No 2nd Assist (Hazard won the ball),reyna,hazard,hazard,,active
+2020-21,Preseason,3,3,2020-08-22,MSV Duisburg,Away,14,14,2,0,2,Thorgan,Hazard,Bellingham,Bellingham,Reyna,,hazard,bellingham,bellingham,reyna,active
+2020-21,Preseason,3,3,2020-08-22,MSV Duisburg,Away,26,26,3,0,3,Jadon,Sancho,,Reyna,Duman,No Official Assist (Reyna shot blocked to Sancho); Combination Duman to Sancho to Reyna to Sancho),sancho,,reyna,duman,active
+2020-21,Preseason,3,3,2020-08-22,MSV Duisburg,Away,49,49,4,1,3,Ansgar,Knauff,Delaney,Delaney,Bellingham,,knauff,delaney,delaney,bellingham,reserve
+2020-21,Preseason,3,3,2020-08-22,MSV Duisburg,Away,59,59,5,1,4,Ansgar,Knauff,Akanji,Akanji,,No Official Assist (Akanji free kick hit the bar and fell to Knauff); No 2nd Assist (Akanji free kick),knauff,akanji,akanji,,reserve
+2020-21,Preseason,4,4,2020-08-22,Feyenoord,Neutral,52,52,1,3,-2,Axel,Witsel,Knauff,Knauff,Pherai,,witsel,knauff,knauff,pherai,active
+2020-21,Preseason,5,5,2020-08-28,SC Paderborn,Home,30,30,1,0,1,Immanuel,Pherai,,Knauff,Schulz,No Official Assist (Knauff shot saved and fell to Pherai),pherai,,knauff,schulz,reserve
+2020-21,Preseason,6,6,2020-08-28,VfL Bochum,Home,67,67,1,3,-2,Mats,Hummels,Tachie,Tachie,Hazard,,hummels,tachie,tachie,hazard,active

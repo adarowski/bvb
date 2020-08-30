@@ -12,6 +12,7 @@
       <td class="left">{% if goal.id_assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
       <td class="left">{% if goal.id_assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
       <td class="left">{{ goal.season }}</td>
+      <td class="left" data-sort="{{ goal.date }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
       <td class="left">{{ goal.comp }}</td>
       <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
       <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
