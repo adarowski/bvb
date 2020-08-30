@@ -38,12 +38,25 @@ body_class: players
             <td class="left">{{ player.position }}</td>
             <td class="right">{{ player.number }}</td>
             <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
-            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
             <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
             <td class="left" data-sort="{{ player.joined_from }}">{{ player.joined_from_country }} {{ player.joined_from }}</td>
             <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
             <td class="left" data-sort="{{ player.contract_expires }}">{{ player.contract_expires | date: '%B %-d, %Y' }}</td>
           </tr>
+
+          <script>
+            function calculate_age(dob) {
+              var diff_ms = Date.now() - dob.getTime();
+              var age_dt = new Date(diff_ms);
+              return Math.abs(age_dt.getUTCFullYear() - 1970);
+            }
+
+            var playerAge = document.querySelector('.{{ player.id }}-age');
+
+            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+          </script>
+
         {% endif %}
       {% endfor %}
     </tbody>
@@ -84,7 +97,7 @@ body_class: players
             </td>
             <td class="left">{{ player.position }}</td>
             <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
-            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></td>
             <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
             <td class="left" data-sort="{{ player.joined_from }}">{{ player.joined_from_country }} {{ player.joined_from }}</td>
             <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
@@ -92,6 +105,19 @@ body_class: players
             <td class="left" data-sort="{{ player.loaned_to }}">{{ player.loaned_to_country }} {{ player.loaned_to }}</td>
             <td class="left" data-sort="{{ player.loaned_until }}">{{ player.loaned_until | date: '%B %-d, %Y' }}</td>
           </tr>
+
+          <script>
+            function calculate_age(dob) {
+              var diff_ms = Date.now() - dob.getTime();
+              var age_dt = new Date(diff_ms);
+              return Math.abs(age_dt.getUTCFullYear() - 1970);
+            }
+
+            var playerAge = document.querySelector('.{{ player.id }}-age');
+
+            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+          </script>
+
         {% endif %}
       {% endfor %}
     </tbody>
@@ -120,11 +146,6 @@ body_class: players
         {% if player.active == "reserve" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
-              {% if player.has_photo == "true" %}
-                <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
-              {% else %}
-                <div class="player-photo"></div>
-              {% endif %}
               <a href="{{ player.id }}">
                 <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
               </a>
@@ -132,12 +153,25 @@ body_class: players
             <td class="left">{{ player.position }}</td>
             <td class="right">{{ player.number }}</td>
             <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
-            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></td>
             <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
             <td class="left" data-sort="{{ player.joined_from }}">{{ player.joined_from_country }} {{ player.joined_from }}</td>
             <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
             <td class="left" data-sort="{{ player.contract_expires }}">{{ player.contract_expires | date: '%B %-d, %Y' }}</td>
           </tr>
+
+          <script>
+            function calculate_age(dob) {
+              var diff_ms = Date.now() - dob.getTime();
+              var age_dt = new Date(diff_ms);
+              return Math.abs(age_dt.getUTCFullYear() - 1970);
+            }
+
+            var playerAge = document.querySelector('.{{ player.id }}-age');
+
+            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+          </script>
+
         {% endif %}
       {% endfor %}
     </tbody>
@@ -167,18 +201,13 @@ body_class: players
         {% if player.active == "inactive" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
-              {% if player.has_photo == "true" %}
-                <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
-              {% else %}
-                <div class="player-photo"></div>
-              {% endif %}
               <a href="{{ player.id }}">
                 <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
               </a>
             </td>
             <td class="left">{{ player.position }}</td>
             <td class="left" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
-            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></td>
             <td class="left" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
             <td class="left" data-sort="{{ player.joined_from }}">{{ player.joined_from_country }} {{ player.joined_from }}</td>
             <td class="left" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
@@ -186,6 +215,19 @@ body_class: players
             <td class="left" data-sort="{{ player.departed_to }}">{{ player.departed_to_country }} {{ player.departed_to }}</td>
             <td class="left" data-sort="{{ player.departed_fee_alt }}">{{ player.departed_fee }}</td>
           </tr>
+
+          <script>
+            function calculate_age(dob) {
+              var diff_ms = Date.now() - dob.getTime();
+              var age_dt = new Date(diff_ms);
+              return Math.abs(age_dt.getUTCFullYear() - 1970);
+            }
+
+            var playerAge = document.querySelector('.{{ player.id }}-age');
+
+            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+          </script>
+
         {% endif %}
       {% endfor %}
     </tbody>
