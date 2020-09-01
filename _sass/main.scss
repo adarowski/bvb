@@ -171,19 +171,8 @@ table {
 }
 
 tr {
+  &.row-all,
   &.incomplete {
-    th, td {
-      background-color: #F4DBD8;
-    }
-
-    &:hover {
-      th, td {
-        background-color: #F4DBD8;
-      }
-    }
-  }
-
-  &.row-all {
     th, td {
       background-color: #FFF9CC;
     }
@@ -573,9 +562,10 @@ body.players li.players a {
 
 .incomplete-key {
   display: inline-block;
-  background-color: #F4DBD8;
+  background-color: #FFF9CC;
   width: 24px;
   height: 18px;
   vertical-align: text-bottom;
   margin-right: 5px;
+  border: 1px solid #ddd;
 }

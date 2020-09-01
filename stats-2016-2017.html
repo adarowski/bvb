@@ -1,22 +1,14 @@
 ---
 layout: default
-title: 2019-20 Stats
+title: 2016-17 Stats
 body_class: stats
 ---
 
-<div class="player-header home">
-  <a href="hakimi"><img src="assets/images/500/hakimi.png" alt="Achraf Hakimi Photo" width="200" /></a>
-  <a href="brandt"><img src="assets/images/500/brandt.png" alt="Julian Brandt Photo" width="200" /></a>
-  <a href="sancho"><img src="assets/images/500/sancho.png" alt="Jadon Sancho Photo" width="200" /></a>
-  <a href="hazard"><img src="assets/images/500/hazard.png" alt="Thorgan Hazard Photo" width="200" /></a>
-  <a href="reus"><img src="assets/images/500/reus.png" alt="Marco Reus Photo" width="200" /></a>
-</div>
-
 <h2>
   {{ page.title }}
+  <a href="./">2019-20</a>
   <a href="stats-2018-2019">2018-19</a>
   <a href="stats-2017-2018">2017-18</a>
-  <a href="stats-2016-2017">2016-17</a>
   <a href="stats-2020-2021-preseason">2020-21 Preseason</a>
 </h2>
 
@@ -25,15 +17,18 @@ body_class: stats
   <li><button class="table-toggle show-ucl">Champions League</button></li>
   <li class="hide"><button class="table-toggle show-uel">Europa League</button></li>
   <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
-  <li><button class="table-toggle show-supercup">DFB-Supercup</button></li>
+  <li><button class="table-toggle show-supercup">DFL-Supercup</button></li>
   <li><button class="table-toggle show-all">All Competitions</button></li>
 </ul>
 
-{% include stats-table.html directory="stats-2019-2020" comp="bundesliga" %}
-{% include stats-table.html directory="stats-2019-2020" comp="ucl" %}
-{% include stats-table.html directory="stats-2019-2020" comp="cup" %}
-{% include stats-table.html directory="stats-2019-2020" comp="supercup" %}
-{% include stats-table.html directory="stats-2019-2020" comp="all" %}
+{% include stats-table.html directory="stats-2016-2017" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2016-2017" comp="ucl" %}
+{% include stats-table.html directory="stats-2016-2017" comp="uel" %}
+{% include stats-table.html directory="stats-2016-2017" comp="cup" %}
+{% include stats-table.html directory="stats-2016-2017" comp="supercup" %}
+{% include stats-table.html directory="stats-2016-2017" comp="all" %}
+
+<p><strong>Note:</strong> Jacob Bruun Larsen, Łukasz Piszczek, and  Marco Reus are awarded an extra goal each because they had shots deflected in for an own goal. With hockey-style scoring, they are credited with the goal.</p>
 
 {% include stats-table-script.html %}
 
