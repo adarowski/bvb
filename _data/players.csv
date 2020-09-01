@@ -25,7 +25,7 @@ drljaca,Stefan,Drljača,🇩🇪,Germany,1999-04-20,Goalkeeper,2020-07-15,TSG Ho
 duman,Taylan,Duman,🇩🇪,Germany,1997-07-30,Midfield,2019-01-25,Fortuna Düsseldorf,🇩🇪,,Unknown fee,0,2021-06-30,reserve,,,,,,,,,,false,34,false,c13867c5
 durm,Erik,Durm,🇩🇪,Germany,1992-05-12,Defense,2012-07-01,Mainz 05,🇩🇪,,Free,0,,inactive,Huddersfield Town,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2019-07-03,Free,0,,,,,true,,true,cf623c78
 ginter,Matthias,Ginter,🇩🇪,Germany,1994-01-19,Defense,2014-07-17,SC Freiburg,🇩🇪,,€10 million,10000000,,inactive,Borussia Mönchengladbach,🇩🇪,2017-07-04,€17 million,17000000,,,,,true,,true,f521b80a
-gomez,Sergio,Gómez,🇪🇸,Spain,2000-09-04,Midfield,2018-01-30,FC Barcelona,🇪🇸,,€3 million,3000000,2022-06-30,active,,,,,,,,,,true,,true,01e5f06e
+gomez,Sergio,Gómez,🇪🇸,Spain,2000-09-04,Midfield,2018-01-30,FC Barcelona,🇪🇸,,€3 million,3000000,2022-06-30,loan,,,,,,,SD Huesca,🇪🇸,2021-06-30,true,,true,01e5f06e
 gotze,Mario,Götze,🇩🇪,Germany,1992-06-03,Midfield,2016-07-21,Bayern Munich,🇩🇪,,€22 million,22000000,,inactive,TBD,,2020-06-30,,0,,,,,true,10,true,9efa1d25
 guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,1993-12-22,Defense,2016-07-01,FC Lorient,🇫🇷,,€12 million,12000000,2023-06-30,active,,,,,,,,,,true,13,true,048a1cbc
 gundogan,İlkay,Gündoğan,🇩🇪,Germany,1990-10-24,Midfield,2011-07-01,1.FC Nürnberg,🇩🇪,,€5.5 million,5500000,,inactive,Manchester City,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-07-01,€27 million,27000000,,,,,false,,true,819b3158
@@ -44,7 +44,7 @@ knauff,Ansgar,Knauff,🇩🇪,Germany,2002-01-10,Midfield,2016-07-01,Hannover 96
 leitner,Moritz,Leitner,🇩🇪,Germany,1992-12-08,Midfield,2011-01-01,1860 Munich,🇩🇪,,Free,0,,inactive,SS Lazio,🇮🇹,2016-08-12,€1.5 million,1500000,,,,,false,,true,9460aaed
 merino,Mikel,Merino,🇪🇸,Spain,1996-06-22,Midfield,2016-07-01,CA Osasuna,🇪🇸,,€3.75 million,3750000,,inactive,Newcastle United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2018-07-01,€7 million,7000000,"Departed on loan July 28, 2017 before permanent deal",,,,false,,true,d080ed5e
 meunier,Thomas,Meunier,🇧🇪,Belgium,1991-09-12,Midfield,2020-07-01,Paris Saint Germain,🇫🇷,,Free,0,2024-06-30,active,,,,,,,,,,false,24,false,e162b013
-mkhitaryan,Henrikh,Mkhitaryan,🇦🇲,Armenia,1989-01-21,Midfield,2013-07-09,Shakhtar Donetsk,🇺🇦,,€27.5 million,27500000,,inactive,Manchster United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-07-06,€42 million,42000000,,,,,false,,true,dd0daf32
+mkhitaryan,Henrikh,Mkhitaryan,🇦🇲,Armenia,1989-01-21,Midfield,2013-07-09,Shakhtar Donetsk,🇺🇦,,€27.5 million,27500000,,inactive,Manchster United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-07-06,€42 million,42000000,,,,,true,,true,dd0daf32
 mor,Emre,Mor,🇹🇷,Turkey,1997-07-24,Midfield,2016-07-01,FC Nordsjaelland,🇩🇰,,€9.75 million,9750000,,inactive,Celta de Vigo,🇪🇸,2017-08-29,€13 million,13000000,,,,,false,,true,0c3f7197
 morey,Mateu,Morey,🇪🇸,Spain,2000-03-02,Defense,2019-07-01,FC Barcelona,🇪🇸,,Free,0,2024-06-30,active,,,,,,,,,,true,2,true,5fd5e542
 moukoko,Youssoufa,Moukoko,🇩🇪,Germany,2004-11-20,Attack,2016-07-01,FC St. Pauli,🇩🇪,,Free,0,2022-06-30,active,,,,,,,,,,false,18,false,dbb329c6
