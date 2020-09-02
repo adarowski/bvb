@@ -15,7 +15,7 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,85,85,6,0,6,Jadon,Sancho,Delaney,Delaney,Akanji,,sancho,delaney,delaney,akanji,active,
 2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,88,88,7,0,7,Julian,Weigl,Sancho,Sancho,Delaney,,weigl,sancho,sancho,delaney,inactive,
 2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,65,65,1,2,-1,Jacob,Bruun Larsen,,Reus,Hakimi,No Official Assist (Reus shot saved and fell to Bruun Larsen),bruun-larsen,,reus,hakimi,inactive,
-2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,69,69,2,2,0,Marco,Reus,Sancho,Reus,Bürki,Combination (Bürki to Sancho to Reus to Sancho to Reus),reus,sancho,reus,burki,active,
+2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,69,69,2,2,0,Marco,Reus,Sancho,Sancho,Bürki,Combination (Bürki to Sancho to Reus to Sancho to Reus),reus,sancho,sancho,burki,active,
 2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,85,85,3,2,1,Paco,Alcácer,Hakimi,Hakimi,Reus,Combination (Reus to Alcácer to Hakimi to Alcácer),alcacer,hakimi,hakimi,reus,inactive,
 2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,90+4,90.4,4,2,2,Paco,Alcácer,Sancho,Sancho,Hakimi,,alcacer,sancho,sancho,hakimi,inactive,
 2018-19,Bundesliga,MD7,7,2018-10-06,Augsburg,Home,62,62,1,1,0,Paco,Alcácer,Sancho,Sancho,Witsel,,alcacer,sancho,sancho,witsel,inactive,
