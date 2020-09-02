@@ -2,7 +2,7 @@
 
 {% for season in seasons %}
   {% for player in site.data.[season].goals %}
-    {% if player.id_scorer == include.player %}
+    {% if player.id_scorer == include.player or player.id_assist_official == include.player or player.id_assist_1st == include.player or player.id_assist_2nd == include.player %}
       {% assign hasGoals = true %}
     {% endif %}
   {% endfor %}
