@@ -569,3 +569,28 @@ body.players li.players a {
   margin-right: 5px;
   border: 1px solid #ddd;
 }
+
+.subnav {
+  background-color: #f2f2f2;
+  padding: 4px 16px;
+  display: inline-block;
+  margin: -10px -20px 20px;
+  font-size: 16px;
+
+  @media all and (max-width: 900px) {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 4px 6px;
+  }
+
+  a {
+    padding: 4px;
+    display: inline-block;
+
+    &.current {
+      color: $black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}

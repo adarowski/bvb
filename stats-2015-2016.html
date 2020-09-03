@@ -1,0 +1,46 @@
+---
+layout: default
+title: 2015-16 Stats
+body_class: stats
+---
+
+<h2>{{ page.title }}</h2>
+
+<div class="subnav">
+  <a href="./">2019-20</a>
+  <a href="stats-2018-2019">2018-19</a>
+  <a href="stats-2017-2018">2017-18</a>
+  <a href="stats-2016-2017">2016-17</a>
+  <a class="current" href="stats-2015-2016">2015-16</a>
+  <a href="stats-2020-2021-preseason">2020-21 Preseason</a>
+</div>
+
+<ul class="table-toggles">
+  <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
+  <li class="hide"><button class="table-toggle show-ucl">Champions League</button></li>
+  <li><button class="table-toggle show-uel">Europa League</button></li>
+  <li><button class="table-toggle show-uelq">Europa League Qualifying</button></li>
+  <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
+  <li class="hide"><button class="table-toggle show-supercup">DFL-Supercup</button></li>
+  <li><button class="table-toggle show-all">All Competitions</button></li>
+</ul>
+
+{% include stats-table.html directory="stats-2015-2016" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2015-2016" comp="ucl" %}
+{% include stats-table.html directory="stats-2015-2016" comp="uel" %}
+{% include stats-table.html directory="stats-2015-2016" comp="uelq" %}
+{% include stats-table.html directory="stats-2015-2016" comp="cup" %}
+{% include stats-table.html directory="stats-2015-2016" comp="supercup" %}
+{% include stats-table.html directory="stats-2015-2016" comp="all" %}
+
+<p><strong>Note:</strong> Pierre-Emerick Aubameyang, Matthias Ginter, Adnan Januzaj, and Marco Reus are awarded an extra goal each because they had shots deflected in for an own goal. With hockey-style scoring, they are credited with the goal.</p>
+
+{% include stats-table-script.html %}
+
+<script>
+  new Tablesort(document.getElementById('stats-bundesliga'), { descending: true });
+  new Tablesort(document.getElementById('stats-uel'), { descending: true });
+  new Tablesort(document.getElementById('stats-uelq'), { descending: true });
+  new Tablesort(document.getElementById('stats-cup'), { descending: true });
+  new Tablesort(document.getElementById('stats-all'), { descending: true });
+</script>

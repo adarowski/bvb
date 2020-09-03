@@ -1,3 +1,21 @@
+{% for goal in site.data.stats-2018-2019.goals %}
+  {% if goal.incomplete == "incomplete" %}
+    {% assign goals20182019ct = goals20182019ct | plus:1 %}
+  {% endif %}
+{% endfor %}
+
+{% for goal in site.data.stats-2016-2017.goals %}
+  {% if goal.incomplete == "incomplete" %}
+    {% assign goals20162017ct = goals20162017ct | plus:1 %}
+  {% endif %}
+{% endfor %}
+
+{% for goal in site.data.stats-2015-2016.goals %}
+  {% if goal.incomplete == "incomplete" %}
+    {% assign goals20152016ct = goals20152016ct | plus:1 %}
+  {% endif %}
+{% endfor %}
+
 <div class="key">
   <h3>About Hockey-Style Scoring</h3>
   <ul>
@@ -13,12 +31,11 @@
   </ul>
   <h3>Coverage</h3>
   <ul>
-    <li><strong>2020-21:</strong> Preseason</li>
-    <li><strong>2019-20:</strong> Bundesliga, Champions League, DFB-Pokal, DFL-Supercup (All Competitions)</li>
-    <li><strong>2018-19:</strong> Bundesliga, Champions League, DFB-Pokal, (All Competitions) – <a href="goals-2018-2019">2 goals incomplete</a></li>
-    <li><strong>2017-18:</strong> Bundesliga, Champions League, Europa League, DFB-Pokal, DFL-Supercup (All Competitions)</li>
-    <li><strong>2016-17:</strong> Bundesliga, Champions League, DFB-Pokal, DFL-Supercup (All Competitions) – <a href="goals-2016-2017">12 goals incomplete</a></li>
-    <li><strong>2015-16:</strong> <em>Coming Soon</em></li>
+    <li><strong>2019-20:</strong> {{ site.data.stats-2019-2020.goals.size }} goals; Bundesliga, Champions League, DFB-Pokal, DFL-Supercup (All Competitions)</li>
+    <li><strong>2018-19:</strong> {{ site.data.stats-2018-2019.goals.size }} goals; Bundesliga, Champions League, DFB-Pokal, (All Competitions) – <a href="goals-2018-2019">{{ goals20182019ct }} goals incomplete</a></li>
+    <li><strong>2017-18:</strong> {{ site.data.stats-2017-2018.goals.size }} goals; Bundesliga, Champions League, Europa League, DFB-Pokal, DFL-Supercup (All Competitions)</li>
+    <li><strong>2016-17:</strong> {{ site.data.stats-2016-2017.goals.size }} goals; Bundesliga, Champions League, DFB-Pokal, DFL-Supercup (All Competitions) – <a href="goals-2016-2017">{{ goals20162017ct }} goals incomplete</a></li>
+    <li><strong>2015-16:</strong> {{ site.data.stats-2015-2016.goals.size }} goals; Bundesliga, Europa League, Europa League Qualifying, DFB-Pokal (All Competitions) – <a href="goals-2015-2016">{{ goals20152016ct }} goals incomplete</a></li>
   </ul>
   <h3>Credits</h3>
   <p>1st and 2nd assist data recorded by <a href="http://darowski.com">Adam Darowski</a> (manually by watching game footage). Contract details from <a href="http://transfermarkt.com">Transfermarkt</a>. Player photos from <a href="http://bundesliga.com">Bundesliga.com</a> and other official league sites. All other data from <a href="http://fbref.com">FBref</a>.</p>

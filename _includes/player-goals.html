@@ -1,4 +1,4 @@
-{% assign seasons = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017" | split: ','%}
+{% assign seasons = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017,stats-2015-2016" | split: ','%}
 
 {% for season in seasons %}
   {% for player in site.data.[season].goals %}
@@ -42,12 +42,13 @@
         {% include player-goals-row.html player=include.player directory="stats-2018-2019" %}
         {% include player-goals-row.html player=include.player directory="stats-2017-2018" %}
         {% include player-goals-row.html player=include.player directory="stats-2016-2017" %}
+        {% include player-goals-row.html player=include.player directory="stats-2015-2016" %}
       </tbody>
     </table>
   </div>
 
   <script>
-    new Tablesort(document.getElementById('player-goals'), { descending: true });
+    new Tablesort(document.getElementById('player-goals'));
   </script>
 
   {% include table-search-script.html %}

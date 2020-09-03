@@ -2,7 +2,7 @@
   {% for player in site.data.players %}
     {% if player.id == include.player %}
       {% if player.has_photo == "true" %}
-        <img src="assets/images/500/{{ player.id }}.png" class="{{ player.active }}" alt="{{ player.first }} {{ player.last }} Photo" width="200" />
+        <img src="assets/images/500/{{ player.id }}.png" alt="{{ player.first }} {{ player.last }} Photo" width="200" />
       {% endif %}
       <div class="player-data">
         <h1>{{ player.first }} {{ player.last }}</h1>

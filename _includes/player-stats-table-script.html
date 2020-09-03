@@ -3,6 +3,7 @@
   var showBundesliga = document.querySelector('.show-bundesliga');
   var showUcl = document.querySelector('.show-ucl');
   var showUel = document.querySelector('.show-uel');
+  var showUelq = document.querySelector('.show-uelq');
   var showCup = document.querySelector('.show-cup');
   var showSupercup = document.querySelector('.show-supercup');
 
@@ -11,6 +12,7 @@
   var rowsBundesliga = document.querySelectorAll('.row-bundesliga');
   var rowsUcl = document.querySelectorAll('.row-ucl');
   var rowsUel = document.querySelectorAll('.row-uel');
+  var rowsUelq = document.querySelectorAll('.row-uelq');
   var rowsCup = document.querySelectorAll('.row-cup');
   var rowsSupercup = document.querySelectorAll('.row-supercup');
 
@@ -57,6 +59,19 @@
       row.classList.remove('hide');
     });
     showUel.classList.add('selected');
+  });
+
+  showUelq.addEventListener('click', function () {
+    allRows.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    rowsUelq.forEach((row) => {
+      row.classList.remove('hide');
+    });
+    showUelq.classList.add('selected');
   });
 
   showCup.addEventListener('click', function () {

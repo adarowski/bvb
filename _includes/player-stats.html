@@ -1,7 +1,8 @@
-{% assign seasonsBundesliga = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017" | split: ','%}
+{% assign seasonsBundesliga = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017,stats-2015-2016" | split: ','%}
 {% assign seasonsUcl = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017" | split: ','%}
-{% assign seasonsUel = "stats-2017-2018" | split: ','%}
-{% assign seasonsCup = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017" | split: ','%}
+{% assign seasonsUel = "stats-2017-2018,stats-2015-2016" | split: ','%}
+{% assign seasonsUelq = "stats-2015-2016" | split: ','%}
+{% assign seasonsCup = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017,stats-2015-2016" | split: ','%}
 {% assign seasonsSupercup = "stats-2019-2020,stats-2017-2018,stats-2016-2017" | split: ','%}
 
 {% for seasonBundesliga in seasonsBundesliga %}
@@ -24,6 +25,14 @@
   {% for player in site.data.[seasonUel].uel %}
     {% if player.id == include.player %}
       {% assign hasUel = true %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% for seasonUelq in seasonsUelq %}
+  {% for player in site.data.[seasonUelq].uelq %}
+    {% if player.id == include.player %}
+      {% assign hasUelq = true %}
     {% endif %}
   {% endfor %}
 {% endfor %}
@@ -70,6 +79,13 @@
       <li class="hide">
     {% endif %}
     <button class="table-toggle show-uel">Europa League</button></li>
+
+    {% if hasUelq == true %}
+      <li>
+    {% else %}
+      <li class="hide">
+    {% endif %}
+    <button class="table-toggle show-uelq">Europa League Qualifying</button></li>
 
     {% if hasCup == true %}
       <li>
@@ -138,6 +154,11 @@
         {% include player-stats-row.html player=include.player directory="stats-2016-2017" comp="cup" long_label="2016-17 – DFB-Pokal" short_label="16-17 – Cup" %}
         {% include player-stats-row.html player=include.player directory="stats-2016-2017" comp="supercup" long_label="2016-17 – DFL-Supercup" short_label="16-17 – SCup" %}
         {% include player-stats-row.html player=include.player directory="stats-2016-2017" comp="all" long_label="2016-17 – All Competitions" short_label="16-17 – All" %}
+        {% include player-stats-row.html player=include.player directory="stats-2015-2016" comp="bundesliga" long_label="2015-16 – Bundesliga" short_label="15-16 – BuLi" %}
+        {% include player-stats-row.html player=include.player directory="stats-2015-2016" comp="uel" long_label="2015-16 – Europa League" short_label="15-16 – UEL" %}
+        {% include player-stats-row.html player=include.player directory="stats-2015-2016" comp="uelq" long_label="2015-16 – Europa League Qualifying" short_label="15-16 – UELq" %}
+        {% include player-stats-row.html player=include.player directory="stats-2015-2016" comp="cup" long_label="2015-16 – DFB-Pokal" short_label="15-16 – Cup" %}
+        {% include player-stats-row.html player=include.player directory="stats-2015-2016" comp="all" long_label="2015-16 – All Competitions" short_label="15-16 – All" %}
       </tbody>
     </table>
   </div>
