@@ -218,7 +218,11 @@ th, td {
 }
 
 thead {
-  border-top: 1px solid #444;
+  tr:first-child {
+    th {
+      border-top: 1px solid #444;
+    }
+  }
 
   th {
     font-weight: bold;
