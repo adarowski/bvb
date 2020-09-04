@@ -32,6 +32,7 @@ body_class: players
         <th class="left show-for-inactive">Departed</th>
         <th class="left show-for-inactive">To</th>
         <th class="left show-for-inactive">Fee</th>
+        <th class="left show-for-inactive">Profit</th>
       </tr>
     </thead>
     <tbody>
@@ -60,6 +61,7 @@ body_class: players
           <td class="left show-for-inactive" data-sort="{{ player.departed_date }}">{{ player.departed_date | date: '%B %-d, %Y' }}</td>
           <td class="left show-for-inactive" data-sort="{{ player.departed_to }}">{{ player.departed_to_country }} {{ player.departed_to }}</td>
           <td class="left show-for-inactive" data-sort="{{ player.departed_fee_alt }}">{{ player.departed_fee }}</td>
+          <td class="left show-for-inactive" data-sort="{{ player.departed_profit_alt }}">{{ player.departed_profit }}</td>
           <script>
             function calculate_age(dob) {
               var diff_ms = Date.now() - dob.getTime();
