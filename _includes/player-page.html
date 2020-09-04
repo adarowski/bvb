@@ -4,6 +4,11 @@
 
 {% for player in site.data.players %}
   {% if player.id == include.player %}
-    <p><a href="https://fbref.com/en/players/{{ player.fbref }}/">{{ player.first }} {{ player.last }} on FBref</a></p>
+    <p class="fbref-link">
+      <a href="https://fbref.com/en/players/{{ player.fbref }}/">
+        <img src="assets/images/fbref.png" alt="FBref Logo" />
+        {{ player.first }} {{ player.last }} on FBref
+      </a>
+    </p>
   {% endif %}
 {% endfor %}

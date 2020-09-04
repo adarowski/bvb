@@ -38,6 +38,7 @@ header {
     align-items: center;
     font-size: 24px;
     padding-left: 115px;
+    padding-right: 10px;
 
     @media all and (max-width: 900px) {
       height: auto;
@@ -64,6 +65,7 @@ header {
     align-items: center;
     padding-left: 115px;
     padding-top: 4px;
+    padding-right: 10px;
 
     @media all and (max-width: 900px) {
       padding-left: 105px;
@@ -423,15 +425,15 @@ tbody {
       }
 
       &:nth-child(1) img {
-        width: 270px;
-      }
-
-      &:nth-child(4) img {
         width: 260px;
       }
 
+      &:nth-child(2) img {
+        width: 290px;
+      }
+
       &:nth-child(5) img {
-        width: 270px;
+        width: 265px;
       }
     }
 
@@ -493,7 +495,7 @@ tbody {
 
   ul {
     list-style: none;
-    font-size: 16px;
+    font-size: 18px;
     padding: 0;
     margin: 0;
 
@@ -503,14 +505,14 @@ tbody {
   }
 
   li {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 
     @media all and (max-width: 900px) {
       margin-bottom: 2px;
     }
 
     &:first-child {
-      font-size: 20px;
+      font-size: 22px;
 
       @media all and (max-width: 900px) {
         font-size: 13px;
@@ -594,5 +596,32 @@ body.players li.players a {
       font-weight: bold;
       text-decoration: none;
     }
+  }
+}
+
+.fbref-link {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 4px 8px;
+  display: inline-block;
+  margin: 20px 0 0;
+
+  &:hover {
+    border-color: #bbb;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: $black;
+  }
+
+  img {
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    margin-right: 6px;
   }
 }

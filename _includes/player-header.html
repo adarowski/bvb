@@ -64,7 +64,7 @@
 
         var playerAge = document.querySelector('.player-age');
 
-        playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + " years old)"));
+        playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
       </script>
 
     {% endif %}
