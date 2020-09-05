@@ -1,6 +1,6 @@
 ---
 layout: default
-title: All Goals
+title: All Goals (Since 2015–16)
 body_class: goals
 ---
 
@@ -20,7 +20,7 @@ body_class: goals
         <th class="left">1st Assist</th>
         <th class="left">2nd Assist</th>
         <th class="left">Season</th>
-        <th class="left">Date</th>
+        <th class="left" data-sort-default>Date</th>
         <th class="left">Competition</th>
         <th class="left">Round</th>
         <th class="right">Min</th>
@@ -55,7 +55,7 @@ body_class: goals
           <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
           <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
           <td class="left">{{ goal.season }}</td>
-          <td class="left" data-sort="{{ goal.date }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
+          <td class="left" data-sort="{{ goal.date }}-{{ goal.gf }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
           <td class="left">{{ goal.comp }}</td>
           <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
           <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
