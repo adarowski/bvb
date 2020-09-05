@@ -1,27 +1,27 @@
 id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
 aubameyang,Pierre-Emerick,Aubameyang,🇬🇦,Gabon,2467,25,4,6,1,7,32,3,0.91,0.26,1.17,1.06,66,48.5%,inactive
 bender,Sven,Bender,🇩🇪,Germany,1246,0,0,0,1,1,1,0,0.00,0.07,0.07,0.07,33,3.0%,inactive
-burki,Roman,Bürki,🇨🇭,Switzerland,2970,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,80,0.0%,active
-castro,Gonzalo,Castro,🇩🇪,Germany,1483,3,6,7,4,11,14,0,0.18,0.67,0.85,0.85,44,31.8%,inactive
+burki,Roman,Bürki,🇨🇭,Switzerland,2970,0,0,0,1,1,1,0,0.00,0.03,0.03,0.03,80,1.3%,active
+castro,Gonzalo,Castro,🇩🇪,Germany,1483,3,6,7,5,12,15,0,0.18,0.73,0.91,0.91,44,34.1%,inactive
 durm,Erik,Durm,🇩🇪,Germany,865,1,1,1,0,1,2,0,0.10,0.10,0.21,0.21,18,11.1%,inactive
 ginter,Matthias,Ginter,🇩🇪,Germany,1889,4,5,5,1,6,10,0,0.19,0.29,0.48,0.48,51,19.6%,inactive
-gundogan,İlkay,Gündoğan,🇩🇪,Germany,1989,1,3,3,10,13,14,0,0.05,0.59,0.63,0.63,55,25.5%,inactive
+gundogan,İlkay,Gündoğan,🇩🇪,Germany,1989,1,3,3,11,14,15,0,0.05,0.63,0.68,0.68,55,27.3%,inactive
 hofmann,Jonas,Hofmann,🇩🇪,Germany,287,1,1,1,0,1,2,0,0.31,0.31,0.63,0.63,9,22.2%,inactive
-hummels,Mats,Hummels,🇩🇪,Germany,2493,2,2,2,5,7,9,0,0.07,0.25,0.32,0.32,65,13.8%,active
+hummels,Mats,Hummels,🇩🇪,Germany,2493,2,2,2,6,8,10,0,0.07,0.29,0.36,0.36,65,15.4%,active
 januzaj,Adnan,Januzaj,🇧🇪,Belgium,166,0,2,2,0,2,2,0,0.00,1.08,1.08,1.08,8,25.0%,inactive
 kagawa,Shinji,Kagawa,🇯🇵,Japan,2164,9,6,9,10,19,28,0,0.37,0.79,1.16,1.16,61,45.9%,inactive
 kampl,Kevin,Kampl,🇩🇪,Germany,13,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,inactive
-leitner,Moritz,Leitner,🇩🇪,Germany,326,0,1,2,2,4,4,0,0.00,1.10,1.10,1.10,12,33.3%,inactive
+leitner,Moritz,Leitner,🇩🇪,Germany,326,0,1,2,3,5,5,0,0.00,1.38,1.38,1.38,12,41.7%,inactive
 mkhitaryan,Henrikh,Mkhitaryan,🇦🇲,Armenia,2571,11,14,20,6,26,37,0,0.39,0.91,1.30,1.30,67,55.2%,inactive
-papastathopoulos,Sokratis,Papastathopoulos,🇬🇷,Greece,2113,1,0,0,1,1,2,0,0.04,0.04,0.09,0.09,56,3.6%,inactive
+papastathopoulos,Sokratis,Papastathopoulos,🇬🇷,Greece,2113,1,0,0,2,2,3,0,0.04,0.09,0.13,0.13,56,5.4%,inactive
 park,Jo-hoo,Park,🇰🇷,Korea Republic,309,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,10,0.0%,inactive
 passlack,Felix,Passlack,🇩🇪,Germany,182,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,7,0.0%,active
 piszczek,Łukasz,Piszczek,🇵🇱,Poland,1520,0,3,3,1,4,4,0,0.00,0.24,0.24,0.24,40,10.0%,active
 pulisic,Christian,Pulisic,🇺🇸,United States,389,2,0,0,0,0,2,0,0.46,0.00,0.46,0.46,11,18.2%,inactive
 ramos,Adrián,Ramos,🇨🇴,Colombia,945,9,4,5,2,7,16,0,0.86,0.67,1.52,1.52,29,55.2%,inactive
 reus,Marco,Reus,🇩🇪,Germany,1909,13,3,3,5,8,21,1,0.61,0.38,0.99,0.94,43,48.8%,active
-sahin,Nuri,Şahin,🇹🇷,Turkey,505,0,2,2,1,3,3,0,0.00,0.53,0.53,0.53,9,33.3%,inactive
-schmelzer,Marcel,Schmelzer,🇩🇪,Germany,2060,0,4,4,2,6,6,0,0.00,0.26,0.26,0.26,56,10.7%,active
+sahin,Nuri,Şahin,🇹🇷,Turkey,505,0,2,2,2,4,4,0,0.00,0.71,0.71,0.71,9,44.4%,inactive
+schmelzer,Marcel,Schmelzer,🇩🇪,Germany,2060,0,4,5,2,7,7,0,0.00,0.31,0.31,0.31,56,12.5%,active
 subotic,Neven,Subotić,🇷🇸,Serbia,464,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,12,0.0%,inactive
 weidenfeller,Roman,Weidenfeller,🇩🇪,Germany,90,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
-weigl,Julian,Weigl,🇩🇪,Germany,2245,0,0,0,2,2,2,0,0.00,0.08,0.08,0.08,58,3.4%,inactive
+weigl,Julian,Weigl,🇩🇪,Germany,2245,0,0,0,5,5,5,0,0.00,0.20,0.20,0.20,58,8.6%,inactive
