@@ -11,6 +11,8 @@ body_class: goals
   <input id="goal-filter" type="text" class="table-filter" data-table="goals-table" placeholder="Search for player, opponent, competition, etc." />
 </div>
 
+{% assign seasons = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017,stats-2015-2016" | split: ','%}
+
 <div class="table-container">
   <table id="all-goals" class="goals-table">
     <thead>
@@ -33,180 +35,48 @@ body_class: goals
       </tr>
     </thead>
     <tbody>
+      {% for season in seasons %}
+        {% for goal in site.data.[season].goals %}
+          <tr data-scorer="{{ goal.id_scorer }}" class="{{ goal.incomplete }}">
+            <td class="left" data-sort="{{ goal.id_scorer }}">
+              {% for player in site.data.players %}
+                {% if player.id == goal.id_scorer %}
+                  {% if player.has_photo == "true" %}
+                    <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
+                    </div>
+                  {% else %}
+                    <div class="player-photo">
+                    </div>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              <a href="{{ goal.id_scorer }}">
+                <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
+              </a>
+            </td>
+            <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
+            <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
+            <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
+            <td class="left">{{ goal.season }}</td>
+            <td class="left" data-sort="{{ goal.date }}-{{ goal.round_alt }}-{{ goal.gf }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
+            <td class="left">{{ goal.comp }}</td>
+            <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
+            <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
+            <td class="left">{{ goal.opponent }}</td>
+            <td class="left">{{ goal.venue }}</td>
+            <td class="right">{{ goal.gf }}</td>
+            <td class="right">{{ goal.ga }}</td>
+            <td class="right">{{ goal.gd }}</td>
+            <td class="left"><span>{{ goal.note }}</span></td>
+          </tr>
+        {% endfor %}
+      {% endfor %}
+
+
+
       {% for goal in site.data.stats-2019-2020.goals %}
-        <tr data-scorer="{{ goal.id_scorer }}" class="{{ goal.incomplete }}">
-          <td class="left" data-sort="{{ goal.id_scorer }}">
-            {% for player in site.data.players %}
-              {% if player.id == goal.id_scorer %}
-                {% if player.has_photo == "true" %}
-                  <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
-                  </div>
-                {% else %}
-                  <div class="player-photo">
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            <a href="{{ goal.id_scorer }}">
-              <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
-            </a>
-          </td>
-          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
-          <td class="left">{{ goal.season }}</td>
-          <td class="left" data-sort="{{ goal.date }}-{{ goal.gf }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
-          <td class="left">{{ goal.comp }}</td>
-          <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
-          <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
-          <td class="left">{{ goal.opponent }}</td>
-          <td class="left">{{ goal.venue }}</td>
-          <td class="right">{{ goal.gf }}</td>
-          <td class="right">{{ goal.ga }}</td>
-          <td class="right">{{ goal.gd }}</td>
-          <td class="left"><span>{{ goal.note }}</span></td>
-        </tr>
       {% endfor %}
 
-      {% for goal in site.data.stats-2018-2019.goals %}
-        <tr data-scorer="{{ goal.id_scorer }}" class="{{ goal.incomplete }}">
-          <td class="left" data-sort="{{ goal.id_scorer }}">
-            {% for player in site.data.players %}
-              {% if player.id == goal.id_scorer %}
-                {% if player.has_photo == "true" %}
-                  <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
-                  </div>
-                {% else %}
-                  <div class="player-photo">
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            <a href="{{ goal.id_scorer }}">
-              <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
-            </a>
-          </td>
-          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
-          <td class="left">{{ goal.season }}</td>
-          <td class="left" data-sort="{{ goal.date }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
-          <td class="left">{{ goal.comp }}</td>
-          <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
-          <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
-          <td class="left">{{ goal.opponent }}</td>
-          <td class="left">{{ goal.venue }}</td>
-          <td class="right">{{ goal.gf }}</td>
-          <td class="right">{{ goal.ga }}</td>
-          <td class="right">{{ goal.gd }}</td>
-          <td class="left"><span>{{ goal.note }}</span></td>
-        </tr>
-      {% endfor %}
-
-      {% for goal in site.data.stats-2017-2018.goals %}
-        <tr data-scorer="{{ goal.id_scorer }}" class="{{ goal.incomplete }}">
-          <td class="left" data-sort="{{ goal.id_scorer }}">
-            {% for player in site.data.players %}
-              {% if player.id == goal.id_scorer %}
-                {% if player.has_photo == "true" %}
-                  <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
-                  </div>
-                {% else %}
-                  <div class="player-photo">
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            <a href="{{ goal.id_scorer }}">
-              <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
-            </a>
-          </td>
-          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
-          <td class="left">{{ goal.season }}</td>
-          <td class="left" data-sort="{{ goal.date }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
-          <td class="left">{{ goal.comp }}</td>
-          <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
-          <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
-          <td class="left">{{ goal.opponent }}</td>
-          <td class="left">{{ goal.venue }}</td>
-          <td class="right">{{ goal.gf }}</td>
-          <td class="right">{{ goal.ga }}</td>
-          <td class="right">{{ goal.gd }}</td>
-          <td class="left"><span>{{ goal.note }}</span></td>
-        </tr>
-      {% endfor %}
-
-      {% for goal in site.data.stats-2016-2017.goals %}
-        <tr data-scorer="{{ goal.id_scorer }}" class="{{ goal.incomplete }}">
-          <td class="left" data-sort="{{ goal.id_scorer }}">
-            {% for player in site.data.players %}
-              {% if player.id == goal.id_scorer %}
-                {% if player.has_photo == "true" %}
-                  <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
-                  </div>
-                {% else %}
-                  <div class="player-photo">
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            <a href="{{ goal.id_scorer }}">
-              <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
-            </a>
-          </td>
-          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
-          <td class="left">{{ goal.season }}</td>
-          <td class="left" data-sort="{{ goal.date }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
-          <td class="left">{{ goal.comp }}</td>
-          <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
-          <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
-          <td class="left">{{ goal.opponent }}</td>
-          <td class="left">{{ goal.venue }}</td>
-          <td class="right">{{ goal.gf }}</td>
-          <td class="right">{{ goal.ga }}</td>
-          <td class="right">{{ goal.gd }}</td>
-          <td class="left"><span>{{ goal.note }}</span></td>
-        </tr>
-      {% endfor %}
-
-      {% for goal in site.data.stats-2015-2016.goals %}
-        <tr data-scorer="{{ goal.id_scorer }}" class="{{ goal.incomplete }}">
-          <td class="left" data-sort="{{ goal.id_scorer }}">
-            {% for player in site.data.players %}
-              {% if player.id == goal.id_scorer %}
-                {% if player.has_photo == "true" %}
-                  <div class="player-photo {{ goal.active }}" style="background-image: url(assets/images/100/{{ goal.id_scorer }}.png)">
-                  </div>
-                {% else %}
-                  <div class="player-photo">
-                  </div>
-                {% endif %}
-              {% endif %}
-            {% endfor %}
-            <a href="{{ goal.id_scorer }}">
-              <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
-            </a>
-          </td>
-          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
-          <td class="left">{{ goal.season }}</td>
-          <td class="left" data-sort="{{ goal.date }}">{{ goal.date | date: '%B %-d, %Y' }}</td>
-          <td class="left">{{ goal.comp }}</td>
-          <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
-          <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
-          <td class="left">{{ goal.opponent }}</td>
-          <td class="left">{{ goal.venue }}</td>
-          <td class="right">{{ goal.gf }}</td>
-          <td class="right">{{ goal.ga }}</td>
-          <td class="right">{{ goal.gd }}</td>
-          <td class="left"><span>{{ goal.note }}</span></td>
-        </tr>
-      {% endfor %}
     </tbody>
   </table>
 </div>
