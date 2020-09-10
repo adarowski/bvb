@@ -8,7 +8,7 @@ $yellow: #FDE100;
 body {
   font-family: 'Source Sans Pro', sans-serif;
   background: white;
-  font-size: 14px;
+  font-size: 16px;
   color: $black;
   line-height: 1.4;
   margin: 0;
@@ -46,7 +46,11 @@ header {
       padding-bottom: 10px;
       font-size: 22px;
       line-height: 1.2;
-      padding-left: 105px;
+      padding-left: 75px;
+
+      span {
+        display: block;
+      }
     }
 
     a {
@@ -68,7 +72,7 @@ header {
     padding-right: 10px;
 
     @media all and (max-width: 900px) {
-      padding-left: 105px;
+      padding-left: 10px;
     }
 
     > ul {
@@ -112,6 +116,8 @@ header {
     @media all and (max-width: 900px) {
       top: 10px;
       left: 10px;
+      width: 52px;
+      height: 52px;
     }
   }
 }
@@ -170,7 +176,6 @@ table {
   border-spacing: 0;
   margin-bottom: 20px;
   font-variant-numeric: tabular-nums;
-  font-size: 16px;
 }
 
 tr {
@@ -327,6 +332,7 @@ tbody {
   }
 
   button {
+    font-size: 16px;
     -webkit-appearance: none;
     -moz-appearance: none;
     border: none;
@@ -336,7 +342,6 @@ tbody {
     cursor: pointer;
     color: #3e90d6;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
     font-weight: bold;
     border-bottom: 3px solid transparent;
 
@@ -365,7 +370,6 @@ tbody {
 
   label {
     font-weight: bold;
-    font-size: 16px;
     margin-right: 10px;
   }
 }
@@ -584,7 +588,6 @@ body.frauen li.frauen > a {
   padding: 4px 16px;
   display: inline-block;
   margin: -10px -20px 20px;
-  font-size: 16px;
 
   @media all and (max-width: 900px) {
     margin-left: -10px;
@@ -605,7 +608,6 @@ body.frauen li.frauen > a {
 }
 
 .fbref-link {
-  font-size: 16px;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 4px 8px;
@@ -680,4 +682,11 @@ body.frauen li.frauen > a {
       display: block;
     }
   }
+}
+
+blockquote {
+  border-left: 4px solid $yellow;
+  margin-left: 0;
+  padding-left: 20px;
+  color: #666;
 }
