@@ -1,0 +1,6 @@
+season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd,active
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,14,14,1,0,1,Jadon,Sancho,,,,No Assists (Penalty),sancho,,,,active
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,30,30,2,0,2,Jude,Bellingham,Hazard,Hazard,Meunier,,bellingham,hazard,hazard,meunier,active
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,39,39,3,0,3,Thorgan,Hazard,,,,No Assists (Free kick),hazard,,,,active
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,50,50,4,0,4,Gio,Reyna,,,,No Assists (Free kick),reyna,,,,active
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,58,58,5,0,5,Marco,Reus,Sancho,Sancho,,No 2nd Assist (Sancho free kick),reus,sancho,sancho,,active

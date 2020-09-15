@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 2018–19 Stats
+title: 2019–20 Stats
 body_class: stats
 ---
 
@@ -8,8 +8,8 @@ body_class: stats
 
 <div class="subnav">
   <a href="./">2020–21</a>
-  <a href="stats-2019-2020">2019–20</a>
-  <a class="current" href="stats-2018-2019">2018–19</a>
+  <a class="current" href="stats-2019-20">2019–20</a>
+  <a href="stats-2018-2019">2018–19</a>
   <a href="stats-2017-2018">2017–18</a>
   <a href="stats-2016-2017">2016–17</a>
   <a href="stats-2015-2016">2015–16</a>
@@ -22,16 +22,15 @@ body_class: stats
   <li class="hide"><button class="table-toggle show-uel">Europa League</button></li>
   <li class="hide"><button class="table-toggle show-uelq">Europa League Qualification</button></li>
   <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
-  <li class="hide"><button class="table-toggle show-supercup">DFL-Supercup</button></li>
+  <li><button class="table-toggle show-supercup">DFB-Supercup</button></li>
   <li><button class="table-toggle show-all">All Competitions</button></li>
 </ul>
 
-{% include stats-table.html directory="stats-2018-2019" comp="bundesliga" %}
-{% include stats-table.html directory="stats-2018-2019" comp="ucl" %}
-{% include stats-table.html directory="stats-2018-2019" comp="cup" %}
-{% include stats-table.html directory="stats-2018-2019" comp="all" %}
-
-<p><strong>Own Goals Awarded:</strong> Marco Reus (Bundesliga)</p>
+{% include stats-table.html directory="stats-2019-2020" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2019-2020" comp="ucl" %}
+{% include stats-table.html directory="stats-2019-2020" comp="cup" %}
+{% include stats-table.html directory="stats-2019-2020" comp="supercup" %}
+{% include stats-table.html directory="stats-2019-2020" comp="all" %}
 
 {% include stats-table-script.html %}
 
@@ -39,5 +38,6 @@ body_class: stats
   new Tablesort(document.getElementById('stats-bundesliga'), { descending: true });
   new Tablesort(document.getElementById('stats-ucl'), { descending: true });
   new Tablesort(document.getElementById('stats-cup'), { descending: true });
+  new Tablesort(document.getElementById('stats-supercup'), { descending: true });
   new Tablesort(document.getElementById('stats-all'), { descending: true });
 </script>

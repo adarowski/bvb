@@ -6,7 +6,7 @@ bakir,Alaa,Bakir,🇩🇪,Germany,2001-01-15,Attack,2013-07-01,TSV Handorf,🇩�
 balerdi,Leonardo,Balerdi,🇦🇷,Argentina,1999-01-26,Defense,2019-01-14,Boca Juniors,🇦🇷,,€15.5 million,15500000,2024-06-30,loan,,,,,,,,,Olympique Marseille,🇫🇷,2021-06-30,true,,7c3ed041
 bartra,Marc,Bartra,🇪🇸,Spain,1991-01-15,Defense,2016-07-01,FC Barcelona,🇪🇸,,€8 million,8000000,,inactive,Real Betis Balompié,🇪🇸,2018-01-30,€10.5 million,10500000,€2.5 million,2500000,,,,,true,,b742cc0d
 batshuayi,Michy,Batshuayi,🇧🇪,Belgium,1993-10-02,Attack,2018-01-31,Chelsea FC,🏴󠁧󠁢󠁥󠁮󠁧󠁿,,Loan,0,,inactive,Chelsea FC,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2018-06-30,End of Loan,0,None,0,,,,,true,,2973d8ff
-bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,2003-07-29,Midfield,2020-07-23,Birmingham City,🏴󠁧󠁢󠁥󠁮󠁧󠁿,,€23 million,23000000,2023-06-30,active,,,,,,,,,,,,false,22,57d88cf9
+bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,2003-07-29,Midfield,2020-07-23,Birmingham City,🏴󠁧󠁢󠁥󠁮󠁧󠁿,,€23 million,23000000,2023-06-30,active,,,,,,,,,,,,true,22,57d88cf9
 bender,Sven,Bender,🇩🇪,Germany,1989-04-27,Midfield,2009-07-01,1860 Munich,🇩🇪,,€1.5 million,1500000,,inactive,Bayer Leverkusen,🇩🇪,2017-07-13,€12.5 million,12500000,€11 million,11000000,,,,,true,,070ec0b1
 beste,Jan-Niklas,Beste,🇩🇪,Germany,1999-01-04,Defense,2007-07-01,Hammer SpVg,🇩🇪,,Free,0,,inactive,Werder Bremen,🇩🇪,2018-07-04,€250k,250000,€250k,250000,,,,,false,,57382429
 brandt,Julian,Brandt,🇩🇪,Germany,1996-05-02,Midfield,2019-07-01,Bayer Leverkusen,🇩🇪,,€25 million,25000000,2024-06-30,active,,,,,,,,,,,,true,19,a167537f
@@ -45,7 +45,7 @@ kampl,Kevin,Kampl,🇩🇪,Germany,1990-10-09,Midfield,2015-01-01,Red Bull Salzb
 knauff,Ansgar,Knauff,🇩🇪,Germany,2002-01-10,Midfield,2016-07-01,Hannover 96,🇩🇪,,Free,0,2021-06-30,reserve,,,,,,,,,,,,false,36,19a967ab
 leitner,Moritz,Leitner,🇩🇪,Germany,1992-12-08,Midfield,2011-01-01,1860 Munich,🇩🇪,,Free,0,,inactive,SS Lazio,🇮🇹,2016-08-12,€1.5 million,1500000,€1.5 million,1500000,,,,,true,,9460aaed
 merino,Mikel,Merino,🇪🇸,Spain,1996-06-22,Midfield,2016-07-01,CA Osasuna,🇪🇸,,€3.75 million,3750000,,inactive,Newcastle United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2018-07-01,€7 million,7000000,€3.25 million,3250000,"Departed on loan July 28, 2017 before permanent deal",,,,true,,d080ed5e
-meunier,Thomas,Meunier,🇧🇪,Belgium,1991-09-12,Midfield,2020-07-01,Paris Saint Germain,🇫🇷,,Free,0,2024-06-30,active,,,,,,,,,,,,false,24,e162b013
+meunier,Thomas,Meunier,🇧🇪,Belgium,1991-09-12,Midfield,2020-07-01,Paris Saint Germain,🇫🇷,,Free,0,2024-06-30,active,,,,,,,,,,,,true,24,e162b013
 mkhitaryan,Henrikh,Mkhitaryan,🇦🇲,Armenia,1989-01-21,Midfield,2013-07-09,Shakhtar Donetsk,🇺🇦,,€27.5 million,27500000,,inactive,Manchster United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-07-06,€42 million,42000000,€14.5 million,14500000,,,,,true,,dd0daf32
 mor,Emre,Mor,🇹🇷,Turkey,1997-07-24,Midfield,2016-07-01,FC Nordsjaelland,🇩🇰,,€9.75 million,9750000,,inactive,Celta de Vigo,🇪🇸,2017-08-29,€13 million,13000000,€3.25 million,3250000,,,,,false,,0c3f7197
 morey,Mateu,Morey,🇪🇸,Spain,2000-03-02,Defense,2019-07-01,FC Barcelona,🇪🇸,,Free,0,2024-06-30,active,,,,,,,,,,,,true,2,5fd5e542
