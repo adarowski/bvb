@@ -20,7 +20,7 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2015-16,Bundesliga,MD6,6,2015-09-23,TSG Hoffenheim,Away,55,55,1,1,0,Pierre-Emerick,Aubameyang,Castro,Castro,Hummels,,aubameyang,castro,castro,hummels,inactive,
 2015-16,Bundesliga,MD7,7,2015-09-27,Darmstadt 98,Home,63,63,1,1,0,Pierre-Emerick,Aubameyang,Ginter,Ginter,Kagawa,,aubameyang,ginter,ginter,kagawa,inactive,
 2015-16,Bundesliga,MD7,7,2015-09-27,Darmstadt 98,Home,71,71,2,1,1,Pierre-Emerick,Aubameyang,Januzaj,Januzaj,Gündoğan,,aubameyang,januzaj,januzaj,gundogan,inactive,
-2015-16,Bundesliga,MD8,8,2015-10-04,Bayern Munich,Away,36,36,1,2,-1,Pierre-Emerick,Aubameyang,,Castro,Mkhitaryan,No Assists (Unclear why),aubameyang,,castro,mkhitaryan,inactive,
+2015-16,Bundesliga,MD8,8,2015-10-04,Bayern Munich,Away,36,36,1,2,-1,Pierre-Emerick,Aubameyang,,Castro,Mkhitaryan,No Official Assist (Unclear why),aubameyang,,castro,mkhitaryan,inactive,
 2015-16,Bundesliga,MD9,9,2015-10-16,Mainz 05,Away,18,18,1,0,1,Marco,Reus,Aubameyang,Aubameyang,Mkhitaryan,,reus,aubameyang,aubameyang,mkhitaryan,active,
 2015-16,Bundesliga,MD9,9,2015-10-16,Mainz 05,Away,82,82,2,0,2,Henrikh,Mkhitaryan,,Aubameyang,,No Official Assist (Unclear why); No 2nd Assist (Aubameyang won the ball),mkhitaryan,,aubameyang,,inactive,
 2015-16,Bundesliga,MD10,10,2015-10-25,Augsburg,Home,18,18,1,0,1,Pierre-Emerick,Aubameyang,Gündoğan,Gündoğan,Castro,,aubameyang,gundogan,gundogan,castro,inactive,

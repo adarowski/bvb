@@ -3,7 +3,7 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2017-18,Bundesliga,MD1,1,2017-08-19,Wolfsburg,Away,27,27,2,2,0,Marc,Bartra,Castro,Castro,Götze,,bartra,castro,castro,gotze,inactive
 2017-18,Bundesliga,MD1,1,2017-08-19,Wolfsburg,Away,60,60,3,3,0,Pierre-Emerick,Aubameyang,Pulisic,Pulisic,Piszczek,,aubameyang,pulisic,pulisic,piszczek,inactive
 2017-18,Bundesliga,MD2,2,2017-08-26,Hertha Berlin,Home,15,15,1,0,1,Pierre-Emerick,Aubameyang,Şahin,Şahin,Zagadou,,aubameyang,sahin,sahin,zagadou,inactive
-2017-18,Bundesliga,MD2,2,2017-08-26,Hertha Berlin,Home,57,57,2,0,2,Nuri,Şahin,,Philipp,Pulisic,No Assists (Philipp shot deflected to Şahin),sahin,,philipp,pulisic,inactive
+2017-18,Bundesliga,MD2,2,2017-08-26,Hertha Berlin,Home,57,57,2,0,2,Nuri,Şahin,,Philipp,Pulisic,No Official Assist (Philipp shot deflected to Şahin),sahin,,philipp,pulisic,inactive
 2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,2,2,1,0,1,Maximilian,Philipp,Yarmolenko,Yarmolenko,,No 2nd Assist (Philipp won the ball),philipp,yarmolenko,yarmolenko,,inactive
 2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,45+1,45.1,2,0,2,Sokratis,Papastathopoulos,,Yarmolenko,,No Official Assist (Keeper blocked the corner and it fell to Papastathopoulos); No 2nd Assist Yarmolenko took corner),papastathopoulos,,yarmolenko,,inactive
 2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,59,59,3,0,3,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,,inactive
@@ -68,22 +68,22 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2017-18,Champions League,GR-3,3,2017-10-17,APOEL FC,Away,67,67,1,1,0,Sokratis,Papastathopoulos,Götze,Götze,Schmelzer,,papastathopoulos,gotze,gotze,schmelzer,inactive
 2017-18,Champions League,GR-4,4,2017-11-01,APOEL FC,Home,29,29,1,0,1,Raphaël,Guerreiro,Kagawa,Kagawa,Weigl,,guerreiro,kagawa,kagawa,weigl,active
 2017-18,Champions League,GR-5,5,2017-11-21,Tottenham,Home,31,31,1,0,1,Pierre-Emerick,Aubameyang,Yarmolenko,Yarmolenko,Guerreiro,,aubameyang,yarmolenko,yarmolenko,guerreiro,inactive
-2017-18,Champions League,GR-6,6,2017-12-06,Real Madrid,Away,43,43,1,2,-1,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,,No Assists (Schmelzer won the ball),aubameyang,schmelzer,schmelzer,,inactive
+2017-18,Champions League,GR-6,6,2017-12-06,Real Madrid,Away,43,43,1,2,-1,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,,No Second Assist (Schmelzer won the ball),aubameyang,schmelzer,schmelzer,,inactive
 2017-18,Champions League,GR-6,6,2017-12-06,Real Madrid,Away,48,48,2,2,0,Pierre-Emerick,Aubameyang,,Kagawa,Şahin,No Official Assist (Aubameyang scored on his own rebound),aubameyang,,kagawa,sahin,inactive
 2017-18,Europa League,R32-1,7,2018-02-16,Atalanta,Home,30,30,1,0,1,André,Schürrle,Piszczek,Piszczek,Batshuayi,,schurrle,piszczek,piszczek,batshuayi,inactive
 2017-18,Europa League,R32-1,7,2018-02-16,Atalanta,Home,65,65,2,2,0,Michy,Batshuayi,Götze,Götze,Schürrle,,batshuayi,gotze,gotze,schurrle,inactive
 2017-18,Europa League,R32-1,7,2018-02-16,Atalanta,Home,90+1,90.1,3,2,1,Michy,Batshuayi,Götze,Götze,,No 2nd Assist (Götze won the ball),batshuayi,gotze,gotze,,inactive
-2017-18,Europa League,R32-2,8,2018-02-22,Atalanta,Away,83,83,1,1,0,Marcel,Schmelzer,,Reus,Piszczek,No Assists (Reus shot saved and fell to Schmelzer),schmelzer,,reus,piszczek,active
+2017-18,Europa League,R32-2,8,2018-02-22,Atalanta,Away,83,83,1,1,0,Marcel,Schmelzer,,Reus,Piszczek,No Official Assist (Reus shot saved and fell to Schmelzer),schmelzer,,reus,piszczek,active
 2017-18,Europa League,R16-1,9,2018-03-08,Red Bull Salzburg,Home,62,62,1,2,-1,André,Schürrle,Pulisic,Pulisic,Reus,,schurrle,pulisic,pulisic,reus,inactive
 2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,12,12,1,0,1,Marc,Bartra,Beste,Beste,Şahin,,bartra,beste,beste,sahin,inactive
 2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,41,41,2,0,2,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,,inactive
 2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,55,55,3,0,3,Pierre-Emerick,Aubameyang,Dahoud,Dahoud,Şahin,,aubameyang,dahoud,dahoud,sahin,inactive
-2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,80,80,4,0,4,Pierre-Emerick,Aubameyang,,Dahoud,Kagawa,No Assists (Dahoud shot deflected to Aubameyang),aubameyang,,dahoud,kagawa,inactive
+2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,80,80,4,0,4,Pierre-Emerick,Aubameyang,,Dahoud,Kagawa,No Official Assist (Dahoud shot deflected to Aubameyang),aubameyang,,dahoud,kagawa,inactive
 2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,42,42,1,0,1,Gonzalo,Castro,Isak,Isak,Yarmolenko,,castro,isak,isak,yarmolenko,inactive
 2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,47,47,2,0,2,Alexander,Isak,Philipp,Philipp,Yarmolenko,,isak,philipp,philipp,yarmolenko,inactive
 2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,73,73,3,0,3,Andriy,Yarmolenko,,,,No Assists (Penalty),yarmolenko,,,,inactive
 2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,79,79,4,0,4,Marc,Bartra,Kagawa,Kagawa,Castro,,bartra,kagawa,kagawa,,inactive
-2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,90+1,90.1,5,0,5,Shinji,Kagawa,,Philipp,Şahin,No Assists (Initial shot by Kagawa blocked),kagawa,,philipp,sahin,inactive
+2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,90+1,90.1,5,0,5,Shinji,Kagawa,,Philipp,Şahin,No Official Assist (Initial shot by Kagawa blocked),kagawa,,philipp,sahin,inactive
 2017-18,DFB-Pokal,R16,3,2017-12-20,Bayern Munich,Away,77,77,1,2,-1,Andriy,Yarmolenko,Kagawa,Kagawa,Schmelzer,,yarmolenko,kagawa,kagawa,schmelzer,inactive
 2017-18,DFL-Supercup,F,1,2017-08-05,Bayern Munich,Home,12,12,1,0,1,Christian,Pulisic,,,,No Assists (Pulisic won the ball),pulisic,,,,inactive
 2017-18,DFL-Supercup,F,1,2017-08-05,Bayern Munich,Home,71,71,2,1,1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Rode,,aubameyang,dembele,dembele,rode,inactive
