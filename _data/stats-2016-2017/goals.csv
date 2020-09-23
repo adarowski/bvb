@@ -6,14 +6,14 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,54,54,3,0,3,Christian,Pulisic,,Schmelzer,Schmelzer,No Official Assist (Schmelzer pass to Guerreiro deflected to Pulisic),pulisic,,schmelzer,schmelzer,inactive,
 2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,78,78,4,0,4,Gonzalo,Castro,Pulisic,Pulisic,Rode,,castro,pulisic,pulisic,rode,inactive,
 2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,84,84,5,0,5,Sebastian,Rode,Castro,Castro,Weigl,,rode,castro,castro,weigl,inactive,
-2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,88,88,6,0,6,Emre,Mor,,Pulisic,,No Official Assist (Unclear why),mor,,pulisic,,inactive,incomplete
-2016-17,Bundesliga,MD4,4,2016-09-20,VfL Wolfsburg,Away,4,4,1,0,1,Raphaël,Guerreiro,Bartra,Bartra,,,guerreiro,bartra,bartra,,active,incomplete
+2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,88,88,6,0,6,Emre,Mor,,Pulisic,Passlack,No Official Assist (Unclear why),mor,,pulisic,passlack,inactive,
+2016-17,Bundesliga,MD4,4,2016-09-20,VfL Wolfsburg,Away,4,4,1,0,1,Raphaël,Guerreiro,Bartra,Bartra,Weigl,,guerreiro,bartra,bartra,weigl,active,
 2016-17,Bundesliga,MD4,4,2016-09-20,VfL Wolfsburg,Away,16,16,2,0,2,Pierre-Emerick,Aubameyang,Guerreiro,Guerreiro,Schmelzer,,aubameyang,guerreiro,guerreiro,schmelzer,inactive,
 2016-17,Bundesliga,MD4,4,2016-09-20,VfL Wolfsburg,Away,58,58,3,1,2,Ousmane,Dembélé,Castro,Castro,Guerreiro,,dembele,castro,castro,guerreiro,inactive,
 2016-17,Bundesliga,MD4,4,2016-09-20,VfL Wolfsburg,Away,69,69,4,1,3,Pierre-Emerick,Aubameyang,,Castro,Piszczek,No Official Assist (Unclear why),aubameyang,,castro,piszczek,inactive,
 2016-17,Bundesliga,MD4,4,2016-09-20,VfL Wolfsburg,Away,73,73,5,1,4,Łukasz,Piszczek,,Guerreiro,,No Official Assist (Unclear why); No 2nd Assist (Guerreiro corner),piszczek,,guerreiro,,active,
 2016-17,Bundesliga,MD5,5,2016-09-23,SC Freiburg,Home,45,45,1,0,1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Götze,,aubameyang,dembele,dembele,gotze,inactive,
-2016-17,Bundesliga,MD5,5,2016-09-23,SC Freiburg,Home,53,53,2,0,2,Łukasz,Piszczek,,Castro,,No Official Assist (Castro shot deflected to Piszczek); Combination? (??? to Piszczek to Castro to Piszczek),piszczek,,castro,,active,incomplete
+2016-17,Bundesliga,MD5,5,2016-09-23,SC Freiburg,Home,53,53,2,0,2,Łukasz,Piszczek,,Castro,Papastathopoulos,No Official Assist (Castro shot deflected to Piszczek); Combination (Papastathopoulos to Piszczek to Castro to Piszczek),piszczek,,castro,papastathopoulos,active,
 2016-17,Bundesliga,MD5,5,2016-09-23,SC Freiburg,Home,90+1,90.1,3,1,2,Raphaël,Guerreiro,Castro,Castro,Aubameyang,,guerreiro,castro,castro,aubameyang,active,
 2016-17,Bundesliga,MD7,7,2016-10-14,Hertha BSC,Home,80,80,1,1,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Merino,,aubameyang,dembele,dembele,merino,inactive,
 2016-17,Bundesliga,MD8,8,2016-10-22,Ingolstadt 04,Away,59,59,1,2,-1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Kagawa,,aubameyang,dembele,dembele,kagawa,inactive,
@@ -25,14 +25,14 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2016-17,Bundesliga,MD10,10,2016-11-05,Hamburger SV,Away,48,48,4,0,4,Pierre-Emerick,Aubameyang,Pulisic,Pulisic,,No 2nd Assist (Pulisic won the ball),aubameyang,pulisic,pulisic,,inactive,
 2016-17,Bundesliga,MD10,10,2016-11-05,Hamburger SV,Away,76,76,5,1,4,Ousmane,Dembélé,Aubameyang,Aubameyang,Piszczek,,dembele,aubameyang,aubameyang,piszczek,inactive,
 2016-17,Bundesliga,MD11,11,2016-11-19,Bayern Munich,Home,11,11,1,0,1,Pierre-Emerick,Aubameyang,Götze,Götze,Piszczek,,aubameyang,gotze,gotze,piszczek,inactive,
-2016-17,Bundesliga,MD12,12,2016-11-26,Frankfurt,Away,77,77,1,1,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,,,aubameyang,dembele,dembele,,inactive,incomplete
+2016-17,Bundesliga,MD12,12,2016-11-26,Frankfurt,Away,77,77,1,1,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Piszczek,,aubameyang,dembele,dembele,piszczek,inactive,
 2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,7,7,1,1,0,Pierre-Emerick,Aubameyang,Reus,Reus,Dembélé,,aubameyang,reus,reus,dembele,inactive,
 2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,15,15,2,1,1,Łukasz,Piszczek,Bartra,Bartra,Dembélé,,piszczek,bartra,bartra,dembele,active,
-2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,64,64,3,1,2,Ousmane,Dembélé,Reus,Reus,,,dembele,reus,reus,,inactive,incomplete
+2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,64,64,3,1,2,Ousmane,Dembélé,Reus,Reus,Papastathopoulos,Papastathopoulos pass blocked to Reus,dembele,reus,reus,papastathopoulos,inactive,
 2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,68,68,4,1,3,Pierre-Emerick,Aubameyang,Reus,Reus,Dembélé,,aubameyang,reus,reus,dembele,inactive,
 2016-17,Bundesliga,MD14,14,2016-12-10,Köln,Away,90,90,1,1,0,Marco,Reus,Ramos,Ramos,Dembélé,,reus,ramos,ramos,dembele,active,
-2016-17,Bundesliga,MD15,15,2016-12-16,Hoffenheim,Away,11,11,1,1,0,Mario,Götze,Dembélé,Dembélé,,,gotze,dembele,dembele,,inactive,incomplete
-2016-17,Bundesliga,MD15,15,2016-12-16,Hoffenheim,Away,48,48,2,2,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,,,aubameyang,dembele,dembele,,inactive,incomplete
+2016-17,Bundesliga,MD15,15,2016-12-16,Hoffenheim,Away,11,11,1,1,0,Mario,Götze,Dembélé,Dembélé,Weigl,,gotze,dembele,dembele,weigl,inactive,
+2016-17,Bundesliga,MD15,15,2016-12-16,Hoffenheim,Away,48,48,2,2,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Weigl,,aubameyang,dembele,dembele,weigl,inactive,
 2016-17,Bundesliga,MD16,16,2016-12-20,Augsburg,Home,47,47,1,1,0,Ousmane,Dembélé,Kagawa,Kagawa,Weigl,Combination (Weigl to Dembélé to Kagawa to Dembélé),dembele,kagawa,kagawa,weigl,inactive,
 2016-17,Bundesliga,MD17,17,2017-01-21,Werder Bremen,Away,5,5,1,0,1,André,Schürrle,,,,No Assists (Schürrle picked up loose ball),schurrle,,,,inactive,
 2016-17,Bundesliga,MD17,17,2017-01-21,Werder Bremen,Away,71,71,2,1,1,Łukasz,Piszczek,,Guerreiro,Dembélé,No Official Assist (Guerreiro shot blocked and fell to Piszczek); Dembélé corner blocked and fell to Guerreiro,piszczek,,guerreiro,dembele,active,
@@ -56,13 +56,13 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2016-17,Bundesliga,MD26,26,2017-04-01,Schalke 04,Away,53,53,1,0,1,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Dembélé,,aubameyang,kagawa,kagawa,dembele,inactive,
 2016-17,Bundesliga,MD27,27,2017-04-04,Hamburger SV,Home,13,13,1,0,1,Gonzalo,Castro,,,,No Assists (Free kick),castro,,,,inactive,
 2016-17,Bundesliga,MD27,27,2017-04-04,Hamburger SV,Home,81,81,2,0,2,Shinji,Kagawa,Aubameyang,Aubameyang,Passlack,,kagawa,aubameyang,aubameyang,passlack,inactive,
-2016-17,Bundesliga,MD27,27,2017-04-04,Hamburger SV,Home,90+2,90.2,3,0,3,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,,,aubameyang,kagawa,kagawa,,inactive,incomplete
+2016-17,Bundesliga,MD27,27,2017-04-04,Hamburger SV,Home,90+2,90.2,3,0,3,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Piszczek,,aubameyang,kagawa,kagawa,piszczek,inactive,
 2016-17,Bundesliga,MD28,28,2017-04-08,Bayern Munich,Away,20,20,1,2,-1,Raphaël,Guerreiro,,Passlack,Aubameyang,No Official Assist (Passlack's pass cleared to Guerreiro),guerreiro,,passlack,aubameyang,active,
 2016-17,Bundesliga,MD29,29,2017-04-15,Frankfurt,Home,3,3,1,0,1,Marco,Reus,Pulisic,Pulisic,Aubameyang,,reus,pulisic,pulisic,aubameyang,active,
-2016-17,Bundesliga,MD29,29,2017-04-15,Frankfurt,Home,34,34,2,1,1,Sokratis,Papastathopoulos,Bender,Bender,,,papastathopoulos,bender,bender,,inactive,incomplete
+2016-17,Bundesliga,MD29,29,2017-04-15,Frankfurt,Home,34,34,2,1,1,Sokratis,Papastathopoulos,Bender,Bender,Schmelzer,,papastathopoulos,bender,bender,schmelzer,inactive,
 2016-17,Bundesliga,MD29,29,2017-04-15,Frankfurt,Home,86,86,3,1,2,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Şahin,,aubameyang,dembele,dembele,sahin,inactive,
 2016-17,Bundesliga,MD30,30,2017-04-22,Gladbach,Away,10,10,1,0,1,Marco,Reus,,,,No Assists (Penalty),reus,,,,active,
-2016-17,Bundesliga,MD30,30,2017-04-22,Gladbach,Away,59,59,2,2,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,,,aubameyang,dembele,dembele,,inactive,incomplete
+2016-17,Bundesliga,MD30,30,2017-04-22,Gladbach,Away,59,59,2,2,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Castro,,aubameyang,dembele,dembele,castro,inactive,
 2016-17,Bundesliga,MD30,30,2017-04-22,Gladbach,Away,87,87,3,2,1,Raphaël,Guerreiro,Castro,Castro,,No 2nd Assist (Castro free kick),guerreiro,castro,castro,,active,
 2016-17,Bundesliga,MD32,32,2017-05-06,Hoffenheim,Home,4,4,1,0,1,Marco,Reus,Castro,Castro,Guerreiro,,reus,castro,castro,guerreiro,active,
 2016-17,Bundesliga,MD32,32,2017-05-06,Hoffenheim,Home,82,82,2,0,2,Pierre-Emerick,Aubameyang,,Guerreiro,Piszczek,No Official Assist (Guerreiro shot off bar and fell to Aubameyang),aubameyang,,guerreiro,piszczek,inactive,
@@ -76,7 +76,7 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,17,17,3,0,3,Marc,Bartra,Schmelzer,Schmelzer,Aubameyang,Aubameyang shot saved and fell to Schmelzer,bartra,schmelzer,schmelzer,aubameyang,inactive,
 2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,51,51,4,0,4,Raphaël,Guerreiro,,Dembélé,Aubameyang,No Official Assist (Dembélé shot blocked and fell to Guerreiro),guerreiro,,dembele,aubameyang,active,
 2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,76,76,5,0,5,Gonzalo,Castro,Pulisic,Pulisic,Mor,,castro,pulisic,pulisic,mor,inactive,
-2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,87,87,6,0,6,Pierre-Emerick,Aubameyang,Castro,Castro,,,aubameyang,castro,castro,,inactive,incomplete
+2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,87,87,6,0,6,Pierre-Emerick,Aubameyang,Castro,Castro,Piszczek,,aubameyang,castro,castro,piszczek,inactive,
 2016-17,Champions League,GR-2,2,2016-09-27,Real Madrid,Home,43,43,1,1,0,Pierre-Emerick,Aubameyang,,Guerreiro,,No Official Assist (Guerreiro shot saved and fell to Aubameyang); No 2nd Assist (Guerreiro free kick),aubameyang,,guerreiro,,inactive,
 2016-17,Champions League,GR-2,2,2016-09-27,Real Madrid,Home,87,87,2,2,0,André,Schürrle,,Pulisic,Piszczek,No Official Assist (Pulisic cross blocked and fell to Schürrle),schurrle,,pulisic,piszczek,inactive,
 2016-17,Champions League,GR-3,3,2016-10-18,Sporting CP,Away,9,9,1,0,1,Pierre-Emerick,Aubameyang,Götze,Götze,,No 2nd Assist (Götze won the ball),aubameyang,gotze,gotze,,inactive,
@@ -98,7 +98,7 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2016-17,Champions League,R16-2,8,2017-03-08,Benfica,Home,85,85,4,0,4,Pierre-Emerick,Aubameyang,Durm,Durm,Castro,,aubameyang,durm,durm,castro,inactive,
 2016-17,Champions League,QF-1,9,2017-04-12,AS Monaco,Home,57,57,1,2,-1,Ousmane,Dembélé,Kagawa,Kagawa,Aubameyang,,dembele,kagawa,kagawa,aubameyang,inactive,
 2016-17,Champions League,QF-1,9,2017-04-12,AS Monaco,Home,84,84,2,3,-1,Shinji,Kagawa,Şahin,Şahin,,No 2nd Assist (Şahin wins loose ball),kagawa,sahin,sahin,,inactive,
-2016-17,Champions League,QF-2,10,2017-04-19,AS Monaco,Away,48,48,1,2,-1,Marco,Reus,Dembélé,Dembélé,,,reus,dembele,dembele,,active,incomplete
+2016-17,Champions League,QF-2,10,2017-04-19,AS Monaco,Away,48,48,1,2,-1,Marco,Reus,Dembélé,Dembélé,Papastathopoulos,,reus,dembele,dembele,papastathopoulos,active,
 2016-17,DFB-Pokal,R1,1,2016-08-22,Trier,Away,8,8,1,0,1,Shinji,Kagawa,Aubameyang,Aubameyang,Schürrle,,kagawa,aubameyang,aubameyang,schurrle,inactive,
 2016-17,DFB-Pokal,R1,1,2016-08-22,Trier,Away,33,33,2,0,2,Shinji,Kagawa,Castro,Castro,Papastathopoulos,,kagawa,castro,castro,papastathopoulos,inactive,
 2016-17,DFB-Pokal,R1,1,2016-08-22,Trier,Away,45,45,3,0,3,André,Schürrle,,Aubameyang,Dembélé,No Official Assist (Unclear why),schurrle,,aubameyang,dembele,inactive,
