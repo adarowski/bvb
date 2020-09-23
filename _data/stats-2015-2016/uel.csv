@@ -2,7 +2,7 @@ id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_t
 aubameyang,Pierre-Emerick,Aubameyang,🇬🇦,Gabon,772,9,1,1,1,2,11,0,1.05,0.23,1.28,1.28,20,55.0%,inactive
 bender,Sven,Bender,🇩🇪,Germany,567,0,0,1,0,1,1,0,0.00,0.16,0.16,0.16,9,11.1%,inactive
 burki,Roman,Bürki,🇨🇭,Switzerland,180,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,active
-castro,Gonzalo,Castro,🇩🇪,Germany,683,1,2,2,4,6,7,0,0.13,0.79,0.92,0.92,15,46.7%,inactive
+castro,Gonzalo,Castro,🇩🇪,Germany,683,1,2,2,5,7,8,0,0.13,0.92,1.05,1.05,15,53.3%,inactive
 durm,Erik,Durm,🇩🇪,Germany,172,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,4,0.0%,inactive
 ginter,Matthias,Ginter,🇩🇪,Germany,538,1,1,1,0,1,2,0,0.17,0.17,0.33,0.33,10,20.0%,inactive
 gundogan,İlkay,Gündoğan,🇩🇪,Germany,325,0,0,0,1,1,1,0,0.00,0.28,0.28,0.28,7,14.3%,inactive

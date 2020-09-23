@@ -179,8 +179,7 @@ table {
 }
 
 tr {
-  &.row-all,
-  &.incomplete {
+  &.row-all {
     th, td {
       background-color: #FFF9CC;
     }
@@ -571,16 +570,6 @@ body.player li.players > a,
 body.players li.players > a,
 body.frauen li.frauen > a {
   border-color: rgba($black,0.4);
-}
-
-.incomplete-key {
-  display: inline-block;
-  background-color: #FFF9CC;
-  width: 24px;
-  height: 18px;
-  vertical-align: text-bottom;
-  margin-right: 5px;
-  border: 1px solid #ddd;
 }
 
 .subnav {

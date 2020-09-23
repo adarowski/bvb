@@ -47,7 +47,7 @@ body_class: goals
     <tbody>
       {% for season in seasons %}
         {% for goal in site.data.[season].goals %}
-          <tr data-scorer="{{ goal.id_scorer }}" class="{{ goal.incomplete }}">
+          <tr data-scorer="{{ goal.id_scorer }}">
             <td class="left" data-sort="{{ goal.id_scorer }}">
               {% for player in site.data.players %}
                 {% if player.id == goal.id_scorer %}
@@ -84,11 +84,6 @@ body_class: goals
     </tbody>
   </table>
 </div>
-
-<p>
-  <span class="incomplete-key"></span>
-  Denotes that I have not yet found clear, complete video of the goal buildup. I may be missing the second assist (if there is one) and possibly the first.
-</p>
 
 <script>
   new Tablesort(document.getElementById('all-goals'));
