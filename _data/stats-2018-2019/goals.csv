@@ -91,9 +91,9 @@ season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_firs
 2018-19,Champions League,GR-6,6,2018-12-11,Monaco,Away,15,15,1,0,1,Raphaël,Guerreiro,Philipp,Philipp,Pulisic,,guerreiro,philipp,philipp,pulisic,active,
 2018-19,Champions League,GR-6,6,2018-12-11,Monaco,Away,88,88,2,0,2,Raphaël,Guerreiro,Alcácer,Alcácer,Pulisic,,guerreiro,alcacer,alcacer,pulisic,active,
 2018-19,DFB-Pokal,R1,1,2018-08-20,Greuther Fürth,Away,90+5,90.5,1,1,0,Axel,Witsel,Reus,Reus,Bürki,Bürki pass took deflection before reaching Reus,witsel,reus,reus,burki,active,
-2018-19,DFB-Pokal,R1,1,2018-08-20,Greuther Fürth,Away,120,120,2,1,1,Marco,Reus,Sancho,Sancho,,,reus,sancho,sancho,,active,incomplete
+2018-19,DFB-Pokal,R1,1,2018-08-20,Greuther Fürth,Away,120,120,2,1,1,Marco,Reus,Sancho,Sancho,Akanji,,reus,sancho,sancho,akanji,active,
 2018-19,DFB-Pokal,R2,2,2018-10-31,Union Berlin,Home,40,40,1,0,1,Christian,Pulisic,,Kagawa,Dahoud,No Official Assist (Kagawa shot saved and fell to Pulisic),pulisic,,kagawa,dahoud,inactive,
-2018-19,DFB-Pokal,R2,2,2018-10-31,Union Berlin,Home,73,73,2,1,1,Maximilian,Philipp,,Pulisic,,,philipp,,pulisic,,inactive,incomplete
+2018-19,DFB-Pokal,R2,2,2018-10-31,Union Berlin,Home,73,73,2,1,1,Maximilian,Philipp,,Pulisic,Kagawa,No Official Assist (Unclear why); Combination (Kagawa to Philipp to Pulisic to Philipp),philipp,,pulisic,kagawa,inactive,
 2018-19,DFB-Pokal,R2,2,2018-10-31,Union Berlin,Home,120+1,120.1,3,2,1,Marco,Reus,,,,No Assists (Penalty),reus,,,,active,
 2018-19,DFB-Pokal,R16,3,2019-02-05,Werder Bremen,Home,45+3,45.3,1,1,0,Marco,Reus,,,,No Assists (Direct free kick),reus,,,,active,
 2018-19,DFB-Pokal,R16,3,2019-02-05,Werder Bremen,Home,105,105,2,1,1,Christian,Pulisic,Alcácer,Alcácer,Witsel,,pulisic,alcacer,alcacer,witsel,inactive,

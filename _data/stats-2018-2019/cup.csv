@@ -1,5 +1,5 @@
 id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
-akanji,Manuel,Akanji,🇨🇭,Switzerland,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
+akanji,Manuel,Akanji,🇨🇭,Switzerland,120,0,0,0,1,1,1,0,0.00,0.75,0.75,0.75,2,50.0%,active
 alcacer,Paco,Alcácer,🇪🇸,Spain,75,0,1,1,0,1,1,0,0.00,1.20,1.20,1.20,2,50.0%,inactive
 bruun-larsen,Jacob,Bruun Larsen,🇩🇰,Denmark,30,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,inactive
 burki,Roman,Bürki,🇨🇭,Switzerland,120,0,0,0,1,1,1,0,0.00,0.75,0.75,0.75,2,50.0%,active
@@ -10,7 +10,7 @@ gotze,Mario,Götze,🇩🇪,Germany,153,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%
 guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,221,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
 hakimi,Achraf,Hakimi,🇲🇦,Morocco,240,1,0,0,0,0,1,0,0.38,0.00,0.38,0.38,6,16.7%,inactive
 hitz,Marwin,Hitz,🇨🇭,Switzerland,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,active
-kagawa,Shinji,Kagawa,🇯🇵,Japan,78,0,0,1,0,1,1,0,0.00,1.15,1.15,1.15,2,50.0%,inactive
+kagawa,Shinji,Kagawa,🇯🇵,Japan,78,0,0,1,1,2,2,0,0.00,2.31,2.31,2.31,2,100.0%,inactive
 oelschlagel,Eric,Oelschlägel,🇩🇪,Germany,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,inactive
 philipp,Maximilian,Philipp,🇩🇪,Germany,207,1,1,1,0,1,2,0,0.43,0.43,0.87,0.87,7,28.6%,inactive
 piszczek,Łukasz,Piszczek,🇵🇱,Poland,120,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
