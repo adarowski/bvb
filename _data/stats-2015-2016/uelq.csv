@@ -1,11 +1,11 @@
 id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
 aubameyang,Pierre-Emerick,Aubameyang,🇬🇦,Gabon,297,3,1,1,1,2,5,0,0.91,0.61,1.52,1.52,11,45.5%,inactive
-bender,Sven,Bender,🇩🇪,Germany,106,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,6,0.0%,inactive
+bender,Sven,Bender,🇩🇪,Germany,106,0,0,1,0,1,1,0,0.00,0.85,0.85,0.85,6,16.7%,inactive
 burki,Roman,Bürki,🇨🇭,Switzerland,90,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
-castro,Gonzalo,Castro,🇩🇪,Germany,96,0,0,0,1,1,1,0,0.00,0.94,0.94,0.94,6,16.7%,inactive
+castro,Gonzalo,Castro,🇩🇪,Germany,96,0,0,0,2,2,2,0,0.00,1.88,1.88,1.88,6,33.3%,inactive
 ginter,Matthias,Ginter,🇩🇪,Germany,180,0,1,1,0,1,1,0,0.00,0.50,0.50,0.50,11,9.1%,inactive
 gundogan,İlkay,Gündoğan,🇩🇪,Germany,321,1,2,3,3,6,7,0,0.28,1.68,1.96,1.96,14,50.0%,inactive
-hofmann,Jonas,Hofmann,🇩🇪,Germany,169,1,1,1,1,2,3,0,0.53,1.07,1.60,1.60,10,30.0%,inactive
+hofmann,Jonas,Hofmann,🇩🇪,Germany,169,1,1,2,1,3,4,0,0.53,1.60,2.13,2.13,10,40.0%,inactive
 hummels,Mats,Hummels,🇩🇪,Germany,360,0,1,1,0,1,1,0,0.00,0.25,0.25,0.25,17,5.9%,active
 kagawa,Shinji,Kagawa,🇯🇵,Japan,269,3,1,1,1,2,5,0,1.00,0.67,1.67,1.67,13,38.5%,inactive
 kampl,Kevin,Kampl,🇩🇪,Germany,74,0,0,0,1,1,1,0,0.00,1.22,1.22,1.22,3,33.3%,inactive
@@ -14,6 +14,6 @@ papastathopoulos,Sokratis,Papastathopoulos,🇬🇷,Greece,288,0,0,0,0,0,0,0,0.0
 piszczek,Łukasz,Piszczek,🇵🇱,Poland,207,0,0,1,0,1,1,0,0.00,0.43,0.43,0.43,7,14.3%,active
 ramos,Adrián,Ramos,🇨🇴,Colombia,28,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,inactive
 reus,Marco,Reus,🇩🇪,Germany,244,4,0,0,2,2,6,0,1.48,0.74,2.21,2.21,11,54.5%,active
-schmelzer,Marcel,Schmelzer,🇩🇪,Germany,360,0,1,1,1,2,2,0,0.00,0.50,0.50,0.50,17,11.8%,active
+schmelzer,Marcel,Schmelzer,🇩🇪,Germany,360,0,1,1,2,3,3,0,0.00,0.75,0.75,0.75,17,17.6%,active
 weidenfeller,Roman,Weidenfeller,🇩🇪,Germany,270,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,16,0.0%,inactive
 weigl,Julian,Weigl,🇩🇪,Germany,268,0,0,1,2,3,3,0,0.00,1.01,1.01,1.01,14,21.4%,inactive

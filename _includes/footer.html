@@ -1,9 +1,3 @@
-{% for goal in site.data.stats-2015-2016.goals %}
-  {% if goal.incomplete == "incomplete" %}
-    {% assign goals20152016ct = goals20152016ct | plus:1 %}
-  {% endif %}
-{% endfor %}
-
 <div class="key">
   <h3>About Hockey-Style Scoring</h3>
   <ul>
@@ -24,7 +18,7 @@
     <li><strong><a href="stats-2018-2019">2018-19:</a></strong> <a href="goals-2018-2019">{{ site.data.stats-2018-2019.goals.size }} goals</a>; Bundesliga, Champions League, DFB-Pokal (All Competitions)
     <li><strong><a href="stats-2017-2018">2017-18:</a></strong> <a href="goals-2017-2018">{{ site.data.stats-2017-2018.goals.size }} goals</a>; Bundesliga, Champions League, Europa League, DFB-Pokal, DFL-Supercup (All Competitions)</li>
     <li><strong><a href="stats-2016-2017">2016-17:</a></strong> <a href="goals-2016-2017">{{ site.data.stats-2016-2017.goals.size }} goals</a>; Bundesliga, Champions League, DFB-Pokal, DFL-Supercup (All Competitions)</li>
-    <li><strong><a href="stats-2015-2016">2015-16:</a></strong> <a href="goals-2015-2016">{{ site.data.stats-2015-2016.goals.size }} goals</a>; Bundesliga, Europa League, Europa League Qualifying, DFB-Pokal (All Competitions) – <a href="goals-2015-2016">{{ goals20152016ct }} goals incomplete</a></li>
+    <li><strong><a href="stats-2015-2016">2015-16:</a></strong> <a href="goals-2015-2016">{{ site.data.stats-2015-2016.goals.size }} goals</a>; Bundesliga, Europa League, Europa League Qualifying, DFB-Pokal (All Competitions)</li>
     <li><strong><a href="stats-2020-2021-preseason">2020-21 Preseason:</a></strong> <a href="goals-2020-2021-preseason">{{ site.data.stats-2020-2021-preseason.goals.size }} goals</a> (Not included in season totals)</li>
   </ul>
   <h3>Credits</h3>
