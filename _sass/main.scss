@@ -626,19 +626,22 @@ body.frauen li.frauen > a {
   position: absolute;
   left: 0;
   right: 0;
-  background: $yellow;
   z-index: 10;
-  padding: 10px 20px 20px;
-  display: none;
-  border-bottom: 5px solid $black;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
 
   ul {
-    margin: 0 0 15px;
-    padding: 0;
+    margin: 0;
+    padding: 10px 20px 20px;
+    background: $yellow;
     list-style: none;
     display: grid;
+    border-bottom: 5px solid $black;
     grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
     gap: 8px;
+    align-items: stretch;
 
     a {
       display: block;
@@ -661,14 +664,17 @@ body.frauen li.frauen > a {
   }
 
   .all-players {
-    color: $black;
+    padding-left: 10px;
+    height: 100%;
+    font-weight: bold;
   }
 }
 
 @media all and (min-width: 901px) {
   li.players:hover {
     .player-list {
-      display: block;
+      opacity: 1;
+      height: auto;
     }
   }
 }
