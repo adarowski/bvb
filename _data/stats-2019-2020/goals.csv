@@ -1,103 +1,103 @@
-season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd,active
-2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,3,3,1,1,0,Paco,Alcácer,,Reus,Sancho,No Official Assist (Reus pass deflected off the keeper),alcacer,,reus,sancho,inactive
-2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,51,51,2,1,1,Jadon,Sancho,Witsel,Witsel,Schulz,,sancho,witsel,witsel,schulz,active
-2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,57,57,3,1,2,Marco,Reus,Alcácer,Alcácer,Sancho,"Sancho cross, keeper deflected to Alcácer",reus,alcacer,alcacer,sancho,active
-2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,59,59,4,1,3,Paco,Alcácer,Sancho,Sancho,Hummels,,alcacer,sancho,sancho,hummels,inactive
-2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,82,82,5,1,4,Julian,Brandt,Witsel,Witsel,Sancho,,brandt,witsel,witsel,sancho,active
-2019-20,Bundesliga,MD2,2,2019-08-23,Köln,Away,70,70,1,1,0,Jadon,Sancho,Hazard,Hazard,Alcácer,,sancho,hazard,hazard,alcacer,active
-2019-20,Bundesliga,MD2,2,2019-08-23,Köln,Away,86,86,2,1,1,Achraf,Hakimi,Piszczek,Piszczek,Brandt,,hakimi,piszczek,piszczek,brandt,inactive
-2019-20,Bundesliga,MD2,2,2019-08-23,Köln,Away,90+4,90.4,3,1,2,Paco,Alcácer,Sancho,Sancho,Brandt,,alcacer,sancho,sancho,brandt,inactive
-2019-20,Bundesliga,MD3,3,2019-08-31,Union Berlin,Away,25,25,1,1,0,Paco,Alcácer,Sancho,Sancho,Reus,,alcacer,sancho,sancho,reus,inactive
-2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,28,28,1,0,1,Paco,Alcácer,Hakimi,Hakimi,,No 2nd Assist (Hakimi won the ball),alcacer,hakimi,hakimi,,inactive
-2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,50,50,2,0,2,Marco,Reus,Sancho,Sancho,Akanji,,reus,sancho,sancho,akanji,active
-2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,83,83,3,0,3,Raphaël,Guerreiro,,Sancho,Delaney,No Official Assist (Sancho pass deflected off the keeper),guerreiro,,sancho,delaney,active
-2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,90,90,4,0,4,Marco,Reus,Bruun Larsen,Bruun Larsen,Hazard,,reus,bruun-larsen,bruun-larsen,hazard,active
-2019-20,Bundesliga,MD5,5,2019-09-22,Frankfurt,Away,11,11,1,0,1,Axel,Witsel,Hazard,Hazard,Sancho,Sancho shot punched away by the keeper to Hazard,witsel,hazard,hazard,sancho,active
-2019-20,Bundesliga,MD5,5,2019-09-22,Frankfurt,Away,66,66,2,1,1,Jadon,Sancho,Witsel,Witsel,Guerreiro,Guerreiro free kick saved by the keeper and fell to Witsel,sancho,witsel,witsel,guerreiro,active
-2019-20,Bundesliga,MD6,6,2019-09-28,Werder Bremen,Home,9,9,1,1,0,Mario,Götze,Piszczek,Piszczek,Hakimi,,gotze,piszczek,piszczek,hakimi,inactive
-2019-20,Bundesliga,MD6,6,2019-09-28,Werder Bremen,Home,41,41,2,1,1,Marco,Reus,Hazard,Hazard,Witsel,,reus,hazard,hazard,witsel,active
-2019-20,Bundesliga,MD7,7,2019-10-05,Freiburg,Away,20,20,1,0,1,Axel,Witsel,Hazard,Hazard,,No 2nd Assist (Hazard took the corner),witsel,hazard,hazard,,active
-2019-20,Bundesliga,MD7,7,2019-10-05,Freiburg,Away,67,67,2,1,1,Achraf,Hakimi,Sancho,Sancho,Brandt,,hakimi,sancho,sancho,brandt,inactive
-2019-20,Bundesliga,MD8,8,2019-10-19,Gladbach,Home,58,58,1,0,1,Marco,Reus,Hazard,Hazard,Brandt,,reus,hazard,hazard,brandt,active
-2019-20,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,52,52,1,0,1,Thorgan,Hazard,Hakimi,Hakimi,Hitz,Hitz long ball deflected off the defender to Hakimi,hazard,hakimi,hakimi,hitz,active
-2019-20,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,58,58,2,0,2,Raphaël,Guerreiro,Hazard,Hazard,Weigl,,guerreiro,hazard,hazard,weigl,active
-2019-20,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,88,88,3,0,3,Mario,Götze,,,,No Assists (Penalty),gotze,,,,inactive
-2019-20,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,47,47,1,3,-2,Jadon,Sancho,Hakimi,Hakimi,Brandt,,sancho,hakimi,hakimi,brandt,active
-2019-20,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,84,84,2,3,-1,Axel,Witsel,Hummels,Hummels,Guerreiro,Guerreiro free kick deflected off the defender to Hummels,witsel,hummels,hummels,guerreiro,active
-2019-20,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,90+2,90.2,3,3,0,Marco,Reus,Sancho,Sancho,Weigl,Weigl long pass deflected off the defender to Sancho,reus,sancho,sancho,weigl,active
-2019-20,Bundesliga,MD13,13,2019-11-30,Hertha Berlin,Away,15,15,1,0,1,Jadon,Sancho,Brandt,Brandt,Reus,,sancho,brandt,brandt,reus,active
-2019-20,Bundesliga,MD13,13,2019-11-30,Hertha Berlin,Away,17,17,2,0,2,Thorgan,Hazard,Hakimi,Hakimi,Akanji,,hazard,hakimi,hakimi,akanji,active
-2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,42,42,1,0,1,Marco,Reus,Piszczek,Piszczek,Brandt,,reus,piszczek,piszczek,brandt,active
-2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,58,58,2,0,2,Thorgan,Hazard,Sancho,Sancho,Brandt,,hazard,sancho,sancho,brandt,active
-2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,63,63,3,0,3,Jadon,Sancho,Reus,Reus,Guerreiro,Combination (Guerreiro to Sancho to Reus to Sancho),sancho,reus,reus,guerreiro,active
-2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,70,70,4,0,4,Marco,Reus,Hazard,Hazard,Hakimi,,reus,hazard,hazard,hakimi,active
-2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,74,74,5,0,5,Jadon,Sancho,Hakimi,Hakimi,Brandt,Combination (Brandt to Sancho to Hakimi to Sancho),sancho,hakimi,hakimi,brandt,active
-2019-20,Bundesliga,MD15,15,2019-12-14,Mainz,Away,32,32,1,0,1,Marco,Reus,,Hazard,Sancho,No Official Assist (Hazard cross cleared to Reus),reus,,hazard,sancho,active
-2019-20,Bundesliga,MD15,15,2019-12-14,Mainz,Away,66,66,2,0,2,Jadon,Sancho,Zagadou,Zagadou,,No 2nd Assist (Zagadou won the ball),sancho,zagadou,zagadou,,active
-2019-20,Bundesliga,MD15,15,2019-12-14,Mainz,Away,69,69,3,0,3,Thorgan,Hazard,Reus,Reus,Sancho,,hazard,reus,reus,sancho,active
-2019-20,Bundesliga,MD15,15,2019-12-14,Mainz,Away,84,84,4,0,4,Nico,Schulz,Sancho,Sancho,Dahoud,,schulz,sancho,sancho,dahoud,active
-2019-20,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,23,23,1,0,1,Julian,Weigl,Guerreiro,Guerreiro,Sancho,Sancho shot saved by the keeper and fell to Guerreiro,weigl,guerreiro,guerreiro,sancho,inactive
-2019-20,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,34,34,2,0,2,Julian,Brandt,Sancho,Sancho,Zagadou,,brandt,sancho,sancho,zagadou,active
-2019-20,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,55,55,3,2,1,Jadon,Sancho,Reus,Reus,Hakimi,,sancho,reus,reus,hakimi,active
-2019-20,Bundesliga,MD17,17,2019-12-20,Hoffenheim,Away,17,17,1,0,1,Mario,Götze,Hakimi,Hakimi,Hazard,,gotze,hakimi,hakimi,hazard,inactive
-2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,49,49,1,2,-1,Julian,Brandt,Hazard,Hazard,Piszczek,,brandt,hazard,hazard,piszczek,active
-2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,59,59,2,3,-1,Erling,Haaland,Sancho,Sancho,Witsel,,haaland,sancho,sancho,witsel,active
-2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,61,61,3,3,0,Jadon,Sancho,Hummels,Hummels,Akanji,,sancho,hummels,hummels,akanji,active
-2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,70,70,4,3,1,Erling,Haaland,Hazard,Hazard,Witsel,,haaland,hazard,hazard,witsel,active
-2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,79,79,5,3,2,Erling,Haaland,Reus,Reus,Reyna,,haaland,reus,reus,reyna,active
-2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,1,1,1,0,1,Raphaël,Guerreiro,Sancho,Sancho,Reus,,guerreiro,sancho,sancho,reus,active
-2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,29,29,2,0,2,Marco,Reus,Hummels,Hummels,Akanji,,reus,hummels,hummels,akanji,active
-2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,48,48,3,0,3,Jadon,Sancho,Reus,Reus,Brandt,,sancho,reus,reus,brandt,active
-2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,77,77,4,1,3,Erling,Haaland,,Guerreiro,Sancho,No Official Assist (Guerreiro shot saved by the keeper and fell to Haaland),haaland,,guerreiro,sancho,active
-2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,87,87,5,1,4,Erling,Haaland,Dahoud,Dahoud,Hakimi,,haaland,dahoud,dahoud,hakimi,active
-2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,13,13,1,0,1,Jadon,Sancho,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro won the ball),sancho,guerreiro,guerreiro,,active
-2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,18,18,2,0,2,Erling,Haaland,,Brandt,Sancho,"No Official Assist (Unclear why, perhaps there was a deflection on Brandt’s cross)",haaland,,brandt,sancho,active
-2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,68,68,3,0,3,Marco,Reus,,,,No Assists (Penalty),reus,,,,active
-2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,70,70,4,0,4,Axel,Witsel,Sancho,Sancho,Haaland,,witsel,sancho,sancho,haaland,active
-2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,76,76,5,0,5,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho,active
-2019-20,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,22,22,1,1,0,Mats,Hummels,Sancho,Sancho,,No 2nd Assist (Sancho took the corner),hummels,sancho,sancho,,active
-2019-20,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,33,33,2,1,1,Emre,Can,,Guerreiro,Witsel,No Official Assist (Deflection on Guerreiro shot); Combination (Witsel to Can to Guerreiro to Can),can,,guerreiro,witsel,active
-2019-20,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,64,64,3,2,1,Raphaël,Guerreiro,Hakimi,Hakimi,Sancho,,guerreiro,hakimi,hakimi,sancho,active
-2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,33,33,1,0,1,Łukasz,Piszczek,Hakimi,Hakimi,Guerreiro,Guerreiro cross blocked to Hakimi,piszczek,hakimi,hakimi,guerreiro,active
-2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,49,49,2,0,2,Jadon,Sancho,Witsel,Witsel,Hummels,,sancho,witsel,witsel,hummels,active
-2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,53,53,3,0,3,Erling,Haaland,Hakimi,Hakimi,Sancho,,haaland,hakimi,hakimi,sancho,active
-2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,74,74,4,0,4,Raphaël,Guerreiro,,,,No Assists (Guerreiro won the ball),guerreiro,,,,active
-2019-20,Bundesliga,MD23,23,2020-02-22,Werder Bremen,Away,52,52,1,0,1,Dan-Axel,Zagadou,Sancho,Sancho,,No 2nd Assist (Sancho took the corner),zagadou,sancho,sancho,,active
-2019-20,Bundesliga,MD23,23,2020-02-22,Werder Bremen,Away,66,66,2,0,2,Erling,Haaland,Hakimi,Hakimi,Sancho,,haaland,hakimi,hakimi,sancho,active
-2019-20,Bundesliga,MD24,24,2020-02-29,Freiburg,Home,15,15,1,0,1,Jadon,Sancho,Hazard,Hazard,Brandt,,sancho,hazard,hazard,brandt,active
-2019-20,Bundesliga,MD25,25,2020-03-07,Gladbach,Away,8,8,1,0,1,Thorgan,Hazard,Haaland,Haaland,,No 2nd Assist (Haaland won the ball),hazard,haaland,haaland,,active
-2019-20,Bundesliga,MD25,25,2020-03-07,Gladbach,Away,71,71,2,1,1,Achraf,Hakimi,Sancho,Sancho,Witsel,,hakimi,sancho,sancho,witsel,inactive
-2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,29,29,1,0,1,Erling,Haaland,Hazard,Hazard,Brandt,,haaland,hazard,hazard,brandt,active
-2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,45,45,2,0,2,Raphaël,Guerreiro,Brandt,Brandt,Dahoud,,guerreiro,brandt,brandt,dahoud,active
-2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,48,48,3,0,3,Thorgan,Hazard,Brandt,Brandt,Haaland,,hazard,brandt,brandt,haaland,active
-2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,63,63,4,0,4,Raphaël,Guerreiro,Haaland,Haaland,Brandt,Combination (Brandt to Guerreiro to Haaland to Guerreiro),guerreiro,haaland,haaland,brandt,active
-2019-20,Bundesliga,MD27,27,2020-05-23,Wolfsburg,Away,32,32,1,0,1,Raphaël,Guerreiro,Hazard,Hazard,Hakimi,,guerreiro,hazard,hazard,hakimi,active
-2019-20,Bundesliga,MD27,27,2020-05-23,Wolfsburg,Away,78,78,2,0,2,Achraf,Hakimi,Sancho,Sancho,Dahoud,,hakimi,sancho,sancho,dahoud,inactive
-2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,54,54,1,0,1,Thorgan,Hazard,,Can,Guerreiro,No Official Assist (Can shot saved and fell to Hazard),hazard,,can,guerreiro,active
-2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,57,57,2,0,2,Jadon,Sancho,Brandt,Brandt,Delaney,,sancho,brandt,brandt,delaney,active
-2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,74,74,3,1,2,Jadon,Sancho,Hazard,Hazard,Guerreiro,,sancho,hazard,hazard,guerreiro,active
-2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,85,85,4,1,3,Achraf,Hakimi,Schmelzer,Schmelzer,,No 2nd Assist (Schmelzer won the ball),hakimi,schmelzer,schmelzer,,inactive
-2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,89,89,5,1,4,Marcel,Schmelzer,Witsel,Witsel,Reyna,,schmelzer,witsel,witsel,reyna,active
-2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,90+1,90.1,6,1,5,Jadon,Sancho,Morey,Morey,Reyna,,sancho,morey,morey,reyna,active
-2019-20,Bundesliga,MD30,30,2020-06-06,Hertha Berlin,Home,57,57,1,0,1,Emre,Can,Brandt,Brandt,Sancho,,can,brandt,brandt,sancho,active
-2019-20,Bundesliga,MD31,31,2020-06-13,Düsseldorf,Away,90+5,90.5,1,0,1,Erling,Haaland,Akanji,Akanji,Brandt,,haaland,akanji,akanji,brandt,active
-2019-20,Bundesliga,MD33,33,2020-06-20,RB Leipzig,Away,30,30,1,0,1,Erling,Haaland,Reyna,Reyna,Brandt,,haaland,reyna,reyna,brandt,active
-2019-20,Bundesliga,MD33,33,2020-06-20,RB Leipzig,Away,90+3,90.3,2,0,2,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho,active
-2019-20,Champions League,GR-2,2,2019-10-02,Slavia Prague,Away,35,35,1,0,1,Achraf,Hakimi,Brandt,Brandt,Piszczek,Combination (Piszczek to Hakimi to Brandt to Hakimi),hakimi,brandt,brandt,piszczek,inactive
-2019-20,Champions League,GR-2,2,2019-10-02,Slavia Prague,Away,89,89,2,0,2,Achraf,Hakimi,Brandt,Brandt,Delaney,,hakimi,brandt,brandt,delaney,inactive
-2019-20,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,51,51,1,2,-1,Achraf,Hakimi,Götze,Götze,Hazard,,hakimi,götze,gotze,hazard,inactive
-2019-20,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,64,64,2,2,0,Julian,Brandt,Alcácer,Alcácer,,No 2nd Assist (Alcácer won the ball),brandt,alcácer,alcacer,,active
-2019-20,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,77,77,3,2,1,Achraf,Hakimi,Sancho,Sancho,Brandt,,hakimi,sancho,sancho,brandt,inactive
-2019-20,Champions League,GR-5,5,2019-11-27,Barcelona,Away,77,77,1,3,-2,Jadon,Sancho,Brandt,Brandt,Guerreiro,,sancho,brandt,brandt,guerreiro,active
-2019-20,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,10,10,1,0,1,Jadon,Sancho,Reus,Reus,Brandt,,sancho,reus,reus,brandt,active
-2019-20,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,61,61,2,1,1,Julian,Brandt,Sancho,Sancho,Guerreiro,,brandt,sancho,sancho,guerreiro,active
-2019-20,Champions League,R16-1,7,2020-02-18,PSG,Home,69,69,1,0,1,Erling,Haaland,,Guerreiro,Hakimi,No Official Assist (Guerreiro shot blocked and fell to Haaland),haaland,,guerreiro,hakimi,active
-2019-20,Champions League,R16-1,7,2020-02-18,PSG,Home,77,77,2,1,1,Erling,Haaland,Reyna,Reyna,Hummels,,haaland,reyna,reyna,hummels,active
-2019-20,DFB-Pokal,R1,1,2019-08-09,Uerdingen,Away,49,49,1,0,1,Marco,Reus,Akanji,Akanji,Witsel,,reus,akanji,akanji,witsel,active
-2019-20,DFB-Pokal,R1,1,2019-08-09,Uerdingen,Away,70,70,2,0,2,Paco,Alcácer,,,,No Assists (Alcácer free kick),alcacer,,,,inactive
-2019-20,DFB-Pokal,R2,2,2019-10-03,Gladbach,Home,77,77,1,1,0,Julian,Brandt,Piszczek,Piszczek,Witsel,,brandt,piszczek,piszczek,witsel,active
-2019-20,DFB-Pokal,R2,2,2019-10-3,Gladbach,Home,80,80,2,1,1,Julian,Brandt,Hazard,Hazard,Götze,,brandt,hazard,hazard,gotze,active
-2019-20,DFB-Pokal,R16,3,2020-02-04,Werder Bremen,Away,67,67,1,2,-1,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho,active
-2019-20,DFB-Pokal,R16,3,2020-02-04,Werder Bremen,Away,78,78,2,3,-1,Gio,Reyna,Brandt,Brandt,Schulz,,reyna,brandt,brandt,schulz,active
-2019-20,DFL-Supercup,F,1,2019-08-03,Bayern Munich,Home,48,48,1,0,1,Paco,Alcácer,Sancho,Sancho,,No 2nd Assist (Sancho won the ball),alcacer,sancho,sancho,,inactive
-2019-20,DFL-Supercup,F,1,2019-08-03,Bayern Munich,Home,69,69,2,0,2,Jadon,Sancho,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro won the ball),sancho,guerreiro,guerreiro,,active
+season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd,active
+2019-20,19-20-001,DFL-Supercup,F,1,2019-08-03,Bayern Munich,Home,48,48,1,0,1,Paco,Alcácer,Sancho,Sancho,,No 2nd Assist (Sancho won the ball),alcacer,sancho,sancho,,inactive
+2019-20,19-20-002,DFL-Supercup,F,1,2019-08-03,Bayern Munich,Home,69,69,2,0,2,Jadon,Sancho,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro won the ball),sancho,guerreiro,guerreiro,,active
+2019-20,19-20-003,DFB-Pokal,R1,1,2019-08-09,Uerdingen,Away,49,49,1,0,1,Marco,Reus,Akanji,Akanji,Witsel,,reus,akanji,akanji,witsel,active
+2019-20,19-20-004,DFB-Pokal,R1,1,2019-08-09,Uerdingen,Away,70,70,2,0,2,Paco,Alcácer,,,,No Assists (Alcácer free kick),alcacer,,,,inactive
+2019-20,19-20-005,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,3,3,1,1,0,Paco,Alcácer,,Reus,Sancho,No Official Assist (Reus pass deflected off the keeper),alcacer,,reus,sancho,inactive
+2019-20,19-20-006,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,51,51,2,1,1,Jadon,Sancho,Witsel,Witsel,Schulz,,sancho,witsel,witsel,schulz,active
+2019-20,19-20-007,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,57,57,3,1,2,Marco,Reus,Alcácer,Alcácer,Sancho,"Sancho cross, keeper deflected to Alcácer",reus,alcacer,alcacer,sancho,active
+2019-20,19-20-008,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,59,59,4,1,3,Paco,Alcácer,Sancho,Sancho,Hummels,,alcacer,sancho,sancho,hummels,inactive
+2019-20,19-20-009,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,82,82,5,1,4,Julian,Brandt,Witsel,Witsel,Sancho,,brandt,witsel,witsel,sancho,active
+2019-20,19-20-010,Bundesliga,MD2,2,2019-08-23,Köln,Away,70,70,1,1,0,Jadon,Sancho,Hazard,Hazard,Alcácer,,sancho,hazard,hazard,alcacer,active
+2019-20,19-20-011,Bundesliga,MD2,2,2019-08-23,Köln,Away,86,86,2,1,1,Achraf,Hakimi,Piszczek,Piszczek,Brandt,,hakimi,piszczek,piszczek,brandt,inactive
+2019-20,19-20-012,Bundesliga,MD2,2,2019-08-23,Köln,Away,90+4,90.4,3,1,2,Paco,Alcácer,Sancho,Sancho,Brandt,,alcacer,sancho,sancho,brandt,inactive
+2019-20,19-20-013,Bundesliga,MD3,3,2019-08-31,Union Berlin,Away,25,25,1,1,0,Paco,Alcácer,Sancho,Sancho,Reus,,alcacer,sancho,sancho,reus,inactive
+2019-20,19-20-014,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,28,28,1,0,1,Paco,Alcácer,Hakimi,Hakimi,,No 2nd Assist (Hakimi won the ball),alcacer,hakimi,hakimi,,inactive
+2019-20,19-20-015,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,50,50,2,0,2,Marco,Reus,Sancho,Sancho,Akanji,,reus,sancho,sancho,akanji,active
+2019-20,19-20-016,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,83,83,3,0,3,Raphaël,Guerreiro,,Sancho,Delaney,No Official Assist (Sancho pass deflected off the keeper),guerreiro,,sancho,delaney,active
+2019-20,19-20-017,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,90,90,4,0,4,Marco,Reus,Bruun Larsen,Bruun Larsen,Hazard,,reus,bruun-larsen,bruun-larsen,hazard,active
+2019-20,19-20-018,Bundesliga,MD5,5,2019-09-22,Frankfurt,Away,11,11,1,0,1,Axel,Witsel,Hazard,Hazard,Sancho,Sancho shot punched away by the keeper to Hazard,witsel,hazard,hazard,sancho,active
+2019-20,19-20-019,Bundesliga,MD5,5,2019-09-22,Frankfurt,Away,66,66,2,1,1,Jadon,Sancho,Witsel,Witsel,Guerreiro,Guerreiro free kick saved by the keeper and fell to Witsel,sancho,witsel,witsel,guerreiro,active
+2019-20,19-20-020,Bundesliga,MD6,6,2019-09-28,Werder Bremen,Home,9,9,1,1,0,Mario,Götze,Piszczek,Piszczek,Hakimi,,gotze,piszczek,piszczek,hakimi,inactive
+2019-20,19-20-021,Bundesliga,MD6,6,2019-09-28,Werder Bremen,Home,41,41,2,1,1,Marco,Reus,Hazard,Hazard,Witsel,,reus,hazard,hazard,witsel,active
+2019-20,19-20-022,Champions League,GR-2,2,2019-10-02,Slavia Prague,Away,35,35,1,0,1,Achraf,Hakimi,Brandt,Brandt,Piszczek,Combination (Piszczek to Hakimi to Brandt to Hakimi),hakimi,brandt,brandt,piszczek,inactive
+2019-20,19-20-023,Champions League,GR-2,2,2019-10-02,Slavia Prague,Away,89,89,2,0,2,Achraf,Hakimi,Brandt,Brandt,Delaney,,hakimi,brandt,brandt,delaney,inactive
+2019-20,19-20-024,DFB-Pokal,R2,2,2019-10-03,Gladbach,Home,77,77,1,1,0,Julian,Brandt,Piszczek,Piszczek,Witsel,,brandt,piszczek,piszczek,witsel,active
+2019-20,19-20-025,DFB-Pokal,R2,2,2019-10-3,Gladbach,Home,80,80,2,1,1,Julian,Brandt,Hazard,Hazard,Götze,,brandt,hazard,hazard,gotze,active
+2019-20,19-20-026,Bundesliga,MD7,7,2019-10-05,Freiburg,Away,20,20,1,0,1,Axel,Witsel,Hazard,Hazard,,No 2nd Assist (Hazard took the corner),witsel,hazard,hazard,,active
+2019-20,19-20-027,Bundesliga,MD7,7,2019-10-05,Freiburg,Away,67,67,2,1,1,Achraf,Hakimi,Sancho,Sancho,Brandt,,hakimi,sancho,sancho,brandt,inactive
+2019-20,19-20-028,Bundesliga,MD8,8,2019-10-19,Gladbach,Home,58,58,1,0,1,Marco,Reus,Hazard,Hazard,Brandt,,reus,hazard,hazard,brandt,active
+2019-20,19-20-029,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,52,52,1,0,1,Thorgan,Hazard,Hakimi,Hakimi,Hitz,Hitz long ball deflected off the defender to Hakimi,hazard,hakimi,hakimi,hitz,active
+2019-20,19-20-030,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,58,58,2,0,2,Raphaël,Guerreiro,Hazard,Hazard,Weigl,,guerreiro,hazard,hazard,weigl,active
+2019-20,19-20-031,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,88,88,3,0,3,Mario,Götze,,,,No Assists (Penalty),gotze,,,,inactive
+2019-20,19-20-032,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,51,51,1,2,-1,Achraf,Hakimi,Götze,Götze,Hazard,,hakimi,götze,gotze,hazard,inactive
+2019-20,19-20-033,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,64,64,2,2,0,Julian,Brandt,Alcácer,Alcácer,,No 2nd Assist (Alcácer won the ball),brandt,alcácer,alcacer,,active
+2019-20,19-20-034,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,77,77,3,2,1,Achraf,Hakimi,Sancho,Sancho,Brandt,,hakimi,sancho,sancho,brandt,inactive
+2019-20,19-20-035,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,47,47,1,3,-2,Jadon,Sancho,Hakimi,Hakimi,Brandt,,sancho,hakimi,hakimi,brandt,active
+2019-20,19-20-036,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,84,84,2,3,-1,Axel,Witsel,Hummels,Hummels,Guerreiro,Guerreiro free kick deflected off the defender to Hummels,witsel,hummels,hummels,guerreiro,active
+2019-20,19-20-037,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,90+2,90.2,3,3,0,Marco,Reus,Sancho,Sancho,Weigl,Weigl long pass deflected off the defender to Sancho,reus,sancho,sancho,weigl,active
+2019-20,19-20-038,Champions League,GR-5,5,2019-11-27,Barcelona,Away,77,77,1,3,-2,Jadon,Sancho,Brandt,Brandt,Guerreiro,,sancho,brandt,brandt,guerreiro,active
+2019-20,19-20-039,Bundesliga,MD13,13,2019-11-30,Hertha Berlin,Away,15,15,1,0,1,Jadon,Sancho,Brandt,Brandt,Reus,,sancho,brandt,brandt,reus,active
+2019-20,19-20-040,Bundesliga,MD13,13,2019-11-30,Hertha Berlin,Away,17,17,2,0,2,Thorgan,Hazard,Hakimi,Hakimi,Akanji,,hazard,hakimi,hakimi,akanji,active
+2019-20,19-20-041,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,42,42,1,0,1,Marco,Reus,Piszczek,Piszczek,Brandt,,reus,piszczek,piszczek,brandt,active
+2019-20,19-20-042,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,58,58,2,0,2,Thorgan,Hazard,Sancho,Sancho,Brandt,,hazard,sancho,sancho,brandt,active
+2019-20,19-20-043,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,63,63,3,0,3,Jadon,Sancho,Reus,Reus,Guerreiro,Combination (Guerreiro to Sancho to Reus to Sancho),sancho,reus,reus,guerreiro,active
+2019-20,19-20-044,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,70,70,4,0,4,Marco,Reus,Hazard,Hazard,Hakimi,,reus,hazard,hazard,hakimi,active
+2019-20,19-20-045,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,74,74,5,0,5,Jadon,Sancho,Hakimi,Hakimi,Brandt,Combination (Brandt to Sancho to Hakimi to Sancho),sancho,hakimi,hakimi,brandt,active
+2019-20,19-20-046,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,10,10,1,0,1,Jadon,Sancho,Reus,Reus,Brandt,,sancho,reus,reus,brandt,active
+2019-20,19-20-047,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,61,61,2,1,1,Julian,Brandt,Sancho,Sancho,Guerreiro,,brandt,sancho,sancho,guerreiro,active
+2019-20,19-20-048,Bundesliga,MD15,15,2019-12-14,Mainz,Away,32,32,1,0,1,Marco,Reus,,Hazard,Sancho,No Official Assist (Hazard cross cleared to Reus),reus,,hazard,sancho,active
+2019-20,19-20-049,Bundesliga,MD15,15,2019-12-14,Mainz,Away,66,66,2,0,2,Jadon,Sancho,Zagadou,Zagadou,,No 2nd Assist (Zagadou won the ball),sancho,zagadou,zagadou,,active
+2019-20,19-20-050,Bundesliga,MD15,15,2019-12-14,Mainz,Away,69,69,3,0,3,Thorgan,Hazard,Reus,Reus,Sancho,,hazard,reus,reus,sancho,active
+2019-20,19-20-051,Bundesliga,MD15,15,2019-12-14,Mainz,Away,84,84,4,0,4,Nico,Schulz,Sancho,Sancho,Dahoud,,schulz,sancho,sancho,dahoud,active
+2019-20,19-20-052,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,23,23,1,0,1,Julian,Weigl,Guerreiro,Guerreiro,Sancho,Sancho shot saved by the keeper and fell to Guerreiro,weigl,guerreiro,guerreiro,sancho,inactive
+2019-20,19-20-053,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,34,34,2,0,2,Julian,Brandt,Sancho,Sancho,Zagadou,,brandt,sancho,sancho,zagadou,active
+2019-20,19-20-054,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,55,55,3,2,1,Jadon,Sancho,Reus,Reus,Hakimi,,sancho,reus,reus,hakimi,active
+2019-20,19-20-055,Bundesliga,MD17,17,2019-12-20,Hoffenheim,Away,17,17,1,0,1,Mario,Götze,Hakimi,Hakimi,Hazard,,gotze,hakimi,hakimi,hazard,inactive
+2019-20,19-20-056,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,49,49,1,2,-1,Julian,Brandt,Hazard,Hazard,Piszczek,,brandt,hazard,hazard,piszczek,active
+2019-20,19-20-057,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,59,59,2,3,-1,Erling,Haaland,Sancho,Sancho,Witsel,,haaland,sancho,sancho,witsel,active
+2019-20,19-20-058,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,61,61,3,3,0,Jadon,Sancho,Hummels,Hummels,Akanji,,sancho,hummels,hummels,akanji,active
+2019-20,19-20-059,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,70,70,4,3,1,Erling,Haaland,Hazard,Hazard,Witsel,,haaland,hazard,hazard,witsel,active
+2019-20,19-20-060,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,79,79,5,3,2,Erling,Haaland,Reus,Reus,Reyna,,haaland,reus,reus,reyna,active
+2019-20,19-20-061,Bundesliga,MD19,19,2020-01-24,Köln,Home,1,1,1,0,1,Raphaël,Guerreiro,Sancho,Sancho,Reus,,guerreiro,sancho,sancho,reus,active
+2019-20,19-20-062,Bundesliga,MD19,19,2020-01-24,Köln,Home,29,29,2,0,2,Marco,Reus,Hummels,Hummels,Akanji,,reus,hummels,hummels,akanji,active
+2019-20,19-20-063,Bundesliga,MD19,19,2020-01-24,Köln,Home,48,48,3,0,3,Jadon,Sancho,Reus,Reus,Brandt,,sancho,reus,reus,brandt,active
+2019-20,19-20-064,Bundesliga,MD19,19,2020-01-24,Köln,Home,77,77,4,1,3,Erling,Haaland,,Guerreiro,Sancho,No Official Assist (Guerreiro shot saved by the keeper and fell to Haaland),haaland,,guerreiro,sancho,active
+2019-20,19-20-065,Bundesliga,MD19,19,2020-01-24,Köln,Home,87,87,5,1,4,Erling,Haaland,Dahoud,Dahoud,Hakimi,,haaland,dahoud,dahoud,hakimi,active
+2019-20,19-20-066,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,13,13,1,0,1,Jadon,Sancho,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro won the ball),sancho,guerreiro,guerreiro,,active
+2019-20,19-20-067,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,18,18,2,0,2,Erling,Haaland,,Brandt,Sancho,"No Official Assist (Unclear why, perhaps there was a deflection on Brandt’s cross)",haaland,,brandt,sancho,active
+2019-20,19-20-068,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,68,68,3,0,3,Marco,Reus,,,,No Assists (Penalty),reus,,,,active
+2019-20,19-20-069,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,70,70,4,0,4,Axel,Witsel,Sancho,Sancho,Haaland,,witsel,sancho,sancho,haaland,active
+2019-20,19-20-070,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,76,76,5,0,5,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho,active
+2019-20,19-20-071,DFB-Pokal,R16,3,2020-02-04,Werder Bremen,Away,67,67,1,2,-1,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho,active
+2019-20,19-20-072,DFB-Pokal,R16,3,2020-02-04,Werder Bremen,Away,78,78,2,3,-1,Gio,Reyna,Brandt,Brandt,Schulz,,reyna,brandt,brandt,schulz,active
+2019-20,19-20-073,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,22,22,1,1,0,Mats,Hummels,Sancho,Sancho,,No 2nd Assist (Sancho took the corner),hummels,sancho,sancho,,active
+2019-20,19-20-074,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,33,33,2,1,1,Emre,Can,,Guerreiro,Witsel,No Official Assist (Deflection on Guerreiro shot); Combination (Witsel to Can to Guerreiro to Can),can,,guerreiro,witsel,active
+2019-20,19-20-075,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,64,64,3,2,1,Raphaël,Guerreiro,Hakimi,Hakimi,Sancho,,guerreiro,hakimi,hakimi,sancho,active
+2019-20,19-20-076,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,33,33,1,0,1,Łukasz,Piszczek,Hakimi,Hakimi,Guerreiro,Guerreiro cross blocked to Hakimi,piszczek,hakimi,hakimi,guerreiro,active
+2019-20,19-20-077,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,49,49,2,0,2,Jadon,Sancho,Witsel,Witsel,Hummels,,sancho,witsel,witsel,hummels,active
+2019-20,19-20-078,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,53,53,3,0,3,Erling,Haaland,Hakimi,Hakimi,Sancho,,haaland,hakimi,hakimi,sancho,active
+2019-20,19-20-079,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,74,74,4,0,4,Raphaël,Guerreiro,,,,No Assists (Guerreiro won the ball),guerreiro,,,,active
+2019-20,19-20-080,Champions League,R16-1,7,2020-02-18,PSG,Home,69,69,1,0,1,Erling,Haaland,,Guerreiro,Hakimi,No Official Assist (Guerreiro shot blocked and fell to Haaland),haaland,,guerreiro,hakimi,active
+2019-20,19-20-081,Champions League,R16-1,7,2020-02-18,PSG,Home,77,77,2,1,1,Erling,Haaland,Reyna,Reyna,Hummels,,haaland,reyna,reyna,hummels,active
+2019-20,19-20-082,Bundesliga,MD23,23,2020-02-22,Werder Bremen,Away,52,52,1,0,1,Dan-Axel,Zagadou,Sancho,Sancho,,No 2nd Assist (Sancho took the corner),zagadou,sancho,sancho,,active
+2019-20,19-20-083,Bundesliga,MD23,23,2020-02-22,Werder Bremen,Away,66,66,2,0,2,Erling,Haaland,Hakimi,Hakimi,Sancho,,haaland,hakimi,hakimi,sancho,active
+2019-20,19-20-084,Bundesliga,MD24,24,2020-02-29,Freiburg,Home,15,15,1,0,1,Jadon,Sancho,Hazard,Hazard,Brandt,,sancho,hazard,hazard,brandt,active
+2019-20,19-20-085,Bundesliga,MD25,25,2020-03-07,Gladbach,Away,8,8,1,0,1,Thorgan,Hazard,Haaland,Haaland,,No 2nd Assist (Haaland won the ball),hazard,haaland,haaland,,active
+2019-20,19-20-086,Bundesliga,MD25,25,2020-03-07,Gladbach,Away,71,71,2,1,1,Achraf,Hakimi,Sancho,Sancho,Witsel,,hakimi,sancho,sancho,witsel,inactive
+2019-20,19-20-087,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,29,29,1,0,1,Erling,Haaland,Hazard,Hazard,Brandt,,haaland,hazard,hazard,brandt,active
+2019-20,19-20-088,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,45,45,2,0,2,Raphaël,Guerreiro,Brandt,Brandt,Dahoud,,guerreiro,brandt,brandt,dahoud,active
+2019-20,19-20-089,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,48,48,3,0,3,Thorgan,Hazard,Brandt,Brandt,Haaland,,hazard,brandt,brandt,haaland,active
+2019-20,19-20-090,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,63,63,4,0,4,Raphaël,Guerreiro,Haaland,Haaland,Brandt,Combination (Brandt to Guerreiro to Haaland to Guerreiro),guerreiro,haaland,haaland,brandt,active
+2019-20,19-20-091,Bundesliga,MD27,27,2020-05-23,Wolfsburg,Away,32,32,1,0,1,Raphaël,Guerreiro,Hazard,Hazard,Hakimi,,guerreiro,hazard,hazard,hakimi,active
+2019-20,19-20-092,Bundesliga,MD27,27,2020-05-23,Wolfsburg,Away,78,78,2,0,2,Achraf,Hakimi,Sancho,Sancho,Dahoud,,hakimi,sancho,sancho,dahoud,inactive
+2019-20,19-20-093,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,54,54,1,0,1,Thorgan,Hazard,,Can,Guerreiro,No Official Assist (Can shot saved and fell to Hazard),hazard,,can,guerreiro,active
+2019-20,19-20-094,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,57,57,2,0,2,Jadon,Sancho,Brandt,Brandt,Delaney,,sancho,brandt,brandt,delaney,active
+2019-20,19-20-095,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,74,74,3,1,2,Jadon,Sancho,Hazard,Hazard,Guerreiro,,sancho,hazard,hazard,guerreiro,active
+2019-20,19-20-096,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,85,85,4,1,3,Achraf,Hakimi,Schmelzer,Schmelzer,,No 2nd Assist (Schmelzer won the ball),hakimi,schmelzer,schmelzer,,inactive
+2019-20,19-20-097,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,89,89,5,1,4,Marcel,Schmelzer,Witsel,Witsel,Reyna,,schmelzer,witsel,witsel,reyna,active
+2019-20,19-20-098,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,90+1,90.1,6,1,5,Jadon,Sancho,Morey,Morey,Reyna,,sancho,morey,morey,reyna,active
+2019-20,19-20-099,Bundesliga,MD30,30,2020-06-06,Hertha Berlin,Home,57,57,1,0,1,Emre,Can,Brandt,Brandt,Sancho,,can,brandt,brandt,sancho,active
+2019-20,19-20-100,Bundesliga,MD31,31,2020-06-13,Düsseldorf,Away,90+5,90.5,1,0,1,Erling,Haaland,Akanji,Akanji,Brandt,,haaland,akanji,akanji,brandt,active
+2019-20,19-20-101,Bundesliga,MD33,33,2020-06-20,RB Leipzig,Away,30,30,1,0,1,Erling,Haaland,Reyna,Reyna,Brandt,,haaland,reyna,reyna,brandt,active
+2019-20,19-20-102,Bundesliga,MD33,33,2020-06-20,RB Leipzig,Away,90+3,90.3,2,0,2,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho,active
