@@ -398,6 +398,67 @@ tbody {
   }
 }
 
+.stats-header {
+  display: flex;
+  overflow-x: scroll;
+  background-color: #f6f6f6;
+  background-image: linear-gradient(#fff, rgba($yellow, 0.3));
+  border-bottom: 5px solid $yellow;
+  padding: 0 20px 0 20px;
+  margin: 0 -20px 20px;;
+
+  img {
+    width: 125px;
+    margin-right: 20px;
+    display: block;
+  }
+
+  .player-data {
+    display: flex;
+    align-items: flex-end;
+    margin-right: 20px;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+
+    a {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+
+  .player-data-stats {
+    ul {
+      display: flex;
+      background-color: $black;
+      color: $yellow;
+      text-align: center;
+      padding: 0;
+      list-style: none;
+      font-size: 13px;
+      font-weight: bold;
+      margin: 0 0 20px;
+      border-top: 5px solid $yellow;
+      justify-content: center;
+
+      li {
+        padding: 6px 10px 10px;
+        white-space: nowrap;
+      }
+
+      strong {
+        display: block;
+        font-size: 24px;
+        color: white;
+        line-height: 1;
+        margin-bottom: 2px;
+      }
+    }
+  }
+}
+
 .player-header {
   display: flex;
   background-color: #f6f6f6;
@@ -405,55 +466,7 @@ tbody {
   border-bottom: 5px solid $yellow;
   padding: 0 20px 0 20px;
   align-items: center;
-  margin: 0 -20px 20px;;
-
-  &.home {
-    align-items: flex-end;
-    overflow-x: scroll;
-
-    a {
-      margin-left: -100px;
-
-      &:nth-child(1) {
-        margin-left: 0;
-
-        @media all and (max-width: 900px) {
-          margin-left: -40px;
-        }
-      }
-
-      &:nth-child(3) {
-        z-index: 3;
-      }
-
-      &:nth-child(2),
-      &:nth-child(4) {
-        z-index: 2;
-      }
-
-      &:nth-child(1) img {
-        width: 290px;
-      }
-
-      &:nth-child(2) img {
-        width: 285px;
-      }
-
-      &:nth-child(3) img {
-        width: 275px;
-      }
-    }
-
-    img {
-      display: block;
-      width: 280px;
-
-      @media all and (max-width: 900px) {
-        margin-left: 0;
-        margin-right: 0;
-      }
-    }
-  }
+  margin: 0 -20px 20px;
 
   @media all and (max-width: 900px) {
     align-items: flex-end;
@@ -464,15 +477,6 @@ tbody {
   img {
     width: 300px;
     margin-right: 40px;
-
-    &.loan {
-      filter: grayscale(100%);
-    }
-
-    &.inactive {
-      filter: grayscale(100%);
-      opacity: 0.5;
-    }
 
     @media all and (max-width: 900px) {
       width: 160px;
@@ -646,7 +650,6 @@ body.frauen li.frauen > a {
     a {
       display: block;
       background-color: white;
-      border-radius: 4px;
       color: $black;
       text-decoration: none;
       display: flex;
