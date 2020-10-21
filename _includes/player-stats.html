@@ -1,5 +1,5 @@
 {% assign seasonsBundesliga = "stats-2020-2021,stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017,stats-2015-2016" | split: ','%}
-{% assign seasonsUcl = "stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017" | split: ','%}
+{% assign seasonsUcl = "stats-2020-2021,stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017" | split: ','%}
 {% assign seasonsUel = "stats-2017-2018,stats-2015-2016" | split: ','%}
 {% assign seasonsUelq = "stats-2015-2016" | split: ','%}
 {% assign seasonsCup = "stats-2020-2021,stats-2019-2020,stats-2018-2019,stats-2017-2018,stats-2016-2017,stats-2015-2016" | split: ','%}
@@ -135,6 +135,7 @@
       </thead>
       <tbody>
         {% include player-stats-row.html player=include.player directory="stats-2020-2021" comp="bundesliga" long_label="2020-21 – Bundesliga" short_label="20-21 – BuLi" %}
+        {% include player-stats-row.html player=include.player directory="stats-2020-2021" comp="ucl" long_label="2020-21 – Champions League" short_label="20-21 – UCL" %}
         {% include player-stats-row.html player=include.player directory="stats-2020-2021" comp="cup" long_label="2020-21 – DFB-Pokal" short_label="20-21 – Cup" %}
         {% include player-stats-row.html player=include.player directory="stats-2020-2021" comp="supercup" long_label="2020-21 – DFL-Supercup" short_label="20-21 – SCup" %}
         {% include player-stats-row.html player=include.player directory="stats-2020-2021" comp="all" long_label="2020-21 – All Competitions" short_label="20-21 – All" %}

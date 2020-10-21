@@ -20,7 +20,7 @@ body_class: stats
 
 <ul class="table-toggles">
   <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
-  <li class="hide"><button class="table-toggle show-ucl">Champions League</button></li>
+  <li><button class="table-toggle show-ucl">Champions League</button></li>
   <li class="hide"><button class="table-toggle show-uel">Europa League</button></li>
   <li class="hide"><button class="table-toggle show-uelq">Europa League Qualification</button></li>
   <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
@@ -29,6 +29,7 @@ body_class: stats
 </ul>
 
 {% include stats-table.html directory="stats-2020-2021" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2020-2021" comp="ucl" %}
 {% include stats-table.html directory="stats-2020-2021" comp="cup" %}
 {% include stats-table.html directory="stats-2020-2021" comp="supercup" %}
 {% include stats-table.html directory="stats-2020-2021" comp="all" %}
@@ -44,6 +45,7 @@ body_class: stats
 
 <script>
   new Tablesort(document.getElementById('stats-bundesliga'), { descending: true });
+  new Tablesort(document.getElementById('stats-ucl'), { descending: true });
   new Tablesort(document.getElementById('stats-cup'), { descending: true });
   new Tablesort(document.getElementById('stats-supercup'), { descending: true });
   new Tablesort(document.getElementById('stats-all'), { descending: true });

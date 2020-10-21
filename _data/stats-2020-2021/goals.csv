@@ -13,3 +13,5 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-012,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,47,47,2,0,2,Emre,Can,Reyna,Reyna,,No 2nd Assist (Reyna corner),can,reyna,reyna,,active
 2020-21,20-21-013,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,66,66,3,0,3,Erling,Haaland,Reyna,Reyna,,No 2nd Assist (Reyna won the ball),haaland,reyna,reyna,,active
 2020-21,20-21-014,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,90+2,90.2,4,0,4,Felix,Passlack,Haaland,Haaland,Brandt,,passlack,haaland,haaland,brandt,active
+2020-21,20-21-015,Bundesliga,MD4,4,2020-10-17,Hoffenheim,Away,76,76,1,0,1,Marco,Reus,Haaland,Haaland,Reyna,,reus,haaland,haaland,reyna,active
+2020-21,20-21-016,Champions League,GR1,1,2020-10-20,Lazio,Away,71,71,1,2,-1,Erling,Haaland,Reyna,Reyna,,Combination? (??? to Haaland to Reyna to Haaland),haaland,reyna,reyna,,active
