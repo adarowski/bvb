@@ -18,3 +18,5 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-017,Bundesliga,MD5,5,2020-10-24,Schalke,Home,55,55,1,0,1,Manuel,Akanji,,Guerreiro,Brandt,No Official Assist (Guerreiro shot saved and fell to Akanji),akanji,,guerreiro,brandt,active
 2020-21,20-21-018,Bundesliga,MD5,5,2020-10-24,Schalke,Home,61,61,2,0,2,Erling,Haaland,Sancho,Sancho,Reyna,Combination (Reyna to Haaland to Sancho to Haaland),haaland,sancho,sancho,reyna,active
 2020-21,20-21-019,Bundesliga,MD5,5,2020-10-24,Schalke,Home,78,78,3,0,3,Mats,Hummels,Guerreiro,Guerreiro,,No Second Assist (Guerreiro corner),hummels,guerreiro,guerreiro,,active
+2020-21,20-21-020,Champions League,GR2,2,2020-10-24,Zenit,Home,78,78,1,0,1,Jadon,Sancho,,,,No Assists (Penalty),sancho,,,,active
+2020-21,20-21-021,Champions League,GR2,2,2020-10-24,Zenit,Home,90+1,90.1,2,0,2,Erling,Haaland,Bellingham,Bellingham,Bürki,,haaland,bellingham,bellingham,burki,active
