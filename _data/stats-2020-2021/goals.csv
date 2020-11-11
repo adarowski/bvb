@@ -25,3 +25,5 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-024,Champions League,GR3,3,2020-11-04,Club Brugge,Away,14,14,1,0,1,Thorgan,Hazard,,Delaney,Guerreiro,No Official Assist (Delaney cross deflected to Hazard),hazard,,delaney,guerreiro,active
 2020-21,20-21-025,Champions League,GR3,3,2020-11-04,Club Brugge,Away,18,18,2,0,2,Erling,Haaland,,Witsel,Delaney,No Official Assist (Haaland scored his own rebound),haaland,,witsel,delaney,active
 2020-21,20-21-026,Champions League,GR3,3,2020-11-04,Club Brugge,Away,32,32,3,0,3,Erling,Haaland,Meunier,Meunier,Dahoud,,haaland,meunier,meunier,dahoud,active
+2020-21,20-21-027,Bundesliga,MD7,7,2020-11-07,Bayern,Home,45,45,1,0,1,Marco,Reus,Guerreiro,Guerreiro,Sancho,,reus,guerreiro,guerreiro,sancho,active
+2020-21,20-21-028,Bundesliga,MD7,7,2020-11-07,Bayern,Home,82,82,2,3,-1,Erling,Haaland,Guerreiro,Guerreiro,Reus,,haaland,guerreiro,guerreiro,reus,active
