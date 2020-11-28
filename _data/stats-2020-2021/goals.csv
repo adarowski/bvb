@@ -32,3 +32,7 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-031,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,62,62,3,1,2,Erling,Haaland,,,,No Assists (Haaland stole ball),haaland,,,,active
 2020-21,20-21-032,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,70,70,4,1,3,Raphaël,Guerreiro,,Meunier,Reus,No Official Assist (Guerreiro scored on own blocked shot),guerreiro,,meunier,reus,active
 2020-21,20-21-033,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,80,80,5,2,3,Erling,Haaland,Bellingham,Bellingham,Reyna,,haaland,bellingham,bellingham,reyna,active
+2020-21,20-21-034,Champions League,GR4,4,2020-11-24,Club Brugge,Home,18,18,1,0,1,Erling,Haaland,Sancho,Sancho,Hummels,Hummels pass deflected to Sancho,haaland,sancho,sancho,hummels,active
+2020-21,20-21-035,Champions League,GR4,4,2020-11-24,Club Brugge,Home,45,45,2,0,2,Jadon,Sancho,,,,No Assists (Sancho free kick),sancho,,,,active
+2020-21,20-21-036,Champions League,GR4,4,2020-11-24,Club Brugge,Home,60,60,3,0,3,Erling,Haaland,,Hazard,Meunier,"No Official Assist (Hazard had two blocked attempts, second fell to Haaland)",haaland,,hazard,meunier,active
+2020-21,20-21-037,Bundesliga,MD9,9,2020-11-28,Köln,Home,74,74,1,2,-1,Thorgan,Hazard,Reyna,Reyna,Moukoko,,hazard,reyna,reyna,moukoko,active

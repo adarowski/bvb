@@ -1,24 +1,24 @@
 id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
-akanji,Manuel,Akanji,🇨🇭,Switzerland,630,1,0,0,0,0,1,0,0.14,0.00,0.14,0.14,19,5.3%,active
+akanji,Manuel,Akanji,🇨🇭,Switzerland,720,1,0,0,0,0,1,0,0.13,0.00,0.13,0.13,20,5.0%,active
 bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,360,0,2,2,1,3,3,0,0.00,0.75,0.75,0.75,12,25.0%,active
-brandt,Julian,Brandt,🇩🇪,Germany,405,0,1,1,2,3,3,0,0.00,0.67,0.67,0.67,11,27.3%,active
-burki,Roman,Bürki,🇨🇭,Switzerland,540,0,0,0,1,1,1,0,0.00,0.17,0.17,0.17,15,6.7%,active
-can,Emre,Can,🇩🇪,Germany,435,1,1,1,1,2,3,0,0.21,0.41,0.62,0.62,12,25.0%,active
+brandt,Julian,Brandt,🇩🇪,Germany,471,0,1,1,2,3,3,0,0.00,0.57,0.57,0.57,11,27.3%,active
+burki,Roman,Bürki,🇨🇭,Switzerland,630,0,0,0,1,1,1,0,0.00,0.14,0.14,0.14,16,6.3%,active
+can,Emre,Can,🇩🇪,Germany,525,1,1,1,1,2,3,0,0.17,0.34,0.51,0.51,13,23.1%,active
 dahoud,Mahmoud,Dahoud,🇩🇪,Germany,213,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,4,0.0%,active
 delaney,Thomas,Delaney,🇩🇰,Denmark,345,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,9,0.0%,active
 guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,438,1,3,4,0,4,5,0,0.21,0.82,1.03,1.03,14,35.7%,active
-haaland,Erling,Haaland,🇳🇴,Norway,561,10,2,2,0,2,12,1,1.60,0.32,1.93,1.76,18,66.7%,active
-hazard,Thorgan,Hazard,🇧🇪,Belgium,134,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,4,0.0%,active
+haaland,Erling,Haaland,🇳🇴,Norway,651,10,2,2,0,2,12,1,1.38,0.28,1.66,1.52,19,63.2%,active
+hazard,Thorgan,Hazard,🇧🇪,Belgium,164,1,0,0,0,0,1,0,0.55,0.00,0.55,0.55,5,20.0%,active
 hitz,Marwin,Hitz,🇨🇭,Switzerland,180,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
-hummels,Mats,Hummels,🇩🇪,Germany,715,3,0,0,1,1,4,0,0.38,0.13,0.50,0.50,20,20.0%,active
-meunier,Thomas,Meunier,🇧🇪,Belgium,664,0,1,2,0,2,2,0,0.00,0.27,0.27,0.27,18,11.1%,active
+hummels,Mats,Hummels,🇩🇪,Germany,805,3,0,0,1,1,4,0,0.34,0.11,0.45,0.45,21,19.0%,active
+meunier,Thomas,Meunier,🇧🇪,Belgium,724,0,1,2,0,2,2,0,0.00,0.25,0.25,0.25,18,11.1%,active
 morey,Mateu,Morey,🇪🇸,Spain,11,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
-moukoko,Youssoufa,Moukoko,🇩🇪,Germany,6,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
-passlack,Felix,Passlack,🇩🇪,Germany,280,1,0,0,0,0,1,0,0.32,0.00,0.32,0.32,8,12.5%,active
+moukoko,Youssoufa,Moukoko,🇩🇪,Germany,30,0,0,0,1,1,1,0,0.00,3.00,3.00,3.00,1,100.0%,active
+passlack,Felix,Passlack,🇩🇪,Germany,346,1,0,0,0,0,1,0,0.26,0.00,0.26,0.26,8,12.5%,active
 piszczek,Łukasz,Piszczek,🇵🇱,Poland,50,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
 reinier,,Reinier,🇧🇷,Brazil,42,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
-reus,Marco,Reus,🇩🇪,Germany,392,2,1,1,4,5,7,0,0.46,1.15,1.61,1.61,13,53.8%,active
-reyna,Gio,Reyna,🇺🇸,United States,516,1,3,3,3,6,7,0,0.17,1.05,1.22,1.22,11,63.6%,active
-sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,449,0,2,2,2,4,4,0,0.00,0.80,0.80,0.80,8,50.0%,active
+reus,Marco,Reus,🇩🇪,Germany,482,2,1,1,4,5,7,0,0.37,0.93,1.31,1.31,14,50.0%,active
+reyna,Gio,Reyna,🇺🇸,United States,540,1,4,4,3,7,8,0,0.17,1.17,1.33,1.33,12,66.7%,active
+sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,539,0,2,2,2,4,4,0,0.00,0.67,0.67,0.67,9,44.4%,active
 schulz,Nico,Schulz,🇩🇪,Germany,13,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
-witsel,Axel,Witsel,🇧🇪,Belgium,561,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,16,0.0%,active
+witsel,Axel,Witsel,🇧🇪,Belgium,651,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,17,0.0%,active

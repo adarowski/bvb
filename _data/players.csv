@@ -29,7 +29,7 @@ gomez,Sergio,Gómez,🇪🇸,Spain,2000-09-04,Midfield,2018-01-30,FC Barcelona,�
 gotze,Mario,Götze,🇩🇪,Germany,1992-06-03,Midfield,2016-07-21,Bayern Munich,🇩🇪,,€22 million,22000000,,inactive,PSV Eindhoven,🇳🇱,2020-10-06,Free,0,-€22 million,-22000000,,,,,true,10,9efa1d25
 guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,1993-12-22,Defense,2016-07-01,FC Lorient,🇫🇷,,€12 million,12000000,2023-06-30,active,,,,,,,,,,,,true,13,048a1cbc
 gundogan,İlkay,Gündoğan,🇩🇪,Germany,1990-10-24,Midfield,2011-07-01,1.FC Nürnberg,🇩🇪,,€5.5 million,5500000,,inactive,Manchester City,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-07-01,€27 million,27000000,€21.5 million,21500000,,,,,true,,819b3158
-gurpuz,Göktan,Gürpüz,🇹🇷,Turkey,2003-01-22,Midfield,2016-07-01,Schalke 04,🇩🇪,,Free,0,,reserve,,,,,,,,,,,,false,45,199f7008
+gurpuz,Göktan,Gürpüz,🇹🇷,Turkey,2003-01-22,Midfield,2016-07-01,Schalke 04,🇩🇪,,Free,0,2021-06-30,reserve,,,,,,,,,,,,false,45,199f7008
 haaland,Erling,Haaland,🇳🇴,Norway,2000-07-21,Attack,2020-01-01,Red Bull Salzburg,🇦🇹,,€20 million,20000000,2024-06-30,active,,,,,,,,,,,,true,9,1f44ac21
 hakimi,Achraf,Hakimi,🇲🇦,Morocco,1998-11-04,Defense,2017-07-01,Real Madrid,🇪🇸,,Loan,0,,inactive,Real Madrid,🇪🇸,2020-06-30,End of Loan,0,None,0,,,,,true,5,e42d61c7
 hazard,Thorgan,Hazard,🇧🇪,Belgium,1993-03-29,Midfield,2019-07-01,Borussia Mönchengladbach,🇩🇪,,€25.5 million,25500000,2024-06-30,active,,,,,,,,,,,,true,10,50871bcc
@@ -42,7 +42,7 @@ isak,Alexander,Isak,🇸🇪,Sweden,1999-09-21,Attack,2017-07-23,AIK Fotboll,�
 januzaj,Adnan,Januzaj,🇧🇪,Belgium,1995-02-05,Midfield,2015-08-31,Manchester United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,,Loan,0,,inactive,Manchester United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-01-07,End of Loan,0,None,0,,,,,true,,4737cebe
 kagawa,Shinji,Kagawa,🇯🇵,Japan,1989-03-17,Midfield,2014-08-31,Manchester United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,,€8 million,8000000,,inactive,Real Zaragoza,🇪🇸,2019-08-09,€3 million,3000000,-€5 million,-5000000,,,,,true,23,5afafbfe
 kampl,Kevin,Kampl,🇩🇪,Germany,1990-10-09,Midfield,2015-01-01,Red Bull Salzburg,🇦🇹,,€12 million,12000000,,inactive,Bayer Leverkusen,🇩🇪,2015-08-28,€11 million,11000000,-€1 million,-1000000,,,,,true,,b825a650
-knauff,Ansgar,Knauff,🇩🇪,Germany,2002-01-10,Midfield,2016-07-01,Hannover 96,🇩🇪,,Free,0,2021-06-30,reserve,,,,,,,,,,,,false,36,19a967ab
+knauff,Ansgar,Knauff,🇩🇪,Germany,2002-01-10,Midfield,2016-07-01,Hannover 96,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,false,36,19a967ab
 leitner,Moritz,Leitner,🇩🇪,Germany,1992-12-08,Midfield,2011-01-01,1860 Munich,🇩🇪,,Free,0,,inactive,SS Lazio,🇮🇹,2016-08-12,€1.5 million,1500000,€1.5 million,1500000,,,,,true,,9460aaed
 merino,Mikel,Merino,🇪🇸,Spain,1996-06-22,Midfield,2016-07-01,CA Osasuna,🇪🇸,,€3.75 million,3750000,,inactive,Newcastle United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2018-07-01,€7 million,7000000,€3.25 million,3250000,"Departed on loan July 28, 2017 before permanent deal",,,,true,,d080ed5e
 meunier,Thomas,Meunier,🇧🇪,Belgium,1991-09-12,Midfield,2020-07-01,Paris Saint Germain,🇫🇷,,Free,0,2024-06-30,active,,,,,,,,,,,,true,24,e162b013
@@ -71,7 +71,7 @@ schulz,Nico,Schulz,🇩🇪,Germany,1993-04-01,Defense,2019-07-01,TSG Hoffenheim
 schurrle,André,Schürrle,🇩🇪,Germany,1990-11-06,Midfield,2016-07-22,VfL Wolfsburg,🇩🇪,,€30 million,30000000,,inactive,Retirement,,2020-07-17,,0,-€30 million,-30000000,,,,,true,,ecbb3fdf
 stenzel,Pascal,Stenzel,🇩🇪,Germany,1996-03-20,Defense,2013-07-01,VfL Osnabrück,🇩🇪,,Free,0,,inactive,SC Freiburg,🇩🇪,2017-07-01,€4 million,4000000,€4 million,4000000,"Departed on loan January 29, 2016 before permanent deal",,,,true,,99f7e9aa
 subotic,Neven,Subotić,🇷🇸,Serbia,1988-12-10,Defense,2008-07-01,Mainz 05,🇩🇪,,€4.5 million,4500000,,inactive,AS Saint-Étienne,🇫🇷,2018-01-25,Free,0,-€4.5 million,-4500000,,,,,true,,821233cc
-tachie,Richmond,Tachie,🇩🇪,Germany,1999-04-21,Attack,2020-07-15,FC Viktoria Köln,🇩🇪,,Free,0,,reserve,,,,,,,,,,,,false,47,46fa58cb
+tachie,Richmond,Tachie,🇩🇪,Germany,1999-04-21,Attack,2020-07-15,FC Viktoria Köln,🇩🇪,,Free,0,2022-06-30,reserve,,,,,,,,,,,,false,47,46fa58cb
 toljan,Jeremy,Toljan,🇩🇪,Germany,1994-08-08,Defense,2017-08-30,TSG Hoffenheim,🇩🇪,,€7 million,7000000,2021-06-30,loan,,,,,,,,,US Sassuolo,🇮🇹,2021-06-30,true,,a96e5dc0
 toprak,Ömer,Toprak,🇹🇷,Turkey,1989-07-21,Defense,2017-07-01,Bayer Leverkusen,🇩🇪,,€12 million,12000000,,inactive,Werder Bremen,🇩🇪,2020-07-15,€4 million,4000000,-€8 million,-8000000,"Departed on loan August 11, 2019 before permanent deal",,,,true,,c5fd13e9
 unbenhaun,Luca,Unbenhaun,🇩🇪,Germany,2001-02-27,Goalkeeper,2016-07-01,VfL Bochum,🇩🇪,,Free,0,2022-06-30,active,,,,,,,,,,,,true,25,78666ade
