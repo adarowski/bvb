@@ -7,17 +7,17 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-006,Bundesliga,MD1,1,2020-09-19,Gladbach,Home,35,35,1,0,1,Gio,Reyna,Bellingham,Bellingham,Can,Combination (Can to Reyna to Bellingham to Reyna); Initial Reyna pass blocked and fell to Bellingham,reyna,bellingham,bellingham,can,active
 2020-21,20-21-007,Bundesliga,MD1,1,2020-09-19,Gladbach,Home,54,54,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active
 2020-21,20-21-008,Bundesliga,MD1,1,2020-09-19,Gladbach,Home,78,78,3,0,3,Erling,Haaland,Sancho,Sancho,Hummels,,haaland,sancho,sancho,hummels,active
-2020-21,20-21-009,DFL-Supercup,F,1,2020-09-30,Bayern,Away,39,39,1,2,-1,Julian,Brandt,Haaland,Haaland,Reus,,brandt,haaland,haaland,reus,active
-2020-21,20-21-010,DFL-Supercup,F,1,2020-09-30,Bayern,Away,55,55,2,2,0,Erling,Haaland,Delaney,Delaney,Akanji,,haaland,delaney,delaney,akanji,active
+2020-21,20-21-009,DFL-Supercup,F,1,2020-09-30,Bayern Munich,Away,39,39,1,2,-1,Julian,Brandt,Haaland,Haaland,Reus,,brandt,haaland,haaland,reus,active
+2020-21,20-21-010,DFL-Supercup,F,1,2020-09-30,Bayern Munich,Away,55,55,2,2,0,Erling,Haaland,Delaney,Delaney,Akanji,,haaland,delaney,delaney,akanji,active
 2020-21,20-21-011,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,31,31,1,0,1,Erling,Haaland,Reyna,Reyna,Reus,,haaland,reyna,reyna,reus,active
 2020-21,20-21-012,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,47,47,2,0,2,Emre,Can,Reyna,Reyna,,No 2nd Assist (Reyna corner),can,reyna,reyna,,active
 2020-21,20-21-013,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,66,66,3,0,3,Erling,Haaland,Reyna,Reyna,,No 2nd Assist (Reyna won the ball),haaland,reyna,reyna,,active
 2020-21,20-21-014,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,90+2,90.2,4,0,4,Felix,Passlack,Haaland,Haaland,Brandt,,passlack,haaland,haaland,brandt,active
 2020-21,20-21-015,Bundesliga,MD4,4,2020-10-17,Hoffenheim,Away,76,76,1,0,1,Marco,Reus,Haaland,Haaland,Reyna,,reus,haaland,haaland,reyna,active
 2020-21,20-21-016,Champions League,GR1,1,2020-10-20,Lazio,Away,71,71,1,2,-1,Erling,Haaland,Reyna,Reyna,Witsel,Combination (Witsel to Haaland to Reyna to Haaland),haaland,reyna,reyna,witsel,active
-2020-21,20-21-017,Bundesliga,MD5,5,2020-10-24,Schalke,Home,55,55,1,0,1,Manuel,Akanji,,Guerreiro,Brandt,No Official Assist (Guerreiro shot saved and fell to Akanji),akanji,,guerreiro,brandt,active
-2020-21,20-21-018,Bundesliga,MD5,5,2020-10-24,Schalke,Home,61,61,2,0,2,Erling,Haaland,Sancho,Sancho,Reyna,Combination (Reyna to Haaland to Sancho to Haaland),haaland,sancho,sancho,reyna,active
-2020-21,20-21-019,Bundesliga,MD5,5,2020-10-24,Schalke,Home,78,78,3,0,3,Mats,Hummels,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro corner),hummels,guerreiro,guerreiro,,active
+2020-21,20-21-017,Bundesliga,MD5,5,2020-10-24,Schalke 04,Home,55,55,1,0,1,Manuel,Akanji,,Guerreiro,Brandt,No Official Assist (Guerreiro shot saved and fell to Akanji),akanji,,guerreiro,brandt,active
+2020-21,20-21-018,Bundesliga,MD5,5,2020-10-24,Schalke 04,Home,61,61,2,0,2,Erling,Haaland,Sancho,Sancho,Reyna,Combination (Reyna to Haaland to Sancho to Haaland),haaland,sancho,sancho,reyna,active
+2020-21,20-21-019,Bundesliga,MD5,5,2020-10-24,Schalke 04,Home,78,78,3,0,3,Mats,Hummels,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro corner),hummels,guerreiro,guerreiro,,active
 2020-21,20-21-020,Champions League,GR2,2,2020-10-24,Zenit,Home,78,78,1,0,1,Jadon,Sancho,,,,No Assists (Penalty),sancho,,,,active
 2020-21,20-21-021,Champions League,GR2,2,2020-10-24,Zenit,Home,90+1,90.1,2,0,2,Erling,Haaland,Bellingham,Bellingham,Bürki,,haaland,bellingham,bellingham,burki,active
 2020-21,20-21-022,Bundesliga,MD6,6,2020-10-31,Bielefeld,Away,52,52,1,0,1,Mats,Hummels,Meunier,Meunier,Sancho,,hummels,meunier,meunier,sancho,active
@@ -25,14 +25,18 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-024,Champions League,GR3,3,2020-11-04,Club Brugge,Away,14,14,1,0,1,Thorgan,Hazard,,Delaney,Guerreiro,No Official Assist (Delaney cross deflected to Hazard),hazard,,delaney,guerreiro,active
 2020-21,20-21-025,Champions League,GR3,3,2020-11-04,Club Brugge,Away,18,18,2,0,2,Erling,Haaland,,Witsel,Delaney,No Official Assist (Haaland scored his own rebound),haaland,,witsel,delaney,active
 2020-21,20-21-026,Champions League,GR3,3,2020-11-04,Club Brugge,Away,32,32,3,0,3,Erling,Haaland,Meunier,Meunier,Dahoud,,haaland,meunier,meunier,dahoud,active
-2020-21,20-21-027,Bundesliga,MD7,7,2020-11-07,Bayern,Home,45,45,1,0,1,Marco,Reus,Guerreiro,Guerreiro,Sancho,,reus,guerreiro,guerreiro,sancho,active
-2020-21,20-21-028,Bundesliga,MD7,7,2020-11-07,Bayern,Home,82,82,2,3,-1,Erling,Haaland,Guerreiro,Guerreiro,Reus,,haaland,guerreiro,guerreiro,reus,active
-2020-21,20-21-029,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,47,47,1,1,0,Erling,Haaland,Can,Can,Reus,,haaland,can,can,reus,active
-2020-21,20-21-030,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,49,49,2,1,1,Erling,Haaland,Brandt,Brandt,Bürki,,haaland,brandt,brandt,burki,active
-2020-21,20-21-031,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,62,62,3,1,2,Erling,Haaland,,,,No Assists (Haaland stole ball),haaland,,,,active
-2020-21,20-21-032,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,70,70,4,1,3,Raphaël,Guerreiro,,Meunier,Reus,No Official Assist (Guerreiro scored on own blocked shot),guerreiro,,meunier,reus,active
-2020-21,20-21-033,Bundesliga,MD8,8,2020-11-21,Hertha BSC,Away,80,80,5,2,3,Erling,Haaland,Bellingham,Bellingham,Reyna,,haaland,bellingham,bellingham,reyna,active
+2020-21,20-21-027,Bundesliga,MD7,7,2020-11-07,Bayern Munich,Home,45,45,1,0,1,Marco,Reus,Guerreiro,Guerreiro,Sancho,,reus,guerreiro,guerreiro,sancho,active
+2020-21,20-21-028,Bundesliga,MD7,7,2020-11-07,Bayern Munich,Home,82,82,2,3,-1,Erling,Haaland,Guerreiro,Guerreiro,Reus,,haaland,guerreiro,guerreiro,reus,active
+2020-21,20-21-029,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,47,47,1,1,0,Erling,Haaland,Can,Can,Reus,,haaland,can,can,reus,active
+2020-21,20-21-030,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,49,49,2,1,1,Erling,Haaland,Brandt,Brandt,Bürki,,haaland,brandt,brandt,burki,active
+2020-21,20-21-031,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,62,62,3,1,2,Erling,Haaland,,,,No Assists (Haaland stole ball),haaland,,,,active
+2020-21,20-21-032,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,70,70,4,1,3,Raphaël,Guerreiro,,Meunier,Reus,No Official Assist (Guerreiro scored on own blocked shot),guerreiro,,meunier,reus,active
+2020-21,20-21-033,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,80,80,5,2,3,Erling,Haaland,Bellingham,Bellingham,Reyna,,haaland,bellingham,bellingham,reyna,active
 2020-21,20-21-034,Champions League,GR4,4,2020-11-24,Club Brugge,Home,18,18,1,0,1,Erling,Haaland,Sancho,Sancho,Hummels,Hummels pass deflected to Sancho,haaland,sancho,sancho,hummels,active
 2020-21,20-21-035,Champions League,GR4,4,2020-11-24,Club Brugge,Home,45,45,2,0,2,Jadon,Sancho,,,,No Assists (Sancho free kick),sancho,,,,active
 2020-21,20-21-036,Champions League,GR4,4,2020-11-24,Club Brugge,Home,60,60,3,0,3,Erling,Haaland,,Hazard,Meunier,"No Official Assist (Hazard had two blocked attempts, second fell to Haaland)",haaland,,hazard,meunier,active
 2020-21,20-21-037,Bundesliga,MD9,9,2020-11-28,Köln,Home,74,74,1,2,-1,Thorgan,Hazard,Reyna,Reyna,Moukoko,,hazard,reyna,reyna,moukoko,active
+2020-21,20-21-038,Champions League,GR5,5,2020-12-02,Lazio,Home,44,44,1,0,1,Raphaël,Guerreiro,Hazard,Hazard,Reyna,,guerreiro,hazard,hazard,reyna,active
+2020-21,20-21-039,Bundesliga,MD10,10,2020-12-05,Frankfurt,Away,56,56,1,1,0,Gio,Reyna,Sancho,Sancho,Schulz,,reyna,sancho,sancho,schulz,active
+2020-21,20-21-040,Champions League,GR6,6,2020-12-08,Zenit,Away,68,68,1,1,0,Łukasz,Piszczek,,Hummels,Reus,No Official Assist (Hummels rebound fell to Piszczek),piszczek,,hummels,reus,active
+2020-21,20-21-041,Champions League,GR6,6,2020-12-08,Zenit,Away,77,77,2,1,1,Axel,Witsel,Sancho,Sancho,Hazard,,witsel,sancho,sancho,hazard,active
