@@ -46,10 +46,10 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2019-20,19-20-045,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,74,74,5,0,5,Jadon,Sancho,Hakimi,Hakimi,Brandt,Combination (Brandt to Sancho to Hakimi to Sancho),sancho,hakimi,hakimi,brandt,active
 2019-20,19-20-046,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,10,10,1,0,1,Jadon,Sancho,Reus,Reus,Brandt,,sancho,reus,reus,brandt,active
 2019-20,19-20-047,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,61,61,2,1,1,Julian,Brandt,Sancho,Sancho,Guerreiro,,brandt,sancho,sancho,guerreiro,active
-2019-20,19-20-048,Bundesliga,MD15,15,2019-12-14,Mainz,Away,32,32,1,0,1,Marco,Reus,,Hazard,Sancho,No Official Assist (Hazard cross cleared to Reus),reus,,hazard,sancho,active
-2019-20,19-20-049,Bundesliga,MD15,15,2019-12-14,Mainz,Away,66,66,2,0,2,Jadon,Sancho,Zagadou,Zagadou,,No 2nd Assist (Zagadou won the ball),sancho,zagadou,zagadou,,active
-2019-20,19-20-050,Bundesliga,MD15,15,2019-12-14,Mainz,Away,69,69,3,0,3,Thorgan,Hazard,Reus,Reus,Sancho,,hazard,reus,reus,sancho,active
-2019-20,19-20-051,Bundesliga,MD15,15,2019-12-14,Mainz,Away,84,84,4,0,4,Nico,Schulz,Sancho,Sancho,Dahoud,,schulz,sancho,sancho,dahoud,active
+2019-20,19-20-048,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,32,32,1,0,1,Marco,Reus,,Hazard,Sancho,No Official Assist (Hazard cross cleared to Reus),reus,,hazard,sancho,active
+2019-20,19-20-049,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,66,66,2,0,2,Jadon,Sancho,Zagadou,Zagadou,,No 2nd Assist (Zagadou won the ball),sancho,zagadou,zagadou,,active
+2019-20,19-20-050,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,69,69,3,0,3,Thorgan,Hazard,Reus,Reus,Sancho,,hazard,reus,reus,sancho,active
+2019-20,19-20-051,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,84,84,4,0,4,Nico,Schulz,Sancho,Sancho,Dahoud,,schulz,sancho,sancho,dahoud,active
 2019-20,19-20-052,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,23,23,1,0,1,Julian,Weigl,Guerreiro,Guerreiro,Sancho,Sancho shot saved by the keeper and fell to Guerreiro,weigl,guerreiro,guerreiro,sancho,inactive
 2019-20,19-20-053,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,34,34,2,0,2,Julian,Brandt,Sancho,Sancho,Zagadou,,brandt,sancho,sancho,zagadou,active
 2019-20,19-20-054,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,55,55,3,2,1,Jadon,Sancho,Reus,Reus,Hakimi,,sancho,reus,reus,hakimi,active
