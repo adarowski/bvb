@@ -40,3 +40,7 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-039,Bundesliga,MD10,10,2020-12-05,Frankfurt,Away,56,56,1,1,0,Gio,Reyna,Sancho,Sancho,Schulz,,reyna,sancho,sancho,schulz,active
 2020-21,20-21-040,Champions League,GR6,6,2020-12-08,Zenit,Away,68,68,1,1,0,Łukasz,Piszczek,,Hummels,Reus,No Official Assist (Hummels rebound fell to Piszczek),piszczek,,hummels,reus,active
 2020-21,20-21-041,Champions League,GR6,6,2020-12-08,Zenit,Away,77,77,2,1,1,Axel,Witsel,Sancho,Sancho,Hazard,,witsel,sancho,sancho,hazard,active
+2020-21,20-21-042,Bundesliga,MD11,11,2020-12-12,Stuttgart,Home,39,39,1,1,0,Gio,Reyna,Guerreiro,Guerreiro,Can,,reyna,guerreiro,guerreiro,can,active
+2020-21,20-21-043,Bundesliga,MD12,12,2020-12-15,Bremen,Away,12,12,1,0,1,Raphaël,Guerreiro,,Sancho,Reyna,No Official Assist (Sancho rebound fell to Piszczek),guerreiro,,sancho,reyna,active
+2020-21,20-21-044,Bundesliga,MD12,12,2020-12-15,Bremen,Away,78,78,2,1,1,Marco,Reus,,,,No Assists (Rebound of own penalty),reus,,,,active
+2020-21,20-21-045,Bundesliga,MD13,13,2020-12-18,Union Berlin,Away,60,60,1,1,0,Youssoufa,Moukoko,Guerreiro,Guerreiro,Can,,moukoko,guerreiro,guerreiro,can,active
