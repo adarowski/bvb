@@ -44,3 +44,7 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-043,Bundesliga,MD12,12,2020-12-15,Bremen,Away,12,12,1,0,1,Raphaël,Guerreiro,,Sancho,Reyna,No Official Assist (Sancho rebound fell to Piszczek),guerreiro,,sancho,reyna,active
 2020-21,20-21-044,Bundesliga,MD12,12,2020-12-15,Bremen,Away,78,78,2,1,1,Marco,Reus,,,,No Assists (Rebound of own penalty),reus,,,,active
 2020-21,20-21-045,Bundesliga,MD13,13,2020-12-18,Union Berlin,Away,60,60,1,1,0,Youssoufa,Moukoko,Guerreiro,Guerreiro,Can,,moukoko,guerreiro,guerreiro,can,active
+2020-21,20-21-046,DFB-Pokal,R2,2,2020-12-22,Braunschweig,Away,12,12,1,0,1,Mats,Hummels,,Sancho,,No Official Assist (deflected off defenders); No 2nd Assist (Sancho took free kick),hummels,,sancho,,active
+2020-21,20-21-047,DFB-Pokal,R2,2,2020-12-22,Braunschweig,Away,92,90.2,2,0,2,Jadon,Sancho,Reus,Reus,Meunier,,sancho,reus,reus,meunier,active
+2020-21,20-21-048,Bundesliga,MD14,14,2021-01-03,Wolfsburg,Home,66,66,1,0,1,Manuel,Akanji,Sancho,Sancho,,No Second Assist (Sancho corner),akanji,sancho,sancho,,active
+2020-21,20-21-049,Bundesliga,MD14,14,2021-01-03,Wolfsburg,Home,90+1,90.1,2,0,2,Jadon,Sancho,Can,Can,Guerreiro,,sancho,can,can,guerreiro,active
