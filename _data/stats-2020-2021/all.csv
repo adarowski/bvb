@@ -1,27 +1,27 @@
 id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
 akanji,Manuel,Akanji,🇨🇭,Switzerland,2360,2,0,0,2,2,4,0,0.08,0.08,0.15,0.15,62,6.5%,active
-bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,1539,1,4,4,3,7,8,0,0.06,0.41,0.47,0.47,38,21.1%,active
-brandt,Julian,Brandt,🇩🇪,Germany,1548,2,1,1,5,6,8,0,0.12,0.35,0.47,0.47,36,22.2%,active
+bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,1739,1,4,4,3,7,8,0,0.05,0.36,0.41,0.41,41,19.5%,active
+brandt,Julian,Brandt,🇩🇪,Germany,1579,2,1,1,5,6,8,0,0.11,0.34,0.46,0.46,36,22.2%,active
 burki,Roman,Bürki,🇨🇭,Switzerland,1800,0,0,0,2,2,2,0,0.00,0.10,0.10,0.10,39,5.1%,active
-can,Emre,Can,🇩🇪,Germany,1869,2,2,2,3,5,7,0,0.10,0.24,0.34,0.34,48,14.6%,active
-dahoud,Mahmoud,Dahoud,🇩🇪,Germany,872,2,0,0,1,1,3,0,0.21,0.10,0.31,0.31,23,13.0%,active
-delaney,Thomas,Delaney,🇩🇰,Denmark,1555,1,3,4,2,6,7,0,0.06,0.35,0.41,0.41,39,17.9%,active
-guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,2201,4,8,9,5,14,18,0,0.16,0.57,0.74,0.74,56,32.1%,active
-haaland,Erling,Haaland,🇳🇴,Norway,2216,28,7,7,3,10,38,1,1.14,0.41,1.54,1.50,61,62.3%,active
-hazard,Thorgan,Hazard,🇧🇪,Belgium,646,3,2,3,1,4,7,0,0.42,0.56,0.98,0.98,23,30.4%,active
-hitz,Marwin,Hitz,🇨🇭,Switzerland,1290,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,36,0.0%,active
-hummels,Mats,Hummels,🇩🇪,Germany,2784,4,0,1,3,4,8,0,0.13,0.13,0.26,0.26,67,11.9%,active
+can,Emre,Can,🇩🇪,Germany,2139,2,2,2,3,5,7,0,0.08,0.21,0.29,0.29,53,13.2%,active
+dahoud,Mahmoud,Dahoud,🇩🇪,Germany,1142,2,0,0,2,2,4,0,0.16,0.16,0.32,0.32,28,14.3%,active
+delaney,Thomas,Delaney,🇩🇰,Denmark,1804,1,4,5,2,7,8,0,0.05,0.35,0.40,0.40,44,18.2%,active
+guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,2204,4,8,9,5,14,18,0,0.16,0.57,0.74,0.74,56,32.1%,active
+haaland,Erling,Haaland,🇳🇴,Norway,2455,32,7,7,4,11,43,2,1.17,0.40,1.58,1.50,66,65.2%,active
+hazard,Thorgan,Hazard,🇧🇪,Belgium,793,3,3,4,1,5,8,0,0.34,0.57,0.91,0.91,27,29.6%,active
+hitz,Marwin,Hitz,🇨🇭,Switzerland,1560,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,41,0.0%,active
+hummels,Mats,Hummels,🇩🇪,Germany,3054,4,0,1,3,4,8,0,0.12,0.12,0.24,0.24,72,11.1%,active
 knauff,Ansgar,Knauff,🇩🇪,Germany,8,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
-meunier,Thomas,Meunier,🇧🇪,Belgium,1649,1,2,3,3,6,7,0,0.05,0.33,0.38,0.38,43,16.3%,active
-morey,Mateu,Morey,🇪🇸,Spain,942,0,1,1,1,2,2,0,0.00,0.19,0.19,0.19,22,9.1%,active
-moukoko,Youssoufa,Moukoko,🇩🇪,Germany,404,2,0,1,1,2,4,0,0.45,0.45,0.89,0.89,10,40.0%,active
-passlack,Felix,Passlack,🇩🇪,Germany,608,1,0,0,0,0,1,0,0.15,0.00,0.15,0.15,11,9.1%,active
+meunier,Thomas,Meunier,🇧🇪,Belgium,1740,1,2,3,3,6,7,0,0.05,0.31,0.36,0.36,45,15.6%,active
+morey,Mateu,Morey,🇪🇸,Spain,1142,0,1,1,1,2,2,0,0.00,0.16,0.16,0.16,25,8.0%,active
+moukoko,Youssoufa,Moukoko,🇩🇪,Germany,403,2,0,1,1,2,4,0,0.45,0.45,0.89,0.89,10,40.0%,active
+passlack,Felix,Passlack,🇩🇪,Germany,632,1,0,0,0,0,1,0,0.14,0.00,0.14,0.14,11,9.1%,active
 piszczek,Łukasz,Piszczek,🇵🇱,Poland,453,1,0,0,1,1,2,0,0.20,0.20,0.40,0.40,7,28.6%,active
-reinier,,Reinier,🇧🇷,Brazil,188,1,0,0,0,0,1,0,0.48,0.00,0.48,0.48,3,33.3%,active
-reus,Marco,Reus,🇩🇪,Germany,2044,4,7,7,7,14,18,0,0.18,0.62,0.79,0.79,47,38.3%,active
-reyna,Gio,Reyna,🇺🇸,United States,2019,4,5,5,5,10,14,0,0.18,0.45,0.62,0.62,44,31.8%,active
-sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,2426,11,14,16,5,21,32,3,0.41,0.78,1.19,1.08,55,58.2%,active
-schulz,Nico,Schulz,🇩🇪,Germany,397,0,0,0,1,1,1,0,0.00,0.23,0.23,0.23,7,14.3%,active
-tigges,Steffen,Tigges,🇩🇪,Germany,112,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,active
+reinier,,Reinier,🇧🇷,Brazil,203,1,0,0,0,0,1,0,0.44,0.00,0.44,0.44,3,33.3%,active
+reus,Marco,Reus,🇩🇪,Germany,2299,4,9,9,7,16,20,0,0.16,0.63,0.78,0.78,52,38.5%,active
+reyna,Gio,Reyna,🇺🇸,United States,2020,4,5,5,5,10,14,0,0.18,0.45,0.62,0.62,44,31.8%,active
+sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,2493,12,14,16,5,21,33,3,0.43,0.76,1.19,1.08,56,58.9%,active
+schulz,Nico,Schulz,🇩🇪,Germany,661,0,0,0,2,2,2,0,0.00,0.27,0.27,0.27,12,16.7%,active
+tigges,Steffen,Tigges,🇩🇪,Germany,143,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,3,0.0%,active
 witsel,Axel,Witsel,🇧🇪,Belgium,1598,1,0,1,1,2,3,0,0.06,0.11,0.17,0.17,38,7.9%,active
-zagadou,Dan-Axel,Zagadou,🇫🇷,France,283,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,6,0.0%,active
+zagadou,Dan-Axel,Zagadou,🇫🇷,France,355,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,8,0.0%,active

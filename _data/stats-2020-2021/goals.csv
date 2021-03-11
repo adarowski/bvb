@@ -74,3 +74,8 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-073,Bundesliga,MD23,23,2021-02-27,Bielefeld,Home,48,48,1,0,1,Mahmoud,Dahoud,Sancho,Sancho,,No Second Assist (Dahoud won ball); Combination (Dahoud to Sancho to Dahoud),dahoud,sancho,sancho,,active
 2020-21,20-21-074,Bundesliga,MD23,23,2021-02-27,Bielefeld,Home,58,58,2,0,2,Jadon,Sancho,,,,No Assists (Penalty),sancho,,,,active
 2020-21,20-21-075,Bundesliga,MD23,23,2021-02-27,Bielefeld,Home,81,81,3,0,3,,Reinier,Haaland,Haaland,Sancho,,reinier,haaland,haaland,sancho,active
+2020-21,20-21-076,DFB-Pokal,QF,4,2021-03-02,Gladbach,Away,66,66,1,0,1,Jadon,Sancho,Reus,Reus,Haaland,,sancho,reus,reus,haaland,active
+2020-21,20-21-077,Bundesliga,MD24,24,2021-03-06,Bayern Munich,Away,2,2,1,0,1,Erling,Haaland,Delaney,Delaney,,No Second Assist (Delaney won ball),haaland,delaney,delaney,,active
+2020-21,20-21-078,Bundesliga,MD24,24,2021-03-06,Bayern Munich,Away,9,9,2,0,2,Erling,Haaland,Hazard,Hazard,Schulz,,haaland,hazard,hazard,schulz,active
+2020-21,20-21-079,Champions League,R16,8,2021-03-09,Sevilla,Home,35,35,1,0,1,Erling,Haaland,Reus,Reus,Dahoud,,haaland,reus,reus,dahoud,active
+2020-21,20-21-080,Champions League,R16,8,2021-03-09,Sevilla,Home,54,54,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active

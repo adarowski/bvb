@@ -6,7 +6,7 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2018-19,18-19-005,Bundesliga,MD1,1,2018-08-26,RB Leipzig,Home,43,43,3,1,2,Axel,Witsel,,Delaney,Pulisic,No Official Assist (Delaney shot saved and fell to Witsel),witsel,,delaney,pulisic,active,
 2018-19,18-19-006,Bundesliga,MD1,1,2018-08-26,RB Leipzig,Home,90+1,90.1,4,1,3,Marco,Reus,Sancho,Sancho,Dahoud,,reus,sancho,sancho,dahoud,active,
 2018-19,18-19-007,Bundesliga,MD3,3,2018-09-14,Frankfurt,Home,36,36,1,0,1,Abdou,Diallo,,Bruun Larsen,,"No Official Assist (Diallo scored on his third attempt), No 2nd Assist (Bruun Larsen corner)",diallo,,bruun-larsen,,inactive,
-2018-19,18-19-008,Bundesliga,MD3,3,2018-09-14,Frankfurt,Home,72,72,2,1,1,Marius,Wolf,Sancho,Sancho,Alcácer,,wolf,sancho,sancho,alcácer,loan,
+2018-19,18-19-008,Bundesliga,MD3,3,2018-09-14,Frankfurt,Home,72,72,2,1,1,Marius,Wolf,Sancho,Sancho,Alcácer,,wolf,sancho,sancho,alcacer,loan,
 2018-19,18-19-009,Bundesliga,MD3,3,2018-09-14,Frankfurt,Home,88,88,3,1,2,Paco,Alcácer,,Sancho,,No Official Assist (Sancho pass deflected to Alcácer); No 2nd Assist (Sancho corner); Combination (Sancho to Alcácer to Sancho to Alcácer),alcacer,,sancho,,inactive,
 2018-19,18-19-010,Champions League,GR-1,1,2018-09-18,Club Brugge,Away,85,85,1,0,1,Christian,Pulisic,,,,No Assists (Pulisic won the ball),pulisic,,,,inactive,
 2018-19,18-19-011,Bundesliga,MD4,4,2018-09-22,Hoffenheim,Away,84,84,1,1,0,Christian,Pulisic,Reus,Reus,Schmelzer,,pulisic,reus,reus,schmelzer,inactive,
