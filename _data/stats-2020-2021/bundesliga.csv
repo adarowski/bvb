@@ -1,27 +1,27 @@
 id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
-akanji,Manuel,Akanji,🇨🇭,Switzerland,1658,2,0,0,0,0,2,0,0.11,0.00,0.11,0.11,40,5.0%,active
-bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,1195,0,3,3,3,6,6,0,0.00,0.45,0.45,0.45,26,23.1%,active
-brandt,Julian,Brandt,🇩🇪,Germany,1272,2,1,1,4,5,7,0,0.14,0.35,0.50,0.50,27,25.9%,active
+akanji,Manuel,Akanji,🇨🇭,Switzerland,1928,2,0,0,1,1,3,0,0.09,0.05,0.14,0.14,48,6.3%,active
+bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,1418,1,3,3,4,7,8,0,0.06,0.44,0.51,0.51,33,24.2%,active
+brandt,Julian,Brandt,🇩🇪,Germany,1357,2,1,1,4,5,7,0,0.13,0.33,0.46,0.46,31,22.6%,active
 burki,Roman,Bürki,🇨🇭,Switzerland,1440,0,0,0,1,1,1,0,0.00,0.06,0.06,0.06,30,3.3%,active
-can,Emre,Can,🇩🇪,Germany,1640,1,3,3,4,7,8,0,0.05,0.38,0.44,0.44,39,20.5%,active
-dahoud,Mahmoud,Dahoud,🇩🇪,Germany,758,1,0,0,1,1,2,0,0.12,0.12,0.24,0.24,19,10.5%,active
-delaney,Thomas,Delaney,🇩🇰,Denmark,950,1,1,1,1,2,3,0,0.09,0.19,0.28,0.28,23,13.0%,active
-guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,1595,3,8,9,4,13,16,0,0.17,0.73,0.90,0.90,40,40.0%,active
-haaland,Erling,Haaland,🇳🇴,Norway,1780,22,4,5,4,9,31,1,1.11,0.46,1.57,1.52,46,67.4%,active
-hazard,Thorgan,Hazard,🇧🇪,Belgium,405,1,1,1,0,1,2,0,0.22,0.22,0.44,0.44,11,18.2%,active
-hitz,Marwin,Hitz,🇨🇭,Switzerland,900,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,24,0.0%,active
-hummels,Mats,Hummels,🇩🇪,Germany,2290,3,0,0,3,3,6,0,0.12,0.12,0.24,0.24,53,11.3%,active
-knauff,Ansgar,Knauff,🇩🇪,Germany,10,0,1,1,0,1,1,0,0.00,9.00,9.00,9.00,1,100.0%,active
+can,Emre,Can,🇩🇪,Germany,1805,1,4,4,4,8,9,0,0.05,0.40,0.45,0.45,44,20.5%,active
+dahoud,Mahmoud,Dahoud,🇩🇪,Germany,943,1,0,0,3,3,4,0,0.10,0.29,0.38,0.38,25,16.0%,active
+delaney,Thomas,Delaney,🇩🇰,Denmark,1130,1,1,1,1,2,3,0,0.08,0.16,0.24,0.24,27,11.1%,active
+guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,1865,3,8,9,4,13,16,0,0.14,0.63,0.77,0.77,48,33.3%,active
+haaland,Erling,Haaland,🇳🇴,Norway,2047,24,5,6,4,10,34,2,1.06,0.44,1.49,1.41,54,63.0%,active
+hazard,Thorgan,Hazard,🇧🇪,Belgium,496,1,2,2,0,2,3,0,0.18,0.36,0.54,0.54,14,21.4%,active
+hitz,Marwin,Hitz,🇨🇭,Switzerland,1170,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,32,0.0%,active
+hummels,Mats,Hummels,🇩🇪,Germany,2515,5,0,0,3,3,8,0,0.18,0.11,0.29,0.29,58,13.8%,active
+knauff,Ansgar,Knauff,🇩🇪,Germany,62,1,1,1,0,1,2,0,1.45,1.45,2.90,2.90,2,100.0%,active
 meunier,Thomas,Meunier,🇧🇪,Belgium,1372,1,1,2,0,2,3,0,0.07,0.13,0.20,0.20,31,9.7%,active
-morey,Mateu,Morey,🇪🇸,Spain,701,0,1,1,0,1,1,0,0.00,0.13,0.13,0.13,16,6.3%,active
+morey,Mateu,Morey,🇪🇸,Spain,829,0,3,3,0,3,3,0,0.00,0.33,0.33,0.33,22,13.6%,active
 moukoko,Youssoufa,Moukoko,🇩🇪,Germany,422,3,0,1,1,2,5,0,0.64,0.43,1.07,1.07,10,50.0%,active
 passlack,Felix,Passlack,🇩🇪,Germany,346,1,0,0,0,0,1,0,0.26,0.00,0.26,0.26,8,12.5%,active
-piszczek,Łukasz,Piszczek,🇵🇱,Poland,59,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
-reinier,,Reinier,🇧🇷,Brazil,157,1,0,0,0,0,1,0,0.57,0.00,0.57,0.57,4,25.0%,active
-reus,Marco,Reus,🇩🇪,Germany,1642,3,6,6,5,11,14,0,0.16,0.60,0.77,0.77,39,35.9%,active
-reyna,Gio,Reyna,🇺🇸,United States,1485,3,4,4,4,8,11,0,0.18,0.48,0.67,0.67,29,37.9%,active
+piszczek,Łukasz,Piszczek,🇵🇱,Poland,111,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,2,0.0%,active
+reinier,,Reinier,🇧🇷,Brazil,171,1,0,0,0,0,1,0,0.53,0.00,0.53,0.53,4,25.0%,active
+reus,Marco,Reus,🇩🇪,Germany,1874,4,6,6,6,12,16,0,0.19,0.58,0.77,0.77,46,34.8%,active
+reyna,Gio,Reyna,🇺🇸,United States,1664,4,5,6,5,11,15,0,0.22,0.59,0.81,0.81,35,42.9%,active
 sancho,Jadon,Sancho,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,1770,6,9,11,4,15,21,1,0.31,0.76,1.07,1.02,36,58.3%,active
-schulz,Nico,Schulz,🇩🇪,Germany,434,0,0,0,2,2,2,0,0.00,0.41,0.41,0.41,9,22.2%,active
-tigges,Steffen,Tigges,🇩🇪,Germany,53,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
+schulz,Nico,Schulz,🇩🇪,Germany,513,0,0,0,2,2,2,0,0.00,0.35,0.35,0.35,10,20.0%,active
+tigges,Steffen,Tigges,🇩🇪,Germany,56,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,1,0.0%,active
 witsel,Axel,Witsel,🇧🇪,Belgium,1130,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,24,0.0%,active
 zagadou,Dan-Axel,Zagadou,🇫🇷,France,276,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,6,0.0%,active

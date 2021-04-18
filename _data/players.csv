@@ -1,5 +1,5 @@
 id,first,last,flag,nation,dob,position,joined_date,joined_from,joined_from_country,joined_note,fee,fee_alt,contract_expires,active,departed_to,departed_to_country,departed_date,departed_fee,departed_fee_alt,departed_profit,departed_profit_alt,departed_note,loaned_to,loaned_to_country,loaned_until,has_photo,number,fbref
-akanji,Manuel,Akanji,🇨🇭,Switzerland,1995-07-19,Defense,2018-01-15,FC Basel,🇨🇭,,€21.5 million,21500000,2022-06-30,active,,,,,,,,,,,,true,16,89ac64a6
+akanji,Manuel,Akanji,🇨🇭,Switzerland,1995-07-19,Defense,2018-01-15,FC Basel,🇨🇭,,€21.5 million,21500000,2023-06-30,active,,,,,,,,,,,,true,16,89ac64a6
 alcacer,Paco,Alcácer,🇪🇸,Spain,1993-08-30,Attack,2019-07-01,FC Barcelona,🇪🇸,"Joined on loan August 28, 2018 before permanent deal",€21 million,21000000,,inactive,Villarreal CF,🇪🇸,2020-01-30,€23 million,23000000,€2 million,2000000,,,,,true,9,a7a9d95a
 aubameyang,Pierre-Emerick,Aubameyang,🇬🇦,Gabon,1989-06-18,Attack,2013-07-04,AS Saint-Étienne,🇫🇷,,€13 million,13000000,,inactive,Arsenal,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2018-01-31,€63.75 million,63750000,€50.75 million,50750000,,,,,true,,d5dd5f1f
 bakir,Alaa,Bakir,🇩🇪,Germany,2001-01-15,Attack,2013-07-01,TSV Handorf,🇩🇪,,Free,0,2021-06-30,reserve,,,,,,,,,,,,false,21,59354c83

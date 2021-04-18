@@ -83,3 +83,13 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-082,Bundesliga,MD25,25,2021-03-13,Hertha Berlin,Home,90+1,91,2,0,2,Youssoufa,Moukoko,,Haaland,Dahoud,,moukoko,,haaland,dahoud,active
 2020-21,20-21-083,Bundesliga,MD26,26,2021-03-20,Köln,Away,3,3,1,0,1,Erling,Haaland,Can,Can,Hummels,,haaland,can,can,hummels,active
 2020-21,20-21-084,Bundesliga,MD26,26,2021-03-20,Köln,Away,90,90,2,2,0,Erling,Haaland,Knauff,Knauff,Can,,haaland,knauff,knauff,can,active
+2020-21,20-21-085,Bundesliga,MD27,27,2021-04-03,Frankfurt,Home,45,45,1,1,0,Mats,Hummels,Can,Can,Reus,,hummels,can,can,reus,active
+2020-21,20-21-086,Champions League,QF,9,2021-04-06,Manchester City,Away,84,84,1,1,0,Marco,Reus,Haaland,Haaland,Bellingham,,reus,haaland,haaland,bellingham,active
+2020-21,20-21-087,Bundesliga,MD28,28,2021-04-10,Stuttgart,Away,47,47,1,1,0,Jude,Bellingham,Reyna,Reyna,Dahoud,,bellingham,reyna,reyna,dahoud,active
+2020-21,20-21-088,Bundesliga,MD28,28,2021-04-10,Stuttgart,Away,52,52,2,1,1,Marco,Reus,Morey,Morey,Reyna,,reus,morey,morey,reyna,active
+2020-21,20-21-089,Bundesliga,MD28,28,2021-04-10,Stuttgart,Away,80,80,3,1,2,Ansgar,Knauff,Haaland,Haaland,Morey,,knauff,haaland,haaland,morey,active
+2020-21,20-21-090,Champions League,QF,10,2021-04-14,Manchester City,Home,15,15,1,0,1,Jude,Bellingham,,Dahoud,Haaland,No Official Assist (Dahoud shot blocked,bellingham,,dahoud,haaland,active
+2020-21,20-21-091,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,29,29,1,1,0,Gio,Reyna,Morey,Morey,Akanji,,reyna,morey,morey,akanji,active
+2020-21,20-21-092,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,34,34,2,1,1,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active
+2020-21,20-21-093,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,38,38,3,1,2,Erling,Haaland,,Reyna,Bellingham,No Official Assist (Reyna cross deflected),haaland,,reyna,bellingham,active
+2020-21,20-21-094,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,87,87,4,1,3,Mats,Hummels,Hazard,Hazard,,No Second Assist (Hazard Corner),hummels,hazard,hazard,,active
