@@ -41,26 +41,26 @@
         <nav>
           <ul>
             <li class="stats"><a href="./">Stats</a></li>
-            <li class="goals"><a href="goals">Goals</a></li>
+            <li class="goals"><a href="goals.html">Goals</a></li>
             <li class="players">
-              <a href="players">Players</a>
+              <a href="players.html">Players</a>
               <div class="player-list">
                 <ul>
                   {% for player in site.data.players %}
                     {% if player.active == "active" %}
                       <li>
-                        <a href="{{ player.id }}">
+                        <a href="{{ player.id }}.html">
                           <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
                           <span>{{ player.first }} {{ player.last }}</span>
                         </a>
                       </li>
                     {% endif %}
                   {% endfor %}
-                  <li><a class="all-players" href="players">All Players →</a></li>
+                  <li><a class="all-players" href="players.html">All Players →</a></li>
                 </ul>
               </div>
             </li>
-            <li class="frauen"><a href="frauen">Frauen</a></li>
+            <li class="frauen"><a href="frauen.html">Frauen</a></li>
           </ul>
         </nav>
       </div>

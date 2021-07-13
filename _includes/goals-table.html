@@ -38,13 +38,13 @@
                 {% endif %}
               {% endif %}
             {% endfor %}
-            <a href="{{ goal.id_scorer }}">
+            <a href="{{ goal.id_scorer }}.html">
               <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
             </a>
           </td>
-          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}">{{ goal.assist_1st }}</a>{% endif %}</td>
-          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}">{{ goal.assist_2nd }}</a>{% endif %}</td>
+          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.id_assist_official }}.html">{{ goal.assist_official }}</a>{% endif %}</td>
+          <td class="left" data-sort="{{ goal.id_assist_1st }}">{% if goal.assist_1st != nil %}<a href="{{ goal.id_assist_1st }}.html">{{ goal.assist_1st }}</a>{% endif %}</td>
+          <td class="left" data-sort="{{ goal.id_assist_2nd }}">{% if goal.assist_2nd != nil %}<a href="{{ goal.id_assist_2nd }}.html">{{ goal.assist_2nd }}</a>{% endif %}</td>
           <td class="left">{{ goal.date | date: '%B %-d, %Y' }}</td>
           <td class="left">{{ goal.comp }}</td>
           <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
