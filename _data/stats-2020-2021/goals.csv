@@ -41,17 +41,17 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-040,Champions League,GR6,6,2020-12-08,Zenit,Away,68,68,1,1,0,Łukasz,Piszczek,,Hummels,Reus,No Official Assist (Hummels rebound fell to Piszczek),piszczek,,hummels,reus,active
 2020-21,20-21-041,Champions League,GR6,6,2020-12-08,Zenit,Away,77,77,2,1,1,Axel,Witsel,Sancho,Sancho,Hazard,,witsel,sancho,sancho,hazard,active
 2020-21,20-21-042,Bundesliga,MD11,11,2020-12-12,Stuttgart,Home,39,39,1,1,0,Gio,Reyna,Guerreiro,Guerreiro,Can,,reyna,guerreiro,guerreiro,can,active
-2020-21,20-21-043,Bundesliga,MD12,12,2020-12-15,Bremen,Away,12,12,1,0,1,Raphaël,Guerreiro,,Sancho,Reyna,No Official Assist (Sancho rebound fell to Piszczek),guerreiro,,sancho,reyna,active
-2020-21,20-21-044,Bundesliga,MD12,12,2020-12-15,Bremen,Away,78,78,2,1,1,Marco,Reus,,,,No Assists (Rebound of own penalty),reus,,,,active
+2020-21,20-21-043,Bundesliga,MD12,12,2020-12-15,Werder Bremen,Away,12,12,1,0,1,Raphaël,Guerreiro,,Sancho,Reyna,No Official Assist (Sancho rebound fell to Piszczek),guerreiro,,sancho,reyna,active
+2020-21,20-21-044,Bundesliga,MD12,12,2020-12-15,Werder Bremen,Away,78,78,2,1,1,Marco,Reus,,,,No Assists (Rebound of own penalty),reus,,,,active
 2020-21,20-21-045,Bundesliga,MD13,13,2020-12-18,Union Berlin,Away,60,60,1,1,0,Youssoufa,Moukoko,Guerreiro,Guerreiro,Can,,moukoko,guerreiro,guerreiro,can,active
 2020-21,20-21-046,DFB-Pokal,R2,2,2020-12-22,Braunschweig,Away,12,12,1,0,1,Mats,Hummels,Sancho,Sancho,,No Second Assist (Sancho took free kick),hummels,sancho,sancho,,active
 2020-21,20-21-047,DFB-Pokal,R2,2,2020-12-22,Braunschweig,Away,90+2,90.2,2,0,2,Jadon,Sancho,Reus,Reus,Meunier,,sancho,reus,reus,meunier,active
 2020-21,20-21-048,Bundesliga,MD14,14,2021-01-03,Wolfsburg,Home,66,66,1,0,1,Manuel,Akanji,Sancho,Sancho,,No Second Assist (Sancho corner),akanji,sancho,sancho,,active
 2020-21,20-21-049,Bundesliga,MD14,14,2021-01-03,Wolfsburg,Home,90+1,90.1,2,0,2,Jadon,Sancho,Can,Can,Guerreiro,,sancho,can,can,guerreiro,active
-2020-21,20-21-050,Bundesliga,MD15,15,2021-01-09,Leipzig,Away,55,55,1,0,1,Jadon,Sancho,Reus,Reus,Haaland,,sancho,reus,reus,haaland,active
-2020-21,20-21-051,Bundesliga,MD15,15,2021-01-09,Leipzig,Away,71,71,2,0,2,Erling,Haaland,Sancho,Sancho,Guerreiro,,haaland,sancho,sancho,guerreiro,active
-2020-21,20-21-052,Bundesliga,MD15,15,2021-01-09,Leipzig,Away,84,84,3,0,3,Erling,Haaland,Reus,Reus,Guerreiro,,haaland,reus,reus,guerreiro,active
-2020-21,20-21-053,Bundesliga,MD16,16,2021-01-16,Mainz,Home,73,73,1,1,0,Thomas,Meunier,,Moukoko,Reus,No Official Assist (Moukoko pass half-cleared to Meunier),meunier,,moukoko,reus,active
+2020-21,20-21-050,Bundesliga,MD15,15,2021-01-09,RB Leipzig,Away,55,55,1,0,1,Jadon,Sancho,Reus,Reus,Haaland,,sancho,reus,reus,haaland,active
+2020-21,20-21-051,Bundesliga,MD15,15,2021-01-09,RB Leipzig,Away,71,71,2,0,2,Erling,Haaland,Sancho,Sancho,Guerreiro,,haaland,sancho,sancho,guerreiro,active
+2020-21,20-21-052,Bundesliga,MD15,15,2021-01-09,RB Leipzig,Away,84,84,3,0,3,Erling,Haaland,Reus,Reus,Guerreiro,,haaland,reus,reus,guerreiro,active
+2020-21,20-21-053,Bundesliga,MD16,16,2021-01-16,Mainz 05,Home,73,73,1,1,0,Thomas,Meunier,,Moukoko,Reus,No Official Assist (Moukoko pass half-cleared to Meunier),meunier,,moukoko,reus,active
 2020-21,20-21-054,Bundesliga,MD17,17,2021-01-19,Leverkusen,Away,67,67,1,1,0,Julian,Brandt,Guerreiro,Guerreiro,Delaney,,brandt,guerreiro,guerreiro,delaney,active
 2020-21,20-21-055,Bundesliga,MD18,18,2021-01-22,Gladbach,Away,22,22,1,1,0,Erling,Haaland,Sancho,Sancho,Guerreiro,,haaland,sancho,sancho,guerreiro,active
 2020-21,20-21-056,Bundesliga,MD18,18,2021-01-22,Gladbach,Away,28,28,2,1,1,Erling,Haaland,Sancho,Sancho,Haaland,,haaland,sancho,sancho,haaland,active
@@ -67,7 +67,7 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-066,Champions League,R16,7,2021-02-17,Sevilla,Away,19,19,1,1,0,Mahmoud,Dahoud,Haaland,Haaland,Morey,,dahoud,haaland,haaland,morey,active
 2020-21,20-21-067,Champions League,R16,7,2021-02-17,Sevilla,Away,27,27,2,1,1,Erling,Haaland,Sancho,Sancho,Akanji,Combination (Akanji to Haaland to Sancho to Haaland),haaland,sancho,sancho,akanji,active
 2020-21,20-21-068,Champions League,R16,7,2021-02-17,Sevilla,Away,43,43,3,1,2,Erling,Haaland,Reus,Reus,,No Second Assist (Reus won ball),haaland,reus,reus,,active
-2020-21,20-21-069,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,42,42,1,0,1,Jadon,Sancho,Morey,Morey,,No Second Assist (Morey won ball),sancho,morey,morey,,active
+2020-21,20-21-069,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,42,42,1,0,1,Jadon,Sancho,,Morey,,"No Official Assist (Unclear why, Morey won ball)",sancho,morey,morey,,active
 2020-21,20-21-070,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,45,45,2,0,2,Erling,Haaland,Sancho,Sancho,Brandt,,haaland,sancho,sancho,brandt,active
 2020-21,20-21-071,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,60,60,3,0,3,Raphaël,Guerreiro,Reus,Reus,Brandt,Combination (Brandt to Guerreiro to Reus to Guerreiro),guerreiro,reus,reus,brandt,active
 2020-21,20-21-072,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,79,79,4,0,4,Erling,Haaland,Bellingham,Bellingham,Sancho,,haaland,bellingham,bellingham,sancho,active
@@ -93,3 +93,25 @@ season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_f
 2020-21,20-21-092,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,34,34,2,1,1,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active
 2020-21,20-21-093,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,38,38,3,1,2,Erling,Haaland,,Reyna,Bellingham,No Official Assist (Reyna cross deflected),haaland,,reyna,bellingham,active
 2020-21,20-21-094,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,87,87,4,1,3,Mats,Hummels,Hazard,Hazard,,No Second Assist (Hazard Corner),hummels,hazard,hazard,,active
+2020-21,20-21-095,Bundesliga,MD30,30,2021-04-21,Union Berlin,Home,27,27,1,0,1,Marco,Reus,,Haaland,,No Official Assist (Haaland saved penalty),reus,,haaland,,active
+2020-21,20-21-096,Bundesliga,MD30,30,2021-04-21,Union Berlin,Home,88,88,2,0,2,Raphaël,Guerreiro,Brandt,Brandt,Haaland,No Official Assist (Haaland saved penalty),guerreiro,brandt,brandt,haaland,active
+2020-21,20-21-097,Bundesliga,MD31,31,2021-04-24,Wolfsburg,Away,12,12,1,0,1,Erling,Haaland,,,,No Assists (Haaland won ball),haaland,,,,active
+2020-21,20-21-098,Bundesliga,MD31,31,2021-04-24,Wolfsburg,Away,68,68,2,0,2,Erling,Haaland,Dahoud,Dahoud,,No Second Assist (Dahoud won ball),haaland,dahoud,dahoud,,active
+2020-21,20-21-099,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,16,16,1,0,1,Gio,Reyna,Sancho,Sancho,Hummels,,reyna,sancho,sancho,hummels,active
+2020-21,20-21-100,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,22,22,2,0,2,Gio,Reyna,Guerreiro,Guerreiro,Reus,,reyna,guerreiro,guerreiro,reus,active
+2020-21,20-21-101,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,26,26,3,0,3,Marco,Reus,Can,Can,Reyna,,reus,can,can,reyna,active
+2020-21,20-21-102,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,32,32,4,0,4,Thorgan,Hazard,,,,No Assists (Hazard won ball),hazard,,,,active
+2020-21,20-21-103,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,41,41,5,0,5,Jude,Bellingham,Sancho,Sancho,Hazard,,bellingham,sancho,sancho,hazard,active
+2020-21,20-21-104,Bundesliga,MD32,32,2021-05-08,RB Leipzig,Home,7,7,1,0,1,Marco,Reus,Hazard,Hazard,Piszczek,,reus,hazard,hazard,piszczek,active
+2020-21,20-21-105,Bundesliga,MD32,32,2021-05-08,RB Leipzig,Home,51,51,2,0,2,Jadon,Sancho,Guerreiro,Guerreiro,Can,,sancho,guerreiro,guerreiro,can,active
+2020-21,20-21-106,Bundesliga,MD32,32,2021-05-08,RB Leipzig,Home,51,87,3,2,1,Jadon,Sancho,Guerreiro,Guerreiro,Brandt,Combination (Brandt-Sancho-Guerreiro-Sancho),sancho,guerreiro,guerreiro,brandt,active
+2020-21,20-21-107,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,5,5,1,0,1,Jadon,Sancho,Dahoud,Dahoud,Haaland,,sancho,dahoud,dahoud,haaland,active
+2020-21,20-21-108,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,28,28,2,0,2,Erling,Haaland,Reus,Reus,,No Second Assist (Reus won loose ball),haaland,reus,reus,,active
+2020-21,20-21-109,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,45+1,45.1,3,0,3,Jadon,Sancho,Reus,Reus,Dahoud,,sancho,reus,reus,dahoud,active
+2020-21,20-21-110,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,87,87,4,1,3,Erling,Haaland,Sancho,Sancho,Reus,,haaland,sancho,sancho,reus,active
+2020-21,20-21-111,Bundesliga,MD33,33,2021-05-16,Mainz 05,Away,23,23,1,0,1,Raphaël,Guerreiro,Sancho,Sancho,Meunier,,guerreiro,sancho,sancho,meunier,active
+2020-21,20-21-112,Bundesliga,MD33,33,2021-05-16,Mainz 05,Away,42,42,2,0,2,Marco,Reus,Sancho,Sancho,Guerreiro,,reus,sancho,sancho,guerreiro,active
+2020-21,20-21-113,Bundesliga,MD33,33,2021-05-16,Mainz 05,Away,80,80,3,0,3,Julian,Brandt,Haaland,Haaland,Bürki,,brandt,haaland,haaland,burki,active
+2020-21,20-21-114,Bundesliga,MD34,34,2021-05-22,Leverkusen,Home,5,5,1,0,1,Erling,Haaland,Reinier,Reinier,Brandt,,haaland,reinier,reinier,brandt,active
+2020-21,20-21-115,Bundesliga,MD34,34,2021-05-22,Leverkusen,Home,51,51,2,0,2,Marco,Reus,,,,No Assists (Direct free kick),reus,,,,active
+2020-21,20-21-116,Bundesliga,MD34,34,2021-05-22,Leverkusen,Home,84,84,3,0,3,Erling,Haaland,,,,No Assists (Haaland won ball),haaland,,,,active
