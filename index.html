@@ -1,15 +1,16 @@
 ---
 layout: default
-title: 2020–21 Stats
+title: 2021–22 Stats
 body_class: stats
 ---
 
-{% include stats-header.html directory="stats-2020-2021" %}
+{% include stats-header.html directory="stats-2021-2022" %}
 
 <h2>{{ page.title }}</h2>
 
 <div class="subnav">
-  <a class="current" href="./">2020–21</a>
+  <a class="current" href="./">2021–22</a>
+  <a href="stats-2020-2021.html">2020–21</a>
   <a href="stats-2019-2020.html">2019–20</a>
   <a href="stats-2018-2019.html">2018–19</a>
   <a href="stats-2017-2018.html">2017–18</a>
@@ -20,24 +21,21 @@ body_class: stats
 
 <ul class="table-toggles">
   <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
-  <li><button class="table-toggle show-ucl">Champions League</button></li>
+  <li class="hide"><button class="table-toggle show-ucl">Champions League</button></li>
   <li class="hide"><button class="table-toggle show-uel">Europa League</button></li>
   <li class="hide"><button class="table-toggle show-uelq">Europa League Qualification</button></li>
   <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
-  <li><button class="table-toggle show-supercup">DFB-Supercup</button></li>
+  <li class="hide"><button class="table-toggle show-supercup">DFB-Supercup</button></li>
   <li><button class="table-toggle show-all">All Competitions</button></li>
 </ul>
 
-{% include stats-table.html directory="stats-2020-2021" comp="bundesliga" %}
-{% include stats-table.html directory="stats-2020-2021" comp="ucl" %}
-{% include stats-table.html directory="stats-2020-2021" comp="cup" %}
-{% include stats-table.html directory="stats-2020-2021" comp="supercup" %}
-{% include stats-table.html directory="stats-2020-2021" comp="all" %}
+{% include stats-table.html directory="stats-2021-2022" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2021-2022" comp="cup" %}
+{% include stats-table.html directory="stats-2021-2022" comp="all" %}
 
-<p><strong>Own Goal Awarded:</strong> Erling Haaland (Bundesliga)</p>
 
 <p class="fbref-link">
-  <a href="https://fbref.com/en/squads/add600ae/2020-2021/Dortmund-Stats">
+  <a href="https://fbref.com/en/squads/add600ae/2021-2022/Dortmund-Stats">
     <img src="assets/images/fbref.png" alt="FBref Logo" />
     More Stats on FBref
   </a>
@@ -47,8 +45,6 @@ body_class: stats
 
 <script>
   new Tablesort(document.getElementById('stats-bundesliga'), { descending: true });
-  new Tablesort(document.getElementById('stats-ucl'), { descending: true });
   new Tablesort(document.getElementById('stats-cup'), { descending: true });
-  new Tablesort(document.getElementById('stats-supercup'), { descending: true });
   new Tablesort(document.getElementById('stats-all'), { descending: true });
 </script>

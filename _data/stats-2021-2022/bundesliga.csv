@@ -1,0 +1,17 @@
+id,first,last,flag,nation,mins,goals,assist_official,assist_1,assist_2,assists_total,points,pk,g90,a90,pts90,pts-pk90,ong,involve,active
+akanji,Manuel,Akanji,🇨🇭,Switzerland,90,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
+bellingham,Jude,Bellingham,🏴󠁧󠁢󠁥󠁮󠁧󠁿,England,72,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
+dahoud,Mahmoud,Dahoud,🇩🇪,Germany,90,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
+delaney,Thomas,Delaney,🇩🇰,Denmark,18,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
+haaland,Erling,Haaland,🇳🇴,Norway,90,2,2,3,0,3,5,0,2.00,3.00,5.00,5.00,5,100.0%,active
+hazard,Thorgan,Hazard,🇧🇪,Belgium,72,1,0,0,1,1,2,0,1.25,1.25,2.50,2.50,5,40.0%,active
+kobel,Gregor,Kobel,🇨🇭,Switzerland,90,0,0,0,1,1,1,0,0.00,1.00,1.00,1.00,5,20.0%,active
+malen,Donyell,Malen,🇳🇱,Netherlands,18,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
+moukoko,Youssoufa,Moukoko,🇩🇪,Germany,4,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
+papadopoulos,Antonios,Papadopoulos,🇩🇪,Germany,13,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,reserve
+passlack,Felix,Passlack,🇩🇪,Germany,90,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
+reus,Marco,Reus,🇩🇪,Germany,86,1,2,2,2,4,5,0,1.05,4.19,5.23,5.23,5,100.0%,active
+reyna,Gio,Reyna,🇺🇸,United States,86,1,0,0,0,0,1,0,1.05,0.00,1.05,1.05,5,20.0%,active
+schulz,Nico,Schulz,🇩🇪,Germany,90,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
+tigges,Steffen,Tigges,🇩🇪,Germany,4,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,0,0.0%,active
+witsel,Axel,Witsel,🇧🇪,Belgium,77,0,0,0,0,0,0,0,0.00,0.00,0.00,0.00,5,0.0%,active
