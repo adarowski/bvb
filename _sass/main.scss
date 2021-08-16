@@ -282,6 +282,19 @@ tbody {
   img {
     margin-left: -100px;
   }
+
+  &.frauen {
+    width: 24px;
+    background-size: 100%;
+    background-position: 0 0;
+    height: 32px;
+    margin-top: -14px;
+    margin-bottom: -10px;
+
+    img {
+      margin: 0;
+    }
+  }
 }
 
 .key {

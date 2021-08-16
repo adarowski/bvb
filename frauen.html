@@ -6,7 +6,51 @@ body_class: frauen
 
 <h2>{{ page.title }}</h2>
 
-<img src="assets/images/frauen_team.jpg" alt="Team Photo of BVB Frauen" style="width: 100%; max-width: 1500px;" />
+<p><img src="assets/images/frauen_team.jpg" alt="Team Photo of BVB Frauen" style="width: 100%; max-width: 1000px;" /></p>
+
+<h3 id="squad">Squad</h3>
+
+<p>These are the players who have appeared in a preseason friendly thus far. Previous clubs and leagues via <a href="https://www.transfermarkt.com/bvb-frauenfussball/thread/forum/12/thread_id/805720/post_id/4162881">Transfermarkt forums</a>. Corrections and additions welcome.</p>
+
+<div class="table-container">
+  <table id="players-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Age</th>
+        <th class="left">Date of Birth</th>
+        <th class="left">Previous Club</th>
+        <th class="left">Previous League</th>
+        <th class="left">Instagram</th>
+        <th class="left">Twitter</th>
+        <th class="left">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players-frauen %}
+        <tr>
+          <td class="left" data-sort="{{ player.id }}">
+            <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+            {{ player.first }} {{ player.last }}
+          </td>
+          <td class="right">{{ player.number }}</td>
+          <td class="left">{{ player.position }}</td>
+          <td class="right">{{ player.age }}</td>
+          <td class="left">{{ player.dob | date: '%B %-d, %Y' }}</td>
+          <td class="left">{{ player.prev_club }}</td>
+          <td class="left">{{ player.prev_league }}</td>
+          <td class="left"><a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a></td>
+          <td class="left"><a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a></td>
+          <td class="left">{{ player.note }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h3>Information</h3>
 
 <ul>
   <li><strong>Head Coach:</strong> Thomas Sulewski</li>
@@ -15,4 +59,11 @@ body_class: frauen
   <li><strong>Sporting Advisors:</strong> Christian Timm and Annike Krahn</li>
   <li><strong>Home Field:</strong> Stadion Rote Erde</li>
   <li><strong>League:</strong> Kreisliga A (8th Tier)</li>
+  <li><strong>Instagram:</strong> <a href="https://www.instagram.com/bvb09frauen/">bvb09frauen</a></li>
+  <li><strong>Schedule, Results, and Table:</strong> <a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">via Fussball.de</a></li>
+
 </ul>
+
+<script>
+  new Tablesort(document.getElementById('players-list'));
+</script>
