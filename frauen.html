@@ -6,11 +6,40 @@ body_class: frauen
 
 <h2>{{ page.title }}</h2>
 
-<p><img src="assets/images/frauen_team.jpg" alt="Team Photo of BVB Frauen" style="width: 100%; max-width: 1000px;" /></p>
+<p><img src="assets/images/frauen/mannschaft-frauen.jpg" alt="Team Photo of BVB Frauen" style="width: 100%; height: auto; max-width: 800px;" /></p>
 
-<h3 id="squad">Squad</h3>
+<div class="article-body">
+<p>
+  <strong>Top Row:</strong> Virginia Glänzer, Hannah Goosmann, Vanessa Heim, Ana-Louisa Zabell, Lilli Verena Prinzen, Annika Billig, Annika Fälker, Carolin Marie Kaul.
+  <strong>Middle Row:</strong> Head Coach Thomas Sulewski, Denise Pörteners, Kimberly Becker, Luisa Bergmann, Ann-Katrin Lau, Allegra Gerres, Laura Höhl, Anna Lena West, Assistant Coach Tim Treude, Assistant Coach Dustin Wurst.
+  <strong>Bottom Row:</strong> Lea Rogge-Herper, Annika Herbig, Hanna Schneider, Lena Kölmel, Sandra Schröer, Stefanie Scheibe, Marina Jung, Neele Dröter, Lisa Klemann.
+</p>
+</div>
 
-<p>These are the players who have appeared in a preseason friendly thus far. Previous clubs and leagues via <a href="https://www.transfermarkt.com/bvb-frauenfussball/thread/forum/12/thread_id/805720/post_id/4162881">Transfermarkt forums</a>. Corrections and additions welcome.</p>
+<h3>Squad</h3>
+
+<div class="frauen-cards">
+  {% for player in site.data.players-frauen %}
+    <div class="frauen-card">
+      <img src="assets/images/frauen/365/{{ player.id }}.jpg" alt="Photo of {{ player.first }} {{ player.last }}" />
+      <h4 class="frauen-card-name">{{ player.first }} {{ player.last }}</h4>
+      <span class="frauen-card-dob"><span class="{{ player.id }}-card-age"></span></span>
+      <span class="frauen-card-number">{{ player.number }}</span>
+      <span class="frauen-card-position">{{ player.position }}</span>
+      <script>
+        function calculate_age(dob) {
+          var diff_ms = Date.now() - dob.getTime();
+          var age_dt = new Date(diff_ms);
+          return Math.abs(age_dt.getUTCFullYear() - 1970);
+        }
+
+        var playerAge = document.querySelector('.{{ player.id }}-card-age');
+
+        playerAge.appendChild(document.createTextNode("Age " + calculate_age(new Date("{{ player.dob }}"))));
+      </script>
+    </div>
+  {% endfor %}
+</div>
 
 <div class="table-container">
   <table id="players-list" class="players-table">
@@ -19,10 +48,8 @@ body_class: frauen
         <th class="left">Player</th>
         <th class="right">Number</th>
         <th class="left">Position</th>
-        <th class="right">Age</th>
         <th class="left">Date of Birth</th>
         <th class="left">Previous Club</th>
-        <th class="left">Previous League</th>
         <th class="left">Instagram</th>
         <th class="left">Twitter</th>
         <th class="left">Note</th>
@@ -37,33 +64,249 @@ body_class: frauen
           </td>
           <td class="right">{{ player.number }}</td>
           <td class="left">{{ player.position }}</td>
-          <td class="right">{{ player.age }}</td>
-          <td class="left">{{ player.dob | date: '%B %-d, %Y' }}</td>
+          <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
           <td class="left">{{ player.prev_club }}</td>
-          <td class="left">{{ player.prev_league }}</td>
           <td class="left"><a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a></td>
           <td class="left"><a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a></td>
           <td class="left">{{ player.note }}</td>
+          <script>
+            function calculate_age(dob) {
+              var diff_ms = Date.now() - dob.getTime();
+              var age_dt = new Date(diff_ms);
+              return Math.abs(age_dt.getUTCFullYear() - 1970);
+            }
+
+            var playerAge = document.querySelector('.{{ player.id }}-age');
+
+            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+          </script>
         </tr>
       {% endfor %}
     </tbody>
   </table>
 </div>
 
+<h3>Coaching Staff</h3>
+
+<div class="table-container">
+  <table id="staff-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Name</th>
+        <th class="left">Position</th>
+        <th class="left">Date of Birth</th>
+        <th class="left">Previous Clubs</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="left" data-sort="sulewski">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/sulewski.jpg)"></div>
+          Thomas Sulewski
+        </td>
+        <td class="left">Head Coach</td>
+        <td class="left" data-sort="1990-08-03">August 3, 1990</td>
+        <td class="left">DJK TuS Körne, SV Brackel 06, Borussia Dortmund, Westfalia Wickede, ÖSG Viktoria 08</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="wurst">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/wurst.jpg)"></div>
+          Dustin Wurst
+        </td>
+        <td class="left">Assistant Coach</td>
+        <td class="left" data-sort="1985-04-03">April 3, 1985</td>
+        <td class="left">DjK Tus Hordel, SW Wattenscheid, TuRa Rüdinghausen, SV Herbede, Westfalia Rhynern, FC Frohlinde, FC Iserlohn</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="treude">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/treude.jpg)"></div>
+          Tim Treude
+        </td>
+        <td class="left">Assistant Coach</td>
+        <td class="left" data-sort="1990-01-28">January 28, 1990</td>
+        <td class="left">TSV Aue-Wingeshausen, Borussia Dortmund, Rot-Weiss Essen, TuS Erndtebrück, RSV Meinerzhagen</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="krahn">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/krahn.jpg)"></div>
+          Annike Krahn
+        </td>
+        <td class="left">Sporting Advisor</td>
+        <td class="left" data-sort="1985-07-01">July 1, 1985</td>
+        <td class="left">Bayer 04 Leverkusen, Paris Saint-Germain, FCR 2001 Duisburg</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="timm">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/timm.jpg)"></div>
+          Christian Timm
+        </td>
+        <td class="left">Sporting Advisor</td>
+        <td class="left" data-sort="1979-02-27">February 27, 1979</td>
+        <td class="left">Karlsruher SC, SpVgg Greuther Fürth, 1.FC Kaiserlautern, 1. FC Köln, Borussia Dortmund</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="article-body">
+
 <h3>Information</h3>
 
 <ul>
-  <li><strong>Head Coach:</strong> Thomas Sulewski</li>
-  <li><strong>Assistant Coaches:</strong> Tim Treude and Dustin Wurst</li>
   <li><strong>Department Head, Womens Football:</strong> Svenja Schlenker</li>
-  <li><strong>Sporting Advisors:</strong> Christian Timm and Annike Krahn</li>
   <li><strong>Home Field:</strong> Stadion Rote Erde</li>
-  <li><strong>League:</strong> Kreisliga A (8th Tier)</li>
+  <li><strong>League:</strong> Kreisliga A, Group 2 (8th Tier)</li>
   <li><strong>Instagram:</strong> <a href="https://www.instagram.com/bvb09frauen/">bvb09frauen</a></li>
   <li><strong>Schedule, Results, and Table:</strong> <a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">via Fussball.de</a></li>
-
 </ul>
+
+<h3>Preseason Friendlies</h3>
+
+<ul>
+  <li>
+    <strong><a href="https://www.fussball.de/spiel/borussia-dortmund-tsv-1860-muenchen/-/spiel/02F7F3VID4000000VS5489B4VS777J8H#!/">August 8, 2021</a>:</strong>
+    3–1 home win vs. TSV 1860 München
+    <a href="https://www.youtube.com/watch?v=KcJgp-YU3o4">(Live Stream)</a>
+    <ol>
+      <li>15’ <strong>Ann-Katrin Lau</strong> - No official assist (Hannah Goosmann had possession when fouled, Lau picked up the loose ball and scored. The pass to Goosmann came from Annika Billig but may have been flicked on by Lea Rogge-Herper.)</li>
+      <li>39’ <strong>Lea Rogge-Herper</strong> - Assist by Ann-Katrin Lau (Lau won the ball.)</li>
+      <li>49’ <strong>Annika Herbig</strong> - Assist by Laura Höhl (The pass to Höhl came from Annika Fälker.)</li>
+    </ol>
+  </li>
+  <li>
+    <strong><a href="https://www.fussball.de/spiel/sv-eintracht-solingen-borussia-dortmund/-/spiel/02F5K1TNG8000000VS5489B3VTRLPP90#!/">August 15, 2021</a>:</strong>
+    1–0 away loss vs. SV Eintracht Solingen
+  </li>
+  <li>
+    <strong><a href="https://www.fussball.de/spiel/vfl-kamen-borussia-dortmund/-/spiel/02F1Q3QIJG000000VS5489B4VS0OFO4E#!/">August 18, 2021</a>:</strong>
+    3-0 away win vs. VfL Kamen
+    <ol>
+      <li>5’ <strong>Ann-Katrin Lau</strong> - Unassisted (Lau won the ball.)</li>
+      <li>35’ <strong>Vanessa Heim</strong></li>
+      <li>69’ <strong>Hannah Goosmann</strong></li>
+    </ol>
+  </li>
+  <li>
+    <strong><a href="https://www.fussball.de/spiel/svw-ahnatal-damen-borussia-dortmund/-/spiel/02F7RA525S000000VS5489B4VS777J8H#!/">August 22, 2021</a>:</strong>
+    5-0 away win vs. SVW Ahnatal Damen
+    <ol>
+      <li>21’ <strong>Kimberly Becker</strong></li>
+      <li>22’ <strong>Hannah Goosmann</strong></li>
+      <li>56’ <strong>Laura Höhl</strong></li>
+      <li>91’ <strong>Annika Herbig</strong></li>
+      <li>91’ <strong>Laura Höhl</strong></li>
+    </ol>
+  </li>
+  <li>
+    <strong>August 28, 2021:</strong>
+    Away vs.  Sportfreunde Siegen II
+  </li>
+</ul>
+
+<h3>Season Schedule</h3>
+
+<ul>
+  <li>
+    <strong>September 12, 2021 @ 15:00:</strong>
+    Home vs. BV Brambauer 13/​45 e.V.
+  </li>
+  <li>
+    <strong>September 23, 2021 @ 15:00:</strong>
+    Away vs. Urania Lütgendortmund
+    - Kreispokal 🏆
+  </li>
+  <li>
+    <strong>September 26, 2021 @ 15:00:</strong>
+    Away vs. SF Sölderholz
+  </li>
+  <li>
+    <strong>October 3, 2021 @ 15:00:</strong>
+    Home vs. BV Teutonia Lanstrop
+  </li>
+  <li>
+    <strong>October 10, 2021 @ 17:15:</strong>
+    Away vs. SpVg Berghofen III
+  </li>
+  <li>
+    <strong>October 17, 2021 @ 15:00:</strong>
+    Home vs. TuRa Asseln
+  </li>
+  <li>
+    <strong>October 24, 2021 @ 17:00:</strong>
+    Away vs. SF Ay Yildiz Derne
+  </li>
+  <li>
+    <strong>October 31, 2021 @ 15:00:</strong>
+    Home vs. Lüner SV
+  </li>
+  <li>
+    <strong>November 7, 2021 @ 14:30:</strong>
+    Away vs. BV Viktoria Kirchderne
+  </li>
+  <li>
+    <strong>November 28, 2021 @ 12:30:</strong>
+    Home vs. SV Körne 83
+  </li>
+  <li>
+    <strong>March 6, 2022 @ 17:00:</strong>
+    Away vs. BV Brambauer 13/​45 e.V.
+  </li>
+  <li>
+    <strong>March 20, 2022 @ 15:00:</strong>
+    Home vs. SF Sölderholz
+  </li>
+  <li>
+    <strong>March 27, 2022 @ 13:00:</strong>
+    Away vs. BV Teutonia Lanstrop
+  </li>
+  <li>
+    <strong>April 3, 2022 @ 15:00:</strong>
+    Home vs. SpVg Berghofen III
+  </li>
+  <li>
+    <strong>April 10, 2022 @ 17:00:</strong>
+    Away vs. TuRa Asseln
+  </li>
+  <li>
+    <strong>April 24, 2022 @ 15:00:</strong>
+    Home vs. SF Ay Yildiz Derne
+  </li>
+  <li>
+    <strong>May 1, 2022 @ 17:00:</strong>
+    Away vs. Lüner SV
+  </li>
+  <li>
+    <strong>May 8, 2022 @ 15:00:</strong>
+    Home vs. BV Viktoria Kirchderne
+  </li>
+  <li>
+    <strong>May 22, 2022 @ 15:00:</strong>
+    Away vs. SV Körne 83
+  </li>
+</ul>
+
+<h3>Additional Coverage</h3>
+
+<ul>
+  <li>
+    <strong><a href="2021-08-05-frauen-podcast.html">BVB Frauen Podcast Translation by Julia Poblotzki</a>:</strong> On August 5, 2021 Borussia Dortmund published <a href="https://www.bvb.de/Mannschaften/Frauen/News/Frauenfussball-beim-BVB-im-Podcast-Ein-Traum-geht-in-Erfuellung!">a podcast episode</a> with Svenja Schlenker (Borussia Dortmund’s Department Head, Womens Football), Lisa Klemann (Borussia Dortmund Frauen player), and Thomas Sulewski (Borussia Dortmund Frauen head coach). The podcast, of course, is in German. But Fear the Wall’s Julia Poblotzki (<a href="http://twitter.com/jpoblo">@jpoblo</a> on Twitter) graciously translated it to English for the site. Thank you, Julia!
+  </li>
+  <li>
+    <strong><a href="https://internationalfanapp.bvb.de/contents/get-to-know-our-bvb-womens-team/">Get to know our BVB Women’s Team: Annika Herbig</a>:</strong> She was one of the three scorers in BVB's first women's match on August 8. What a fantastic start that was: In front of a crowd of 1,300 fans in the Stadium Rote Erde, the Black & Yellows triumphed 3-1 (2-0) over the also newly-formed women's team of TSV 1860 Munich.
+  </li>
+</ul>
+
+<h3>Other Resources</h3>
+
+<ul>
+  <li><a href="https://www.fupa.net/team/borussia-dortmund-w1-2021-22">FUPA</a></li>
+  <li><a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">Fussball.de</a></li>
+  <li><a href="https://www.soccerdonna.de/de/borussia-dortmund/startseite/verein_7405.html">Soccerdonna</a></li>
+</ul>
+
+</div>
 
 <script>
   new Tablesort(document.getElementById('players-list'));
+  new Tablesort(document.getElementById('staff-list'));
 </script>

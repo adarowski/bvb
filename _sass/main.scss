@@ -153,6 +153,10 @@ h3 {
   margin: 0 0 20px;
 }
 
+ul {
+  margin: 0 0 20px;
+}
+
 .container {
   padding: 20px;
 
@@ -284,7 +288,7 @@ tbody {
   }
 
   &.frauen {
-    width: 24px;
+    width: 38px;
     background-size: 100%;
     background-position: 0 0;
     height: 32px;
@@ -705,4 +709,58 @@ blockquote {
   margin-left: 0;
   padding-left: 20px;
   color: #666;
+}
+
+.article-body {
+  max-width: 800px;
+}
+
+.article-intro {
+  background-color: #eee;
+  padding: 20px;
+  margin-bottom: 1em;
+}
+
+.frauen-cards {
+  margin-bottom: 20px;
+
+  @media all and (min-width: 400px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.frauen-card {
+  background-color: $yellow;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+  overflow: hidden;
+  font-size: 20px;
+
+  @media all and (min-width: 400px) {
+    max-width: 300px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.frauen-card-name {
+  font-size: 24px;
+  background-color: black;
+  color: white;
+  padding: 3px 15px;
+  margin: -8px -15px 8px;
+  transform: rotate(-2deg);
+}
+
+.frauen-card-number {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.frauen-card-dob {
+  float: right;
 }
