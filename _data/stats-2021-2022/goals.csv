@@ -1,9 +1,11 @@
 season,id,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd,active
-2021-22,21-22-001,DFB-Pokal,R1,1,2020-08-07,Wiesbaden,Away,26,26,1,0,1,Erling,Haaland,Reus,Reus,Reyna,,haaland,reus,reus,reyna,active
-2021-22,21-22-002,DFB-Pokal,R1,1,2020-08-07,Wiesbaden,Away,31,31,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active
-2021-22,21-22-003,DFB-Pokal,R1,1,2020-08-07,Wiesbaden,Away,51,51,3,0,3,Erling,Haaland,,Reyna,Reus,,haaland,,reyna,reus,active
-2021-22,21-22-004,Bundesliga,MD1,1,2020-08-14,Frankfurt,Home,23,23,1,0,1,Marco,Reus,Haaland,Haaland,Hazard,,reus,haaland,haaland,hazard,active
-2021-22,21-22-005,Bundesliga,MD1,1,2020-08-14,Frankfurt,Home,32,32,2,1,1,Thorgan,Hazard,Haaland,Haaland,Reus,,hazard,haaland,haaland,reus,active
-2021-22,21-22-006,Bundesliga,MD1,1,2020-08-14,Frankfurt,Home,34,34,3,1,2,Erling,Haaland,Reus,Reus,Kobel,,haaland,reus,reus,kobel,active
-2021-22,21-22-007,Bundesliga,MD1,1,2020-08-14,Frankfurt,Home,58,58,4,1,3,Gio,Reyna,,Haaland,Reus,"Reus possession broken up, landed with Haaland",reyna,haaland,haaland,reus,active
-2021-22,21-22-008,Bundesliga,MD1,1,2020-08-14,Frankfurt,Home,70,70,5,1,4,Erling,Haaland,Reus,Reus,,No 2nd Assist (Reus interception),haaland,reus,reus,,active
+2021-22,21-22-001,DFB-Pokal,R1,1,2021-08-07,Wiesbaden,Away,26,26,1,0,1,Erling,Haaland,Reus,Reus,Reyna,,haaland,reus,reus,reyna,active
+2021-22,21-22-002,DFB-Pokal,R1,1,2021-08-07,Wiesbaden,Away,31,31,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,,active
+2021-22,21-22-003,DFB-Pokal,R1,1,2021-08-07,Wiesbaden,Away,51,51,3,0,3,Erling,Haaland,,Reyna,Reus,,haaland,,reyna,reus,active
+2021-22,21-22-004,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,23,23,1,0,1,Marco,Reus,Haaland,Haaland,Hazard,,reus,haaland,haaland,hazard,active
+2021-22,21-22-005,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,32,32,2,1,1,Thorgan,Hazard,Haaland,Haaland,Reus,,hazard,haaland,haaland,reus,active
+2021-22,21-22-006,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,34,34,3,1,2,Erling,Haaland,Reus,Reus,Kobel,,haaland,reus,reus,kobel,active
+2021-22,21-22-007,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,58,58,4,1,3,Gio,Reyna,,Haaland,Reus,"No Official Assist (unclear why); Reus possession broken up, landed with Haaland",reyna,haaland,haaland,reus,active
+2021-22,21-22-008,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,70,70,5,1,4,Erling,Haaland,Reus,Reus,,No 2nd Assist (Reus interception),haaland,reus,reus,,active
+2021-22,21-22-009,DFL-Supercup,F,1,2021-08-17,Bayern Munich,Home,64,64,1,2,-1,Marco,Reus,Bellingham,Bellingham,Passlack,,reus,bellingham,bellingham,passlack,active
+2021-22,21-22-010,Bundesliga,MD2,2,2021-08-21,Freiburg,Away,59,59,1,2,-1,Felix,Passlack,,Reyna,Bellingham,Own Goal awarded to Passlack,passlack,,reyna,bellingham,active
