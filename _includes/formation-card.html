@@ -1,0 +1,22 @@
+{% for player in site.data.players-frauen %}
+  {% if include.player == player.id %}
+    <div class="frauen-card">
+      <img src="assets/images/frauen/365/{{ player.id }}.jpg" alt="Photo of {{ player.first }} {{ player.last }}" />
+      <h4 class="frauen-card-name">{{ player.first }} {{ player.last }}</h4>
+      <span class="frauen-card-dob"><span class="{{ player.id }}-card-age"></span></span>
+      <span class="frauen-card-number">{{ player.number }}</span>
+      <span class="frauen-card-position">{{ player.position }}</span>
+      <script>
+        function calculate_age(dob) {
+          var diff_ms = Date.now() - dob.getTime();
+          var age_dt = new Date(diff_ms);
+          return Math.abs(age_dt.getUTCFullYear() - 1970);
+        }
+
+        var playerAge = document.querySelector('.{{ player.id }}-card-age');
+
+        playerAge.appendChild(document.createTextNode("Age " + calculate_age(new Date("{{ player.dob }}"))));
+      </script>
+    </div>
+  {% endif %}
+{% endfor %}

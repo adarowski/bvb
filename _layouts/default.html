@@ -12,20 +12,35 @@
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
-    <title>{{ page.title }}: Borussia Dortmund Hockey-Style Scoring</title>
+    {% if page.body_class == "frauen" %}
+      <title>{{ page.title }}</title>
+    {% else %}
+      <title>{{ page.title }}: Borussia Dortmund Hockey-Style Scoring</title>
+    {% endif %}
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css?34">
+    <link rel="stylesheet" href="assets/css/styles.css?36">
     <script src="assets/js/tablesort.js"></script>
     <script src="assets/js/tablesort.number.js"></script>
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@fussballtwit" />
-    <meta name="twitter:title" content="{{ page.title }}: Borussia Dortmund Hockey-Style Scoring" />
-    <meta name="twitter:description" content="Documenting all goals for Borussia Dortmund since the start of the 2015-16 season with hockey-style goals and assists." />
+
+    {% if page.body_class == "frauen" %}
+      <meta name="twitter:title" content="{{ page.title }}" />
+    {% else %}
+      <meta name="twitter:title" content="{{ page.title }}: Borussia Dortmund Hockey-Style Scoring" />
+    {% endif %}
+
+    {% if page.body_class == "frauen" %}
+      <meta name="twitter:title" content="Dedicated to Borussia Dortmund’s first womens squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid." />
+    {% else %}
+      <meta name="twitter:description" content="Documenting all goals for Borussia Dortmund since the start of the 2015-16 season with hockey-style goals and assists." />
+    {% endif %}
+
     {% if page.body_class == "player" %}
       <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/500/{{ page.player }}.png" />
     {% elsif page.body_class == "frauen" %}
-      <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/frauen_team.jpg" />
+      <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/frauen/bvb-frauen-fun.jpg" />
     {% else %}
       <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/500/reus.png" />
     {% endif %}

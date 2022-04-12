@@ -4,40 +4,46 @@ title: Borussia Dortmund Frauen
 body_class: frauen
 ---
 
+<img src="assets/images/frauen/bvb-frauen-fun.jpg" alt="Team Photo of BVB Frauen" style="width: calc(100% + 40px); height: auto; margin: -20px -20px 20px;" />
+
 <h2>{{ page.title }}</h2>
 
-<p><img src="assets/images/frauen/mannschaft-frauen.jpg" alt="Team Photo of BVB Frauen" style="width: 100%; height: auto; max-width: 800px;" /></p>
-
-<div class="article-body">
-<p>
-  <strong>Top Row:</strong> Virginia Glänzer, Hannah Goosmann, Vanessa Heim, Ana-Louisa Zabell, Lilli Verena Prinzen, Annika Billig, Annika Fälker, Carolin Marie Kaul.
-  <strong>Middle Row:</strong> Head Coach Thomas Sulewski, Denise Pörteners, Kimberly Becker, Luisa Bergmann, Ann-Katrin Lau, Allegra Gerres, Laura Höhl, Anna Lena West, Assistant Coach Tim Treude, Assistant Coach Dustin Wurst.
-  <strong>Bottom Row:</strong> Lea Rogge-Herper, Annika Herbig, Hanna Schneider, Lena Kölmel, Sandra Schröer, Stefanie Scheibe, Marina Jung, Neele Dröter, Lisa Klemann.
-</p>
+<div class="subnav">
+  <a href="#squad">Squad</a>
+  <a href="#statistics">Statistics</a>
+  <a href="#goals">Goals</a>
+  <a href="#schedule">Schedule</a>
 </div>
 
-<h3>Squad</h3>
+<p style="max-width: 1000px;">
+  This page is dedicated to Borussia Dortmund’s first womens squad. Our ladies are playing their first season in the seventh tier of German football, in the Kreisliga A (Group 2).
+  I’ll be providing squad information, statistics, and match reports (as much as I possibly can) as the team begins its climb up the German football pyramid.
+</p>
+
+<h3 id="squad">Squad</h3>
 
 <div class="frauen-cards">
   {% for player in site.data.players-frauen %}
-    <div class="frauen-card">
-      <img src="assets/images/frauen/365/{{ player.id }}.jpg" alt="Photo of {{ player.first }} {{ player.last }}" />
-      <h4 class="frauen-card-name">{{ player.first }} {{ player.last }}</h4>
-      <span class="frauen-card-dob"><span class="{{ player.id }}-card-age"></span></span>
-      <span class="frauen-card-number">{{ player.number }}</span>
-      <span class="frauen-card-position">{{ player.position }}</span>
-      <script>
-        function calculate_age(dob) {
-          var diff_ms = Date.now() - dob.getTime();
-          var age_dt = new Date(diff_ms);
-          return Math.abs(age_dt.getUTCFullYear() - 1970);
-        }
+    {% unless player.id == "schlenker" %}
+      <div class="frauen-card">
+        <img src="assets/images/frauen/365/{{ player.id }}.jpg" alt="Photo of {{ player.first }} {{ player.last }}" />
+        <h4 class="frauen-card-name">{{ player.first }} {{ player.last }}</h4>
+        <span class="frauen-card-dob"><span class="{{ player.id }}-card-age"></span></span>
+        <span class="frauen-card-number">{{ player.number }}</span>
+        <span class="frauen-card-position">{{ player.position }}</span>
+        <script>
+          function calculate_age(dob) {
+            var diff_ms = Date.now() - dob.getTime();
+            var age_dt = new Date(diff_ms);
+            return Math.abs(age_dt.getUTCFullYear() - 1970);
+          }
 
-        var playerAge = document.querySelector('.{{ player.id }}-card-age');
+          var playerAge = document.querySelector('.{{ player.id }}-card-age');
 
-        playerAge.appendChild(document.createTextNode("Age " + calculate_age(new Date("{{ player.dob }}"))));
-      </script>
-    </div>
+          playerAge.appendChild(document.createTextNode("Age " + calculate_age(new Date("{{ player.dob }}"))));
+        </script>
+      </div>
+    {% endunless %}
   {% endfor %}
 </div>
 
@@ -52,35 +58,41 @@ body_class: frauen
         <th class="left">Previous Club</th>
         <th class="left">Instagram</th>
         <th class="left">Twitter</th>
-        <th class="left">Note</th>
       </tr>
     </thead>
     <tbody>
       {% for player in site.data.players-frauen %}
-        <tr>
-          <td class="left" data-sort="{{ player.id }}">
-            <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
-            {{ player.first }} {{ player.last }}
-          </td>
-          <td class="right">{{ player.number }}</td>
-          <td class="left">{{ player.position }}</td>
-          <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
-          <td class="left">{{ player.prev_club }}</td>
-          <td class="left"><a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a></td>
-          <td class="left"><a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a></td>
-          <td class="left">{{ player.note }}</td>
-          <script>
-            function calculate_age(dob) {
-              var diff_ms = Date.now() - dob.getTime();
-              var age_dt = new Date(diff_ms);
-              return Math.abs(age_dt.getUTCFullYear() - 1970);
-            }
+        {% unless player.id == "schlenker" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html">
+                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+              </a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
+            <td class="left">{{ player.prev_club }}</td>
+            <td class="left"><a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a></td>
+            <td class="left">
+              {% if player.twitter %}
+                <a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a>
+              {% endif %}
+            </td>
+            <script>
+              function calculate_age(dob) {
+                var diff_ms = Date.now() - dob.getTime();
+                var age_dt = new Date(diff_ms);
+                return Math.abs(age_dt.getUTCFullYear() - 1970);
+              }
 
-            var playerAge = document.querySelector('.{{ player.id }}-age');
+              var playerAge = document.querySelector('.{{ player.id }}-age');
 
-            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
-          </script>
-        </tr>
+              playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+            </script>
+          </tr>
+        {% endunless %}
       {% endfor %}
     </tbody>
   </table>
@@ -95,7 +107,6 @@ body_class: frauen
         <th class="left">Name</th>
         <th class="left">Position</th>
         <th class="left">Date of Birth</th>
-        <th class="left">Previous Clubs</th>
       </tr>
     </thead>
     <tbody>
@@ -106,7 +117,6 @@ body_class: frauen
         </td>
         <td class="left">Head Coach</td>
         <td class="left" data-sort="1990-08-03">August 3, 1990</td>
-        <td class="left">DJK TuS Körne, SV Brackel 06, Borussia Dortmund, Westfalia Wickede, ÖSG Viktoria 08</td>
       </tr>
       <tr>
         <td class="left" data-sort="wurst">
@@ -115,7 +125,6 @@ body_class: frauen
         </td>
         <td class="left">Assistant Coach</td>
         <td class="left" data-sort="1985-04-03">April 3, 1985</td>
-        <td class="left">DjK Tus Hordel, SW Wattenscheid, TuRa Rüdinghausen, SV Herbede, Westfalia Rhynern, FC Frohlinde, FC Iserlohn</td>
       </tr>
       <tr>
         <td class="left" data-sort="treude">
@@ -124,7 +133,6 @@ body_class: frauen
         </td>
         <td class="left">Assistant Coach</td>
         <td class="left" data-sort="1990-01-28">January 28, 1990</td>
-        <td class="left">TSV Aue-Wingeshausen, Borussia Dortmund, Rot-Weiss Essen, TuS Erndtebrück, RSV Meinerzhagen</td>
       </tr>
       <tr>
         <td class="left" data-sort="krahn">
@@ -133,7 +141,6 @@ body_class: frauen
         </td>
         <td class="left">Sporting Advisor</td>
         <td class="left" data-sort="1985-07-01">July 1, 1985</td>
-        <td class="left">Bayer 04 Leverkusen, Paris Saint-Germain, FCR 2001 Duisburg</td>
       </tr>
       <tr>
         <td class="left" data-sort="timm">
@@ -142,150 +149,325 @@ body_class: frauen
         </td>
         <td class="left">Sporting Advisor</td>
         <td class="left" data-sort="1979-02-27">February 27, 1979</td>
-        <td class="left">Karlsruher SC, SpVgg Greuther Fürth, 1.FC Kaiserlautern, 1. FC Köln, Borussia Dortmund</td>
       </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="statistics">2021-22 Statistics</h3>
+<p><strong>Note:</strong> Four own goals scored.</p>
+
+<div class="table-container">
+  <table id="stats-list" class="players-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="4">League</th>
+        <th colspan="4">Cup</th>
+        <th colspan="4">All Comps</th>
+      </tr>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right" data-sort-default>G+A/90</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players-frauen %}
+        {% assign season_mins = player.all_min | plus: 0 %}
+        {% if season_mins > 0 %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
+            <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
+            <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
+            <td class="right" data-value="{{ player.lg_ga90 }}">{{ player.lg_ga90 }}</td>
+            <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
+            <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
+            <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
+            <td class="right" data-value="{{ player.cup_ga90 }}">{{ player.cup_ga90 }}</td>
+            <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
+            <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
+            <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
+            <td class="right" data-value="{{ player.all_ga90 }}">{{ player.all_ga90 }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h3 id="goals">2021-22 Goals</h3>
+
+<div class="goal-table-filter">
+  <label for="goal-filter">Filter Goals</label>
+  <input id="goal-filter" type="text" class="table-filter" data-table="goals-table" placeholder="Search for player, opponent, competition, etc." />
+</div>
+
+<div class="table-container">
+  <table id="frauen-goals" class="goals-table">
+    <thead>
+      <tr>
+        <th class="left">Scorer</th>
+        <th class="left">Assist</th>
+        <th class="left">Date</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="right">Min</th>
+        <th class="left">Opponent</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
+        <th class="left">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for goal in site.data.frauen-goals %}
+        <tr data-scorer="{{ goal.id_scorer }}">
+          <td class="left" data-sort="{{ goal.id_scorer }}">
+            {% if goal.id_scorer %}
+            <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)">
+            </div>
+            <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
+            {% else %}
+            Own Goal
+            {% endif %}
+          </td>
+          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}{{ goal.assist_official }}{% endif %}</td>
+          <td class="left">{{ goal.date | date: '%B %-d, %Y' }}</td>
+          <td class="left">{{ goal.comp }}</td>
+          <td class="left" data-sort="{{ goal.id }}">{{ goal.round }}</td>
+          <td class="right" data-sort="{{ goal.min_alt }}"> {{ goal.min }}</td>
+          <td class="left">{{ goal.opponent }}</td>
+          <td class="left">{{ goal.venue }}</td>
+          <td class="right">{{ goal.gf }}</td>
+          <td class="right">{{ goal.ga }}</td>
+          <td class="right">{{ goal.gd }}</td>
+          <td class="left"><span>{{ goal.note }}</span></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h3 id="schedule">2021-22 Season Schedule</h3>
+
+<div class="table-container">
+  <table id="fixtures-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Date</th>
+        <th class="left">Opponent</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="left">Result</th>
+        <th class="left">Stream</th>
+        <th class="left">Highlights</th>
+        <th class="left">Recap</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for match in site.data.frauen-matches %}
+        <tr>
+          <td class="left">{{ match.date }}</td>
+          <td class="left">{{ match.opponent }}</td>
+          <td class="left">{{ match.comp }}</td>
+          <td class="left">{{ match.round }}</td>
+          <td class="left">{{ match.venue }}</td>
+          <td class="right">{{ match.gf }}</td>
+          <td class="right">{{ match.ga }}</td>
+          <td class="left {{ match.result | downcase }}">{{ match.result }}</td>
+          <td class="left">
+            {% if match.stream %}
+            <a href="https://soccerwatch.tv/video/{{ match.stream }}">Stream</a>
+            {% endif %}
+          </td>
+          <td class="left">
+            {% if match.result %}
+              {% if match.stream %}
+                <a href="https://soccerwatch.tv/video/{{ match.stream }}/highlight">Highlights</a>
+              {% endif %}
+            {% endif %}
+          </td>
+          <td class="left">
+            {% if match.recap %}
+              <a href="{{ match.recap }}">Recap</a>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
 
 <div class="article-body">
 
-<h3>Information</h3>
+<h3>2021-22 Preseason Friendlies</h3>
 
-<ul>
-  <li><strong>Department Head, Womens Football:</strong> Svenja Schlenker</li>
-  <li><strong>Home Field:</strong> Stadion Rote Erde</li>
-  <li><strong>League:</strong> Kreisliga A, Group 2 (8th Tier)</li>
-  <li><strong>Instagram:</strong> <a href="https://www.instagram.com/bvb09frauen/">bvb09frauen</a></li>
-  <li><strong>Schedule, Results, and Table:</strong> <a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">via Fussball.de</a></li>
-</ul>
-
-<h3>Preseason Friendlies</h3>
-
-<ul>
+<ul class="schedule-list">
   <li>
-    <strong><a href="https://www.fussball.de/spiel/borussia-dortmund-tsv-1860-muenchen/-/spiel/02F7F3VID4000000VS5489B4VS777J8H#!/">August 8, 2021</a>:</strong>
+    🟢 <strong><a href="https://www.fussball.de/spiel/borussia-dortmund-tsv-1860-muenchen/-/spiel/02F7F3VID4000000VS5489B4VS777J8H#!/">August 8, 2021</a>:</strong>
     3–1 home win vs. TSV 1860 München
     • <a href="https://internationalfanapp.bvb.de/contents/bvb-women-win-3-1-over-1860-munich-in-first-ever-game-15029/">Recap</a>
+    • <a href="https://soccerwatch.tv/spiel/105750/highlight">Highlights</a>
     • <a href="https://www.youtube.com/watch?v=KcJgp-YU3o4">Stream</a>
-    <ol>
-      <li>15’ <strong>Ann-Katrin Lau</strong> - No official assist (Hannah Goosmann had possession when fouled, Lau picked up the loose ball and scored. The pass to Goosmann came from Annika Billig but may have been flicked on by Lea Rogge-Herper.)</li>
-      <li>39’ <strong>Lea Rogge-Herper</strong> - Assist by Ann-Katrin Lau (Lau won the ball.)</li>
-      <li>49’ <strong>Annika Herbig</strong> - Assist by Laura Höhl (The pass to Höhl came from Annika Fälker.)</li>
+    <ol class="goal-summary">
+      <li>15’ <strong>Ann-Katrin Lau</strong> - Unassisted</li>
+      <li>39’ <strong>Lea Rogge-Herper</strong> - Assist by Ann-Katrin Lau</li>
+      <li>49’ <strong>Annika Herbig</strong> - Assist by Laura Höhl</li>
     </ol>
   </li>
   <li>
-    <strong><a href="https://www.fussball.de/spiel/sv-eintracht-solingen-borussia-dortmund/-/spiel/02F5K1TNG8000000VS5489B3VTRLPP90#!/">August 15, 2021</a>:</strong>
+    🔴 <strong><a href="https://www.fussball.de/spiel/sv-eintracht-solingen-borussia-dortmund/-/spiel/02F5K1TNG8000000VS5489B3VTRLPP90#!/">August 15, 2021</a>:</strong>
     1–0 away loss vs. SV Eintracht Solingen
     • <a href="https://internationalfanapp.bvb.de/contents/bvb-women-brave-in-defeat-to-niederrhein-liga-team-solingen-15100/">Recap</a>
+    <ol class="goal-summary">
+      <li><em>No goals</em></li>
+    </ol>
   </li>
   <li>
-    <strong><a href="https://www.fussball.de/spiel/vfl-kamen-borussia-dortmund/-/spiel/02F1Q3QIJG000000VS5489B4VS0OFO4E#!/">August 18, 2021</a>:</strong>
+    🟢 <strong><a href="https://www.fussball.de/spiel/vfl-kamen-borussia-dortmund/-/spiel/02F1Q3QIJG000000VS5489B4VS0OFO4E#!/">August 18, 2021</a>:</strong>
     3-0 away win vs. VfL Kamen
     • <a href="https://internationalfanapp.bvb.de/contents/bvb-beat-kamen-3-0-away-from-home-in-their-third-friendly-15163/">Recap</a>
-    <ol>
-      <li>5’ <strong>Ann-Katrin Lau</strong> - Unassisted (Lau won the ball)</li>
-      <li>35’ <strong>Vanessa Heim</strong> - Unassisted (direct free kick)</li>
-      <li>69’ <strong>Hannah Goosmann</strong> - Assist by Vanessa Heim (forward pass)</li>
+    <ol class="goal-summary">
+      <li>5’ <strong>Ann-Katrin Lau</strong> - Unassisted</li>
+      <li>35’ <strong>Vanessa Heim</strong> - Unassisted</li>
+      <li>69’ <strong>Hannah Goosmann</strong> - Assist by Vanessa Heim </li>
     </ol>
   </li>
   <li>
-    <strong><a href="https://www.fussball.de/spiel/svw-ahnatal-damen-borussia-dortmund/-/spiel/02F7RA525S000000VS5489B4VS777J8H#!/">August 22, 2021</a>:</strong>
+    🟢 <strong><a href="https://www.fussball.de/spiel/svw-ahnatal-damen-borussia-dortmund/-/spiel/02F7RA525S000000VS5489B4VS777J8H#!/">August 22, 2021</a>:</strong>
     5-0 away win vs. SVW Ahnatal Damen
     • <a href="https://internationalfanapp.bvb.de/contents/bvb-women-round-off-training-camp-with-friendly-win-15197/">Recap</a>
-    <ol>
+    <ol class="goal-summary">
       <li>21’ <strong>Kimberly Becker</strong> - Assist by Lisa Klemann</li>
-      <li>22’ <strong>Hannah Goosmann</strong> - Assist by Sandra Schröer (long ball)</li>
+      <li>22’ <strong>Hannah Goosmann</strong> - Assist by Sandra Schröer</li>
       <li>56’ <strong>Laura Höhl</strong> - Assist by Ann-Katrin Lau</li>
-      <li>89’ <strong>Annika Herbig</strong> - Assist by Laura Höhl (cross)</li>
-      <li>90’ <strong>Laura Höhl</strong> - Assist by Annika Herbig (cross)</li>
+      <li>89’ <strong>Annika Herbig</strong> - Assist by Laura Höhl</li>
+      <li>90’ <strong>Laura Höhl</strong> - Assist by Annika Herbig</li>
     </ol>
   </li>
   <li>
-    <strong>August 28, 2021:</strong>
-    Away vs.  Sportfreunde Siegen II
+    🟢 <strong><a href="https://www.fussball.de/spiel/sportfreunde-siegen-ii-borussia-dortmund/-/spiel/02FF0MVDLG000000VS5489B3VV76U8DT#!/">August 28, 2021</a>:</strong>
+    3-0 Away win vs. Sportfreunde Siegen II
+    •  <a href="https://internationalfanapp.bvb.de/contents/injury-hit-bvb-women-win-3-0-in-siegen-15273/">Recap</a>
+    <ol class="goal-summary">
+      <li>62’ <strong>Luisa Bergmann</strong> - Assist by Hannah Goosmann</li>
+      <li>70’ <strong>Ann-Katrin Lau</strong> - Assist by Ana Zabell</li>
+      <li>85’ <strong>Ann-Katrin Lau</strong> - Assist by Virginia Glänzer</li>
+    </ol>
+  </li>
+  <li>
+    🟢 <strong><a href="https://www.fussball.de/spiel/adler-osterfeld-borussia-dortmund/-/spiel/02FGU6GGS8000000VS5489B3VV76U8DT#!/">September 4, 2021</a>:</strong>
+    3-1 away win vs.  SV Adler Osterfeld
+    • <a href="https://internationalfanapp.bvb.de/contents/a-successful-dress-rehearsal-bvb-women-win-in-osterfeld-15318/">Recap</a>
+    • <a href="https://soccerwatch.tv/spiel/112266/highlight">Stream</a>
+    <ol class="goal-summary">
+      <li>31’ <strong>Vanessa Heim</strong> - Assist by Carolin Kaul</li>
+      <li>44’ <strong>Hannah Goosmann</strong> - Assist by Carolin Kaul</li>
+      <li>52’ <strong>Vanessa Heim</strong> - Assist by Laura Höhl</li>
+    </ol>
   </li>
 </ul>
 
-<h3>Season Schedule</h3>
+<h3>2021-22 Midseason Friendlies</h3>
 
-<ul>
+<ul class="schedule-list">
   <li>
-    <strong>September 12, 2021 @ 15:00:</strong>
-    Home vs. BV Brambauer 13/​45 e.V.
+    🟢 <strong><a href="https://www.fussball.de/spiel/sg-selm-suedkirchen-borussia-dortmund/-/spiel/02FJ5HMLK0000000VS5489B3VVO6FI7P#!/">November 14, 2021</a>:</strong>
+    5-1 away win vs. SG Selm/​Südkirchen
+    • <a href="https://internationalfanapp.bvb.de/contents/bvb-goalkeeper-scores-on-debut-bvb-win-5-1-in-sudkirchen-16021/">Recap</a>
+    <ol class="goal-summary">
+      <li>29’ <strong>Ana Zabell</strong> - Assist by Vanessa Heim</li>
+      <li>41’ <strong>Hannah Goosmann</strong> - Assist by Carolin Kaul</li>
+      <li>58’ <strong>Ana Zabell</strong> - Unassisted</li>
+      <li>62’ <strong>Hannah Goosmann</strong> - Assist by Virginia Glänzer</li>
+      <li>83’ <strong>Stefanie Scheibe</strong> - Assist by Ana Zabell</li>
+    </ol>
   </li>
   <li>
-    <strong>September 23, 2021 @ 15:00:</strong>
-    Away vs. Urania Lütgendortmund
-    - Kreispokal 🏆
+    🟢 <strong><a href="https://www.fussball.de/spiel/sv-leithe-19-65-borussia-dortmund/-/spiel/02G3FKQN38000000VS5489B4VSJORCJQ#!/">January 23, 2022</a>:</strong>
+    2-1 away win vs. SV Leithe 19/65
+    • <a href="https://soccerwatch.tv/video/127737/highlight">Highlights</a>
+    • <a href="https://soccerwatch.tv/video/127737">Stream</a>
+    • <a href="https://internationalfanapp.bvb.de/contents/successful-restart-as-bvb-women-win-in-essen-16582/">Recap</a>
+    <ol class="goal-summary">
+      <li>16’ <strong>Virginia Glänzer</strong> - Assist by Luisa Bergmann</li>
+      <li>73’ <strong>Vanessa Heim</strong> - Unassisted</li>
+    </ol>
   </li>
   <li>
-    <strong>September 26, 2021 @ 15:00:</strong>
-    Away vs. SF Sölderholz
+    🔵 <strong><a href="https://www.fussball.de/spiel/muelheimer-sv-07-borussia-dortmund/-/spiel/02GCR4M554000000VS5489B4VVA10KRD#!/">January 30, 2022</a>:</strong>
+    3-3 away draw vs. Mülheimer SV 07
+    • <a href="https://www.bvb.de/Mannschaften/Frauen/News/Zweiter-Test-BVB-Frauen-spielen-3-3-in-Muelheim">Recap (in German)</a>
+    <ol class="goal-summary">
+      <li>19’ <strong>Annika Billig</strong> - Unassisted</li>
+      <li>41’ <strong>Laura Höhl</strong> - Assist by Carolin Kaul</li>
+      <li>72’ <strong>Annika Fälker</strong> - Unassisted</li>
+    </ol>
   </li>
   <li>
-    <strong>October 3, 2021 @ 15:00:</strong>
-    Home vs. BV Teutonia Lanstrop
+    🔵 <strong><a href="https://www.fussball.de/spiel/sc-drolshagen-borussia-dortmund/-/spiel/02G3GE7I6O000000VS5489B4VSJORCJQ#!/">February 6, 2022</a>:</strong>
+    1-1 away draw vs. SC Drolshagen
+    • <a href="https://internationalfanapp.bvb.de/contents/strong-test-at-landesliga-club-bvb-women-force-a-1-1-draw-in-drolshagen-16688/">Recap</a>
+    <ol class="goal-summary">
+      <li>82’ <strong>Vanessa Heim</strong> - Assist by Stefanie Schiebe</li>
+    </ol>
   </li>
   <li>
-    <strong>October 10, 2021 @ 17:15:</strong>
-    Away vs. SpVg Berghofen III
+    🟢 <strong><a href="https://www.fussball.de/spiel/rhenania-hochdahl-borussia-dortmund/-/spiel/02FSODS4HG000000VS5489B3VVKAJ51L#!/">February 13, 2022</a>:</strong>
+    5-1 away win vs. Rhenania Hochdahl
+    • <a href="https://internationalfanapp.bvb.de/contents/comfortable-victory-in-bergisches-land-as-bvb-women-beat-erkrath-5-1-16739/">Recap</a>
+    • <a href="https://soccerwatch.tv/video/129971/highlight">Highlights</a>
+    • <a href="https://soccerwatch.tv/video/129971">Stream</a>
+    <ol class="goal-summary">
+      <li>11’ <strong>Lea Rogge-Herper</strong> - Assist by Vanessa Heim</li>
+      <li>29’ <strong>Lea Rogge-Herper</strong> - Unassisted</li>
+      <li>41’ <strong>Vanessa Heim</strong> - Unassisted</li>
+      <li>59’ <strong>Annika Billig</strong> - Assist by Lisa Klemann</li>
+      <li>62’ <strong>Carolin Kaul</strong> - Unassisted</li>
+    </ol>
   </li>
   <li>
-    <strong>October 17, 2021 @ 15:00:</strong>
-    Home vs. TuRa Asseln
+    🔴 <strong><a href="https://www.fussball.de/spiel/bsv-heeren-09-24-borussia-dortmund/-/spiel/02FHDO6FCO000000VS5489B4VU45R60J#!/">February 27, 2022</a>:</strong>
+    2-1 away loss vs. BSV Heeren 09/​24
+    • <a href="https://internationalfanapp.bvb.de/contents/bvb-women-lose-the-final-friendly-before-the-season-restart-16915/">Recap</a>
+    <ol class="goal-summary">
+      <li>19’ <strong>Virginia Glänzer</strong> - Assist by Carolin Kaul</li>
+    </ol>
   </li>
   <li>
-    <strong>October 24, 2021 @ 17:00:</strong>
-    Away vs. SF Ay Yildiz Derne
-  </li>
-  <li>
-    <strong>October 31, 2021 @ 15:00:</strong>
-    Home vs. Lüner SV
-  </li>
-  <li>
-    <strong>November 7, 2021 @ 14:30:</strong>
-    Away vs. BV Viktoria Kirchderne
-  </li>
-  <li>
-    <strong>November 28, 2021 @ 12:30:</strong>
-    Home vs. SV Körne 83
-  </li>
-  <li>
-    <strong>March 6, 2022 @ 17:00:</strong>
-    Away vs. BV Brambauer 13/​45 e.V.
-  </li>
-  <li>
-    <strong>March 20, 2022 @ 15:00:</strong>
-    Home vs. SF Sölderholz
-  </li>
-  <li>
-    <strong>March 27, 2022 @ 13:00:</strong>
-    Away vs. BV Teutonia Lanstrop
-  </li>
-  <li>
-    <strong>April 3, 2022 @ 15:00:</strong>
-    Home vs. SpVg Berghofen III
-  </li>
-  <li>
-    <strong>April 10, 2022 @ 17:00:</strong>
-    Away vs. TuRa Asseln
-  </li>
-  <li>
-    <strong>April 24, 2022 @ 15:00:</strong>
-    Home vs. SF Ay Yildiz Derne
-  </li>
-  <li>
-    <strong>May 1, 2022 @ 17:00:</strong>
-    Away vs. Lüner SV
-  </li>
-  <li>
-    <strong>May 8, 2022 @ 15:00:</strong>
-    Home vs. BV Viktoria Kirchderne
-  </li>
-  <li>
-    <strong>May 22, 2022 @ 15:00:</strong>
-    Away vs. SV Körne 83
+    🔵 <strong>March 12, 2022:</strong>
+    2-2 away draw vs. 🇵🇱 LKS Goczałkowice-Zdrój 09/​24
+    • <a href="https://staige.tv/video/139658">Stream</a>
+    • <a href="https://www.bvb.de/ger/News/Uebersicht/BVB-Frauen-mit-Remis-gegen-Piszczek-Klub">Recap (in German)</a>
+    <ol class="goal-summary">
+      <li>4’ <strong>Carolin Kaul</strong> - Unassisted</li>
+      <li>72’ <strong>Ann-Katrin Lau</strong> - Assist by Ana Zabell</li>
+    </ol>
   </li>
 </ul>
 
@@ -293,19 +475,41 @@ body_class: frauen
 
 <ul>
   <li>
+    <strong><a href="https://www.flickr.com/photos/vm1909/albums/72157719700267883">BVB Frauen Photos by BVB-Spielplan.de</a>:</strong> Great photos from our friends at <a href="http://bvb-spielplan.de/">BVB-Spielplan.de</a> (<a href="https://twitter.com/TinneffBlog">@TinneffBlog</a> on Twitter).
+  </li>
+  <li>
     <strong><a href="2021-08-05-frauen-podcast.html">BVB Frauen Podcast Translation by Julia Poblotzki</a>:</strong> On August 5, 2021 Borussia Dortmund published <a href="https://www.bvb.de/Mannschaften/Frauen/News/Frauenfussball-beim-BVB-im-Podcast-Ein-Traum-geht-in-Erfuellung!">a podcast episode</a> with Svenja Schlenker (Borussia Dortmund’s Department Head, Womens Football), Lisa Klemann (Borussia Dortmund Frauen player), and Thomas Sulewski (Borussia Dortmund Frauen head coach). The podcast, of course, is in German. But Fear the Wall’s Julia Poblotzki (<a href="http://twitter.com/jpoblo">@jpoblo</a> on Twitter) graciously translated it to English for the site. Thank you, Julia!
   </li>
   <li>
-    <strong><a href="https://internationalfanapp.bvb.de/contents/get-to-know-our-bvb-womens-team/">Get to know our BVB Women’s Team: Annika Herbig</a>:</strong> She was one of the three scorers in BVB's first women's match on August 8. What a fantastic start that was: In front of a crowd of 1,300 fans in the Stadium Rote Erde, the Black & Yellows triumphed 3-1 (2-0) over the also newly-formed women's team of TSV 1860 Munich.
+    <strong><a href="https://internationalfanapp.bvb.de/contents/get-to-know-our-bvb-womens-team/">Get to know our BVB Women’s Team: Annika Herbig</a>:</strong> She was one of the three scorers in BVB's first women’s match on August 8. What a fantastic start that was: In front of a crowd of 1,300 fans in the Stadium Rote Erde, the Black & Yellows triumphed 3-1 (2-0) over the also newly-formed women's team of TSV 1860 Munich.
+  </li>
+  <li>
+    <strong><a href="https://open.spotify.com/episode/50MXQuVYSxCk0ZAqNxVDGP">S1 Ep.25 Bleav in Borussia: Exclusive English Interview with Svenja Schlenker, Head of BVB's new women's team + Fan Chat Kansas City</a>:</strong> Tilo was able to secure and interview in English with Svenja Schlenker, BVB’s Head of Women’s Football. In this episode we learn:
+    <ul>
+      <li>Svenja has always been banging the drum for a women’s team, but things really started to heat up in 2019 as the club had no good answer for why they didn’t have a team yet.</li>
+      <li>About 80% of club members surveyed wanted to start from the bottom up rather than acquiring a license.</li>
+      <li>About 150 players tried out for the team.</li>
+      <li>All 24 players are Borussia Dortmund fans.</li>
+      <li>And more…</li>
+    </ul>
+  </li>
+  <li>
+    <strong><a href="https://www.bvb.de/eng/News/Overview/Borussia-Dortmund-launches-Girls-and-Women-s-Football-department">Borussia Dortmund launches "Girls' and Women's Football" department</a></strong>: Original announcement of the establishment of a women’s football department at Borussia Dortmund. <em>(September 10, 2020)</em>
+  </li>
+  <li>
+    <strong><a href="https://internationalfanapp.bvb.de/contents/09-stats-breakdown-bvb-frauen/">09 Stats Breakdown - BVB Frauen</a></strong> <em>(December 14, 2021)</em>
   </li>
 </ul>
 
-<h3>Other Resources</h3>
+<h3>Team Information</h3>
 
 <ul>
-  <li><a href="https://www.fupa.net/team/borussia-dortmund-w1-2021-22">FUPA</a></li>
-  <li><a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">Fussball.de</a></li>
-  <li><a href="https://www.soccerdonna.de/de/borussia-dortmund/startseite/verein_7405.html">Soccerdonna</a></li>
+  <li><strong>Department Head, Womens Football:</strong> Svenja Schlenker</li>
+  <li><strong>Home Field:</strong> Stadion Rote Erde</li>
+  <li><strong>League:</strong> <a href="https://www.fussball.de/spieltagsuebersicht/frauen-kl-a-dortmund-gruppe-2-kreis-dortmund-frauen-kreisliga-a-frauen-saison2122-westfalen/-/staffel/02EHD0KC5S00000DVS5489B3VT9UQ08G-G#!/">Frauen Kreisliga A Dortmund, Group 2</a> (7th Tier)</li>
+  <li><strong>Website:</strong> <a href="https://www.bvb.de/frauen/">bvb.de/frauen</a></li>
+  <li><strong>Instagram:</strong> <a href="https://www.instagram.com/bvb09frauen/">bvb09frauen</a></li>
+  <li><strong>Schedule, Results, and Table:</strong> <a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">via Fussball.de</a></li>
 </ul>
 
 </div>
@@ -313,4 +517,9 @@ body_class: frauen
 <script>
   new Tablesort(document.getElementById('players-list'));
   new Tablesort(document.getElementById('staff-list'));
+  new Tablesort(document.getElementById('stats-list'), { descending: true });
+  new Tablesort(document.getElementById('frauen-goals'));
+  new Tablesort(document.getElementById('fixtures-list'));
 </script>
+
+{% include table-search-script.html %}

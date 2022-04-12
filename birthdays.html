@@ -43,6 +43,26 @@ body_class: players
           </script>
         </tr>
       {% endfor %}
+      {% for player in site.data.players-frauen %}
+        <tr class="row-{{ player.active }}">
+          <td class="left show-for-all" data-sort="{{ player.id }}">
+            <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+            <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+          </td>
+          <td class="left show-for-all" data-sort="{{ player.dob | slice: 5, 10 | replace: '-', '.'}}">{{ player.dob | date: '%B %-d' }} <span class="{{ player.id }}-age"></span></td>
+          <script>
+            function calculate_age(dob) {
+              var diff_ms = Date.now() - dob.getTime();
+              var age_dt = new Date(diff_ms);
+              return Math.abs(age_dt.getUTCFullYear() - 1970);
+            }
+
+            var playerAge = document.querySelector('.{{ player.id }}-age');
+
+            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+          </script>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>

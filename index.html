@@ -21,8 +21,8 @@ body_class: stats
 
 <ul class="table-toggles">
   <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
-  <li class="hide"><button class="table-toggle show-ucl">Champions League</button></li>
-  <li class="hide"><button class="table-toggle show-uel">Europa League</button></li>
+  <li><button class="table-toggle show-ucl">Champions League</button></li>
+  <li><button class="table-toggle show-uel">Europa League</button></li>
   <li class="hide"><button class="table-toggle show-uelq">Europa League Qualification</button></li>
   <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
   <li><button class="table-toggle show-supercup">DFB-Supercup</button></li>
@@ -30,12 +30,13 @@ body_class: stats
 </ul>
 
 {% include stats-table.html directory="stats-2021-2022" comp="bundesliga" %}
+{% include stats-table.html directory="stats-2021-2022" comp="ucl" %}
+{% include stats-table.html directory="stats-2021-2022" comp="uel" %}
 {% include stats-table.html directory="stats-2021-2022" comp="cup" %}
 {% include stats-table.html directory="stats-2021-2022" comp="supercup" %}
 {% include stats-table.html directory="stats-2021-2022" comp="all" %}
 
-<p><strong>Own Goal Awarded:</strong> Felix Passlack (Bundesliga)</p>
-
+<p><strong>Own Goals Awarded:</strong> Felix Passlack (Bundesliga), Marco Reus (Bundesliga), Donyell Malen (Bundesliga), Julian Brandt (Bundesliga)</p>
 
 <p class="fbref-link">
   <a href="https://fbref.com/en/squads/add600ae/2021-2022/Dortmund-Stats">
@@ -48,6 +49,8 @@ body_class: stats
 
 <script>
   new Tablesort(document.getElementById('stats-bundesliga'), { descending: true });
+  new Tablesort(document.getElementById('stats-ucl'), { descending: true });
+  new Tablesort(document.getElementById('stats-uel'), { descending: true });
   new Tablesort(document.getElementById('stats-cup'), { descending: true });
   new Tablesort(document.getElementById('stats-supercup'), { descending: true });
   new Tablesort(document.getElementById('stats-all'), { descending: true });

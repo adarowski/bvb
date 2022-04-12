@@ -17,7 +17,7 @@ burki,Roman,Bürki,🇨🇭,Switzerland,1990-11-14,Goalkeeper,2015-07-01,SC Frei
 burnic,Dženis,Burnić,🇩🇪,Germany,1998-05-22,Midfield,2006-07-01,SV 26 Heessen,🇩🇪,,Free,0,,inactive,1.FC Heidenheim 1846,🇩🇪,2020-08-03,€500k,500000,€500k,500000,,,,,true,32,0dabaf14
 can,Emre,Can,🇩🇪,Germany,1994-01-12,Midfield,2020-07-01,Juventus,🇮🇹,"Joined on loan January 31, 2020 before permanent deal",€25 million,25000000,2024-06-30,active,,,,,,,,,,,,true,23,a65ce836
 castro,Gonzalo,Castro,🇩🇪,Germany,1987-06-11,Midfield,2015-07-01,Bayer Leverkusen,🇩🇪,,€11 million,11000000,,inactive,VfB Stuttgart,🇩🇪,2018-07-01,€5 million,5000000,-€6 million,-6000000,,,,,true,27,68829001
-collins,Nnamdi,Collins,🇩🇪,Germany,2004-01-10,Defense,2016-07-01,Fortuna Düsseldorf,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,false,41,8eb5c94c
+collins,Nnamdi,Collins,🇩🇪,Germany,2004-01-10,Defense,2016-07-01,Fortuna Düsseldorf,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,true,41,8eb5c94c
 coulibaly,Soumaïla,Coulibaly,🇫🇷,France,2003-10-14,Defense,2021-07-01,Paris Saint Germain,🇫🇷,,Free,0,2024-06-30,active,,,,,,,,,,,,true,4,
 dahoud,Mahmoud,Dahoud,🇩🇪,Germany,1996-01-01,Midfield,2017-07-01,Borussia Mönchengladbach,🇩🇪,,€15 million,15000000,2023-06-30,active,,,,,,,,,,,,true,8,db4ed67b
 dams,Niklas,Dams,🇩🇪,Germany,1990-05-28,Defense,2020-08-10,Wehen Wiesbaden,🇩🇪,,Free,0,2022-06-30,reserve,,,,,,,,,,,,false,97,bc6c859a
@@ -33,7 +33,7 @@ gomez,Sergio,Gómez,🇪🇸,Spain,2000-09-04,Midfield,2018-01-30,FC Barcelona,�
 gotze,Mario,Götze,🇩🇪,Germany,1992-06-03,Midfield,2016-07-21,Bayern Munich,🇩🇪,,€22 million,22000000,,inactive,PSV Eindhoven,🇳🇱,2020-10-06,Free,0,-€22 million,-22000000,,,,,true,10,9efa1d25
 guerreiro,Raphaël,Guerreiro,🇵🇹,Portugal,1993-12-22,Defense,2016-07-01,FC Lorient,🇫🇷,,€12 million,12000000,2023-06-30,active,,,,,,,,,,,,true,13,048a1cbc
 gundogan,İlkay,Gündoğan,🇩🇪,Germany,1990-10-24,Midfield,2011-07-01,1.FC Nürnberg,🇩🇪,,€5.5 million,5500000,,inactive,Manchester City,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-07-01,€27 million,27000000,€21.5 million,21500000,,,,,true,8,819b3158
-gurpuz,Göktan,Gürpüz,🇹🇷,Turkey,2003-01-22,Midfield,2016-07-01,Schalke 04,🇩🇪,,Free,0,2022-06-30,reserve,,,,,,,,,,,,false,42,199f7008
+gurpuz,Göktan,Gürpüz,🇹🇷,Turkey,2003-01-22,Midfield,2016-07-01,Schalke 04,🇩🇪,,Free,0,,reserve,,,,,,,,,,,,true,42,199f7008
 haaland,Erling,Haaland,🇳🇴,Norway,2000-07-21,Attack,2020-01-01,Red Bull Salzburg,🇦🇹,,€20 million,20000000,2024-06-30,active,,,,,,,,,,,,true,9,1f44ac21
 hakimi,Achraf,Hakimi,🇲🇦,Morocco,1998-11-04,Defense,2017-07-01,Real Madrid,🇪🇸,,Loan,0,,inactive,Real Madrid,🇪🇸,2020-06-30,End of Loan,0,None,0,,,,,true,5,e42d61c7
 hazard,Thorgan,Hazard,🇧🇪,Belgium,1993-03-29,Midfield,2019-07-01,Borussia Mönchengladbach,🇩🇪,,€25.5 million,25500000,2024-06-30,active,,,,,,,,,,,,true,10,50871bcc
@@ -41,7 +41,7 @@ hippe,Maximilian,Hippe,🇩🇪,Germany,1998-05-06,Defense,2019-07-01,SV Röding
 hitz,Marwin,Hitz,🇨🇭,Switzerland,1987-09-18,Goalkeeper,2018-07-01,FC Augsburg,🇩🇪,,Free,0,2023-06-30,active,,,,,,,,,,,,true,35,2e7ff968
 hober,Marco,Hober,🇩🇪,Germany,1995-09-09,Midfield,2018-08-02,Sportfreunde Lotte,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,false,47,3badec47
 hofmann,Jonas,Hofmann,🇩🇪,Germany,1992-07-14,Midfield,2011-07-01,TSG Hoffenheim,🇩🇪,,Free,0,,inactive,Borussia Mönchengladbach,🇩🇪,2016-01-01,€8 million,8000000,€8 million,8000000,,,,,true,7,2903a856
-hummels,Mats,Hummels,🇩🇪,Germany,1988-12-16,Defense,2019-07-01,Bayern Munich,🇩🇪,,€30.5 million,30500000,2022-06-30,active,,,,,,,,,,,,true,15,05d548d8
+hummels,Mats,Hummels,🇩🇪,Germany,1988-12-16,Defense,2019-07-01,Bayern Munich,🇩🇪,,€30.5 million,30500000,2023-06-30,active,,,,,,,,,,,,true,15,05d548d8
 isak,Alexander,Isak,🇸🇪,Sweden,1999-09-21,Attack,2017-07-23,AIK Fotboll,🇸🇪,,€8.6 million,8600000,,inactive,Real Sociedad,🇪🇸,2019-07-01,€6.5 million,6500000,-€2.1 million,-2100000,,,,,true,14,8e92be30
 januzaj,Adnan,Januzaj,🇧🇪,Belgium,1995-02-05,Midfield,2015-08-31,Manchester United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,,Loan,0,,inactive,Manchester United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-01-07,End of Loan,0,None,0,,,,,true,9,4737cebe
 kagawa,Shinji,Kagawa,🇯🇵,Japan,1989-03-17,Midfield,2014-08-31,Manchester United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,,€8 million,8000000,,inactive,Real Zaragoza,🇪🇸,2019-08-09,€3 million,3000000,-€5 million,-5000000,,,,,true,23,5afafbfe
@@ -49,12 +49,12 @@ kamara,Abdoulaye,Kamara,🇫🇷,France,2004-11-06,Midfield,2021-07-20,Paris Sai
 kampl,Kevin,Kampl,🇩🇪,Germany,1990-10-09,Midfield,2015-01-01,Red Bull Salzburg,🇦🇹,,€12 million,12000000,,inactive,Bayer Leverkusen,🇩🇪,2015-08-28,€11 million,11000000,-€1 million,-1000000,,,,,true,44,b825a650
 kleine-bekel,Colin,Kleine-Bekel,🇩🇪,Germany,2003-01-24,Defense,2015-07-01,Arminia Bielefeld,🇩🇪,,Free,0,,reserve,,,,,,,,,,,,false,44,1ccfb9d7
 klussmann,Leon,Klußmann,🇩🇪,Germany,2002-08-18,Goalkeeper,,Rot-Weiss Essen,🇩🇪,,Free,0,2022-06-30,reserve,,,,,,,,,,,,false,99,3759b06c
-knauff,Ansgar,Knauff,🇩🇪,Germany,2002-01-10,Attack,2016-07-01,Hannover 96,🇩🇪,,Free,0,2023-06-30,active,,,,,,,,,,,,true,36,19a967ab
+knauff,Ansgar,Knauff,🇩🇪,Germany,2002-01-10,Attack,2016-07-01,Hannover 96,🇩🇪,,Free,0,2023-06-30,loan,,,,,,,,,Eintracht Frankfurt,🇩🇪,2023-06-30,true,36,19a967ab
 kobel,Gregor,Kobel,🇨🇭,Switzerland,1997-12-06,Goalkeeper,2021-07-01,VfB Stuttgart,🇩🇪,,€15 million,15000000,2026-06-30,active,,,,,,,,,,,,true,1,cd59b9df
 leitner,Moritz,Leitner,🇩🇪,Germany,1992-12-08,Midfield,2011-01-01,1860 Munich,🇩🇪,,Free,0,,inactive,SS Lazio,🇮🇹,2016-08-12,€1.5 million,1500000,€1.5 million,1500000,,,,,true,14,9460aaed
 makreckis,Cebrail,Makreckis,🇱🇻,Latvia,2000-05-10,Midfield,2020-07-15,Bonner SC,🇩🇪,,Free,0,2022-06-30,reserve,,,,,,,,,,,,false,55,44e6796f
 malen,Donyell,Malen,🇳🇱,Netherlands,1999-01-19,Attack,2021-07-27,PSV Eindhoven,🇳🇱,,€30 million,30000000,2026-06-30,active,,,,,,,,,,,,true,21,864163f3
-maloney,Lennard,Maloney,🇺🇸,United States,1999-10-08,Defense,2020-08-07,Union Berlin,🇩🇪,,Unknown fee,0,2022-06-30,reserve,,,,,,,,,,,,false,45,75402e99
+maloney,Lennard,Maloney,🇺🇸,United States,1999-10-08,Defense,2020-08-07,Union Berlin,🇩🇪,,Unknown fee,0,2022-06-30,reserve,,,,,,,,,,,,true,45,75402e99
 merino,Mikel,Merino,🇪🇸,Spain,1996-06-22,Midfield,2016-07-01,CA Osasuna,🇪🇸,,€3.75 million,3750000,,inactive,Newcastle United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2018-07-01,€7 million,7000000,€3.25 million,3250000,"Departed on loan July 28, 2017 before permanent deal",,,,true,24,d080ed5e
 meunier,Thomas,Meunier,🇧🇪,Belgium,1991-09-12,Midfield,2020-07-01,Paris Saint Germain,🇫🇷,,Free,0,2024-06-30,active,,,,,,,,,,,,true,24,e162b013
 mkhitaryan,Henrikh,Mkhitaryan,🇦🇲,Armenia,1989-01-21,Midfield,2013-07-09,Shakhtar Donetsk,🇺🇦,,€27.5 million,27500000,,inactive,Manchster United,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2016-07-06,€42 million,42000000,€14.5 million,14500000,,,,,true,10,dd0daf32
@@ -62,18 +62,19 @@ mor,Emre,Mor,🇹🇷,Turkey,1997-07-24,Midfield,2016-07-01,FC Nordsjaelland,�
 morey,Mateu,Morey,🇪🇸,Spain,2000-03-02,Defense,2019-07-01,FC Barcelona,🇪🇸,,Free,0,2024-06-30,active,,,,,,,,,,,,true,2,5fd5e542
 moukoko,Youssoufa,Moukoko,🇩🇪,Germany,2004-11-20,Attack,2016-07-01,FC St. Pauli,🇩🇪,,Free,0,2022-06-30,active,,,,,,,,,,,,true,18,6ce43701
 oelschlagel,Eric,Oelschlägel,🇩🇪,Germany,1995-09-20,Goalkeeper,2018-07-01,Werder Bremen,🇩🇪,,Free,0,,inactive,FC Utrecht,🇳🇱,2020-10-05,Free,0,None,0,,,,,true,40,dbb329c6
-papadopoulos,Antonios,Papadopoulos,🇩🇪,Germany,1999-09-10,Midfield,2021-07-01,Hallescher FC,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,false,47,13d23b29
+papadopoulos,Antonios,Papadopoulos,🇩🇪,Germany,1999-09-10,Midfield,2021-07-01,Hallescher FC,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,true,47,13d23b29
 papastathopoulos,Sokratis,Papastathopoulos,🇬🇷,Greece,1988-06-09,Defense,2013-07-01,Werder Bremen,🇩🇪,,€9.9 million,9900000,,inactive,Arsenal,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2018-07-02,€16 million,16000000,€6.1 million,6100000,,,,,true,25,b682dcf6
 park,Jo-hoo,Park,🇰🇷,Korea Republic,1987-01-16,Defense,2015-08-29,Mainz 05,🇩🇪,,€3.3 million,3300000,,inactive,Ulsan Hyundai,🇰🇷,2017-12-03,Free,0,-€3.3 million,-3300000,,,,,false,3,502fd802
-pasalic,Marco,Pašalić,🇭🇷,Croatia,2000-09-14,Midfield,2021-07-01,VfB Stuttgart,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,false,46,1866b0f1
+pasalic,Marco,Pašalić,🇭🇷,Croatia,2000-09-14,Midfield,2021-07-01,VfB Stuttgart,🇩🇪,,Free,0,2023-06-30,reserve,,,,,,,,,,,,true,46,1866b0f1
 passlack,Felix,Passlack,🇩🇪,Germany,1998-05-29,Midfield,2012-07-01,Rot-Weiß Oberhausen,🇩🇪,,Free,0,2023-06-30,active,,,,,,,,,,,,true,30,5c899683
 pfanne,Franz,Pfanne,🇩🇪,Germany,1994-12-10,Midfield,2020-07-15,SV Rödinghausen,🇩🇪,,Free,0,2024-06-30,reserve,,,,,,,,,,,,false,54,adecc21d
-pherai,Immanuel,Pherai,🇳🇱,Netherlands,2001-04-25,Attack,2017-07-01,AZ Alkmaar,🇳🇱,,Free,0,2022-06-30,reserve,,,,,,,,,,,,false,56,f168d9b9
+pherai,Immanuel,Pherai,🇳🇱,Netherlands,2001-04-25,Attack,2017-07-01,AZ Alkmaar,🇳🇱,,Free,0,2022-06-30,reserve,,,,,,,,,,,,true,56,f168d9b9
 philipp,Maximilian,Philipp,🇩🇪,Germany,1994-03-01,Attack,2017-07-01,SC Freiburg,🇩🇪,,€20 million,20000000,,inactive,Dynamo Moscow,🇷🇺,2019-08-09,€20 million,20000000,None,0,,,,,true,20,061e8e23
-piszczek,Łukasz,Piszczek,🇵🇱,Poland,1985-06-03,Defense,2010-07-01,Hertha Berlin,🇩🇪,,Free,0,2021-06-30,inactive,,,,,,,,,,,,true,26,fe2db476
+piszczek,Łukasz,Piszczek,🇵🇱,Poland,1985-06-03,Defense,2010-07-01,Hertha Berlin,🇩🇪,,Free,0,,inactive,,,,,,,,,,,,true,26,fe2db476
+pongracic,Marin,Pongračić,🇭🇷,Croatia,1997-09-11,Defense,2021-08-31,VfL Wolfsburg,🇩🇪,,Loan,0,2022-06-30,active,,,,,,,,,,,,true,34,2a6cd437
 pulisic,Christian,Pulisic,🇺🇸,United States,1998-09-18,Midfield,2015-02-10,Pennsylvania Classics,🇺🇸,,Free,0,,inactive,Chelsea FC,🏴󠁧󠁢󠁥󠁮󠁧󠁿,2019-01-02,€64 million,64000000,€64 million,64000000,"Remained on loan until June 30, 2019",,,,true,22,1bf33a9a
 ramos,Adrián,Ramos,🇨🇴,Colombia,1986-01-22,Attack,2014-07-01,Hertha Berlin,🇩🇪,,€10.67 million,10670000,,inactive,Chongqing Dangdai Lifan,🇨🇳,2017-07-01,€13.2 million,13200000,€2.53 million,2530000,,,,,true,20,c693cf7c
-raschl,Tobias,Raschl,🇩🇪,Germany,2000-02-21,Midfield,2015-07-01,Fortuna Düsseldorf,🇩🇪,,Free,0,2022-06-30,active,,,,,,,,,,,,true,37,bd992863
+raschl,Tobias,Raschl,🇩🇪,Germany,2000-02-21,Midfield,2015-07-01,Fortuna Düsseldorf,🇩🇪,,Free,0,,inactive,Greuther Fürth,🇩🇪,2022-01-31,"€100,000",100000,"€100,000",100000,,,,,true,37,bd992863
 reinier,,Reinier,🇧🇷,Brazil,2002-01-19,Midfield,2020-08-19,Real Madrid,🇪🇸,,Loan,0,2022-06-30,active,,,,,,,,,,,,true,20,6b21b7b5
 reus,Marco,Reus,🇩🇪,Germany,1989-05-31,Midfield,2012-07-01,Borussia Mönchengladbach,🇩🇪,,€17.1 million,17100000,2023-06-30,active,,,,,,,,,,,,true,11,36a3ff67
 reyna,Gio,Reyna,🇺🇸,United States,2002-11-13,Midfield,2019-07-01,New York City FC,🇺🇸,,Free,0,2025-06-30,active,,,,,,,,,,,,true,7,7fa4e703

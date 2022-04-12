@@ -1,25 +1,26 @@
-id,first,last,instagram,twitter,position,number,dob,nation,1860 1H,1860 2H,Sol 1H,Sol 2H,Kam 1H,Kam 2H,Ahn 1H,Ahn 2H,TOT,prev_club,joined_date,note,additional notes,
-becker,Kimberly,Becker,kimberly.bck,,Midfield,5,2003-08-28,Germany,,45,45,?,45,0,45,45,225,Urania Lütgdendortmund,2021-07-01,,,
-bergmann,Luisa,Bergmann,luisabrgmnn,,Midfield,8,1993-07-14,Germany,45,0,45,?,45,0,45,19,199,SV Budberg,2021-07-01,,https://www.worldfootball.net/player_summary/luisa-bergmann/,
-billig,Annika,Billig,a_____official,,Midfield,17,1995-03-22,Germany,45,,,45,,45,,,135,FC Wetter,2021-07-01,VfL Bochum U10 Assistant Coach,https://www.vfl-bochum.de/talentwerk/grundlagenbereich/u10-u9/u10/,https://www.fussball.de/spielerprofil/-/userid/020N244LVS000000VS541L4GVUFI6K30#!/
-droter,Neele,Dröter,neele.drt,,Midfield,7,2005-07-28,Germany,,,,,,,,,0,Kamener SC,2021-07-01,,,
-falker,Annika Elga,Fälker,avenger_anni,,Midfield,22,1998-06-22,Germany,,45,22,0,,,,,67,Wambeler SV,2021-07-01,,,
-gerres,Allegra,Gerres,alllegra.ger,,Midfield,14,2004-08-12,Germany,45,,45,?,,45,45,0,180,TuS Westfalia Wethma,2021-07-01,,https://www.fussball.de/spielerprofil/-/userid/0218F66504000000VS541L4JVS6C5BTI#!/,
-glanzer,Virginia,Glänzer,ginaxx_10,ginaxx_10,Defense,25,1998-10-20,Germany,,45,45,?,45,0,45,45,225,BSV Heeren,2021-07-01,,,
-goosmann,Hannah,Goosmann,hannahgoosmann,,Attack,6,2004-08-11,Germany,45,,45,?,,45,45,0,180,SG Lütgendortmund,2021-07-01,,,
-heim,Vanessa,Heim,vann_y,,Attack,11,1991-09-12,Germany,45,,23,45,45,45,,,203,Holzwickeder SC,2021-07-01,"Sales, Marketing, and Partners (and Coach) for BVB Fußballakademie",,
-herbig,Annika,Herbig,pips_herbs,AnniHerbig,Attack,18,1995-10-12,Germany,,45,,45,,,,45,135,Rot-Weiß Germania 11/67 eV,2021-07-01,Project Manager for Groups and Incentives for besttravel (BVB’s travel agency),,
-hohl,Laura,Höhl,lxxrx16,,Midfield,16,1999-05-11,Germany,,45,,45,45,0,,45,180,FC SW Silschede 1926 e.V.,2021-07-01,,https://docs.google.com/spreadsheets/d/1i4Wx1d5Y88Xj49gXEkqwau22WY9SiSa9fSJVjUVGXT4/edit#gid=830429631,
-jung,Marina,Jung,15_maju,,Defense,15,1993-07-16,Germany,45,,45,0,45,45,,45,225,SpVgg Steele 03/09,2021-07-01,Captain vs Eintracht Solingen,,
-kaul,Carolin Marie,Kaul,cxrx_1021,,Midfield,10,2004-01-17,Germany,,45,45,0,,,45,26,161,Victoria Habinghorst,2021-07-01,,Also caro_fs10,
-klemann,Lisa,Klemann,li_sa_kl,,Defense,21,1988-08-08,Germany,45,45,,45,45,14,45,45,284,SV Berghofen,2021-07-01,Captain,https://www.worldfootball.net/player_summary/lisa-klemann/,https://www.soccerdonna.de/de/lisa-klemann/profil/spieler_32562.html
-kolmel,Lena,Kölmel,lenakoelmel,,Goalkeeper,20,1998-03-06,Germany,,,,,,,,,0,SV Eintracht Solingen,2021-07-01,,,
-lau,Ann-Katrin,Lau,akl__13,akl__13,Attack,13,1994-04-27,Germany,45,,45,0,45,31,,45,211,SC Drolshagen,2021-07-01,,,
-porteners,Denise,Pörteners,denise.p3,,Defense,3,2005-09-25,Germany,,45,45,0,45,45,45,0,225,SV Spexard,2021-07-01,,,
-prinzen,Lilli,Prinzen,lilli.prinzen,,Defense,2,1996-08-21,Germany,,45,,45,,45,45,45,225,Wambeler SV,2021-07-01,,,
-rogge-herper,Lea,Rogge-Herper,_lea_hrp,,Midfield,19,1997-01-10,Germany,45,45,,45,45,45,,,225,Holzwickeder SC,2021-07-01,,,
-scheibe,Stefanie,Scheibe,steffi.scheibe,,Goalkeeper,23,1985-10-01,Peru,,45,34,0,,45,,,124,FC Stern München,2021-07-01,,https://www.fussball.de/spielerprofil/-/userid/024DGJ620C000000VS541L4HVTOTMBB3#!/,
-schneider,Hanna,Schneider,hannanas95,,Defense,4,1995-04-01,Germany,,,,,,,,,0,SG Lütgendortmund,2021-07-01,,,
-schroer,Sandra,Schröer,sandra_schroeer1,,Goalkeeper,1,1982-10-22,Germany,45,,11,45,45,0,45,45,236,SV Berghofen,2021-07-01,,https://www.soccerdonna.de/de/sandra-koenig/profil/spieler_6907.html,
-west,Anna Lena,West,annalena.w9,,Midfield,9,2005-04-21,Germany,,,,,,,,,0,SuS Derne 1919,2021-07-01,,https://www.susderne1919.de/Maedchen/Maedchen%20U17%2020-21.htm,
-zabell,Ana-Louisa,Zabell,ana_zbl,,Defense,26,1995-02-26,Germany,45,,,45,,45,45,45,225,SV Berghofen,2021-07-01,,,
+id,first,last,instagram,twitter,position,number,dob,flag,nation,prev_club,joined_date,lg_min,lg_g,lg_a,lg_ga90,cup_min,cup_g,cup_a,cup_ga90,all_min,all_g,all_a,all_ga90
+becker,Kimberly,Becker,kimberly.bck,,Midfield,5,2003-08-28,🇩🇪,Germany,Urania Lütgdendortmund,2021-07-01,788,1,3,0.46,148,0,1,0.61,936,1,4,0.48
+bergmann,Luisa,Bergmann,luisabrgmnn,luisa_brgmnn,Midfield,8,1993-07-14,🇩🇪,Germany,SV Budberg,2021-07-01,880,2,7,0.92,180,0,1,0.50,1060,2,8,0.85
+billig,Annika,Billig,a_____official,annika_billig,Midfield,17,1995-03-22,🇩🇪,Germany,FC Wetter,2021-07-01,547,7,3,1.65,74,0,1,1.22,621,7,4,1.59
+droter,Neele,Dröter,neele.drt,,Midfield,7,2005-07-28,🇩🇪,Germany,Kamener SC,2021-07-01,0,0,0,,0,0,0,,0,0,0,
+falker,Annika,Fälker,avenger_anni,,Midfield,22,1998-06-22,🇩🇪,Germany,Wambeler SV,2021-07-01,617,3,4,1.02,0,0,0,,617,3,4,1.02
+gerres,Allegra,Gerres,alllegra.ger,,Midfield,14,2004-08-12,🇩🇪,Germany,TuS Westfalia Wethma,2021-07-01,849,0,2,0.21,64,0,0,0.00,913,0,2,0.20
+glanzer,Virginia,Glänzer,ginaxx_10,ginaxx_10,Defense,25,1988-10-20,🇩🇪,Germany,BSV Heeren,2021-07-01,869,4,7,1.14,270,0,1,0.33,1139,4,8,0.95
+goosmann,Hannah,Goosmann,hannahgoosmann,hannahgoosmann,Attack,6,2004-11-08,🇩🇪,Germany,SG Lütgendortmund,2021-07-01,628,16,4,2.87,151,1,0,0.60,779,17,4,2.43
+heim,Vanessa,Heim,vann_y,,Attack,11,1991-09-12,🇩🇪,Germany,Holzwickeder SC,2021-07-01,761,14,16,3.55,204,5,5,4.41,965,19,21,3.73
+herbig,Annika,Herbig,pips_herbs,AnniHerbig,Attack,18,1995-10-12,🇩🇪,Germany,Rot-Weiß Germania 11/67 eV,2021-07-01,351,7,2,2.31,66,1,0,1.36,417,8,2,2.16
+hohl,Laura,Höhl,lxxrx16,,Midfield,16,1999-05-11,🇩🇪,Germany,FC SW Silschede 1926 e.V.,2021-07-01,306,3,4,2.06,116,1,2,2.33,422,4,6,2.13
+jung,Marina,Jung,15_maju,,Defense,15,1993-07-16,🇩🇪,Germany,SpVgg Steele 03/09,2021-07-01,900,2,1,0.30,270,1,1,0.67,1170,3,2,0.38
+kaul,Carolin,Kaul,cxrx_1021,,Midfield,10,2004-01-17,🇩🇪,Germany,Victoria Habinghorst,2021-07-01,705,11,2,1.66,102,2,1,2.65,807,13,3,1.78
+klemann,Lisa,Klemann,li_sa_kl,,Defense,21,1988-08-08,🇩🇪,Germany,SV Berghofen,2021-07-01,481,3,3,1.12,180,0,1,0.50,661,3,4,0.95
+kolmel,Lena,Kölmel,lenakoelmel,,Goalkeeper,20,1998-03-06,🇩🇪,Germany,SV Eintracht Solingen,2021-07-01,396,0,0,0.00,0,0,0,,396,0,0,0.00
+lau,Ann-Katrin,Lau,akl__13,akl__13,Attack,13,1994-04-27,🇩🇪,Germany,SC Drolshagen,2021-07-01,857,16,10,2.73,218,3,0,1.24,1075,19,10,2.43
+porteners,Denise,Pörteners,denise.p3,,Defense,3,2000-09-25,🇩🇪,Germany,SV Spexard,2021-07-01,284,1,1,0.63,0,0,0,,284,1,1,0.63
+prinzen,Lilli,Prinzen,lilli.prinzen,,Defense,2,1996-08-21,🇩🇪,Germany,Wambeler SV,2021-07-01,735,1,1,0.24,90,1,0,1.00,825,2,1,0.33
+rogge-herper,Lea,Rogge-Herper,_lea_hrp,,Midfield,19,1997-01-10,🇩🇪,Germany,Holzwickeder SC,2021-07-01,668,0,5,0.67,105,0,0,0.00,773,0,5,0.58
+scheibe,Stefanie,Scheibe,steffi.scheibe,,Goalkeeper,23,1985-10-01,🇵🇪,Peru,FC Stern München,2021-07-01,0,0,0,,0,0,0,,0,0,0,
+schlenker,Svenja,Schlenker,t_z_w_e_n_j_a,,Midfield,,,🇩🇪,Germany,,,29,0,0,0.00,0,0,0,,29,0,0,0.00
+schneider,Hanna,Schneider,hannanas95,,Defense,4,1995-04-01,🇩🇪,Germany,SG Lütgendortmund,2021-07-01,464,1,1,0.39,206,0,1,0.44,670,1,2,0.40
+schroer,Sandra,Schröer,sandra_schroeer1,sandra_schroeer,Goalkeeper,1,1982-10-22,🇩🇪,Germany,SV Berghofen,2021-07-01,772,0,0,0.00,270,0,0,0.00,1042,0,0,0.00
+west,Anna Lena,West,annalena.w9,,Midfield,9,2005-04-21,🇩🇪,Germany,SuS Derne 1919,2021-07-01,0,0,0,,0,0,0,,0,0,0,
+zabell,Ana,Zabell,ana_zbl,ana_zbl,Defense,26,1995-02-26,🇩🇪,Germany,Eintracht Dorstfeld,2021-07-01,905,15,6,2.09,256,5,1,2.11,1161,20,7,2.09

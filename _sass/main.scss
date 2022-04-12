@@ -1,5 +1,6 @@
 $black: #000000;
 $yellow: #FDE100;
+$neon: #C9F400;
 
 * {
   box-sizing: border-box;
@@ -153,6 +154,12 @@ h3 {
   margin: 0 0 20px;
 }
 
+h4 {
+  font-size: 15px;
+  color: $black;
+  margin: 0 0 20px;
+}
+
 ul {
   margin: 0 0 20px;
 }
@@ -226,6 +233,11 @@ th, td {
 
   &.right {
     text-align: right;
+  }
+
+  &.win {
+    color: green;
+    font-weight: bold;
   }
 }
 
@@ -305,6 +317,10 @@ tbody {
   max-width: 800px;
 
   h3 {
+    margin: 0;
+  }
+
+  h4 {
     margin: 0;
   }
 
@@ -411,7 +427,8 @@ tbody {
 }
 
 .stats-table,
-.player-stats-table {
+.player-stats-table,
+.players-table {
   [data-value="0"],
   [data-value="0.00"],
   [data-value="0.0%"] {
@@ -733,12 +750,13 @@ blockquote {
 .frauen-card {
   background-color: $yellow;
   padding: 10px;
-  margin: 0 10px 10px 0;
+  margin-bottom: 10px;
   overflow: hidden;
   font-size: 20px;
 
   @media all and (min-width: 400px) {
     max-width: 300px;
+    margin-right: 10px;
   }
 
   img {
@@ -763,4 +781,21 @@ blockquote {
 
 .frauen-card-dob {
   float: right;
+}
+
+.goal-summary {
+  background-color: #eee;
+  margin: 8px 0;
+  padding: 5px 12px 5px 32px;
+}
+
+.schedule-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.formation {
+  background-color: $black;
+  padding: 40px;
+  zoom: 0.75;
 }
