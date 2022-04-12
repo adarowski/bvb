@@ -1,20 +1,64 @@
 ---
 layout: default
-title: 2020–21 Goals
+title: Goals
 body_class: goals
 ---
 
 <h2>{{ page.title }}</h2>
 
-<div class="subnav">
-  <a class="current" href="goals.html">2021–22</a>
-  <a href="goals-2020-2021.html">2020–21</a>
-  <a href="goals-2019-2020.html">2019–20</a>
-  <a href="goals-2018-2019.html">2018–19</a>
-  <a href="goals-2017-2018.html">2017–18</a>
-  <a href="goals-2016-2017.html">2016–17</a>
-  <a href="goals-2015-2016.html">2015–16</a>
-  <a href="goals-all.html">All</a>
+<div class="goal-table-filter">
+  <label for="goal-filter">Filter Goals</label>
+  <input id="goal-filter" type="text" class="table-filter" data-table="goals-table" placeholder="Search for player, opponent, competition, etc." />
 </div>
 
-{% include goals-table.html directory="stats-2021-2022" %}
+<div class="table-container">
+  <table id="frauen-goals" class="goals-table">
+    <thead>
+      <tr>
+        <th class="left">Scorer</th>
+        <th class="left">Assist</th>
+        <th class="left">Date</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="right">Min</th>
+        <th class="left">Opponent</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
+        <th class="left">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for goal in site.data.frauen-goals %}
+        <tr data-scorer="{{ goal.id_scorer }}">
+          <td class="left" data-sort="{{ goal.id_scorer }}">
+            {% if goal.id_scorer %}
+              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</a>
+            {% else %}
+              Own Goal
+            {% endif %}
+          </td>
+          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.assist_official }}.html">{{ goal.assist_official }}</a>{% endif %}</td>
+          <td class="left">{{ goal.date | date: '%B %-d, %Y' }}</td>
+          <td class="left">{{ goal.comp }}</td>
+          <td class="left" data-sort="{{ goal.id }}">{{ goal.round }}</td>
+          <td class="right" data-sort="{{ goal.min_alt }}"> {{ goal.min }}</td>
+          <td class="left">{{ goal.opponent }}</td>
+          <td class="left">{{ goal.venue }}</td>
+          <td class="right">{{ goal.gf }}</td>
+          <td class="right">{{ goal.ga }}</td>
+          <td class="right">{{ goal.gd }}</td>
+          <td class="left"><span>{{ goal.note }}</span></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  new Tablesort(document.getElementById('frauen-goals'));
+</script>
+
+{% include table-search-script.html %}

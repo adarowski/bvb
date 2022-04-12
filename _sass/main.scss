@@ -41,6 +41,16 @@ header {
     padding-left: 115px;
     padding-right: 10px;
 
+    em {
+      font-weight: normal;
+      font-style: normal;
+      opacity: 0.75;
+    }
+
+    span {
+      margin-right: 5px;
+    }
+
     @media all and (max-width: 900px) {
       height: auto;
       padding-top: 10px;
@@ -320,10 +330,6 @@ tbody {
     margin: 0;
   }
 
-  h4 {
-    margin: 0;
-  }
-
   p, ul {
     color: #666;
     margin: 0 0 20px;
@@ -332,7 +338,7 @@ tbody {
 
   p {
     margin-top: 5px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
   ul {
@@ -607,11 +613,11 @@ footer {
   display: none !important;;
 }
 
-body.stats li.stats > a,
+body.home li.home > a,
 body.goals li.goals > a,
 body.player li.players > a,
 body.players li.players > a,
-body.frauen li.frauen > a {
+body.friendlies li.friendlies > a {
   border-color: rgba($black,0.4);
 }
 
@@ -701,7 +707,7 @@ body.frauen li.frauen > a {
     }
 
     .player-photo {
-      margin: 2px 5px 0 0;
+      margin: 0 5px 0 0;
     }
   }
 
@@ -753,6 +759,11 @@ blockquote {
   margin-bottom: 10px;
   overflow: hidden;
   font-size: 20px;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
 
   @media all and (min-width: 400px) {
     max-width: 300px;

@@ -34,79 +34,89 @@
   {% endfor %}
 </div>
 
-<h2>Match Logs</h2>
+{% for player in site.data.players-frauen %}
+  {% if player.id == include.player %}
+    {% if player.all_min != "0" %}
+      <h2>Match Logs</h2>
 
-<div class="table-container">
-  <table id="logs-list" class="players-table">
-    <thead>
-      <tr>
-        <th class="left">Date</th>
-        <th class="left">Opponent</th>
-        <th class="left">Competition</th>
-        <th class="left">Round</th>
-        <th class="left">Venue</th>
-        <th class="left">Result</th>
-        <th class="right">Minutes</th>
-        <th class="right">Goals</th>
-        <th class="right">Assists</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for match in site.data.frauen-match-logs %}
-        {% if match.id == include.player %}
-          <tr>
-            <td class="left">{{ match.date }}</td>
-            <td class="left">{{ match.opponent }}</td>
-            <td class="left">{{ match.comp }}</td>
-            <td class="left">{{ match.round }}</td>
-            <td class="left">{{ match.venue }}</td>
-            <td class="left {{ match.result | downcase }}">{{ match.result }} {{ match.gf }}–{{ match.ga }}</td>
-            <td class="right">{{ match.mins }}</td>
-            <td class="right" data-value="{{ match.goals }}">{{ match.goals }}</td>
-            <td class="right" data-value="{{ match.assists }}">{{ match.assists }}</td>
-          </tr>
-        {% endif %}
-      {% endfor %}
-      {% for player in site.data.players-frauen %}
-        {% if player.id == include.player %}
-          <tr class="row-all">
-            <td class="left">League</td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="right">{{ player.lg_min }}</td>
-            <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
-            <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
-          </tr>
-          <tr class="row-all">
-            <td class="left">Cup</td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="right">{{ player.cup_min }}</td>
-            <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
-            <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
-          </tr>
-          <tr class="row-all">
-            <td class="left">All Comps</td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="left"></td>
-            <td class="right">{{ player.all_min }}</td>
-            <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
-            <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
-          </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
+      <div class="table-container">
+        <table id="logs-list" class="players-table">
+          <thead>
+            <tr>
+              <th class="left">Date</th>
+              <th class="left">Opponent</th>
+              <th class="left">Competition</th>
+              <th class="left">Round</th>
+              <th class="left">Venue</th>
+              <th class="left">Result</th>
+              <th class="right">Minutes</th>
+              <th class="right">Goals</th>
+              <th class="right">Assists</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for match in site.data.frauen-match-logs %}
+              {% if match.id == include.player %}
+                <tr>
+                  <td class="left">{{ match.date }}</td>
+                  <td class="left">{{ match.opponent }}</td>
+                  <td class="left">{{ match.comp }}</td>
+                  <td class="left">{{ match.round }}</td>
+                  <td class="left">{{ match.venue }}</td>
+                  <td class="left {{ match.result | downcase }}">{{ match.result }} {{ match.gf }}–{{ match.ga }}</td>
+                  <td class="right">{{ match.mins }}</td>
+                  <td class="right" data-value="{{ match.goals }}">{{ match.goals }}</td>
+                  <td class="right" data-value="{{ match.assists }}">{{ match.assists }}</td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+            {% for player in site.data.players-frauen %}
+              {% if player.id == include.player %}
+                {% if player.lg_min != "0" %}
+                  <tr class="row-all">
+                    <td class="left">League</td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="right">{{ player.lg_min }}</td>
+                    <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
+                    <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
+                  </tr>
+                {% endif %}
+                {% if player.cup_min != "0" %}
+                  <tr class="row-all">
+                    <td class="left">Cup</td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="right">{{ player.cup_min }}</td>
+                    <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
+                    <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
+                  </tr>
+                {% endif %}
+                <tr class="row-all">
+                  <td class="left">All Comps</td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="right">{{ player.all_min }}</td>
+                  <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
+                  <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 <h2>Goal Involvements</h2>
 
@@ -121,7 +131,7 @@
       <tr>
         <th class="left">Scorer</th>
         <th class="left">Assist</th>
-        <th class="left" data-sort-default>Date</th>
+        <th class="left">Date</th>
         <th class="left">Competition</th>
         <th class="left">Round</th>
         <th class="right">Min</th>
@@ -163,7 +173,7 @@
 </div>
 
 <script>
-  new Tablesort(document.getElementById('player-goals'), { descending: true });
+  new Tablesort(document.getElementById('player-goals'));
 </script>
 
 {% include table-search-script.html %}

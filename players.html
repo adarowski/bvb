@@ -6,62 +6,16 @@ body_class: players
 
 <h2>{{ page.title }}</h2>
 
-<ul class="table-toggles">
-  <li><button class="table-toggle show-active">Active Players</button></li>
-  <li><button class="table-toggle show-loan">Players On Loan</button></li>
-  <li><button class="table-toggle show-reserve">Reserve & Youth Players</button></li>
-  <li><button class="table-toggle show-inactive">Former Players</button></li>
-  <li><button class="table-toggle show-all">All Players</button></li>
-</ul>
-
-<div class="table-container">
-  <table id="players-list" class="players-table">
-    <thead>
-      <tr>
-        <th class="left show-for-all">Player</th>
-        <th class="left show-for-all">Position</th>
-        <th class="right show-for-active show-for-reserve">Number</th>
-        <th class="left show-for-all">Nationality</th>
-        <th class="left show-for-all">Date of Birth</th>
-        <th class="left show-for-all">Joined</th>
-        <th class="left show-for-all">From</th>
-        <th class="left show-for-all">Fee</th>
-        <th class="left show-for-active show-for-reserve show-for-loan">Contract Until</th>
-        <th class="left show-for-loan">Loaned To</th>
-        <th class="left show-for-loan">Until</th>
-        <th class="left show-for-inactive">Departed</th>
-        <th class="left show-for-inactive">To</th>
-        <th class="left show-for-inactive">Fee</th>
-        <th class="left show-for-inactive">Profit</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for player in site.data.players %}
-        <tr class="row-{{ player.active }}">
-          <td class="left show-for-all" data-sort="{{ player.id }}">
-            {% if player.has_photo == "true" %}
-              <div class="player-photo {{ player.active }}" style="background-image: url(assets/images/100/{{ player.id }}.png)"></div>
-            {% else %}
-              <div class="player-photo"></div>
-            {% endif %}
-            <a href="{{ player.id }}.html">
-              <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
-            </a>
-          </td>
-          <td class="left show-for-all">{{ player.position }}</td>
-          <td class="right show-for-active show-for-reserve">{{ player.number }}</td>
-          <td class="left show-for-all" data-sort="{{ player.nation }}">{{ player.flag }} {{ player.nation }}</td>
-          <td class="left show-for-all" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
-          <td class="left show-for-all" data-sort="{{ player.joined_date }}">{{ player.joined_date | date: '%B %-d, %Y' }}</td>
-          <td class="left show-for-all" data-sort="{{ player.joined_from }}">{{ player.joined_from_country }} {{ player.joined_from }}</td>
-          <td class="left show-for-all" data-sort="{{ player.fee_alt }}">{{ player.fee }}</td>
-          <td class="left show-for-active show-for-reserve show-for-loan" data-sort="{{ player.contract_expires }}">{{ player.contract_expires | date: '%B %-d, %Y' }}</td>
-          <td class="left show-for-loan" data-sort="{{ player.loaned_to }}">{{ player.loaned_to_country }} {{ player.loaned_to }}</td>
-          <td class="left show-for-loan" data-sort="{{ player.loaned_until }}">{{ player.loaned_until | date: '%B %-d, %Y' }}</td>
-          <td class="left show-for-inactive" data-sort="{{ player.departed_date }}">{{ player.departed_date | date: '%B %-d, %Y' }}</td>
-          <td class="left show-for-inactive" data-sort="{{ player.departed_to }}">{{ player.departed_to_country }} {{ player.departed_to }}</td>
-          <td class="left show-for-inactive" data-sort="{{ player.departed_fee_alt }}">{{ player.departed_fee }}</td>
-          <td class="left show-for-inactive" data-sort="{{ player.departed_profit_alt }}">{{ player.departed_profit }}</td>
+<div class="frauen-cards">
+  {% for player in site.data.players-frauen %}
+    {% unless player.id == "schlenker" %}
+      <div class="frauen-card">
+        <a href="{{ player.id }}.html">
+          <img src="assets/images/frauen/365/{{ player.id }}.jpg" alt="Photo of {{ player.first }} {{ player.last }}" />
+          <h4 class="frauen-card-name">{{ player.first }} {{ player.last }}</h4>
+          <span class="frauen-card-dob"><span class="{{ player.id }}-card-age"></span></span>
+          <span class="frauen-card-number">{{ player.number }}</span>
+          <span class="frauen-card-position">{{ player.position }}</span>
           <script>
             function calculate_age(dob) {
               var diff_ms = Date.now() - dob.getTime();
@@ -69,114 +23,12 @@ body_class: players
               return Math.abs(age_dt.getUTCFullYear() - 1970);
             }
 
-            var playerAge = document.querySelector('.{{ player.id }}-age');
+            var playerAge = document.querySelector('.{{ player.id }}-card-age');
 
-            playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+            playerAge.appendChild(document.createTextNode("Age " + calculate_age(new Date("{{ player.dob }}"))));
           </script>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+        </a>
+      </div>
+    {% endunless %}
+  {% endfor %}
 </div>
-
-<script>
-  new Tablesort(document.getElementById('players-list'));
-</script>
-
-<script>
-  var showActive = document.querySelector('.show-active');
-  var showLoan = document.querySelector('.show-loan');
-  var showReserve = document.querySelector('.show-reserve');
-  var showInactive = document.querySelector('.show-inactive');
-  var showAll = document.querySelector('.show-all');
-
-  var allButtons = document.querySelectorAll('.table-toggle');
-
-  var rowsActive = document.querySelectorAll('.row-active');
-  var rowsLoan = document.querySelectorAll('.row-loan');
-  var rowsReserve = document.querySelectorAll('.row-reserve');
-  var rowsInactive = document.querySelectorAll('.row-inactive');
-
-  var allRows = document.querySelectorAll('.players-table tbody tr');
-
-  var cellsAll = document.querySelectorAll('.show-for-all');
-  var cellsActive = document.querySelectorAll('.show-for-active');
-  var cellsLoan = document.querySelectorAll('.show-for-loan');
-  var cellsReserve = document.querySelectorAll('.show-for-reserve');
-  var cellsInactive = document.querySelectorAll('.show-for-inactive');
-
-  window.onload = function() {
-    showActive.classList.add('selected');
-    rowsLoan.forEach((row) => { row.classList.add('hide'); });
-    rowsReserve.forEach((row) => { row.classList.add('hide'); });
-    rowsInactive.forEach((row) => { row.classList.add('hide'); });
-    cellsLoan.forEach((cell) => { cell.classList.add('hide'); });
-    cellsInactive.forEach((cell) => { cell.classList.add('hide'); });
-    cellsActive.forEach((cell) => { cell.classList.remove('hide'); });
-  };
-
-  showActive.addEventListener('click', function () {
-    allRows.forEach((table) => { table.classList.add('hide'); });
-    allButtons.forEach((button) => { button.classList.remove('selected'); });
-
-    rowsActive.forEach((row) => { row.classList.remove('hide'); });
-    cellsActive.forEach((cell) => { cell.classList.remove('hide'); });
-
-    cellsLoan.forEach((cell) => { cell.classList.add('hide'); });
-    cellsInactive.forEach((cell) => { cell.classList.add('hide'); });
-
-    showActive.classList.add('selected');
-  });
-
-  showLoan.addEventListener('click', function () {
-    allRows.forEach((table) => { table.classList.add('hide'); });
-    allButtons.forEach((button) => { button.classList.remove('selected'); });
-
-    rowsLoan.forEach((row) => { row.classList.remove('hide'); });
-    cellsActive.forEach((cell) => { cell.classList.add('hide'); });
-    cellsInactive.forEach((cell) => { cell.classList.add('hide'); });
-    cellsLoan.forEach((cell) => { cell.classList.remove('hide'); });
-
-    showLoan.classList.add('selected');
-  });
-
-  showReserve.addEventListener('click', function () {
-    allRows.forEach((table) => { table.classList.add('hide'); });
-    allButtons.forEach((button) => { button.classList.remove('selected'); });
-
-    rowsReserve.forEach((row) => { row.classList.remove('hide'); });
-    cellsLoan.forEach((cell) => { cell.classList.add('hide'); });
-    cellsInactive.forEach((cell) => { cell.classList.add('hide'); });
-    cellsReserve.forEach((cell) => { cell.classList.remove('hide'); });
-
-    showReserve.classList.add('selected');
-  });
-
-  showInactive.addEventListener('click', function () {
-    allRows.forEach((table) => { table.classList.add('hide'); });
-    allButtons.forEach((button) => { button.classList.remove('selected'); });
-
-    rowsInactive.forEach((row) => { row.classList.remove('hide'); });
-    cellsActive.forEach((cell) => { cell.classList.add('hide'); });
-    cellsLoan.forEach((cell) => { cell.classList.add('hide'); });
-    cellsInactive.forEach((cell) => { cell.classList.remove('hide'); });
-
-    showInactive.classList.add('selected');
-  });
-
-  showAll.addEventListener('click', function () {
-    allRows.forEach((table) => { table.classList.add('hide'); });
-    allButtons.forEach((button) => { button.classList.remove('selected'); });
-
-    allRows.forEach((row) => { row.classList.remove('hide'); });
-
-    cellsActive.forEach((cell) => { cell.classList.add('hide'); });
-    cellsLoan.forEach((cell) => { cell.classList.add('hide'); });
-    cellsReserve.forEach((cell) => { cell.classList.add('hide'); });
-    cellsInactive.forEach((cell) => { cell.classList.add('hide'); });
-    cellsAll.forEach((cell) => { cell.classList.remove('hide'); });
-
-    showAll.classList.add('selected');
-  });
-
-</script>

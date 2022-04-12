@@ -1,57 +1,290 @@
 ---
 layout: default
-title: 2021–22 Stats
-body_class: stats
+title: Borussia Dortmund Frauen
+body_class: home
 ---
 
-{% include stats-header.html directory="stats-2021-2022" %}
+<img src="assets/images/frauen/bvb-frauen-fun.jpg" alt="Team Photo of BVB Frauen" style="width: calc(100% + 40px); height: auto; margin: -20px -20px 20px;" />
 
 <h2>{{ page.title }}</h2>
 
-<div class="subnav">
-  <a class="current" href="./">2021–22</a>
-  <a href="stats-2020-2021.html">2020–21</a>
-  <a href="stats-2019-2020.html">2019–20</a>
-  <a href="stats-2018-2019.html">2018–19</a>
-  <a href="stats-2017-2018.html">2017–18</a>
-  <a href="stats-2016-2017.html">2016–17</a>
-  <a href="stats-2015-2016.html">2015–16</a>
-  <a href="stats-all.html">All</a>
-</div>
-
-<ul class="table-toggles">
-  <li><button class="table-toggle show-bundesliga">Bundesliga</button></li>
-  <li><button class="table-toggle show-ucl">Champions League</button></li>
-  <li><button class="table-toggle show-uel">Europa League</button></li>
-  <li class="hide"><button class="table-toggle show-uelq">Europa League Qualification</button></li>
-  <li><button class="table-toggle show-cup">DFB-Pokal</button></li>
-  <li><button class="table-toggle show-supercup">DFB-Supercup</button></li>
-  <li><button class="table-toggle show-all">All Competitions</button></li>
-</ul>
-
-{% include stats-table.html directory="stats-2021-2022" comp="bundesliga" %}
-{% include stats-table.html directory="stats-2021-2022" comp="ucl" %}
-{% include stats-table.html directory="stats-2021-2022" comp="uel" %}
-{% include stats-table.html directory="stats-2021-2022" comp="cup" %}
-{% include stats-table.html directory="stats-2021-2022" comp="supercup" %}
-{% include stats-table.html directory="stats-2021-2022" comp="all" %}
-
-<p><strong>Own Goals Awarded:</strong> Felix Passlack (Bundesliga), Marco Reus (Bundesliga), Donyell Malen (Bundesliga), Julian Brandt (Bundesliga)</p>
-
-<p class="fbref-link">
-  <a href="https://fbref.com/en/squads/add600ae/2021-2022/Dortmund-Stats">
-    <img src="assets/images/fbref.png" alt="FBref Logo" />
-    More Stats on FBref
-  </a>
+<p style="max-width: 1000px;">
+  This fan site is dedicated to Borussia Dortmund’s first womens squad. Our ladies are playing their first season in the seventh tier of German football, in the Kreisliga A (Group 2).
+  I’ll be providing squad information, statistics, and match reports (as much as I possibly can) as the team begins its climb up the German football pyramid.
 </p>
 
-{% include stats-table-script.html %}
+<h3 id="statistics">2021-22 Statistics</h3>
+<p><strong>Note:</strong> Four own goals scored.</p>
+
+<div class="table-container">
+  <table id="stats-list" class="players-table">
+    <thead>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th colspan="4">League</th>
+        <th colspan="4">Cup</th>
+        <th colspan="4">All Comps</th>
+      </tr>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right" data-sort-default>G+A/90</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players-frauen %}
+        {% assign season_mins = player.all_min | plus: 0 %}
+        {% if season_mins > 0 %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
+            <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
+            <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
+            <td class="right" data-value="{{ player.lg_ga90 }}">{{ player.lg_ga90 }}</td>
+            <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
+            <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
+            <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
+            <td class="right" data-value="{{ player.cup_ga90 }}">{{ player.cup_ga90 }}</td>
+            <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
+            <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
+            <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
+            <td class="right" data-value="{{ player.all_ga90 }}">{{ player.all_ga90 }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h3 id="schedule">2021-22 Season Schedule</h3>
+
+<div class="table-container">
+  <table id="fixtures-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Date</th>
+        <th class="left">Opponent</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="left">Result</th>
+        <th class="left">Stream</th>
+        <th class="left">Highlights</th>
+        <th class="left">Recap</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for match in site.data.frauen-matches %}
+        <tr>
+          <td class="left">{{ match.date }}</td>
+          <td class="left">{{ match.opponent }}</td>
+          <td class="left">{{ match.comp }}</td>
+          <td class="left">{{ match.round }}</td>
+          <td class="left">{{ match.venue }}</td>
+          <td class="right">{{ match.gf }}</td>
+          <td class="right">{{ match.ga }}</td>
+          <td class="left {{ match.result | downcase }}">{{ match.result }}</td>
+          <td class="left">
+            {% if match.stream %}
+            <a href="https://soccerwatch.tv/video/{{ match.stream }}">Stream</a>
+            {% endif %}
+          </td>
+          <td class="left">
+            {% if match.result %}
+              {% if match.stream %}
+                <a href="https://soccerwatch.tv/video/{{ match.stream }}/highlight">Highlights</a>
+              {% endif %}
+            {% endif %}
+          </td>
+          <td class="left">
+            {% if match.recap %}
+              <a href="{{ match.recap }}">Recap</a>
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h3 id="squad">Squad</h3>
+
+<div class="table-container">
+  <table id="players-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="left">Date of Birth</th>
+        <th class="left">Previous Club</th>
+        <th class="left">Instagram</th>
+        <th class="left">Twitter</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players-frauen %}
+        {% unless player.id == "schlenker" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html">
+                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+              </a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
+            <td class="left">{{ player.prev_club }}</td>
+            <td class="left"><a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a></td>
+            <td class="left">
+              {% if player.twitter %}
+                <a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a>
+              {% endif %}
+            </td>
+            <script>
+              function calculate_age(dob) {
+                var diff_ms = Date.now() - dob.getTime();
+                var age_dt = new Date(diff_ms);
+                return Math.abs(age_dt.getUTCFullYear() - 1970);
+              }
+
+              var playerAge = document.querySelector('.{{ player.id }}-age');
+
+              playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+            </script>
+          </tr>
+        {% endunless %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h3>Coaching Staff</h3>
+
+<div class="table-container">
+  <table id="staff-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Name</th>
+        <th class="left">Position</th>
+        <th class="left">Date of Birth</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="left" data-sort="sulewski">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/sulewski.jpg)"></div>
+          Thomas Sulewski
+        </td>
+        <td class="left">Head Coach</td>
+        <td class="left" data-sort="1990-08-03">August 3, 1990</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="wurst">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/wurst.jpg)"></div>
+          Dustin Wurst
+        </td>
+        <td class="left">Assistant Coach</td>
+        <td class="left" data-sort="1985-04-03">April 3, 1985</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="treude">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/treude.jpg)"></div>
+          Tim Treude
+        </td>
+        <td class="left">Assistant Coach</td>
+        <td class="left" data-sort="1990-01-28">January 28, 1990</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="krahn">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/krahn.jpg)"></div>
+          Annike Krahn
+        </td>
+        <td class="left">Sporting Advisor</td>
+        <td class="left" data-sort="1985-07-01">July 1, 1985</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="timm">
+          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/timm.jpg)"></div>
+          Christian Timm
+        </td>
+        <td class="left">Sporting Advisor</td>
+        <td class="left" data-sort="1979-02-27">February 27, 1979</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Additional Coverage</h3>
+
+<ul>
+  <li>
+    <strong><a href="https://www.flickr.com/photos/vm1909/albums/72157719700267883">BVB Frauen Photos by BVB-Spielplan.de</a>:</strong> Great photos from our friends at <a href="http://bvb-spielplan.de/">BVB-Spielplan.de</a> (<a href="https://twitter.com/TinneffBlog">@TinneffBlog</a> on Twitter).
+  </li>
+  <li>
+    <strong><a href="2021-08-05-frauen-podcast.html">BVB Frauen Podcast Translation by Julia Poblotzki</a>:</strong> On August 5, 2021 Borussia Dortmund published <a href="https://www.bvb.de/Mannschaften/Frauen/News/Frauenfussball-beim-BVB-im-Podcast-Ein-Traum-geht-in-Erfuellung!">a podcast episode</a> with Svenja Schlenker (Borussia Dortmund’s Department Head, Womens Football), Lisa Klemann (Borussia Dortmund Frauen player), and Thomas Sulewski (Borussia Dortmund Frauen head coach). The podcast, of course, is in German. But Fear the Wall’s Julia Poblotzki (<a href="http://twitter.com/jpoblo">@jpoblo</a> on Twitter) graciously translated it to English for the site. Thank you, Julia!
+  </li>
+  <li>
+    <strong><a href="https://internationalfanapp.bvb.de/contents/get-to-know-our-bvb-womens-team/">Get to know our BVB Women’s Team: Annika Herbig</a>:</strong> She was one of the three scorers in BVB's first women’s match on August 8. What a fantastic start that was: In front of a crowd of 1,300 fans in the Stadium Rote Erde, the Black & Yellows triumphed 3-1 (2-0) over the also newly-formed women's team of TSV 1860 Munich.
+  </li>
+  <li>
+    <strong><a href="https://open.spotify.com/episode/50MXQuVYSxCk0ZAqNxVDGP">S1 Ep.25 Bleav in Borussia: Exclusive English Interview with Svenja Schlenker, Head of BVB's new women's team + Fan Chat Kansas City</a>:</strong> Tilo was able to secure and interview in English with Svenja Schlenker, BVB’s Head of Women’s Football. In this episode we learn:
+    <ul>
+      <li>Svenja has always been banging the drum for a women’s team, but things really started to heat up in 2019 as the club had no good answer for why they didn’t have a team yet.</li>
+      <li>About 80% of club members surveyed wanted to start from the bottom up rather than acquiring a license.</li>
+      <li>About 150 players tried out for the team.</li>
+      <li>All 24 players are Borussia Dortmund fans.</li>
+      <li>And more…</li>
+    </ul>
+  </li>
+  <li>
+    <strong><a href="https://www.bvb.de/eng/News/Overview/Borussia-Dortmund-launches-Girls-and-Women-s-Football-department">Borussia Dortmund launches "Girls' and Women's Football" department</a></strong>: Original announcement of the establishment of a women’s football department at Borussia Dortmund. <em>(September 10, 2020)</em>
+  </li>
+  <li>
+    <strong><a href="https://internationalfanapp.bvb.de/contents/09-stats-breakdown-bvb-frauen/">09 Stats Breakdown - BVB Frauen</a></strong> <em>(December 14, 2021)</em>
+  </li>
+</ul>
+
+<h3>Team Information</h3>
+
+<ul>
+  <li><strong>Department Head, Womens Football:</strong> Svenja Schlenker</li>
+  <li><strong>Home Field:</strong> Stadion Rote Erde</li>
+  <li><strong>League:</strong> <a href="https://www.fussball.de/spieltagsuebersicht/frauen-kl-a-dortmund-gruppe-2-kreis-dortmund-frauen-kreisliga-a-frauen-saison2122-westfalen/-/staffel/02EHD0KC5S00000DVS5489B3VT9UQ08G-G#!/">Frauen Kreisliga A Dortmund, Group 2</a> (7th Tier)</li>
+  <li><strong>Website:</strong> <a href="https://www.bvb.de/frauen/">bvb.de/frauen</a></li>
+  <li><strong>Instagram:</strong> <a href="https://www.instagram.com/bvb09frauen/">bvb09frauen</a></li>
+  <li><strong>Schedule, Results, and Table:</strong> <a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">via Fussball.de</a></li>
+</ul>
+
+</div>
 
 <script>
-  new Tablesort(document.getElementById('stats-bundesliga'), { descending: true });
-  new Tablesort(document.getElementById('stats-ucl'), { descending: true });
-  new Tablesort(document.getElementById('stats-uel'), { descending: true });
-  new Tablesort(document.getElementById('stats-cup'), { descending: true });
-  new Tablesort(document.getElementById('stats-supercup'), { descending: true });
-  new Tablesort(document.getElementById('stats-all'), { descending: true });
+  new Tablesort(document.getElementById('players-list'));
+  new Tablesort(document.getElementById('staff-list'));
+  new Tablesort(document.getElementById('stats-list'), { descending: true });
+  new Tablesort(document.getElementById('fixtures-list'));
 </script>
+
+{% include table-search-script.html %}
