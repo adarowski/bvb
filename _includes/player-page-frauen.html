@@ -7,13 +7,19 @@
         <ul>
           <li>
             <strong>
-              #{{ player.number }}
-              •
+              {% if player.number %}
+                #{{ player.number }}
+                •
+              {% endif %}
               {{ player.position }}
             </strong>
           </li>
-          <li><strong>Born:</strong> {{ player.dob | date: '%B %-d, %Y' }} <span class="player-age"><span></li>
-          <li><strong>Previous Club:</strong> {{ player.prev_club }}</li>
+          {% if player.dob %}
+            <li><strong>Born:</strong> {{ player.dob | date: '%B %-d, %Y' }} <span class="player-age"><span></li>
+          {% endif %}
+          {% if player.prev_club %}
+            <li><strong>Previous Club:</strong> {{ player.prev_club }}</li>
+          {% endif %}
           <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
         </ul>
       </div>
@@ -148,7 +154,7 @@
         {% if goal.id_scorer == include.player or goal.id_assist_official == include.player %}
           <tr data-scorer="{{ goal.id_scorer }}">
             <td class="left" data-sort="{{ goal.id_scorer }}">
-              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)">
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)">
               </div>
               <a href="{{ goal.id_scorer }}.html">
                 <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}

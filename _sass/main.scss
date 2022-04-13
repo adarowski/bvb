@@ -285,42 +285,16 @@ tbody {
 }
 
 .player-photo {
-  height: 30px;
-  width: 40px;
+  height: 32px;
+  width: 38px;
   display: inline-block;
   vertical-align: middle;
   margin-right: 5px;
-  background-size: 50px 50px;
-  background-position: -5px 0;
-  margin-top: -8px;
-  margin-bottom: -8px;
+  background-size: 140%;
+  background-position: -8px -3px;
+  margin-top: -14px;
+  margin-bottom: -10px;
   margin-left: -10px;
-
-  &.loan {
-    filter: grayscale(100%);
-  }
-
-  &.inactive {
-    filter: grayscale(100%);
-    opacity: 0.5;
-  }
-
-  img {
-    margin-left: -100px;
-  }
-
-  &.frauen {
-    width: 38px;
-    background-size: 100%;
-    background-position: 0 0;
-    height: 32px;
-    margin-top: -14px;
-    margin-bottom: -10px;
-
-    img {
-      margin: 0;
-    }
-  }
 }
 
 .key {
@@ -356,51 +330,9 @@ tbody {
 }
 
 .stats-table,
-.player-stats-table,
 .goals-table {
   &.hide {
     display: none;
-  }
-}
-
-.table-toggles {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 10px;
-
-  li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  button {
-    font-size: 16px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    border: none;
-    background: none;
-    padding: 0 0 5px;
-    margin-bottom: 5px;
-    cursor: pointer;
-    color: #3e90d6;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: bold;
-    border-bottom: 3px solid transparent;
-
-    &.selected {
-      color: $black;
-
-      border-color: $yellow;
-    }
-
-    &:active,
-    &:focus {
-      outline: 0;
-    }
-
-    &:hover {
-      color: $black;
-    }
   }
 }
 
@@ -433,74 +365,11 @@ tbody {
 }
 
 .stats-table,
-.player-stats-table,
 .players-table {
   [data-value="0"],
   [data-value="0.00"],
   [data-value="0.0%"] {
     color: #bbb;
-  }
-}
-
-.stats-header {
-  display: flex;
-  overflow-x: scroll;
-  background-color: #f6f6f6;
-  background-image: linear-gradient(#fff, rgba($yellow, 0.3));
-  border-bottom: 5px solid $yellow;
-  padding: 0 20px 0 20px;
-  margin: 0 -20px 20px;;
-
-  img {
-    width: 125px;
-    margin-right: 20px;
-    display: block;
-  }
-
-  .player-data {
-    display: flex;
-    align-items: flex-end;
-  }
-
-  h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
-    white-space: nowrap;
-
-    a {
-      color: $black;
-      text-decoration: none;
-    }
-  }
-
-  .player-data-stats {
-    ul {
-      display: flex;
-      background-color: $black;
-      color: $yellow;
-      text-align: center;
-      padding: 0;
-      list-style: none;
-      font-size: 13px;
-      font-weight: bold;
-      margin: 0 0 20px;
-      border-top: 5px solid $yellow;
-      justify-content: center;
-      margin-right: 20px;
-
-      li {
-        padding: 6px 10px 10px;
-        white-space: nowrap;
-      }
-
-      strong {
-        display: block;
-        font-size: 24px;
-        color: white;
-        line-height: 1;
-        margin-bottom: 2px;
-      }
-    }
   }
 }
 
@@ -621,56 +490,6 @@ body.friendlies li.friendlies > a {
   border-color: rgba($black,0.4);
 }
 
-.subnav {
-  background-color: #f2f2f2;
-  padding: 4px 16px;
-  display: inline-block;
-  margin: -10px -20px 20px;
-
-  @media all and (max-width: 900px) {
-    margin-left: -10px;
-    margin-right: -10px;
-    padding: 4px 6px;
-  }
-
-  a {
-    padding: 4px;
-    display: inline-block;
-
-    &.current {
-      color: $black;
-      font-weight: bold;
-      text-decoration: none;
-    }
-  }
-}
-
-.fbref-link {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 4px 8px;
-  display: inline-block;
-  margin: 20px 0 0;
-
-  &:hover {
-    border-color: #bbb;
-  }
-
-  a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: $black;
-  }
-
-  img {
-    height: 16px;
-    width: 16px;
-    border-radius: 2px;
-    margin-right: 6px;
-  }
-}
-
 .player-list {
   position: absolute;
   left: 0;
@@ -709,12 +528,6 @@ body.friendlies li.friendlies > a {
     .player-photo {
       margin: 0 5px 0 0;
     }
-  }
-
-  .all-players {
-    padding-left: 10px;
-    height: 100%;
-    font-weight: bold;
   }
 }
 

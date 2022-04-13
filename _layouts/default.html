@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-379490-14"></script>
@@ -13,6 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <title>{{ page.title }}</title>
+    <meta name="description" content="Dedicated to Borussia Dortmund’s first womens squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid.">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css?38">
     <script src="assets/js/tablesort.js"></script>
@@ -43,7 +44,7 @@
                   {% for player in site.data.players-frauen %}
                       <li>
                         <a href="{{ player.id }}.html">
-                          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+                          <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
                           <span>{{ player.first }} {{ player.last }}</span>
                         </a>
                       </li>

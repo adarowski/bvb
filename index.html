@@ -51,7 +51,7 @@ body_class: home
         {% if season_mins > 0 %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
-              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
               <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
             </td>
             <td class="right">{{ player.number }}</td>
@@ -82,6 +82,7 @@ body_class: home
     <thead>
       <tr>
         <th class="left">Date</th>
+        <th class="left">Time</th>
         <th class="left">Opponent</th>
         <th class="left">Competition</th>
         <th class="left">Round</th>
@@ -98,6 +99,7 @@ body_class: home
       {% for match in site.data.frauen-matches %}
         <tr>
           <td class="left">{{ match.date }}</td>
+          <td class="left">{{ match.time }}</td>
           <td class="left">{{ match.opponent }}</td>
           <td class="left">{{ match.comp }}</td>
           <td class="left">{{ match.round }}</td>
@@ -148,7 +150,7 @@ body_class: home
         {% unless player.id == "schlenker" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
-              <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
               <a href="{{ player.id }}.html">
                 <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
               </a>
@@ -195,7 +197,7 @@ body_class: home
     <tbody>
       <tr>
         <td class="left" data-sort="sulewski">
-          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/sulewski.jpg)"></div>
+          <div class="player-photo" style="background-image: url(assets/images/frauen/100/sulewski.jpg)"></div>
           Thomas Sulewski
         </td>
         <td class="left">Head Coach</td>
@@ -203,7 +205,7 @@ body_class: home
       </tr>
       <tr>
         <td class="left" data-sort="wurst">
-          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/wurst.jpg)"></div>
+          <div class="player-photo" style="background-image: url(assets/images/frauen/100/wurst.jpg)"></div>
           Dustin Wurst
         </td>
         <td class="left">Assistant Coach</td>
@@ -211,7 +213,7 @@ body_class: home
       </tr>
       <tr>
         <td class="left" data-sort="treude">
-          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/treude.jpg)"></div>
+          <div class="player-photo" style="background-image: url(assets/images/frauen/100/treude.jpg)"></div>
           Tim Treude
         </td>
         <td class="left">Assistant Coach</td>
@@ -219,7 +221,7 @@ body_class: home
       </tr>
       <tr>
         <td class="left" data-sort="krahn">
-          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/krahn.jpg)"></div>
+          <div class="player-photo" style="background-image: url(assets/images/frauen/100/krahn.jpg)"></div>
           Annike Krahn
         </td>
         <td class="left">Sporting Advisor</td>
@@ -227,11 +229,19 @@ body_class: home
       </tr>
       <tr>
         <td class="left" data-sort="timm">
-          <div class="player-photo frauen" style="background-image: url(assets/images/frauen/100/timm.jpg)"></div>
+          <div class="player-photo" style="background-image: url(assets/images/frauen/100/timm.jpg)"></div>
           Christian Timm
         </td>
         <td class="left">Sporting Advisor</td>
         <td class="left" data-sort="1979-02-27">February 27, 1979</td>
+      </tr>
+      <tr>
+        <td class="left" data-sort="timm">
+          <div class="player-photo" style="background-image: url(assets/images/frauen/100/focher.jpg)"></div>
+          Johannes Focher
+        </td>
+        <td class="left">Goalkeeping Trainer</td>
+        <td class="left" data-sort="1990-01-20">January 20, 1990</td>
       </tr>
     </tbody>
   </table>
