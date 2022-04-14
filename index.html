@@ -98,7 +98,13 @@ body_class: home
     <tbody>
       {% for match in site.data.frauen-matches %}
         <tr>
-          <td class="left">{{ match.date }}</td>
+          <td class="left">
+            {% if match.result %}
+              <a href="matches.html#match-{{ match.id }}">{{ match.date }}</a>
+            {% else %}
+              {{ match.date }}
+            {% endif %}
+          </td>
           <td class="left">{{ match.time }}</td>
           <td class="left">{{ match.opponent }}</td>
           <td class="left">{{ match.comp }}</td>

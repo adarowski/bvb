@@ -35,13 +35,17 @@ body_class: goals
           <td class="left" data-sort="{{ goal.id_scorer }}">
             {% if goal.id_scorer %}
               <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)"></div>
-              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</a>
+              <a href="{{ goal.id_scorer }}.html"><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</a>
             {% else %}
               Own Goal
             {% endif %}
           </td>
-          <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.assist_official != nil %}<a href="{{ goal.assist_official }}.html">{{ goal.assist_official }}</a>{% endif %}</td>
-          <td class="left">{{ goal.date | date: '%B %-d, %Y' }}</td>
+          <td class="left" data-sort="{{ goal.id_assist_official }}">
+            {% if goal.id_assist_official != nil %}
+              <a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>
+            {% endif %}
+          </td>
+          <td class="left"><a href="matches.html#match-{{ goal.match }}">{{ goal.date }}</a></td>
           <td class="left">{{ goal.comp }}</td>
           <td class="left" data-sort="{{ goal.id }}">{{ goal.round }}</td>
           <td class="right" data-sort="{{ goal.min_alt }}"> {{ goal.min }}</td>

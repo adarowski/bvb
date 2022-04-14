@@ -1,0 +1,84 @@
+---
+layout: default
+title: Matches
+body_class: matches
+---
+
+<h2>{{ page.title }}</h2>
+
+{% for match in site.data.frauen-matches %}
+  {% if match.result %}
+    <div id="match-{{ match.id }}" class="match-summary">
+      <h3><span class="{{ match.result | downcase }}">{{ match.gf }}–{{ match.ga }}</span> {{ match.venue }} {{ match.result }} vs. {{ match.opponent }}</h3>
+      <ul class="match-meta-info">
+        <li>{{ match.date | date: '%B %-d, %Y' }}, {{ match.time }}</li>
+        <li>{{ match.comp }} ({{ match.round }})</li>
+        <li>
+          {% if match.stream %}
+          <a href="https://soccerwatch.tv/video/{{ match.stream }}">Stream</a>
+          {% endif %}
+        </li>
+        <li>
+          {% if match.stream %}
+            <a href="https://soccerwatch.tv/video/{{ match.stream }}/highlight">Highlights</a>
+          {% endif %}
+        </li>
+        <li>
+          {% if match.recap %}
+            <a href="{{ match.recap }}">Recap</a>
+          {% endif %}
+        </li>
+      </ul>
+
+      <ul class="match-goals">
+        {% for goal in site.data.frauen-goals %}
+          {% if goal.match == match.id %}
+          <li>
+            ⚽️ {{ goal.min }}’ –
+            {% if goal.id_scorer %}
+              <a href="{{ goal.id_scorer }}.html"><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</a>
+            {% else %}
+              Own Goal
+            {% endif %}
+            {% if goal.id_assist_official %}
+              <em>(Assisted by <a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>)</em>
+            {% endif %}
+          </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+
+      <div class="table-container">
+        <table id="match-table-{{ match.id }}" class="players-table">
+          <thead>
+            <tr>
+              <th class="left">Player</th>
+              <th class="right">Minutes</th>
+              <th class="right">Goals</th>
+              <th class="right">Assists</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for log in site.data.frauen-match-logs %}
+              {% if log.match == match.id %}
+                <tr>
+                  <td class="left"><a href="{{ log.id }}.html"><span class="hide-on-small">{{ log.first }}</span> {{ log.last }}</a></td>
+                  <td class="right">{{ log.mins }}</td>
+                  <td class="right" data-value="{{ log.goals }}">{{ log.goals }}</td>
+                  <td class="right" data-value="{{ log.assists }}">{{ log.assists }}</td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+
+      <script>
+        new Tablesort(document.getElementById('match-table-{{ match.id }}'), { descending: true });
+      </script>
+
+    </div>
+  {% endif %}
+{% endfor %}
+
+<a href="friendlies.html">Friendlies</a>
