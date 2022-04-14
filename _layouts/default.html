@@ -12,7 +12,7 @@
     </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
-    <title>{{ page.title }}</title>
+    <title>{% unless page.body_class == "home" %}{{ page.title }}: {% endunless %}Borussia Dortmund Frauen</title>
     <meta name="description" content="Dedicated to Borussia Dortmund’s first womens squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid.">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css?39">
@@ -21,9 +21,13 @@
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@fussballtwit" />
-    <meta name="twitter:title" content="{{ page.title }}" />
-    <meta name="twitter:description" content="Dedicated to Borussia Dortmund’s first womens squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid." />
-    <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/frauen/bvb-frauen-fun.jpg" />
+    <meta name="twitter:title" content="{% unless page.body_class == 'home' %}{{ page.title }}: {% endunless %}Borussia Dortmund Frauen" />
+    <meta name="twitter:description" content="This fan site is to Borussia Dortmund’s first women’s squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid." />
+    {% if page.body_class == "player" %}
+      <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/frauen/365/{{ page.player }}.jpg" />
+    {% else %}
+      <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/frauen/bvb-frauen-fun.jpg" />
+    {% endif %}
   </head>
   <body class="{{ page.body_class }}">
     <header>
