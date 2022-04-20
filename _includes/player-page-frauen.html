@@ -55,6 +55,7 @@
               <th class="left">Round</th>
               <th class="left">Venue</th>
               <th class="left">Result</th>
+              <th class="left">Start</th>
               <th class="right">Minutes</th>
               <th class="right">Goals</th>
               <th class="right">Assists</th>
@@ -70,6 +71,7 @@
                   <td class="left">{{ match.round }}</td>
                   <td class="left">{{ match.venue }}</td>
                   <td class="left {{ match.result | downcase }}">{{ match.result }} {{ match.gf }}–{{ match.ga }}</td>
+                  <td class="left">{{ match.start }}</td>
                   <td class="right">{{ match.mins }}</td>
                   <td class="right" data-value="{{ match.goals }}">{{ match.goals }}</td>
                   <td class="right" data-value="{{ match.assists }}">{{ match.assists }}</td>
@@ -80,6 +82,7 @@
               {% if player.id == include.player %}
                 <tr class="row-all">
                   <td class="left">League</td>
+                  <td class="left"></td>
                   <td class="left"></td>
                   <td class="left"></td>
                   <td class="left"></td>
@@ -96,12 +99,14 @@
                   <td class="left"></td>
                   <td class="left"></td>
                   <td class="left"></td>
+                  <td class="left"></td>
                   <td class="right">{{ player.cup_min }}</td>
                   <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
                   <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
                 </tr>
                 <tr class="row-all">
                   <td class="left">All Comps</td>
+                  <td class="left"></td>
                   <td class="left"></td>
                   <td class="left"></td>
                   <td class="left"></td>
@@ -140,7 +145,7 @@
           <tbody>
             {% for goal in site.data.frauen-goals %}
               {% if goal.id_scorer == include.player or goal.id_assist_official == include.player %}
-                <tr data-scorer="{{ goal.id_scorer }}">
+                <tr>
                   <td class="left" data-sort="{{ goal.id_scorer }}">
                     <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)">
                     </div>
@@ -148,7 +153,7 @@
                       <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
                     </a>
                   </td>
-                  <td class="left">{% if goal.id_assist_official != nil %}<a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>{% endif %}</td>
+                  <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.id_assist_official != nil %}<a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>{% endif %}</td>
                   <td class="left" data-sort="{{ goal.date }}-{{ goal.gf }}"><a href="matches.html#match-{{ goal.match }}">{{ goal.date }}</a></td>
                   <td class="left">{{ goal.comp }}</td>
                   <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>

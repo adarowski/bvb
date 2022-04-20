@@ -6,32 +6,78 @@ body_class: home
 
 <img src="assets/images/frauen/bvb-frauen-fun.jpg" alt="Team Photo of BVB Frauen" style="width: calc(100% + 40px); height: auto; margin: -20px -20px 20px;" />
 
-<h3 id="statistics">2021-22 Statistics</h3>
-<p><strong>Note:</strong> Four own goals scored.</p>
+<h2>Borussia Dortmund Frauen</h2>
+
+<div class="article-body">
+  <p>This fan site is dedicated to Borussia Dortmund’s first women’s squad. The BVB women are playing their first season in the seventh tier of German football, in the Kreisliga A (Group 2). They are also competing the Kreispokal (district cup). This site is the definitive source of information about the Borussia Dortmund women, including player pages, match logs, statistics, and more.</p>
+  <p>This site is not affiliated with Borussia Dortmund.</p>
+</div>
+
+<h3>2021-22 Season</h3>
 
 <div class="table-container">
-  <table id="stats-list" class="players-table">
+  <table id="season-summary" class="season-table">
     <thead>
       <tr>
-        <th></th>
-        <th></th>
-        <th></th>
-        <th colspan="4">League</th>
-        <th colspan="4">Cup</th>
-        <th colspan="4">All Comps</th>
+        <th class="left">Competition</th>
+        <th class="right">W</th>
+        <th class="right">D</th>
+        <th class="right">L</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
       </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="left"><strong>Kreisliga A</strong> (League)</td>
+        <td class="right">14</td>
+        <td class="right">0</td>
+        <td class="right">0</td>
+        <td class="right">111</td>
+        <td class="right">2</td>
+        <td class="right">+109</td>
+      </tr>
+      <tr>
+        <td class="left"><strong>Kreispokal</strong> (Cup)</td>
+        <td class="right">3</td>
+        <td class="right">0</td>
+        <td class="right">0</td>
+        <td class="right">20</td>
+        <td class="right">0</td>
+        <td class="right">+20</td>
+      </tr>
+      <tr class="row-all">
+        <td class="left">All Competitions</td>
+        <td class="right">17</td>
+        <td class="right">0</td>
+        <td class="right">0</td>
+        <td class="right">131</td>
+        <td class="right">2</td>
+        <td class="right">+129</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<h3>Statistics</h3>
+<p><strong>Note:</strong> Four own goals scored.</p>
+
+<ul class="table-toggles">
+  <li><button class="table-toggle show-league">League</button></li>
+  <li><button class="table-toggle show-cup">Cup</button></li>
+  <li><button class="table-toggle show-all">All Competitions</button></li>
+</ul>
+
+<div class="table-container">
+  <table id="stats-league" class="stats-table">
+    <thead>
       <tr>
         <th class="left">Player</th>
         <th class="right">Number</th>
         <th class="left">Position</th>
-        <th class="right">Minutes</th>
-        <th class="right">Goals</th>
-        <th class="right">Assists</th>
-        <th class="right">G+A/90</th>
-        <th class="right">Minutes</th>
-        <th class="right">Goals</th>
-        <th class="right">Assists</th>
-        <th class="right">G+A/90</th>
+        <th class="right">Matches</th>
+        <th class="right">Starts</th>
         <th class="right">Minutes</th>
         <th class="right">Goals</th>
         <th class="right">Assists</th>
@@ -40,8 +86,8 @@ body_class: home
     </thead>
     <tbody>
       {% for player in site.data.players-frauen %}
-        {% assign season_mins = player.all_min | plus: 0 %}
-        {% if season_mins > 0 %}
+        {% assign min = player.lg_min | plus: 0 %}
+        {% if min > 0 %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
               <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
@@ -49,14 +95,86 @@ body_class: home
             </td>
             <td class="right">{{ player.number }}</td>
             <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.m }}">{{ player.lg_m }}</td>
+            <td class="right" data-value="{{ player.s }}">{{ player.lg_s }}</td>
             <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
             <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
             <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
             <td class="right" data-value="{{ player.lg_ga90 }}">{{ player.lg_ga90 }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="table-container">
+  <table id="stats-cup" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Matches</th>
+        <th class="right">Starts</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right" data-sort-default>G+A/90</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players-frauen %}
+        {% assign min = player.cup_min | plus: 0 %}
+        {% if min > 0 %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.cup_m }}">{{ player.cup_m }}</td>
+            <td class="right" data-value="{{ player.cup_s }}">{{ player.cup_s }}</td>
             <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
             <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
             <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
             <td class="right" data-value="{{ player.cup_ga90 }}">{{ player.cup_ga90 }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="table-container">
+  <table id="stats-all" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Matches</th>
+        <th class="right">Starts</th>
+        <th class="right">Minutes</th>
+        <th class="right">Goals</th>
+        <th class="right">Assists</th>
+        <th class="right" data-sort-default>G+A/90</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players-frauen %}
+        {% assign min = player.all_min | plus: 0 %}
+        {% if min > 0 %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.all_m }}">{{ player.all_m }}</td>
+            <td class="right" data-value="{{ player.all_s }}">{{ player.all_s }}</td>
             <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
             <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
             <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
@@ -68,7 +186,7 @@ body_class: home
   </table>
 </div>
 
-<h3 id="schedule">2021-22 Season Schedule</h3>
+<h3>Season Schedule</h3>
 
 <div class="table-container">
   <table id="fixtures-list" class="players-table">
@@ -129,7 +247,7 @@ body_class: home
   </table>
 </div>
 
-<h3 id="squad">Squad</h3>
+<h3>Squad</h3>
 
 <div class="table-container">
   <table id="players-list" class="players-table">
@@ -289,10 +407,68 @@ body_class: home
 </div>
 
 <script>
-  new Tablesort(document.getElementById('players-list'));
-  new Tablesort(document.getElementById('staff-list'));
-  new Tablesort(document.getElementById('stats-list'), { descending: true });
-  new Tablesort(document.getElementById('fixtures-list'));
+  var showLeague = document.querySelector('.show-league');
+  var showCup = document.querySelector('.show-cup');
+  var showAll = document.querySelector('.show-all');
+
+  var allButtons = document.querySelectorAll('.table-toggle');
+
+  var tableLeague = document.querySelector('#stats-league');
+  var tableCup = document.querySelector('#stats-cup');
+  var tableAll = document.querySelector('#stats-all');
+
+  var allTables = document.querySelectorAll('.stats-table');
+
+  window.onload = function() {
+    allTables.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    tableLeague.classList.remove('hide');
+    showLeague.classList.add('selected');
+  };
+
+  showLeague.addEventListener('click', function () {
+    allTables.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    tableLeague.classList.remove('hide');
+    showLeague.classList.add('selected');
+  });
+
+  showCup.addEventListener('click', function () {
+    allTables.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    tableCup.classList.remove('hide');
+    showCup.classList.add('selected');
+  });
+
+  showAll.addEventListener('click', function () {
+    allTables.forEach((table) => {
+      table.classList.add('hide');
+    });
+    allButtons.forEach((button) => {
+      button.classList.remove('selected');
+    });
+    tableAll.classList.remove('hide');
+    showAll.classList.add('selected');
+  });
 </script>
 
-{% include table-search-script.html %}
+<script>
+  new Tablesort(document.getElementById('players-list'));
+  new Tablesort(document.getElementById('staff-list'));
+  new Tablesort(document.getElementById('stats-league'), { descending: true });
+  new Tablesort(document.getElementById('stats-cup'), { descending: true });
+  new Tablesort(document.getElementById('stats-all'), { descending: true });
+  new Tablesort(document.getElementById('fixtures-list'));
+</script>

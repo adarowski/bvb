@@ -31,7 +31,7 @@ body_class: goals
     </thead>
     <tbody>
       {% for goal in site.data.frauen-goals %}
-        <tr data-scorer="{{ goal.id_scorer }}">
+        <tr>
           <td class="left" data-sort="{{ goal.id_scorer }}">
             {% if goal.id_scorer %}
               <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)"></div>

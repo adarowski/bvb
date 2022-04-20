@@ -13,16 +13,23 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <title>{% unless page.body_class == "home" %}{{ page.title }}: {% endunless %}Borussia Dortmund Frauen</title>
-    <meta name="description" content="Dedicated to Borussia Dortmund’s first womens squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid.">
+    <meta name="description" content="Dedicated to Borussia Dortmund’s first women’s squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid.">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css?39">
+    <link rel="stylesheet" href="assets/css/styles.css?41">
     <script src="assets/js/tablesort.js"></script>
     <script src="assets/js/tablesort.number.js"></script>
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@fussballtwit" />
     <meta name="twitter:title" content="{% unless page.body_class == 'home' %}{{ page.title }}: {% endunless %}Borussia Dortmund Frauen" />
-    <meta name="twitter:description" content="This fan site is to Borussia Dortmund’s first women’s squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid." />
+    {% if page.body_class == "player" %}
+      {% for player in site.data.players-frauen %}{% if player.id == page.player %}
+        <meta name="twitter:description" content="#{{ player.number }} • {{ player.position }} • 2021-22: {{ player.all_m }} matches, {{ player.all_g }} goals, {{ player.all_a }} assists" />
+      {% endif %}{% endfor %}
+    {% else %}
+      <meta name="twitter:description" content="This fan site is dedicated to Borussia Dortmund’s first women’s squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid." />
+    {% endif %}
+
     {% if page.body_class == "player" %}
       <meta name="twitter:image" content="http://darowski.com/bvb/assets/images/frauen/365/{{ page.player }}.jpg" />
     {% else %}

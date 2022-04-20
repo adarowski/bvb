@@ -1,23 +1,23 @@
-id,date,opponent,comp,round,venue,gf,ga,result,stream,time,recap
-1,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,109258,15:00,https://internationalfanapp.bvb.de/contents/8-0-opening-day-win-bvb-women-shine-in-front-of-1625-fans-15386/
-2,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,112775,19:00,https://internationalfanapp.bvb.de/contents/another-goal-glut-as-bvb-women-hand-out-12-0-thrashing-in-kreispokal-15450/
-3,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,116896,15:15,https://internationalfanapp.bvb.de/contents/bvb-women-claim-another-victory-in-the-kreisliga-15532/
-4,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,113998,16:30,https://internationalfanapp.bvb.de/contents/bvb-women-return-to-summit-with-15-0-victory-over-lanstrop-15628/
-5,2021-10-10,SpVg Berghofen III,Kreisliga A,MD4,Away,4,0,Win,114979,18:00,https://internationalfanapp.bvb.de/contents/bvb-women-still-yet-to-drop-a-point-after-4-0-victory-in-berghofen-15664/
-6,2021-10-17,TuRa Asseln,Kreisliga A,MD5,Home,10,0,Win,115775,15:00,https://internationalfanapp.bvb.de/contents/winning-streak-continues-bvb-women-dominate-asseln-in-10-0-win-15721/
-7,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,117160,17:00,https://internationalfanapp.bvb.de/contents/comfortable-away-win-women-win-6-0-at-ay-yildiz-derne-15809/
-8,2021-10-31,Lüner SV,Kreisliga A,MD7,Home,12,0,Win,116341,16:00,https://internationalfanapp.bvb.de/contents/bvb-women-thrash-bottom-of-the-table-lunen-12-0-15895/
-9,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,,20:30,https://internationalfanapp.bvb.de/contents/bvb-women-cruise-to-5-0-win-over-derne-in-cup-second-round-15924/
-10,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,,14:30,https://internationalfanapp.bvb.de/contents/bvb-women-are-winter-champions-thanks-to-win-in-kirchderne-15982/
-11,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,125894,20:30,https://internationalfanapp.bvb.de/contents/bvb-women-reach-cup-semi-final-with-3-0-win-against-dorstfeld-16100/
-12,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,123554,16:30,https://internationalfanapp.bvb.de/contents/bvb-women-end-2021-unbeaten-16162/
-13,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,135961,15:00,https://www.bvb.de/Mannschaften/Frauen/News/Sieg-im-ersten-Pflichtspiel-2022-BVB-Frauen-gewinnen-in-Brambauer
-14,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,,13:00,https://internationalfanapp.bvb.de/contents/bvb-women-pick-up-three-points-in-lanstrop-and-maintain-perfect-record-17155/
-15,2022-04-03,SpVg Berghofen III,Kreisliga A,MD13,Home,13,1,Win,116354,15:00,https://internationalfanapp.bvb.de/contents/100-kreisliga-goals-bvb-beats-berghofen-13-1-17225/
-16,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,140601,20:15,https://www.bvb.de/Mannschaften/Frauen/News/Auch-Soelderholz-geschlagen-BVB-Frauen-bleiben-ohne-Punktverlust
-17,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,139486,15:00,https://www.bvb.de/Mannschaften/Frauen/News/8-0-Frauen-in-Asseln-mit-dem-dritten-Sieg-in-einer-Woche
-18,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,,,,116357,15:30,
-19,2022-04-28,Wambeler SV,Kreispokal,SF,Home,,,,142906,20:15,
-20,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,,,,,17:00,
-21,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home,,,,116359,16:30,
-22,2022-05-22,SV Körne 83,Kreisliga A,MD18,MD18,,,,116360,15:00,
+id,date,opponent,comp,round,venue,gf,ga,result,stream,time,formation,recap,fussball_de,
+1,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,109258,15:00,4-2-3-1,https://internationalfanapp.bvb.de/contents/8-0-opening-day-win-bvb-women-shine-in-front-of-1625-fans-15386/,https://www.fussball.de/spiel/borussia-dortmund-bv-brambauer-13-45-ev/-/spiel/02FCK02UTK000000VS5489B4VSG06PAH#!/,
+2,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,112775,19:00,4-2-3-1,https://internationalfanapp.bvb.de/contents/another-goal-glut-as-bvb-women-hand-out-12-0-thrashing-in-kreispokal-15450/,https://www.fussball.de/spiel/urania-luetgendortmund-borussia-dortmund/-/spiel/02F8OPC9C0000000VS5489B4VS777J8H#!/,
+3,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,116896,15:15,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-claim-another-victory-in-the-kreisliga-15532/,https://www.fussball.de/spiel/sf-soelderholz-borussia-dortmund/-/spiel/02FCK02TUK000000VS5489B4VSG06PAH#!/,
+4,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,113998,16:30,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-return-to-summit-with-15-0-victory-over-lanstrop-15628/,https://www.fussball.de/spiel/borussia-dortmund-bv-teutonia-lanstrop/-/spiel/02FCK02TQK000000VS5489B4VSG06PAH#!/,
+5,2021-10-10,SpVg Berghofen III,Kreisliga A,MD4,Away,4,0,Win,114979,18:00,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-still-yet-to-drop-a-point-after-4-0-victory-in-berghofen-15664/,https://www.fussball.de/spiel/spvg-berghofen-iii-borussia-dortmund/-/spiel/02FCK02TC0000000VS5489B4VSG06PAH#!/,yellow
+6,2021-10-17,TuRa Asseln,Kreisliga A,MD5,Home,10,0,Win,115775,15:00,4-2-3-1,https://internationalfanapp.bvb.de/contents/winning-streak-continues-bvb-women-dominate-asseln-in-10-0-win-15721/,https://www.fussball.de/spiel/borussia-dortmund-tura-asseln/-/spiel/02FCK02T4O000000VS5489B4VSG06PAH#!/,yellow
+7,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,117160,17:00,4-2-3-1,https://internationalfanapp.bvb.de/contents/comfortable-away-win-women-win-6-0-at-ay-yildiz-derne-15809/,https://www.fussball.de/spiel/sf-ay-yildiz-derne-borussia-dortmund/-/spiel/02FCK02SS4000000VS5489B4VSG06PAH#!/,
+8,2021-10-31,Lüner SV,Kreisliga A,MD7,Home,12,0,Win,116341,16:00,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-thrash-bottom-of-the-table-lunen-12-0-15895/,https://www.fussball.de/spiel/borussia-dortmund-luener-sv/-/spiel/02FCK02SFK000000VS5489B4VSG06PAH#!/,
+9,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,,20:30,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-cruise-to-5-0-win-over-derne-in-cup-second-round-15924/,https://www.fussball.de/spiel/borussia-dortmund-sf-ay-yildiz-derne/-/spiel/02F8OVR3V4000000VS5489B4VS777J8H#!/,2 yellows
+10,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,,14:30,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-are-winter-champions-thanks-to-win-in-kirchderne-15982/,https://www.fussball.de/spiel/bv-viktoria-kirchderne-borussia-dortmund/-/spiel/02FCK02S3O000000VS5489B4VSG06PAH#!/,prinzen red
+11,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,125894,20:30,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-reach-cup-semi-final-with-3-0-win-against-dorstfeld-16100/,https://www.fussball.de/spiel/borussia-dortmund-sv-eintracht-dorstfeld/-/spiel/02G3Q40NS0000000VS5489B3VVKAJ51L#!/,
+12,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,123554,16:30,4-2-3-1,https://internationalfanapp.bvb.de/contents/bvb-women-end-2021-unbeaten-16162/,https://www.fussball.de/spiel/sv-koerne-borussia-dortmund/-/spiel/02FCK02RBO000000VS5489B4VSG06PAH#!/,schroer red
+13,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,135961,15:00,4-2-3-1,https://www.bvb.de/Mannschaften/Frauen/News/Sieg-im-ersten-Pflichtspiel-2022-BVB-Frauen-gewinnen-in-Brambauer,https://www.fussball.de/spiel/bv-brambauer-13-45-ev-borussia-dortmund/-/spiel/02FCK034B4000000VS5489B4VSG06PAH#!/,
+14,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,,13:00,4-1-4-1,https://internationalfanapp.bvb.de/contents/bvb-women-pick-up-three-points-in-lanstrop-and-maintain-perfect-record-17155/,https://www.fussball.de/spiel/bv-teutonia-lanstrop-borussia-dortmund/-/spiel/02FCK032L8000000VS5489B4VSG06PAH#!/,
+15,2022-04-03,SpVg Berghofen III,Kreisliga A,MD13,Home,13,1,Win,116354,15:00,4-1-4-1,https://internationalfanapp.bvb.de/contents/100-kreisliga-goals-bvb-beats-berghofen-13-1-17225/,https://www.fussball.de/spiel/borussia-dortmund-spvg-berghofen-iii/-/spiel/02FCK0320G000000VS5489B4VSG06PAH#!/,
+16,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,140601,20:15,4-1-4-1,https://www.bvb.de/Mannschaften/Frauen/News/Auch-Soelderholz-geschlagen-BVB-Frauen-bleiben-ohne-Punktverlust,https://www.fussball.de/spiel/borussia-dortmund-sf-soelderholz/-/spiel/02FCK032RS000000VS5489B4VSG06PAH#!/,billig yellow
+17,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,139486,15:00,4-1-4-1,https://www.bvb.de/Mannschaften/Frauen/News/8-0-Frauen-in-Asseln-mit-dem-dritten-Sieg-in-einer-Woche,https://www.fussball.de/spiel/tura-asseln-borussia-dortmund/-/spiel/02FCK031MS000000VS5489B4VSG06PAH#!/,
+18,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,,,,116357,15:30,,,,
+19,2022-04-28,Wambeler SV,Kreispokal,SF,Home,,,,142906,20:15,,,,
+20,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,,,,,12:00,,,,
+21,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home,,,,116359,16:30,,,,
+22,2022-05-22,SV Körne 83,Kreisliga A,MD18,MD18,,,,116360,15:00,,,,
