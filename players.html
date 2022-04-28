@@ -7,7 +7,7 @@ body_class: players
 <h2>{{ page.title }}</h2>
 
 <div class="frauen-cards">
-  {% for player in site.data.players-frauen %}
+  {% for player in site.data.players %}
     {% unless player.id == "schlenker" %}
       <div class="frauen-card">
         <a href="{{ player.id }}.html">

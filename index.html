@@ -29,7 +29,7 @@ body_class: home
       </tr>
     </thead>
     <tbody>
-      {% for season in site.data.frauen-history %}
+      {% for season in site.data.history %}
         <tr>
           <td class="left"><strong>Kreisliga A</strong> (League)</td>
           <td class="right">{{ season.lg_w }}</td>
@@ -96,7 +96,7 @@ body_class: home
       </tr>
     </thead>
     <tbody>
-      {% for player in site.data.players-frauen %}
+      {% for player in site.data.players %}
         {% assign min = player.lg_min | plus: 0 %}
         {% if min > 0 %}
           <tr>
@@ -135,7 +135,7 @@ body_class: home
       </tr>
     </thead>
     <tbody>
-      {% for player in site.data.players-frauen %}
+      {% for player in site.data.players %}
         {% assign min = player.cup_min | plus: 0 %}
         {% if min > 0 %}
           <tr>
@@ -174,7 +174,7 @@ body_class: home
       </tr>
     </thead>
     <tbody>
-      {% for player in site.data.players-frauen %}
+      {% for player in site.data.players %}
         {% assign min = player.all_min | plus: 0 %}
         {% if min > 0 %}
           <tr>
@@ -218,7 +218,7 @@ body_class: home
       </tr>
     </thead>
     <tbody>
-      {% for match in site.data.frauen-matches %}
+      {% for match in site.data.matches %}
         <tr>
           <td class="left">
             {% if match.result %}
@@ -274,7 +274,7 @@ body_class: home
       </tr>
     </thead>
     <tbody>
-      {% for player in site.data.players-frauen %}
+      {% for player in site.data.players %}
         {% unless player.id == "schlenker" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">

@@ -6,7 +6,7 @@ body_class: matches
 
 <h2>{{ page.title }}</h2>
 
-{% for match in site.data.frauen-matches %}
+{% for match in site.data.matches %}
   {% if match.result %}
     <div id="match-{{ match.id }}" class="match-summary">
       <h3><span class="{{ match.result | downcase }}">{{ match.gf }}–{{ match.ga }}</span> {{ match.venue }} {{ match.result }} vs. {{ match.opponent }}</h3>
@@ -16,7 +16,7 @@ body_class: matches
       </ul>
 
       <ul class="match-goals">
-        {% for goal in site.data.frauen-goals %}
+        {% for goal in site.data.goals %}
           {% if goal.match == match.id %}
           <li>
             ⚽️ {{ goal.min }}’ –
@@ -35,7 +35,7 @@ body_class: matches
 
       <div class="match-formation">
         <div>
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "ST" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
@@ -44,21 +44,21 @@ body_class: matches
         {% endfor %}
         </div>
         <div>
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "LW" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
             {% endif %}
           {% endif %}
         {% endfor %}
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "AM" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
             {% endif %}
           {% endif %}
         {% endfor %}
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "RW" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
@@ -67,7 +67,7 @@ body_class: matches
         {% endfor %}
         </div>
         <div>
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "DM" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
@@ -76,21 +76,21 @@ body_class: matches
         {% endfor %}
         </div>
         <div>
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "LB" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
             {% endif %}
           {% endif %}
         {% endfor %}
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "CB" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
             {% endif %}
           {% endif %}
         {% endfor %}
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "RB" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
@@ -99,7 +99,7 @@ body_class: matches
         {% endfor %}
         </div>
         <div>
-        {% for log in site.data.frauen-match-logs %}
+        {% for log in site.data.match-logs %}
           {% if log.match == match.id %}
             {% if log.start == "GK" %}
               <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
@@ -122,7 +122,7 @@ body_class: matches
             </tr>
           </thead>
           <tbody>
-            {% for log in site.data.frauen-match-logs %}
+            {% for log in site.data.match-logs %}
               {% if log.match == match.id %}
                 <tr>
                   <td class="left"><a href="{{ log.id }}.html"><span class="hide-on-small">{{ log.first }}</span> {{ log.last }}</a></td>

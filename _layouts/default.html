@@ -23,7 +23,7 @@
     <meta name="twitter:site" content="@fussballtwit" />
     <meta name="twitter:title" content="{% unless page.body_class == 'home' %}{{ page.title }}: {% endunless %}Borussia Dortmund Frauen" />
     {% if page.body_class == "player" %}
-      {% for player in site.data.players-frauen %}{% if player.id == page.player %}
+      {% for player in site.data.players %}{% if player.id == page.player %}
         <meta name="twitter:description" content="#{{ player.number }} • {{ player.position }} • 2021-22: {{ player.all_m }} matches, {{ player.all_g }} goals, {{ player.all_a }} assists" />
       {% endif %}{% endfor %}
     {% else %}
@@ -52,7 +52,7 @@
               <a href="players.html">Players</a>
               <div class="player-list">
                 <ul>
-                  {% for player in site.data.players-frauen %}
+                  {% for player in site.data.players %}
                       <li>
                         <a href="{{ player.id }}.html">
                           <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
