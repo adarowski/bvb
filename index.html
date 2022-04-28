@@ -29,33 +29,44 @@ body_class: home
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td class="left"><strong>Kreisliga A</strong> (League)</td>
-        <td class="right">15</td>
-        <td class="right">0</td>
-        <td class="right">0</td>
-        <td class="right">117</td>
-        <td class="right">2</td>
-        <td class="right">+115</td>
-      </tr>
-      <tr>
-        <td class="left"><strong>Kreispokal</strong> (Cup)</td>
-        <td class="right">3</td>
-        <td class="right">0</td>
-        <td class="right">0</td>
-        <td class="right">20</td>
-        <td class="right">0</td>
-        <td class="right">+20</td>
-      </tr>
-      <tr class="row-all">
-        <td class="left">All Competitions</td>
-        <td class="right">18</td>
-        <td class="right">0</td>
-        <td class="right">0</td>
-        <td class="right">137</td>
-        <td class="right">2</td>
-        <td class="right">+135</td>
-      </tr>
+      {% for season in site.data.frauen-history %}
+        <tr>
+          <td class="left"><strong>Kreisliga A</strong> (League)</td>
+          <td class="right">{{ season.lg_w }}</td>
+          <td class="right">{{ season.lg_l }}</td>
+          <td class="right">{{ season.lg_d }}</td>
+          <td class="right">{{ season.lg_gf }}</td>
+          <td class="right">{{ season.lg_ga }}</td>
+          <td class="right">
+            {% assign lg_gd = season.lg_gd | plus: 0 %}
+            {% if lg_gd > 0 %}+{% endif %}{{ lg_gd }}
+          </td>
+        </tr>
+        <tr>
+          <td class="left"><strong>Kreispokal</strong> (Cup)</td>
+          <td class="right">{{ season.cup_w }}</td>
+          <td class="right">{{ season.cup_l }}</td>
+          <td class="right">{{ season.cup_d }}</td>
+          <td class="right">{{ season.cup_gf }}</td>
+          <td class="right">{{ season.cup_ga }}</td>
+          <td class="right">
+            {% assign cup_gd = season.cup_gd | plus: 0 %}
+            {% if cup_gd > 0 %}+{% endif %}{{ cup_gd }}
+          </td>
+        </tr>
+        <tr class="row-all">
+          <td class="left">All Competitions</td>
+          <td class="right">{{ season.all_w }}</td>
+          <td class="right">{{ season.all_l }}</td>
+          <td class="right">{{ season.all_d }}</td>
+          <td class="right">{{ season.all_gf }}</td>
+          <td class="right">{{ season.all_ga }}</td>
+          <td class="right">
+            {% assign all_gd = season.all_gd | plus: 0 %}
+            {% if all_gd > 0 %}+{% endif %}{{ all_gd }}
+          </td>
+        </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
