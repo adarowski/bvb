@@ -17,7 +17,9 @@ id,date,opponent,comp,round,venue,gf,ga,result,stream,time,recap,fussball_de
 16,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,140601,20:15,https://www.bvb.de/Mannschaften/Frauen/News/Auch-Soelderholz-geschlagen-BVB-Frauen-bleiben-ohne-Punktverlust,https://www.fussball.de/spiel/borussia-dortmund-sf-soelderholz/-/spiel/02FCK032RS000000VS5489B4VSG06PAH#!/
 17,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,139486,15:00,https://www.bvb.de/Mannschaften/Frauen/News/8-0-Frauen-in-Asseln-mit-dem-dritten-Sieg-in-einer-Woche,https://www.fussball.de/spiel/tura-asseln-borussia-dortmund/-/spiel/02FCK031MS000000VS5489B4VSG06PAH#!/
 18,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,116357,15:30,https://www.bvb.de/Mannschaften/Frauen/News/BVB-Frauen-sind-Kreismeister-Platz-1-nach-6-0-gegen-Ay-Yildiz-sicher,https://www.fussball.de/spiel/borussia-dortmund-sf-ay-yildiz-derne/-/spiel/02FCK0318K000000VS5489B4VSG06PAH#!/
-19,2022-04-28,Wambeler SV,Kreispokal,SF,Home,,,,142906,20:15,,
-20,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,,,,,12:00,,
+19,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,142906,20:15,https://www.bvb.de/Mannschaften/Frauen/News/BVB-steht-nach-4-1-gegen-Wambeler-SV-im-Kreispokal-Endspiel,https://www.fussball.de/spiel/borussia-dortmund-wambeler-sv/-/spiel/02GJCVFJTS000000VS5489B4VSM5S7RJ#!/
+20,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,,12:00,https://www.bvb.de/Mannschaften/Frauen/News/17-0!-BVB-schlaegt-Luenen-mit-Rekordergebnis,https://www.fussball.de/spiel/luener-sv-borussia-dortmund/-/spiel/02FCK030NG000000VS5489B4VSG06PAH#!/
 21,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home,,,,116359,16:30,,
-22,2022-05-22,SV Körne 83,Kreisliga A,MD18,MD18,,,,116360,15:00,,
+22,2022-05-22,SV Körne 83,Kreisliga A,MD18,MD18,,,,147300,15:00,,
+23,2022-05-25,TV Brechten II,Playoffs,,,,,,,,,
+24,2022-05-29,TV Brechten,Kreispokal,F,Home,,,,,15:30,,
