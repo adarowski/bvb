@@ -28,6 +28,9 @@ body_class: matches
             {% if goal.id_assist_official %}
               <em>(Assisted by <a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>)</em>
             {% endif %}
+            {% if goal.note %}
+              <em>({{ goal.note }})</em>
+            {% endif %}
           </li>
           {% endif %}
         {% endfor %}
