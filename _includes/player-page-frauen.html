@@ -20,7 +20,9 @@
           {% if player.prev_club %}
             <li><strong>Previous Club:</strong> {{ player.prev_club }}</li>
           {% endif %}
-          <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
+          {% if player.height %}
+            <li><strong>Height:</strong> {{ player.height }} cm</li>
+          {% endif %}
         </ul>
       </div>
 
@@ -193,5 +195,29 @@
         new Tablesort(document.getElementById('player-goals'));
       </script>
     {% endif %}
+
+    <h2>More Information</h2>
+
+    <ul>
+      {% if player.bvb_de %}
+        <li><strong>BVB Profile:</strong> <a href="https://www.bvb.de/Mannschaften/Frauen/Mannschaft/Frauen/{{ player.bvb_de }}">{{ player.first }} {{ player.last }}</a></li>
+      {% endif %}
+      {% if player.fupa %}
+        <li><strong>FUPA Profile:</strong> <a href="https://www.fupa.net/player/{{ player.fupa }}">{{ player.first }} {{ player.last }}</a></li>
+      {% endif %}
+      {% if player.instagram %}
+        <li><strong>Instagram:</strong> <a href="http://instagram.com/{{ player.instagram }}">@{{ player.instagram }}</a></li>
+      {% endif %}
+      {% if player.twitter %}
+        <li><strong>Twitter:</strong> <a href="http://twitter.com/{{ player.twitter }}">@{{ player.twitter }}</a></li>
+      {% endif %}
+      {% if player.club_history %}
+        <li><strong>Club History:</strong> {{ player.club_history }}</li>
+      {% endif %}
+      {% if player.joined %}
+        <li><strong>Joined BVB:</strong> {{ player.joined | date: '%B %-d, %Y' }}</li>
+      {% endif %}
+      <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
+    </ul>
   {% endif %}
 {% endfor %}

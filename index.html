@@ -268,6 +268,7 @@ body_class: home
         <th class="right">Number</th>
         <th class="left">Position</th>
         <th class="left">Date of Birth</th>
+        <th class="right">Height</th>
         <th class="left">Previous Club</th>
         <th class="left">Instagram</th>
         <th class="left">Twitter</th>
@@ -286,6 +287,7 @@ body_class: home
             <td class="right">{{ player.number }}</td>
             <td class="left">{{ player.position }}</td>
             <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
+            <td class="right" data-sort="{{ player.height }}">{{ player.height }} cm</td>
             <td class="left">{{ player.prev_club }}</td>
             <td class="left"><a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a></td>
             <td class="left">
