@@ -4,12 +4,12 @@ title: Matches
 body_class: matches
 ---
 
-<h2>{{ page.title }}</h2>
+<h1>{{ page.title }}</h1>
 
 {% for match in site.data.matches %}
   {% if match.result %}
     <div id="match-{{ match.id }}" class="match-summary">
-      <h3><span class="{{ match.result | downcase }}">{{ match.gf }}–{{ match.ga }}</span> {{ match.venue }} {{ match.result }} vs. {{ match.opponent }}</h3>
+      <h2><span class="{{ match.result | downcase }}">{{ match.gf }}–{{ match.ga }}</span> {{ match.venue }} {{ match.result }} vs. {{ match.opponent }}</h2>
       <ul class="match-meta-info">
         <li>{{ match.date | date: '%B %-d, %Y' }}, {{ match.time }}</li>
         <li>{{ match.comp }} ({{ match.round }})</li>
@@ -112,7 +112,6 @@ body_class: matches
         </div>
       </div>
 
-
       <div class="table-container">
         <table id="match-table-{{ match.id }}" class="players-table">
           <thead>
@@ -122,6 +121,8 @@ body_class: matches
               <th class="right">Minutes</th>
               <th class="right">Goals</th>
               <th class="right">Assists</th>
+              <th class="right">Yellow</th>
+              <th class="right">Red</th>
             </tr>
           </thead>
           <tbody>
@@ -133,6 +134,8 @@ body_class: matches
                   <td class="right">{{ log.mins }}</td>
                   <td class="right" data-value="{{ log.goals }}">{{ log.goals }}</td>
                   <td class="right" data-value="{{ log.assists }}">{{ log.assists }}</td>
+                  <td class="right" data-value="{{ log.yellow }}">{{ log.yellow }}</td>
+                  <td class="right" data-value="{{ log.red }}">{{ log.red }}</td>
                 </tr>
               {% endif %}
             {% endfor %}

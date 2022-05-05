@@ -1,9 +1,7 @@
-# Borussia Dortmund Hockey-Style Scoring
+# Borussia Dortmund Frauen
 
-A Borussia Dortmund mini-site by Adam Darowski
+This fan site is dedicated to Borussia Dortmund’s first women’s squad. The BVB women are playing their first season in the seventh tier of German football, in the Kreisliga A (Group 2). They are also competing the Kreispokal (district cup). This site is the definitive source of information about the Borussia Dortmund women, including player pages, match logs, statistics, and more.
 
-[Read Launch Announcement](https://medium.com/@fussballtwit/new-site-borussia-dortmund-hockey-style-scoring-6f6bfde33ada?source=friends_link&sk=e53f2715e30c10276eec57e5f0a4f9ec)
+This site is not affiliated with Borussia Dortmund.
 
-Follow Adam on Twitter at [@fussballtwit](http://twitter.com/fussballtwit).
-
-Read Adam’s football writing on [Medium](http://medium.com/@fussballtwit).
+http://darowski.com/bvb

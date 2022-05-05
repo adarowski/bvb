@@ -61,6 +61,8 @@
               <th class="right">Minutes</th>
               <th class="right">Goals</th>
               <th class="right">Assists</th>
+              <th class="right">Yellow</th>
+              <th class="right">Red</th>
             </tr>
           </thead>
           <tbody>
@@ -77,6 +79,8 @@
                   <td class="right">{{ match.mins }}</td>
                   <td class="right" data-value="{{ match.goals }}">{{ match.goals }}</td>
                   <td class="right" data-value="{{ match.assists }}">{{ match.assists }}</td>
+                  <td class="right" data-value="{{ match.yellow }}">{{ match.yellow }}</td>
+                  <td class="right" data-value="{{ match.red }}">{{ match.red }}</td>
                 </tr>
               {% endif %}
             {% endfor %}
@@ -99,6 +103,8 @@
                   <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
                   <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
                   <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
+                  <td class="right" data-value="{{ player.lg_y }}">{{ player.lg_y }}</td>
+                  <td class="right" data-value="{{ player.lg_r }}">{{ player.lg_r }}</td>
                 </tr>
                 <tr class="row-all">
                   <td class="left">Cup</td>
@@ -117,6 +123,8 @@
                   <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
                   <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
                   <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
+                  <td class="right" data-value="{{ player.cup_y }}">{{ player.cup_y }}</td>
+                  <td class="right" data-value="{{ player.cup_r }}">{{ player.cup_r }}</td>
                 </tr>
                 <tr class="row-all">
                   <td class="left">All Comps</td>
@@ -135,6 +143,8 @@
                   <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
                   <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
                   <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
+                  <td class="right" data-value="{{ player.all_y }}">{{ player.all_y }}</td>
+                  <td class="right" data-value="{{ player.all_r }}">{{ player.all_r }}</td>
                 </tr>
               {% endif %}
             {% endfor %}
