@@ -93,7 +93,7 @@
                     <td class="left">League</td>
                     <td class="left">
                       {{ player.lg_m }}
-                      {% if player.lg_m == 1 %}
+                      {% if player.lg_m == "1" %}
                         match
                       {% else %}
                         matches
@@ -111,13 +111,37 @@
                   </tr>
                 {% endif %}
 
+                {% assign pp_minutes = player.pp_m | plus: 0 %}
+                {% if pp_minutes > 0 %}
+                  <tr class="row-all">
+                    <td class="left">Playoffs</td>
+                    <td class="left">
+                      {{ player.pp_m }}
+                      {% if player.pp_m == "1" %}
+                        match
+                      {% else %}
+                        matches
+                      {% endif %}
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="left"></td>
+                    <td class="right" data-value="{{ player.pp_s }}">{{ player.pp_s }}</td>
+                    <td class="right" data-value="{{ player.pp_min }}">{{ player.pp_min }}</td>
+                    <td class="right" data-value="{{ player.pp_g }}">{{ player.pp_g }}</td>
+                    <td class="right" data-value="{{ player.pp_a }}">{{ player.pp_a }}</td>
+                    <td class="right" data-value="{{ player.pp_y }}">{{ player.pp_y }}</td>
+                    <td class="right" data-value="{{ player.pp_r }}">{{ player.pp_r }}</td>
+                  </tr>
+                {% endif %}
+
                 {% assign cup_minutes = player.cup_m | plus: 0 %}
                 {% if cup_minutes > 0 %}
                   <tr class="row-all">
                     <td class="left">Cup</td>
                     <td class="left">
                       {{ player.cup_m }}
-                      {% if player.cup_m == 1 %}
+                      {% if player.cup_m == "1" %}
                         match
                       {% else %}
                         matches
@@ -140,7 +164,7 @@
                     <td class="left">All Comps</td>
                     <td class="left">
                       {{ player.all_m }}
-                      {% if player.all_m == 1 %}
+                      {% if player.all_m == "1" %}
                         match
                       {% else %}
                         matches

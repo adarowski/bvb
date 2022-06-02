@@ -1,0 +1,763 @@
+season,comp,round,round_alt,date,opponent,venue,min,min_alt,gf,ga,gd,scorer_first,scorer_last,assist_official,assist_1st,assist_2nd,note,id_scorer,id_assist_official,id_assist_1st,id_assist_2nd
+2015-16,Europa League Qualifying,3Q-1,1,2015-07-30,Wolfsberger AC,Away,16,16,1,0,1,Jonas,Hofmann,Mkhitaryan,Mkhitaryan,Aubameyang,,hofmann,mkhitaryan,mkhitaryan,aubameyang
+2015-16,Europa League Qualifying,3Q-2,2,2015-08-06,Wolfsberger AC,Home,48,48,1,0,1,Marco,Reus,Mkhitaryan,Mkhitaryan,Gündoğan,,reus,mkhitaryan,mkhitaryan,gundogan
+2015-16,Europa League Qualifying,3Q-2,2,2015-08-06,Wolfsberger AC,Home,64,64,2,0,2,Pierre-Emerick,Aubameyang,Gündoğan,Gündoğan,Reus,,aubameyang,gundogan,gundogan,reus
+2015-16,Europa League Qualifying,3Q-2,2,2015-08-06,Wolfsberger AC,Home,73,73,3,0,3,Henrikh,Mkhitaryan,,Piszczek,,No Official Assist (Unclear why); No 2nd Assist (Piszczek won the ball),mkhitaryan,,piszczek,
+2015-16,Europa League Qualifying,3Q-2,2,2015-08-06,Wolfsberger AC,Home,82,82,4,0,4,Henrikh,Mkhitaryan,,Weigl,Castro,No Official Assist (Unclear why),mkhitaryan,,weigl,castro
+2015-16,Europa League Qualifying,3Q-2,2,2015-08-06,Wolfsberger AC,Home,86,86,5,0,5,Henrikh,Mkhitaryan,,Hofmann,Castro,No Official Assist (Unclear why),mkhitaryan,,hofmann,castro
+2015-16,DFB-Pokal,R1,1,2015-08-09,Chemnitzer FC,Away,25,25,1,0,1,Pierre-Emerick,Aubameyang,Mkhitaryan,Mkhitaryan,Castro,,aubameyang,mkhitaryan,mkhitaryan,castro
+2015-16,DFB-Pokal,R1,1,2015-08-09,Chemnitzer FC,Away,82,82,2,0,2,Henrikh,Mkhitaryan,Aubameyang,Aubameyang,Gündoğan,,mkhitaryan,aubameyang,aubameyang,gundogan
+2015-16,Bundesliga,MD1,1,2015-08-15,Gladbach,Home,15,15,1,0,1,Marco,Reus,Kagawa,Kagawa,Hummels,,reus,kagawa,kagawa,hummels
+2015-16,Bundesliga,MD1,1,2015-08-15,Gladbach,Home,21,21,2,0,2,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,Hummels,,aubameyang,schmelzer,schmelzer,hummels
+2015-16,Bundesliga,MD1,1,2015-08-15,Gladbach,Home,33,33,3,0,3,Henrikh,Mkhitaryan,Aubameyang,Aubameyang,Gündoğan,,mkhitaryan,aubameyang,aubameyang,gundogan
+2015-16,Bundesliga,MD1,1,2015-08-15,Gladbach,Home,50,50,4,0,4,Henrikh,Mkhitaryan,Reus,Reus,Kagawa,,mkhitaryan,reus,reus,kagawa
+2015-16,Europa League Qualifying,PO-1,3,2015-08-20,Odds BK,Away,33,33,1,3,-2,Pierre-Emerick,Aubameyang,,Gündoğan,Kampl,No Official Assist (Gündoğan shot saved and fell to Aubameyang),aubameyang,,gundogan,kampl
+2015-16,Europa League Qualifying,PO-1,3,2015-08-20,Odds BK,Away,47,47,2,3,-1,Shinji,Kagawa,,Bender,Schmelzer,No Official Assist (Unclear why); Schmelzer cross blocked to Bender,kagawa,,bender,schmelzer
+2015-16,Europa League Qualifying,PO-1,3,2015-08-20,Odds BK,Away,76,76,3,3,0,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,Kagawa,,aubameyang,schmelzer,schmelzer,kagawa
+2015-16,Europa League Qualifying,PO-1,3,2015-08-20,Odds BK,Away,85,85,4,3,1,Henrikh,Mkhitaryan,Kagawa,Kagawa,Schmelzer,,mkhitaryan,kagawa,kagawa,schmelzer
+2015-16,Bundesliga,MD2,2,2015-08-23,Ingolstadt 04,Away,55,55,1,0,1,Matthias,Ginter,Mkhitaryan,Mkhitaryan,Weigl,,ginter,mkhitaryan,mkhitaryan,weigl
+2015-16,Bundesliga,MD2,2,2015-08-23,Ingolstadt 04,Away,60,60,2,0,2,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2015-16,Bundesliga,MD2,2,2015-08-23,Ingolstadt 04,Away,84,84,3,0,3,Shinji,Kagawa,Hofmann,Hofmann,Aubameyang,,kagawa,hofmann,hofmann,aubameyang
+2015-16,Bundesliga,MD2,2,2015-08-23,Ingolstadt 04,Away,90+1,90.1,4,0,4,Pierre-Emerick,Aubameyang,Ginter,Ginter,Castro,,aubameyang,ginter,ginter,castro
+2015-16,Europa League Qualifying,PO-2,4,2015-08-27,Odds BK,Home,25,25,1,1,0,Henrikh,Mkhitaryan,Hummels,Hummels,,No 2nd Assist (Hummels won the ball),mkhitaryan,hummels,hummels,
+2015-16,Europa League Qualifying,PO-2,4,2015-08-27,Odds BK,Home,27,27,2,1,1,Marco,Reus,Gündoğan,Gündoğan,Hofmann,Hofmann pass took deflection en route to Gündoğan,reus,gundogan,gundogan,hofmann
+2015-16,Europa League Qualifying,PO-2,4,2015-08-27,Odds BK,Home,32,32,3,1,2,Marco,Reus,Mkhitaryan,Mkhitaryan,Gündoğan,,reus,mkhitaryan,mkhitaryan,gundogan
+2015-16,Europa League Qualifying,PO-2,4,2015-08-27,Odds BK,Home,40,40,4,1,3,Shinji,Kagawa,Ginter,Ginter,Weigl,,kagawa,ginter,ginter,weigl
+2015-16,Europa League Qualifying,PO-2,4,2015-08-27,Odds BK,Home,51,51,5,1,4,İlkay,Gündoğan,Hofmann,Hofmann,Reus,,gundogan,hofmann,hofmann,reus
+2015-16,Europa League Qualifying,PO-2,4,2015-08-27,Odds BK,Home,57,57,6,1,5,Marco,Reus,Mkhitaryan,Mkhitaryan,Gündoğan,,reus,mkhitaryan,mkhitaryan,gundogan
+2015-16,Europa League Qualifying,PO-2,4,2015-08-27,Odds BK,Home,90,90,7,2,5,Shinji,Kagawa,Aubameyang,Aubameyang,Weigl,,kagawa,aubameyang,aubameyang,weigl
+2015-16,Bundesliga,MD3,3,2015-08-30,Hertha Berlin,Home,27,27,1,0,1,Mats,Hummels,Kagawa,Kagawa,Reus,,hummels,kagawa,kagawa,reus
+2015-16,Bundesliga,MD3,3,2015-08-30,Hertha Berlin,Home,51,51,2,0,2,Pierre-Emerick,Aubameyang,Ginter,Ginter,Kagawa,,aubameyang,ginter,ginter,kagawa
+2015-16,Bundesliga,MD3,3,2015-08-30,Hertha Berlin,Home,90+1,90.1,3,1,2,Adrián,Ramos,Mkhitaryan,Mkhitaryan,Kagawa,,ramos,mkhitaryan,mkhitaryan,kagawa
+2015-16,Bundesliga,MD4,4,2015-09-12,Hannover 96,Away,35,35,1,1,0,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2015-16,Bundesliga,MD4,4,2015-09-12,Hannover 96,Away,44,44,2,1,1,Henrikh,Mkhitaryan,Ginter,Ginter,Schmelzer,Combination Schmelzer to Mkhitaryan to Ginter to Mkhitaryan),mkhitaryan,ginter,ginter,schmelzer
+2015-16,Bundesliga,MD4,4,2015-09-12,Hannover 96,Away,67,67,3,2,1,Matthias,Ginter,,Kagawa,Schmelzer,Own Goal awarded to Ginter,ginter,,kagawa,schmelzer
+2015-16,Bundesliga,MD4,4,2015-09-12,Hannover 96,Away,85,85,4,2,2,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2015-16,Europa League,GR-1,1,2015-09-17,Krasnodar,Home,45+1,45.1,1,1,0,Matthias,Ginter,Park,Park,Schmelzer,,ginter,park,park,schmelzer
+2015-16,Europa League,GR-1,1,2015-09-17,Krasnodar,Home,90+3,90.3,2,1,1,Jo-hoo,Park,Ginter,Ginter,Gündoğan,,park,ginter,ginter,gundogan
+2015-16,Bundesliga,MD5,5,2015-09-20,Leverkusen,Home,19,19,1,0,1,Jonas,Hofmann,Kagawa,Kagawa,,No 2nd Assist (Kagawa won the ball),hofmann,kagawa,kagawa,
+2015-16,Bundesliga,MD5,5,2015-09-20,Leverkusen,Home,58,58,2,0,2,Shinji,Kagawa,Mkhitaryan,Mkhitaryan,Gündoğan,,kagawa,mkhitaryan,mkhitaryan,gundogan
+2015-16,Bundesliga,MD5,5,2015-09-20,Leverkusen,Home,74,74,3,0,3,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2015-16,Bundesliga,MD6,6,2015-09-23,Hoffenheim,Away,55,55,1,1,0,Pierre-Emerick,Aubameyang,Castro,Castro,Hummels,,aubameyang,castro,castro,hummels
+2015-16,Bundesliga,MD7,7,2015-09-27,Darmstadt 98,Home,63,63,1,1,0,Pierre-Emerick,Aubameyang,Ginter,Ginter,Kagawa,,aubameyang,ginter,ginter,kagawa
+2015-16,Bundesliga,MD7,7,2015-09-27,Darmstadt 98,Home,71,71,2,1,1,Pierre-Emerick,Aubameyang,Januzaj,Januzaj,Gündoğan,,aubameyang,januzaj,januzaj,gundogan
+2015-16,Europa League,GR-2,2,2015-10-01,PAOK,Away,72,72,1,1,0,Gonzalo,Castro,,Schmelzer,Reus,No Official Assist (Unclear why),castro,,schmelzer,reus
+2015-16,Bundesliga,MD8,8,2015-10-04,Bayern Munich,Away,36,36,1,2,-1,Pierre-Emerick,Aubameyang,,Castro,Mkhitaryan,No Official Assist (Unclear why),aubameyang,,castro,mkhitaryan
+2015-16,Bundesliga,MD9,9,2015-10-16,Mainz 05,Away,18,18,1,0,1,Marco,Reus,Aubameyang,Aubameyang,Mkhitaryan,,reus,aubameyang,aubameyang,mkhitaryan
+2015-16,Bundesliga,MD9,9,2015-10-16,Mainz 05,Away,82,82,2,0,2,Henrikh,Mkhitaryan,,Aubameyang,,No Official Assist (Unclear why); No 2nd Assist (Aubameyang won the ball),mkhitaryan,,aubameyang,
+2015-16,Europa League,GR-3,3,2015-10-22,Gabala FK,Away,31,31,1,0,1,Pierre-Emerick,Aubameyang,Reus,Reus,Kagawa,,aubameyang,reus,reus,kagawa
+2015-16,Europa League,GR-3,3,2015-10-22,Gabala FK,Away,38,38,2,0,2,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Park,Combination (Park to Aubameyang to Kagawa to Aubameyang),aubameyang,kagawa,kagawa,park
+2015-16,Europa League,GR-3,3,2015-10-22,Gabala FK,Away,72,72,3,0,3,Pierre-Emerick,Aubameyang,,Bender,Reus,No Official Assist (Bender shot saved and fell to Aubameyang),aubameyang,,bender,reus
+2015-16,Bundesliga,MD10,10,2015-10-25,Augsburg,Home,18,18,1,0,1,Pierre-Emerick,Aubameyang,Gündoğan,Gündoğan,Castro,,aubameyang,gundogan,gundogan,castro
+2015-16,Bundesliga,MD10,10,2015-10-25,Augsburg,Home,21,21,2,0,2,Marco,Reus,Kagawa,Kagawa,Schmelzer,Combination (Schmelzer to Reus to Kagawa to Reus),reus,kagawa,kagawa,schmelzer
+2015-16,Bundesliga,MD10,10,2015-10-25,Augsburg,Home,33,33,3,0,3,Marco,Reus,,Kagawa,Ginter,No Official Assist (Unclear why),reus,,kagawa,ginter
+2015-16,Bundesliga,MD10,10,2015-10-25,Augsburg,Home,85,85,4,1,3,Pierre-Emerick,Aubameyang,Ramos,Ramos,Kagawa,,aubameyang,ramos,ramos,kagawa
+2015-16,Bundesliga,MD10,10,2015-10-25,Augsburg,Home,90+1,90.1,5,1,4,Pierre-Emerick,Aubameyang,,Kagawa,Gündoğan,No Official Assist (Unclear why),aubameyang,,kagawa,gundogan
+2015-16,DFB-Pokal,R2,2,2015-10-28,Paderborn,Home,25,25,1,1,0,Adrián,Ramos,Castro,Castro,Papastathopoulos,,ramos,castro,castro,papastathopoulos
+2015-16,DFB-Pokal,R2,2,2015-10-28,Paderborn,Home,30,30,2,1,1,Gonzalo,Castro,Ramos,Ramos,Mkhitaryan,Mkhitaryan pass took a deflection en route to Ramos,castro,ramos,ramos,mkhitaryan
+2015-16,DFB-Pokal,R2,2,2015-10-28,Paderborn,Home,43,43,3,1,2,Shinji,Kagawa,Castro,Castro,Ramos,,kagawa,castro,castro,ramos
+2015-16,DFB-Pokal,R2,2,2015-10-28,Paderborn,Home,55,55,4,1,3,İlkay,Gündoğan,,,,No Assists (Penalty),gundogan,,,
+2015-16,DFB-Pokal,R2,2,2015-10-28,Paderborn,Home,58,58,5,1,4,Gonzalo,Castro,Gündoğan,Gündoğan,Mkhitaryan,,castro,gundogan,gundogan,mkhitaryan
+2015-16,DFB-Pokal,R2,2,2015-10-28,Paderborn,Home,87,87,6,1,5,Łukasz,Piszczek,Mkhitaryan,Mkhitaryan,Januzaj,,piszczek,mkhitaryan,mkhitaryan,januzaj
+2015-16,DFB-Pokal,R2,2,2015-10-28,Paderborn,Home,89,89,7,1,6,Henrikh,Mkhitaryan,Piszczek,Piszczek,Gündoğan,,mkhitaryan,piszczek,piszczek,gundogan
+2015-16,Bundesliga,MD11,11,2015-10-31,Werder Bremen,Away,9,9,1,0,1,Marco,Reus,,Mkhitaryan,Gündoğan,No Official Assist (Mkhitaryan’s pass deflected en route to Reus),reus,,mkhitaryan,gundogan
+2015-16,Bundesliga,MD11,11,2015-10-31,Werder Bremen,Away,44,44,2,1,1,Henrikh,Mkhitaryan,Hummels,Hummels,Kagawa,,mkhitaryan,hummels,hummels,kagawa
+2015-16,Bundesliga,MD11,11,2015-10-31,Werder Bremen,Away,72,72,3,1,2,Marco,Reus,Mkhitaryan,Mkhitaryan,Gündoğan,,reus,mkhitaryan,mkhitaryan,gundogan
+2015-16,Europa League,GR-4,4,2015-11-05,Gabala FK,Home,28,28,1,0,1,Marco,Reus,Mkhitaryan,Mkhitaryan,Castro,Combination (Castro to Mkhitaryan to Reus to Mkhitaryan to Reus),reus,mkhitaryan,mkhitaryan,castro
+2015-16,Europa League,GR-4,4,2015-11-05,Gabala FK,Home,45,45,2,0,2,Pierre-Emerick,Aubameyang,,,,No Assists (Aubameyang won the ball),aubameyang,,,
+2015-16,Europa League,GR-4,4,2015-11-05,Gabala FK,Home,67,67,3,0,3,Adnan,Januzaj,,,,Own Goal awarded to Januzaj; No Assists (Januzaj corner),januzaj,,,
+2015-16,Europa League,GR-4,4,2015-11-05,Gabala FK,Home,70,70,4,0,4,Henrikh,Mkhitaryan,Piszczek,Piszczek,Hummels,Combination (Hummels to Mkhitaryan to Piszczek to Mkhitaryan),mkhitaryan,piszczek,piszczek,hummels
+2015-16,Bundesliga,MD12,12,2015-11-08,Schalke 04,Home,30,30,1,0,1,Shinji,Kagawa,Ginter,Ginter,Castro,,kagawa,ginter,ginter,castro
+2015-16,Bundesliga,MD12,12,2015-11-08,Schalke 04,Home,43,43,2,1,1,Matthias,Ginter,Mkhitaryan,Mkhitaryan,,No 2nd Assist (Mkhitaryan corner),ginter,mkhitaryan,mkhitaryan,
+2015-16,Bundesliga,MD12,12,2015-11-08,Schalke 04,Home,47,47,3,1,2,Pierre-Emerick,Aubameyang,Castro,Castro,Mkhitaryan,,aubameyang,castro,castro,mkhitaryan
+2015-16,Bundesliga,MD13,13,2015-11-20,Hamburger SV,Away,86,86,1,3,-2,Pierre-Emerick,Aubameyang,Januzaj,Januzaj,Mkhitaryan,,aubameyang,januzaj,januzaj,mkhitaryan
+2015-16,Bundesliga,MD14,14,2015-11-29,Stuttgart,Home,3,3,1,0,1,Gonzalo,Castro,,Mkhitaryan,Reus,No Official Assist (Mkhitaryan shot saved and fell to Castro),castro,,mkhitaryan,reus
+2015-16,Bundesliga,MD14,14,2015-11-29,Stuttgart,Home,19,19,2,0,2,Pierre-Emerick,Aubameyang,Castro,Castro,Bender,,aubameyang,castro,castro,bender
+2015-16,Bundesliga,MD14,14,2015-11-29,Stuttgart,Home,65,65,3,1,2,Marco,Reus,,Schmelzer,Weigl,Own Goal awarded to Reus,reus,,schmelzer,weigl
+2015-16,Bundesliga,MD14,14,2015-11-29,Stuttgart,Home,90+1,90.1,4,1,3,Pierre-Emerick,Aubameyang,Ramos,Ramos,Weigl,,aubameyang,ramos,ramos,weigl
+2015-16,Bundesliga,MD15,15,2015-12-05,Wolfsburg,Away,32,32,1,0,1,Marco,Reus,Mkhitaryan,Mkhitaryan,,No 2nd Assist (Mkhitaryan won the ball),reus,mkhitaryan,mkhitaryan,
+2015-16,Bundesliga,MD15,15,2015-12-05,Wolfsburg,Away,90+3,90.3,2,1,1,Shinji,Kagawa,Mkhitaryan,Mkhitaryan,Piszczek,,kagawa,mkhitaryan,mkhitaryan,piszczek
+2015-16,Bundesliga,MD16,16,2015-12-13,Frankfurt,Home,24,24,1,1,0,Henrikh,Mkhitaryan,Aubameyang,Aubameyang,Hummels,,mkhitaryan,aubameyang,aubameyang,hummels
+2015-16,Bundesliga,MD16,16,2015-12-13,Frankfurt,Home,57,57,2,1,1,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Gündoğan,,aubameyang,kagawa,kagawa,gundogan
+2015-16,Bundesliga,MD16,16,2015-12-13,Frankfurt,Home,61,61,3,1,2,Mats,Hummels,,Mkhitaryan,Kagawa,No Official Assist (Mkhitaryan shot blocked and fell to Hummels),hummels,,mkhitaryan,kagawa
+2015-16,Bundesliga,MD16,16,2015-12-13,Frankfurt,Home,86,86,4,1,3,Adrián,Ramos,Piszczek,Piszczek,Gündoğan,,ramos,piszczek,piszczek,gundogan
+2015-16,DFB-Pokal,R16,3,2015-12-16,Augsburg,Away,61,61,1,0,1,Pierre-Emerick,Aubameyang,Piszczek,Piszczek,Mkhitaryan,,aubameyang,piszczek,piszczek,mkhitaryan
+2015-16,DFB-Pokal,R16,3,2015-12-16,Augsburg,Away,66,66,2,0,2,Henrikh,Mkhitaryan,Kagawa,Kagawa,Schmelzer,,mkhitaryan,kagawa,kagawa,schmelzer
+2015-16,Bundesliga,MD17,17,2015-12-19,Köln,Away,18,18,1,0,1,Sokratis,Papastathopoulos,Mkhitaryan,Mkhitaryan,,No 2nd Assist (Mkhitaryan corner),papastathopoulos,mkhitaryan,mkhitaryan,
+2015-16,Bundesliga,MD18,18,2016-01-23,Gladbach,Away,41,41,1,0,1,Marco,Reus,Gündoğan,Gündoğan,Bürki,,reus,gundogan,gundogan,burki
+2015-16,Bundesliga,MD18,18,2016-01-23,Gladbach,Away,50,50,2,0,2,Henrikh,Mkhitaryan,Reus,Reus,Gündoğan,,mkhitaryan,reus,reus,gundogan
+2015-16,Bundesliga,MD18,18,2016-01-23,Gladbach,Away,75,75,3,1,2,İlkay,Gündoğan,Mkhitaryan,Mkhitaryan,Papastathopoulos,,gundogan,mkhitaryan,mkhitaryan,papastathopoulos
+2015-16,Bundesliga,MD19,19,2016-01-30,Ingolstadt 04,Home,77,77,1,0,1,Pierre-Emerick,Aubameyang,Piszczek,Piszczek,Hummels,,aubameyang,piszczek,piszczek,hummels
+2015-16,Bundesliga,MD19,19,2016-01-30,Ingolstadt 04,Home,86,86,2,0,2,Pierre-Emerick,Aubameyang,Castro,Castro,Leitner,,aubameyang,castro,castro,leitner
+2015-16,DFB-Pokal,QF,4,2016-02-09,Stuttgart,Away,5,5,1,0,1,Marco,Reus,,Aubameyang,Mkhitaryan,No Official Assist (Unclear why),reus,,aubameyang,mkhitaryan
+2015-16,DFB-Pokal,QF,4,2016-02-09,Stuttgart,Away,31,31,2,1,1,Pierre-Emerick,Aubameyang,,Reus,Piszczek,No Official Assist (Unclear why),aubameyang,,reus,piszczek
+2015-16,DFB-Pokal,QF,4,2016-02-09,Stuttgart,Away,89,89,3,1,2,Henrikh,Mkhitaryan,Aubameyang,Aubameyang,,No 2nd Assist (Aubameyang won the ball),mkhitaryan,aubameyang,aubameyang,
+2015-16,Bundesliga,MD21,21,2016-02-13,Hannover 96,Home,57,57,1,0,1,Henrikh,Mkhitaryan,Reus,Reus,Gündoğan,,mkhitaryan,reus,reus,gundogan
+2015-16,Europa League,R32-1,7,2016-02-18,Porto,Home,6,6,1,0,1,Łukasz,Piszczek,Mkhitaryan,Mkhitaryan,Kagawa,,piszczek,mkhitaryan,mkhitaryan,kagawa
+2015-16,Europa League,R32-1,7,2016-02-18,Porto,Home,71,71,2,0,2,Marco,Reus,Mkhitaryan,Mkhitaryan,Kagawa,,reus,mkhitaryan,mkhitaryan,kagawa
+2015-16,Bundesliga,MD22,22,2016-02-21,Leverkusen,Away,64,64,1,0,1,Pierre-Emerick,Aubameyang,Durm,Durm,Reus,,aubameyang,durm,durm,reus
+2015-16,Europa League,R32-2,8,2016-02-25,Porto,Away,23,23,1,0,1,Pierre-Emerick,Aubameyang,,Reus,Mkhitaryan,Own Goal awarded to Aubameyang,aubameyang,,reus,mkhitaryan
+2015-16,Bundesliga,MD23,23,2016-02-28,Hoffenheim,Home,80,80,1,1,0,Henrikh,Mkhitaryan,Gündoğan,Gündoğan,Leitner,Combination (Leitner to Mkhitaryan to Gündoğan to Mkhitaryan),mkhitaryan,gundogan,gundogan,leitner
+2015-16,Bundesliga,MD23,23,2016-02-28,Hoffenheim,Home,85,85,2,1,1,Adrián,Ramos,Piszczek,Piszczek,Gündoğan,,ramos,piszczek,piszczek,gundogan
+2015-16,Bundesliga,MD23,23,2016-02-28,Hoffenheim,Home,90+2,90.2,3,1,2,Pierre-Emerick,Aubameyang,Mkhitaryan,Mkhitaryan,Ramos,,aubameyang,mkhitaryan,mkhitaryan,ramos
+2015-16,Bundesliga,MD24,24,2016-03-02,Darmstadt 98,Away,38,38,1,0,1,Adrián,Ramos,,Aubameyang,Castro,No Official Assist (Aubameyang shot saved and fell to Ramos),ramos,,aubameyang,castro
+2015-16,Bundesliga,MD24,24,2016-03-02,Darmstadt 98,Away,53,53,2,0,2,Erik,Durm,Castro,Castro,Weigl,,durm,castro,castro,weigl
+2015-16,Europa League,R16-1,9,2016-03-10,Tottenham,Home,30,30,1,0,1,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,Castro,,aubameyang,schmelzer,schmelzer,castro
+2015-16,Europa League,R16-1,9,2016-03-10,Tottenham,Home,61,61,2,0,2,Marco,Reus,Subotić,Subotić,Castro,,reus,subotic,subotic,castro
+2015-16,Europa League,R16-1,9,2016-03-10,Tottenham,Home,70,70,3,0,3,Marco,Reus,Castro,Castro,Aubameyang,,reus,castro,castro,aubameyang
+2015-16,Bundesliga,MD26,26,2016-03-13,Mainz 05,Home,30,30,1,0,1,Marco,Reus,Castro,Castro,Papastathopoulos,,reus,castro,castro,papastathopoulos
+2015-16,Bundesliga,MD26,26,2016-03-13,Mainz 05,Home,73,73,2,0,2,Shinji,Kagawa,Aubameyang,Aubameyang,Mkhitaryan,,kagawa,aubameyang,aubameyang,mkhitaryan
+2015-16,Europa League,R16-2,10,2016-03-17,Tottenham,Away,24,24,1,0,1,Pierre-Emerick,Aubameyang,Castro,Castro,,No 2nd Assist (Castro won the ball),aubameyang,castro,castro,
+2015-16,Europa League,R16-2,10,2016-03-17,Tottenham,Away,70,70,2,0,2,Pierre-Emerick,Aubameyang,Mkhitaryan,Mkhitaryan,Weigl,,aubameyang,mkhitaryan,mkhitaryan,weigl
+2015-16,Bundesliga,MD27,27,2016-03-20,Augsburg,Away,45,45,1,1,0,Henrikh,Mkhitaryan,Şahin,Şahin,Reus,,mkhitaryan,sahin,sahin,reus
+2015-16,Bundesliga,MD27,27,2016-03-20,Augsburg,Away,69,69,2,1,1,Gonzalo,Castro,Ramos,Ramos,Hummels,,castro,ramos,ramos,hummels
+2015-16,Bundesliga,MD27,27,2016-03-20,Augsburg,Away,75,75,3,1,2,Adrián,Ramos,,Leitner,Mkhitaryan,No Official Assist (Ramos scored on his own rebound),ramos,,leitner,mkhitaryan
+2015-16,Bundesliga,MD28,28,2016-04-02,Werder Bremen,Home,53,53,1,0,1,Pierre-Emerick,Aubameyang,Mkhitaryan,Mkhitaryan,Reus,,aubameyang,mkhitaryan,mkhitaryan,reus
+2015-16,Bundesliga,MD28,28,2016-04-02,Werder Bremen,Home,77,77,2,2,0,Shinji,Kagawa,Schmelzer,Schmelzer,Castro,,kagawa,schmelzer,schmelzer,castro
+2015-16,Bundesliga,MD28,28,2016-04-02,Werder Bremen,Home,82,82,3,2,1,Adrián,Ramos,Mkhitaryan,Mkhitaryan,,No 2nd Assist (Mkhitaryan corner),ramos,mkhitaryan,mkhitaryan,
+2015-16,Europa League,QF-1,11,2016-04-07,Liverpool,Home,48,48,1,1,0,Mats,Hummels,Mkhitaryan,Mkhitaryan,Castro,,hummels,mkhitaryan,mkhitaryan,castro
+2015-16,Bundesliga,MD29,29,2016-04-10,Schalke 04,Away,49,49,1,0,1,Shinji,Kagawa,Leitner,Leitner,Şahin,Combination (Şahin to Leitner to Kagawa to Leitner to Kagawa),kagawa,leitner,leitner,sahin
+2015-16,Bundesliga,MD29,29,2016-04-10,Schalke 04,Away,56,56,2,1,1,Matthias,Ginter,,Mkhitaryan,,No Official Assist (Mkhitaryan free kick blocked and fell to Ginter); No 2nd Assist (Mkhitaryan free kick),ginter,,mkhitaryan,
+2015-16,Europa League,QF-2,12,2016-04-14,Liverpool,Away,5,5,1,0,1,Henrikh,Mkhitaryan,Aubameyang,Aubameyang,Castro,,mkhitaryan,aubameyang,aubameyang,castro
+2015-16,Europa League,QF-2,12,2016-04-14,Liverpool,Away,9,9,2,0,2,Pierre-Emerick,Aubameyang,Reus,Reus,,No 2nd Assist (Reus won the ball),aubameyang,reus,reus,
+2015-16,Europa League,QF-2,12,2016-04-14,Liverpool,Away,57,57,3,1,2,Marco,Reus,Hummels,Hummels,Schmelzer,,reus,hummels,hummels,schmelzer
+2015-16,Bundesliga,MD30,30,2016-04-17,Hamburger SV,Home,38,38,1,0,1,Christian,Pulisic,Hummels,Hummels,Kagawa,,pulisic,hummels,hummels,kagawa
+2015-16,Bundesliga,MD30,30,2016-04-17,Hamburger SV,Home,44,44,2,0,2,Adrián,Ramos,Şahin,Şahin,,No 2nd Assist (Şahin won the ball),ramos,sahin,sahin,
+2015-16,Bundesliga,MD30,30,2016-04-17,Hamburger SV,Home,86,86,3,0,3,Adrián,Ramos,,Kagawa,Leitner,No Official Assist (Kagawa shot saved and fell to Ramos),ramos,,kagawa,leitner
+2015-16,DFB-Pokal,SF,5,2016-04-20,Hertha Berlin,Away,20,20,1,0,1,Gonzalo,Castro,,Kagawa,Mkhitaryan,No Official Assist (Kagawa pass blocked and fell to Castro),castro,,kagawa,mkhitaryan
+2015-16,DFB-Pokal,SF,5,2016-04-20,Hertha Berlin,Away,75,75,2,0,2,Marco,Reus,Kagawa,Kagawa,Weigl,,reus,kagawa,kagawa,weigl
+2015-16,DFB-Pokal,SF,5,2016-04-20,Hertha Berlin,Away,83,83,3,0,3,Henrikh,Mkhitaryan,Reus,Reus,Kagawa,,mkhitaryan,reus,reus,kagawa
+2015-16,Bundesliga,MD31,31,2016-04-23,Stuttgart,Away,21,21,1,0,1,Shinji,Kagawa,Mkhitaryan,Mkhitaryan,Reus,,kagawa,mkhitaryan,mkhitaryan,reus
+2015-16,Bundesliga,MD31,31,2016-04-23,Stuttgart,Away,45,45,2,0,2,Christian,Pulisic,,Mkhitaryan,Ramos,No Official Assist (Mkhitaryan shot saved and fell to Pulisic),pulisic,,mkhitaryan,ramos
+2015-16,Bundesliga,MD31,31,2016-04-23,Stuttgart,Away,56,56,3,0,3,Henrikh,Mkhitaryan,,Ramos,Kagawa,No Official Assist (Ramos shot saved and fell to Mkhitaryan),mkhitaryan,,ramos,kagawa
+2015-16,Bundesliga,MD32,32,2016-04-30,Wolfsburg,Home,7,7,1,0,1,Shinji,Kagawa,Mkhitaryan,Mkhitaryan,Schmelzer,,kagawa,mkhitaryan,mkhitaryan,schmelzer
+2015-16,Bundesliga,MD32,32,2016-04-30,Wolfsburg,Home,9,9,2,0,2,Adrián,Ramos,Kagawa,Kagawa,,No 2nd Assist (Kagawa won the ball),ramos,kagawa,kagawa,
+2015-16,Bundesliga,MD32,32,2016-04-30,Wolfsburg,Home,59,59,3,0,3,Marco,Reus,Ramos,Ramos,Kagawa,Kagawa shot saved and fell to Ramos,reus,ramos,ramos,kagawa
+2015-16,Bundesliga,MD32,32,2016-04-30,Wolfsburg,Home,77,77,4,0,4,Pierre-Emerick,Aubameyang,,Mkhitaryan,Castro,No Official Assist (Unclear why),aubameyang,,mkhitaryan,castro
+2015-16,Bundesliga,MD32,32,2016-04-30,Wolfsburg,Home,78,78,5,0,5,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,Şahin,,aubameyang,schmelzer,schmelzer,sahin
+2015-16,Bundesliga,MD34,34,2016-05-14,Köln,Home,11,11,1,0,1,Gonzalo,Castro,Schmelzer,Schmelzer,Weigl,,castro,schmelzer,schmelzer,weigl
+2015-16,Bundesliga,MD34,34,2016-05-14,Köln,Home,75,75,2,2,0,Marco,Reus,,,,No Assists (Reus free kick),reus,,,
+2016-17,DFB-Pokal,R1,1,2016-08-22,Trier,Away,8,8,1,0,1,Shinji,Kagawa,Aubameyang,Aubameyang,Schürrle,,kagawa,aubameyang,aubameyang,schurrle
+2016-17,DFB-Pokal,R1,1,2016-08-22,Trier,Away,33,33,2,0,2,Shinji,Kagawa,Castro,Castro,Papastathopoulos,,kagawa,castro,castro,papastathopoulos
+2016-17,DFB-Pokal,R1,1,2016-08-22,Trier,Away,45,45,3,0,3,André,Schürrle,,Aubameyang,Dembélé,No Official Assist (Unclear why),schurrle,,aubameyang,dembele
+2016-17,Bundesliga,MD1,1,2016-08-27,Mainz 05,Home,17,17,1,1,0,Pierre-Emerick,Aubameyang,Schürrle,Schürrle,Kagawa,,aubameyang,schurrle,schurrle,kagawa
+2016-17,Bundesliga,MD1,1,2016-08-27,Mainz 05,Home,89,89,2,2,0,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,7,7,1,0,1,Mario,Götze,Dembélé,Dembélé,Schmelzer,,gotze,dembele,dembele,schmelzer
+2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,15,15,2,0,2,Sokratis,Papastathopoulos,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro free kick),papastathopoulos,guerreiro,guerreiro,
+2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,17,17,3,0,3,Marc,Bartra,Schmelzer,Schmelzer,Aubameyang,Aubameyang shot saved and fell to Schmelzer,bartra,schmelzer,schmelzer,aubameyang
+2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,51,51,4,0,4,Raphaël,Guerreiro,,Dembélé,Aubameyang,No Official Assist (Dembélé shot blocked and fell to Guerreiro),guerreiro,,dembele,aubameyang
+2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,76,76,5,0,5,Gonzalo,Castro,Pulisic,Pulisic,Mor,,castro,pulisic,pulisic,mor
+2016-17,Champions League,GR-1,1,2016-09-14,Legia Warsaw,Away,87,87,6,0,6,Pierre-Emerick,Aubameyang,Castro,Castro,Piszczek,,aubameyang,castro,castro,piszczek
+2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,7,7,1,0,1,Gonzalo,Castro,Dembélé,Dembélé,Ramos,,castro,dembele,dembele,ramos
+2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,48,48,2,0,2,Adrián,Ramos,,Guerreiro,Pulisic,No Official Assist (Guerreiro shot saved and fell to Ramos); Combination (Pulisic to Ramos to Guerreiro to Ramos),ramos,,guerreiro,pulisic
+2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,54,54,3,0,3,Christian,Pulisic,,Schmelzer,Schmelzer,No Official Assist (Schmelzer pass to Guerreiro deflected to Pulisic),pulisic,,schmelzer,schmelzer
+2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,78,78,4,0,4,Gonzalo,Castro,Pulisic,Pulisic,Rode,,castro,pulisic,pulisic,rode
+2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,84,84,5,0,5,Sebastian,Rode,Castro,Castro,Weigl,,rode,castro,castro,weigl
+2016-17,Bundesliga,MD3,3,2016-09-17,Darmstadt 98,Home,88,88,6,0,6,Emre,Mor,,Pulisic,Passlack,No Official Assist (Unclear why),mor,,pulisic,passlack
+2016-17,Bundesliga,MD4,4,2016-09-20,Wolfsburg,Away,4,4,1,0,1,Raphaël,Guerreiro,Bartra,Bartra,Weigl,,guerreiro,bartra,bartra,weigl
+2016-17,Bundesliga,MD4,4,2016-09-20,Wolfsburg,Away,16,16,2,0,2,Pierre-Emerick,Aubameyang,Guerreiro,Guerreiro,Schmelzer,,aubameyang,guerreiro,guerreiro,schmelzer
+2016-17,Bundesliga,MD4,4,2016-09-20,Wolfsburg,Away,58,58,3,1,2,Ousmane,Dembélé,Castro,Castro,Guerreiro,,dembele,castro,castro,guerreiro
+2016-17,Bundesliga,MD4,4,2016-09-20,Wolfsburg,Away,69,69,4,1,3,Pierre-Emerick,Aubameyang,,Castro,Piszczek,No Official Assist (Unclear why),aubameyang,,castro,piszczek
+2016-17,Bundesliga,MD4,4,2016-09-20,Wolfsburg,Away,73,73,5,1,4,Łukasz,Piszczek,,Guerreiro,,No Official Assist (Unclear why); No 2nd Assist (Guerreiro corner),piszczek,,guerreiro,
+2016-17,Bundesliga,MD5,5,2016-09-23,Freiburg,Home,45,45,1,0,1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Götze,,aubameyang,dembele,dembele,gotze
+2016-17,Bundesliga,MD5,5,2016-09-23,Freiburg,Home,53,53,2,0,2,Łukasz,Piszczek,,Castro,Papastathopoulos,No Official Assist (Castro shot deflected to Piszczek); Combination (Papastathopoulos to Piszczek to Castro to Piszczek),piszczek,,castro,papastathopoulos
+2016-17,Bundesliga,MD5,5,2016-09-23,Freiburg,Home,90+1,90.1,3,1,2,Raphaël,Guerreiro,Castro,Castro,Aubameyang,,guerreiro,castro,castro,aubameyang
+2016-17,Champions League,GR-2,2,2016-09-27,Real Madrid,Home,43,43,1,1,0,Pierre-Emerick,Aubameyang,,Guerreiro,,No Official Assist (Guerreiro shot saved and fell to Aubameyang); No 2nd Assist (Guerreiro free kick),aubameyang,,guerreiro,
+2016-17,Champions League,GR-2,2,2016-09-27,Real Madrid,Home,87,87,2,2,0,André,Schürrle,,Pulisic,Piszczek,No Official Assist (Pulisic cross blocked and fell to Schürrle),schurrle,,pulisic,piszczek
+2016-17,Bundesliga,MD7,7,2016-10-14,Hertha Berlin,Home,80,80,1,1,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Merino,,aubameyang,dembele,dembele,merino
+2016-17,Champions League,GR-3,3,2016-10-18,Sporting CP,Away,9,9,1,0,1,Pierre-Emerick,Aubameyang,Götze,Götze,,No 2nd Assist (Götze won the ball),aubameyang,gotze,gotze,
+2016-17,Champions League,GR-3,3,2016-10-18,Sporting CP,Away,43,43,2,0,2,Julian,Weigl,,,,No Assists (Weigl won loose ball),weigl,,,
+2016-17,Bundesliga,MD8,8,2016-10-22,Ingolstadt 04,Away,59,59,1,2,-1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Kagawa,,aubameyang,dembele,dembele,kagawa
+2016-17,Bundesliga,MD8,8,2016-10-22,Ingolstadt 04,Away,69,69,2,3,-1,Adrián,Ramos,Pulisic,Pulisic,Dembélé,,ramos,pulisic,pulisic,dembele
+2016-17,Bundesliga,MD8,8,2016-10-22,Ingolstadt 04,Away,90+1,90.1,3,3,0,Christian,Pulisic,,Piszczek,Passlack,No Official Assist (Piszczek shot saved and fell to Pulisic),pulisic,,piszczek,passlack
+2016-17,DFB-Pokal,R2,2,2016-10-26,Union Berlin,Home,44,44,1,0,1,Jacob,Bruun Larsen,,Götze,Castro,Own Goal awarded to Bruun-Larsen,bruun-larsen,,gotze,castro
+2016-17,Champions League,GR-4,4,2016-11-02,Sporting CP,Home,12,12,1,0,1,Adrián,Ramos,Ginter,Ginter,Götze,,ramos,ginter,ginter,gotze
+2016-17,Bundesliga,MD10,10,2016-11-05,Hamburger SV,Away,4,4,1,0,1,Pierre-Emerick,Aubameyang,,Mor,Pulisic,No Official Assist (Mor shot saved and fell to Aubameyang),aubameyang,,mor,pulisic
+2016-17,Bundesliga,MD10,10,2016-11-05,Hamburger SV,Away,23,23,2,0,2,Pierre-Emerick,Aubameyang,Mor,Mor,,No 2nd Assist (Mor won the ball),aubameyang,mor,mor,
+2016-17,Bundesliga,MD10,10,2016-11-05,Hamburger SV,Away,27,27,3,0,3,Pierre-Emerick,Aubameyang,Bartra,Bartra,,No 2nd Assist (Bartra won the ball),aubameyang,bartra,bartra,
+2016-17,Bundesliga,MD10,10,2016-11-05,Hamburger SV,Away,48,48,4,0,4,Pierre-Emerick,Aubameyang,Pulisic,Pulisic,,No 2nd Assist (Pulisic won the ball),aubameyang,pulisic,pulisic,
+2016-17,Bundesliga,MD10,10,2016-11-05,Hamburger SV,Away,76,76,5,1,4,Ousmane,Dembélé,Aubameyang,Aubameyang,Piszczek,,dembele,aubameyang,aubameyang,piszczek
+2016-17,Bundesliga,MD11,11,2016-11-19,Bayern Munich,Home,11,11,1,0,1,Pierre-Emerick,Aubameyang,Götze,Götze,Piszczek,,aubameyang,gotze,gotze,piszczek
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,17,17,1,1,0,Shinji,Kagawa,Dembélé,Dembélé,Rode,,kagawa,dembele,dembele,rode
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,18,18,2,1,1,Shinji,Kagawa,Dembélé,Dembélé,Ginter,Combination (Ginter to Kagawa to Dembélé to Kagawa),kagawa,dembele,dembele,ginter
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,20,20,3,1,2,Nuri,Şahin,,Reus,,No Official Assist (Reus shot deflected off keeper to Şahin); No 2nd Assist (Reus free kick),sahin,,reus,
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,29,29,4,2,2,Ousmane,Dembélé,Reus,Reus,Şahin,,dembele,reus,reus,sahin
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,32,32,5,2,3,Marco,Reus,Kagawa,Kagawa,Şahin,,reus,kagawa,kagawa,sahin
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,52,52,6,2,4,Marco,Reus,Dembélé,Dembélé,Castro,,reus,dembele,dembele,castro
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,81,81,7,3,4,Felix,Passlack,,Schürrle,Pulisic,No Official Assist (Schürrle shot saved and fell to Passlack),passlack,,schurrle,pulisic
+2016-17,Champions League,GR-5,5,2016-11-22,Legia Warsaw,Home,90+2,90.2,8,4,4,Marco,Reus,,Aubameyang,Schürrle,Own Goal awarded to Reus,reus,,aubameyang,schurrle
+2016-17,Bundesliga,MD12,12,2016-11-26,Frankfurt,Away,77,77,1,1,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Piszczek,,aubameyang,dembele,dembele,piszczek
+2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,7,7,1,1,0,Pierre-Emerick,Aubameyang,Reus,Reus,Dembélé,,aubameyang,reus,reus,dembele
+2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,15,15,2,1,1,Łukasz,Piszczek,Bartra,Bartra,Dembélé,,piszczek,bartra,bartra,dembele
+2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,64,64,3,1,2,Ousmane,Dembélé,Reus,Reus,Papastathopoulos,Papastathopoulos pass blocked to Reus,dembele,reus,reus,papastathopoulos
+2016-17,Bundesliga,MD13,13,2016-12-03,Gladbach,Home,68,68,4,1,3,Pierre-Emerick,Aubameyang,Reus,Reus,Dembélé,,aubameyang,reus,reus,dembele
+2016-17,Champions League,GR-6,6,2016-12-07,Real Madrid,Away,60,60,1,2,-1,Pierre-Emerick,Aubameyang,,Schmelzer,Weigl,No Official Assist (Unclear why),aubameyang,,schmelzer,weigl
+2016-17,Champions League,GR-6,6,2016-12-07,Real Madrid,Away,88,88,2,2,0,Marco,Reus,Aubameyang,Aubameyang,Mor,,reus,aubameyang,aubameyang,mor
+2016-17,Bundesliga,MD14,14,2016-12-10,Köln,Away,90,90,1,1,0,Marco,Reus,Ramos,Ramos,Dembélé,,reus,ramos,ramos,dembele
+2016-17,Bundesliga,MD15,15,2016-12-16,Hoffenheim,Away,11,11,1,1,0,Mario,Götze,Dembélé,Dembélé,Weigl,,gotze,dembele,dembele,weigl
+2016-17,Bundesliga,MD15,15,2016-12-16,Hoffenheim,Away,48,48,2,2,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Weigl,,aubameyang,dembele,dembele,weigl
+2016-17,Bundesliga,MD16,16,2016-12-20,Augsburg,Home,47,47,1,1,0,Ousmane,Dembélé,Kagawa,Kagawa,Weigl,Combination (Weigl to Dembélé to Kagawa to Dembélé),dembele,kagawa,kagawa,weigl
+2016-17,Bundesliga,MD17,17,2017-01-21,Werder Bremen,Away,5,5,1,0,1,André,Schürrle,,,,No Assists (Schürrle picked up loose ball),schurrle,,,
+2016-17,Bundesliga,MD17,17,2017-01-21,Werder Bremen,Away,71,71,2,1,1,Łukasz,Piszczek,,Guerreiro,Dembélé,No Official Assist (Guerreiro shot blocked and fell to Piszczek); Dembélé corner blocked and fell to Guerreiro,piszczek,,guerreiro,dembele
+2016-17,Bundesliga,MD18,18,2017-01-29,Mainz 05,Away,3,3,1,0,1,Marco,Reus,Schürrle,Schürrle,Castro,,reus,schurrle,schurrle,castro
+2016-17,Bundesliga,MD19,19,2017-02-04,RB Leipzig,Home,35,35,1,0,1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Piszczek,,aubameyang,dembele,dembele,piszczek
+2016-17,DFB-Pokal,R16,3,2017-02-08,Hertha Berlin,Home,47,47,1,0,1,Marco,Reus,Pulisic,Pulisic,Dembélé,,reus,pulisic,pulisic,dembele
+2016-17,Bundesliga,MD20,20,2017-02-11,Darmstadt 98,Away,44,44,1,1,0,Raphaël,Guerreiro,Mor,Mor,Durm,,guerreiro,mor,mor,durm
+2016-17,Bundesliga,MD21,21,2017-02-18,Wolfsburg,Home,20,20,1,0,1,Łukasz,Piszczek,,Dembélé,Reus,Own Goal awarded to Piszczek,piszczek,,dembele,reus
+2016-17,Bundesliga,MD21,21,2017-02-18,Wolfsburg,Home,48,48,2,0,2,Łukasz,Piszczek,Dembélé,Dembélé,Schmelzer,Schmelzer free kick blocked and fell to Dembélé,piszczek,dembele,dembele,schmelzer
+2016-17,Bundesliga,MD21,21,2017-02-18,Wolfsburg,Home,59,59,3,0,3,Ousmane,Dembélé,Piszczek,Piszczek,Ginter,,dembele,piszczek,piszczek,ginter
+2016-17,Bundesliga,MD22,22,2017-02-25,Freiburg,Away,13,13,1,0,1,Sokratis,Papastathopoulos,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro free kick),papastathopoulos,guerreiro,guerreiro,
+2016-17,Bundesliga,MD22,22,2017-02-25,Freiburg,Away,55,55,2,0,2,Pierre-Emerick,Aubameyang,Reus,Reus,Weigl,,aubameyang,reus,reus,weigl
+2016-17,Bundesliga,MD22,22,2017-02-25,Freiburg,Away,70,70,3,0,3,Pierre-Emerick,Aubameyang,Durm,Durm,Dembélé,,aubameyang,durm,durm,dembele
+2016-17,Bundesliga,MD23,23,2017-03-04,Leverkusen,Home,6,6,1,0,1,Ousmane,Dembélé,,Piszczek,Castro,No Official Assist (Piszczek pass blocked and fell to Dembélé),dembele,,piszczek,castro
+2016-17,Bundesliga,MD23,23,2017-03-04,Leverkusen,Home,26,26,2,0,2,Pierre-Emerick,Aubameyang,,Bartra,Reus,No Official Assist (Bartra shot blocked and fell to Aubameyang),aubameyang,,bartra,reus
+2016-17,Bundesliga,MD23,23,2017-03-04,Leverkusen,Home,69,69,3,1,2,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Guerreiro,Guerreiro free kick blocked and fell to Dembélé,aubameyang,dembele,dembele,guerreiro
+2016-17,Bundesliga,MD23,23,2017-03-04,Leverkusen,Home,77,77,4,2,2,Christian,Pulisic,Durm,Durm,Castro,,pulisic,durm,durm,castro
+2016-17,Bundesliga,MD23,23,2017-03-04,Leverkusen,Home,85,85,5,2,3,André,Schürrle,,,,No Assists (Penalty),schurrle,,,
+2016-17,Bundesliga,MD23,23,2017-03-04,Leverkusen,Home,90+2,90.2,6,2,4,Raphaël,Guerreiro,Pulisic,Pulisic,Kagawa,,guerreiro,pulisic,pulisic,kagawa
+2016-17,Champions League,R16-2,8,2017-03-08,Benfica,Home,4,4,1,0,1,Pierre-Emerick,Aubameyang,Pulisic,Pulisic,Dembélé,,aubameyang,pulisic,pulisic,dembele
+2016-17,Champions League,R16-2,8,2017-03-08,Benfica,Home,59,59,2,0,2,Christian,Pulisic,Piszczek,Piszczek,Weigl,,pulisic,piszczek,piszczek,weigl
+2016-17,Champions League,R16-2,8,2017-03-08,Benfica,Home,61,61,3,0,3,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,Weigl,,aubameyang,schmelzer,schmelzer,weigl
+2016-17,Champions League,R16-2,8,2017-03-08,Benfica,Home,85,85,4,0,4,Pierre-Emerick,Aubameyang,Durm,Durm,Castro,,aubameyang,durm,durm,castro
+2016-17,Bundesliga,MD24,24,2017-03-11,Hertha Berlin,Away,55,55,1,1,0,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Guerreiro,,aubameyang,kagawa,kagawa,guerreiro
+2016-17,DFB-Pokal,QF,4,2017-03-14,Lotte,Away,57,57,1,0,1,Christian,Pulisic,Dembélé,Dembélé,Guerreiro,,pulisic,dembele,dembele,guerreiro
+2016-17,DFB-Pokal,QF,4,2017-03-14,Lotte,Away,66,66,2,0,2,André,Schürrle,Guerreiro,Guerreiro,Kagawa,,schurrle,guerreiro,guerreiro,kagawa
+2016-17,DFB-Pokal,QF,4,2017-03-14,Lotte,Away,83,83,3,0,3,Marcel,Schmelzer,,,,No Assists (Schmelzer free kick),schmelzer,,,
+2016-17,Bundesliga,MD25,25,2017-03-17,Ingolstadt 04,Home,14,14,1,0,1,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,Kagawa,,aubameyang,schmelzer,schmelzer,kagawa
+2016-17,Bundesliga,MD26,26,2017-04-01,Schalke 04,Away,53,53,1,0,1,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Dembélé,,aubameyang,kagawa,kagawa,dembele
+2016-17,Bundesliga,MD27,27,2017-04-04,Hamburger SV,Home,13,13,1,0,1,Gonzalo,Castro,,,,No Assists (Free kick),castro,,,
+2016-17,Bundesliga,MD27,27,2017-04-04,Hamburger SV,Home,81,81,2,0,2,Shinji,Kagawa,Aubameyang,Aubameyang,Passlack,,kagawa,aubameyang,aubameyang,passlack
+2016-17,Bundesliga,MD27,27,2017-04-04,Hamburger SV,Home,90+2,90.2,3,0,3,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Piszczek,,aubameyang,kagawa,kagawa,piszczek
+2016-17,Bundesliga,MD28,28,2017-04-08,Bayern Munich,Away,20,20,1,2,-1,Raphaël,Guerreiro,,Passlack,Aubameyang,No Official Assist (Passlack's pass cleared to Guerreiro),guerreiro,,passlack,aubameyang
+2016-17,Champions League,QF-1,9,2017-04-12,AS Monaco,Home,57,57,1,2,-1,Ousmane,Dembélé,Kagawa,Kagawa,Aubameyang,,dembele,kagawa,kagawa,aubameyang
+2016-17,Champions League,QF-1,9,2017-04-12,AS Monaco,Home,84,84,2,3,-1,Shinji,Kagawa,Şahin,Şahin,,No 2nd Assist (Şahin wins loose ball),kagawa,sahin,sahin,
+2016-17,Bundesliga,MD29,29,2017-04-15,Frankfurt,Home,3,3,1,0,1,Marco,Reus,Pulisic,Pulisic,Aubameyang,,reus,pulisic,pulisic,aubameyang
+2016-17,Bundesliga,MD29,29,2017-04-15,Frankfurt,Home,34,34,2,1,1,Sokratis,Papastathopoulos,Bender,Bender,Schmelzer,,papastathopoulos,bender,bender,schmelzer
+2016-17,Bundesliga,MD29,29,2017-04-15,Frankfurt,Home,86,86,3,1,2,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Şahin,,aubameyang,dembele,dembele,sahin
+2016-17,Champions League,QF-2,10,2017-04-19,AS Monaco,Away,48,48,1,2,-1,Marco,Reus,Dembélé,Dembélé,Papastathopoulos,,reus,dembele,dembele,papastathopoulos
+2016-17,Bundesliga,MD30,30,2017-04-22,Gladbach,Away,10,10,1,0,1,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2016-17,Bundesliga,MD30,30,2017-04-22,Gladbach,Away,59,59,2,2,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Castro,,aubameyang,dembele,dembele,castro
+2016-17,Bundesliga,MD30,30,2017-04-22,Gladbach,Away,87,87,3,2,1,Raphaël,Guerreiro,Castro,Castro,,No 2nd Assist (Castro free kick),guerreiro,castro,castro,
+2016-17,DFB-Pokal,SF,5,2017-04-26,Bayern Munich,Away,19,19,1,0,1,Marco,Reus,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro won the ball),reus,guerreiro,guerreiro,
+2016-17,DFB-Pokal,SF,5,2017-04-26,Bayern Munich,Away,69,69,2,2,0,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Piszczek,,aubameyang,dembele,dembele,piszczek
+2016-17,DFB-Pokal,SF,5,2017-04-26,Bayern Munich,Away,74,74,3,2,1,Ousmane,Dembélé,Reus,Reus,Guerreiro,,dembele,reus,reus,guerreiro
+2016-17,Bundesliga,MD32,32,2017-05-06,Hoffenheim,Home,4,4,1,0,1,Marco,Reus,Castro,Castro,Guerreiro,,reus,castro,castro,guerreiro
+2016-17,Bundesliga,MD32,32,2017-05-06,Hoffenheim,Home,82,82,2,0,2,Pierre-Emerick,Aubameyang,,Guerreiro,Piszczek,No Official Assist (Guerreiro shot off bar and fell to Aubameyang),aubameyang,,guerreiro,piszczek
+2016-17,Bundesliga,MD33,33,2017-05-13,Augsburg,Away,32,32,1,1,0,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Durm,,aubameyang,kagawa,kagawa,durm
+2016-17,Bundesliga,MD34,34,2017-05-20,Werder Bremen,Home,32,32,1,1,0,Marco,Reus,Kagawa,Kagawa,Şahin,,reus,kagawa,kagawa,sahin
+2016-17,Bundesliga,MD34,34,2017-05-20,Werder Bremen,Home,42,42,2,1,1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Kagawa,,aubameyang,dembele,dembele,kagawa
+2016-17,Bundesliga,MD34,34,2017-05-20,Werder Bremen,Home,75,75,3,3,0,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2016-17,Bundesliga,MD34,34,2017-05-20,Werder Bremen,Home,89,89,4,3,1,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2016-17,DFB-Pokal,F,6,2017-05-27,Frankfurt,Neutral,8,8,1,0,1,Ousmane,Dembélé,Piszczek,Piszczek,Reus,,dembele,piszczek,piszczek,reus
+2016-17,DFB-Pokal,F,6,2017-05-27,Frankfurt,Neutral,67,67,2,1,1,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2017-18,DFL-Supercup,F,1,2017-08-05,Bayern Munich,Home,12,12,1,0,1,Christian,Pulisic,,,,No Assists (Pulisic won the ball),pulisic,,,
+2017-18,DFL-Supercup,F,1,2017-08-05,Bayern Munich,Home,71,71,2,1,1,Pierre-Emerick,Aubameyang,Dembélé,Dembélé,Rode,,aubameyang,dembele,dembele,rode
+2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,12,12,1,0,1,Marc,Bartra,Beste,Beste,Şahin,,bartra,beste,beste,sahin
+2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,41,41,2,0,2,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,55,55,3,0,3,Pierre-Emerick,Aubameyang,Dahoud,Dahoud,Şahin,,aubameyang,dahoud,dahoud,sahin
+2017-18,DFB-Pokal,R1,1,2017-08-12,Rielasingen,Away,80,80,4,0,4,Pierre-Emerick,Aubameyang,,Dahoud,Kagawa,No Official Assist (Dahoud shot deflected to Aubameyang),aubameyang,,dahoud,kagawa
+2017-18,Bundesliga,MD1,1,2017-08-19,Wolfsburg,Away,22,22,1,1,0,Christian,Pulisic,Götze,Götze,,No 2nd Assist (Götze won the ball),pulisic,gotze,gotze,
+2017-18,Bundesliga,MD1,1,2017-08-19,Wolfsburg,Away,27,27,2,2,0,Marc,Bartra,Castro,Castro,Götze,,bartra,castro,castro,gotze
+2017-18,Bundesliga,MD1,1,2017-08-19,Wolfsburg,Away,60,60,3,3,0,Pierre-Emerick,Aubameyang,Pulisic,Pulisic,Piszczek,,aubameyang,pulisic,pulisic,piszczek
+2017-18,Bundesliga,MD2,2,2017-08-26,Hertha Berlin,Home,15,15,1,0,1,Pierre-Emerick,Aubameyang,Şahin,Şahin,Zagadou,,aubameyang,sahin,sahin,zagadou
+2017-18,Bundesliga,MD2,2,2017-08-26,Hertha Berlin,Home,57,57,2,0,2,Nuri,Şahin,,Philipp,Pulisic,No Official Assist (Philipp shot deflected to Şahin),sahin,,philipp,pulisic
+2017-18,Champions League,GR-1,1,2017-09-13,Tottenham,Away,11,11,1,1,0,Andriy,Yarmolenko,Kagawa,Kagawa,Piszczek,Combination (Piszczek to Yarmolenko to Kagawa to Yarmolenko),yarmolenko,kagawa,kagawa,piszczek
+2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,2,2,1,0,1,Maximilian,Philipp,Yarmolenko,Yarmolenko,,No 2nd Assist (Philipp won the ball),philipp,yarmolenko,yarmolenko,
+2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,45+1,45.1,2,0,2,Sokratis,Papastathopoulos,,Yarmolenko,,No Official Assist (Keeper blocked the corner and it fell to Papastathopoulos); No 2nd Assist Yarmolenko took corner),papastathopoulos,,yarmolenko,
+2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,59,59,3,0,3,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,60,60,4,0,4,Pierre-Emerick,Aubameyang,Piszczek,Piszczek,Yarmolenko,,aubameyang,piszczek,piszczek,yarmolenko
+2017-18,Bundesliga,MD4,4,2017-09-17,Köln,Home,69,69,5,0,5,Maximilian,Philipp,Dahoud,Dahoud,Papastathopoulos,,philipp,dahoud,dahoud,papastathopoulos
+2017-18,Bundesliga,MD5,5,2017-09-20,Hamburger SV,Away,24,24,1,0,1,Shinji,Kagawa,Toprak,Toprak,Yarmolenko,,kagawa,toprak,toprak,yarmolenko
+2017-18,Bundesliga,MD5,5,2017-09-20,Hamburger SV,Away,63,63,2,0,2,Pierre-Emerick,Aubameyang,,Yarmolenko,Pulisic,No Official Assist (Yarmolenko shot tapped in by Aubameyang),aubameyang,,yarmolenko,pulisic
+2017-18,Bundesliga,MD5,5,2017-09-20,Hamburger SV,Away,79,79,3,0,3,Christian,Pulisic,Dahoud,Dahoud,Piszczek,,pulisic,dahoud,dahoud,piszczek
+2017-18,Bundesliga,MD6,6,2017-09-23,Gladbach,Home,28,28,1,0,1,Maximilian,Philipp,Aubameyang,Aubameyang,Weigl,,philipp,aubameyang,aubameyang,weigl
+2017-18,Bundesliga,MD6,6,2017-09-23,Gladbach,Home,38,38,2,0,2,Maximilian,Philipp,Toljan,Toljan,Dahoud,,philipp,toljan,toljan,dahoud
+2017-18,Bundesliga,MD6,6,2017-09-23,Gladbach,Home,45,45,3,0,3,Pierre-Emerick,Aubameyang,Philipp,Philipp,Papastathopoulos,,aubameyang,philipp,philipp,papastathopoulos
+2017-18,Bundesliga,MD6,6,2017-09-23,Gladbach,Home,49,49,4,0,4,Pierre-Emerick,Aubameyang,,Götze,,No Official Assist (Aubameyang scored after his own rebound); No 2nd Assist (Götze free kick),aubameyang,,gotze,
+2017-18,Bundesliga,MD6,6,2017-09-23,Gladbach,Home,62,62,5,0,5,Pierre-Emerick,Aubameyang,Dahoud,Dahoud,,No 2nd Assist (A Pulisic block deflected a pass to Dahoud),aubameyang,dahoud,dahoud,
+2017-18,Bundesliga,MD6,6,2017-09-23,Gladbach,Home,79,79,6,1,5,Julian,Weigl,,,,No Assists (Weigl won the ball),weigl,,,
+2017-18,Champions League,GR-2,2,2017-09-26,Real Madrid,Home,54,54,1,2,-1,Pierre-Emerick,Aubameyang,Castro,Castro,Philipp,,aubameyang,castro,castro,philipp
+2017-18,Bundesliga,MD7,7,2017-09-30,Augsburg,Away,4,4,1,0,1,Andriy,Yarmolenko,,Kagawa,,No Official Assist (Kagawa corner struck a defender and fell to Yarmolenko),yarmolenko,,kagawa,
+2017-18,Bundesliga,MD7,7,2017-09-30,Augsburg,Away,23,23,2,1,1,Shinji,Kagawa,Yarmolenko,Yarmolenko,Aubameyang,,kagawa,yarmolenko,yarmolenko,aubameyang
+2017-18,Bundesliga,MD8,8,2017-10-14,RB Leipzig,Home,4,4,1,0,1,Pierre-Emerick,Aubameyang,,,,No Assists (Aubameyang won the ball),aubameyang,,,
+2017-18,Bundesliga,MD8,8,2017-10-14,RB Leipzig,Home,64,64,2,3,-1,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2017-18,Champions League,GR-3,3,2017-10-17,APOEL FC,Away,67,67,1,1,0,Sokratis,Papastathopoulos,Götze,Götze,Schmelzer,,papastathopoulos,gotze,gotze,schmelzer
+2017-18,Bundesliga,MD9,9,2017-10-21,Frankfurt,Away,18,18,1,0,1,Nuri,Şahin,Bartra,Bartra,Philipp,Philipp pass blocked to Bartra,sahin,bartra,bartra,philipp
+2017-18,Bundesliga,MD9,9,2017-10-21,Frankfurt,Away,57,57,2,0,2,Maximilian,Philipp,Götze,Götze,Şahin,,philipp,gotze,gotze,sahin
+2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,42,42,1,0,1,Gonzalo,Castro,Isak,Isak,Yarmolenko,,castro,isak,isak,yarmolenko
+2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,47,47,2,0,2,Alexander,Isak,Philipp,Philipp,Yarmolenko,,isak,philipp,philipp,yarmolenko
+2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,73,73,3,0,3,Andriy,Yarmolenko,,,,No Assists (Penalty),yarmolenko,,,
+2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,79,79,4,0,4,Marc,Bartra,Kagawa,Kagawa,Castro,,bartra,kagawa,kagawa,
+2017-18,DFB-Pokal,R2,2,2017-10-24,Magdeburg,Away,90+1,90.1,5,0,5,Shinji,Kagawa,,Philipp,Şahin,No Official Assist (Initial shot by Kagawa blocked),kagawa,,philipp,sahin
+2017-18,Bundesliga,MD10,10,2017-10-28,Hannover 96,Away,27,27,1,1,0,Dan-Axel,Zagadou,,Şahin,Bartra,No Official Assist (Sahin shot blocked to Zagadou),zagadou,,sahin,bartra
+2017-18,Bundesliga,MD10,10,2017-10-28,Hannover 96,Away,52,52,2,2,0,Andriy,Yarmolenko,,Schmelzer,Pulisic,No Official Assist (Schmelzer cross blocked to Yarmolenko),yarmolenko,,schmelzer,pulisic
+2017-18,Champions League,GR-4,4,2017-11-01,APOEL FC,Home,29,29,1,0,1,Raphaël,Guerreiro,Kagawa,Kagawa,Weigl,,guerreiro,kagawa,kagawa,weigl
+2017-18,Bundesliga,MD11,11,2017-11-04,Bayern Munich,Home,88,88,1,3,-2,Marc,Bartra,Castro,Castro,Pulisic,,bartra,castro,castro,pulisic
+2017-18,Bundesliga,MD12,12,2017-11-17,Stuttgart,Away,45+3,45.3,1,1,0,Maximilian,Philipp,,Schürrle,,No Official Assist (Philipp scored on Schürrle’s saved penalty rebound),philipp,,schurrle,
+2017-18,Champions League,GR-5,5,2017-11-21,Tottenham,Home,31,31,1,0,1,Pierre-Emerick,Aubameyang,Yarmolenko,Yarmolenko,Guerreiro,,aubameyang,yarmolenko,yarmolenko,guerreiro
+2017-18,Bundesliga,MD13,13,2017-11-25,Schalke 04,Home,12,12,1,0,1,Pierre-Emerick,Aubameyang,,Şahin,Pulisic,No Official Assist (Şahin pass deflected to Aubameyang),aubameyang,,sahin,pulisic
+2017-18,Bundesliga,MD13,13,2017-11-25,Schalke 04,Home,18,18,2,0,2,Nuri,Şahin,,,,Own Goal awarded to Şahin; No Assists (Şahin free kick),sahin,,,
+2017-18,Bundesliga,MD13,13,2017-11-25,Schalke 04,Home,20,20,3,0,3,Mario,Götze,Aubameyang,Aubameyang,Yarmolenko,,gotze,aubameyang,aubameyang,yarmolenko
+2017-18,Bundesliga,MD13,13,2017-11-25,Schalke 04,Home,25,25,4,0,4,Raphaël,Guerreiro,,Aubameyang,Götze,No Official Assist (Aubameyang shot blocked and fell to Guerreiro),guerreiro,,aubameyang,gotze
+2017-18,Bundesliga,MD14,14,2017-12-02,Leverkusen,Away,73,73,1,1,0,Andriy,Yarmolenko,Schürrle,Schürrle,Guerreiro,,yarmolenko,schurrle,schurrle,guerreiro
+2017-18,Champions League,GR-6,6,2017-12-06,Real Madrid,Away,43,43,1,2,-1,Pierre-Emerick,Aubameyang,Schmelzer,Schmelzer,,No Second Assist (Schmelzer won the ball),aubameyang,schmelzer,schmelzer,
+2017-18,Champions League,GR-6,6,2017-12-06,Real Madrid,Away,48,48,2,2,0,Pierre-Emerick,Aubameyang,,Kagawa,Şahin,No Official Assist (Aubameyang scored on his own rebound),aubameyang,,kagawa,sahin
+2017-18,Bundesliga,MD15,15,2017-12-09,Werder Bremen,Home,57,57,1,1,0,Pierre-Emerick,Aubameyang,Kagawa,Kagawa,Schmelzer,,aubameyang,kagawa,kagawa,schmelzer
+2017-18,Bundesliga,MD16,16,2017-12-12,Mainz 05,Away,55,55,1,0,1,Sokratis,Papastathopoulos,,Toprak,Kagawa,No Official Assist (Toprak shot saved and fell to Papastathopoulos),papastathopoulos,,toprak,kagawa
+2017-18,Bundesliga,MD16,16,2017-12-12,Mainz 05,Away,89,89,2,0,2,Shinji,Kagawa,Aubameyang,Aubameyang,Yarmolenko,,kagawa,aubameyang,aubameyang,yarmolenko
+2017-18,Bundesliga,MD17,17,2017-12-16,Hoffenheim,Home,63,63,1,1,0,Pierre-Emerick,Aubameyang,,,,No Assists (Penalty),aubameyang,,,
+2017-18,Bundesliga,MD17,17,2017-12-16,Hoffenheim,Home,89,89,2,1,1,Christian,Pulisic,,Kagawa,Dahoud,No Official Assist (Kagawa pass took a deflection),pulisic,,kagawa,dahoud
+2017-18,DFB-Pokal,R16,3,2017-12-20,Bayern Munich,Away,77,77,1,2,-1,Andriy,Yarmolenko,Kagawa,Kagawa,Schmelzer,,yarmolenko,kagawa,kagawa,schmelzer
+2017-18,Bundesliga,MD19,19,2018-01-19,Hertha Berlin,Away,71,71,1,1,0,Shinji,Kagawa,Sancho,Sancho,,No 2nd Assist (Sancho won the ball),kagawa,sancho,sancho,
+2017-18,Bundesliga,MD20,20,2018-01-27,Freiburg,Home,9,9,1,0,1,Shinji,Kagawa,,Piszczek,Castro,No Official Assist (Castro’s ball deflected off several players and fell to Piszczek; Piszczek’s shot blocked and fell to Kagawa),kagawa,,piszczek,castro
+2017-18,Bundesliga,MD20,20,2018-01-27,Freiburg,Home,90+3,90.3,2,2,0,Jeremy,Toljan,,Yarmolenko,Kagawa,No Official Assist (Yarmolenko's cross blocked to Toljan),toljan,,yarmolenko,kagawa
+2017-18,Bundesliga,MD21,21,2018-02-02,Köln,Away,35,35,1,0,1,Michy,Batshuayi,Toljan,Toljan,Kagawa,,batshuayi,toljan,toljan,kagawa
+2017-18,Bundesliga,MD21,21,2018-02-02,Köln,Away,62,62,2,1,1,Michy,Batshuayi,Pulisic,Pulisic,Bürki,Combination (Bürki to Pulisic to Batshuayi to Pulisic to Batshuayi),batshuayi,pulisic,pulisic,burki
+2017-18,Bundesliga,MD21,21,2018-02-02,Köln,Away,84,84,3,2,1,André,Schürrle,Batshuayi,Batshuayi,Kagawa,,schurrle,batshuayi,batshuayi,kagawa
+2017-18,Bundesliga,MD22,22,2018-02-10,Hamburger SV,Home,49,49,1,0,1,Michy,Batshuayi,Pulisic,Pulisic,Reus,,batshuayi,pulisic,pulisic,reus
+2017-18,Bundesliga,MD22,22,2018-02-10,Hamburger SV,Home,90+2,90.2,2,0,2,Mario,Götze,Schürrle,Schürrle,Batshuayi,,gotze,schurrle,schurrle,batshuayi
+2017-18,Europa League,R32-1,7,2018-02-16,Atalanta,Home,30,30,1,0,1,André,Schürrle,Piszczek,Piszczek,Batshuayi,,schurrle,piszczek,piszczek,batshuayi
+2017-18,Europa League,R32-1,7,2018-02-16,Atalanta,Home,65,65,2,2,0,Michy,Batshuayi,Götze,Götze,Schürrle,,batshuayi,gotze,gotze,schurrle
+2017-18,Europa League,R32-1,7,2018-02-16,Atalanta,Home,90+1,90.1,3,2,1,Michy,Batshuayi,Götze,Götze,,No 2nd Assist (Götze won the ball),batshuayi,gotze,gotze,
+2017-18,Bundesliga,MD23,23,2018-02-18,Gladbach,Away,32,32,1,0,1,Marco,Reus,Schürrle,Schürrle,Götze,,reus,schurrle,schurrle,gotze
+2017-18,Europa League,R32-2,8,2018-02-22,Atalanta,Away,83,83,1,1,0,Marcel,Schmelzer,,Reus,Piszczek,No Official Assist (Reus shot saved and fell to Schmelzer),schmelzer,,reus,piszczek
+2017-18,Bundesliga,MD24,24,2018-02-26,Augsburg,Home,16,16,1,0,1,Marco,Reus,,Schürrle,Götze,No Official Assist (Schürrle cross blocked and fell to Reus),reus,,schurrle,gotze
+2017-18,Bundesliga,MD25,25,2018-03-03,RB Leipzig,Away,38,38,1,0,1,Marco,Reus,Dahoud,Dahoud,Toprak,,reus,dahoud,dahoud,toprak
+2017-18,Europa League,R16-1,9,2018-03-08,Red Bull Salzburg,Home,62,62,1,2,-1,André,Schürrle,Pulisic,Pulisic,Reus,,schurrle,pulisic,pulisic,reus
+2017-18,Bundesliga,MD26,26,2018-03-11,Frankfurt,Home,11,11,1,0,1,Christian,Pulisic,,Dahoud,,Own Goal awarded to Pulisic; No Official Assist (Pulisic cross deflected in); No 2nd Assist (Dahoud won the ball),pulisic,,dahoud,
+2017-18,Bundesliga,MD26,26,2018-03-11,Frankfurt,Home,77,77,2,1,1,Michy,Batshuayi,Pulisic,Pulisic,Weigl,Combination (Weigl to Pulisic to Batshuayi to Pulisic to Batshuayi),batshuayi,pulisic,pulisic,weigl
+2017-18,Bundesliga,MD26,26,2018-03-11,Frankfurt,Home,90+4,90.4,3,2,1,Michy,Batshuayi,Piszczek,Piszczek,Castro,,batshuayi,piszczek,piszczek,castro
+2017-18,Bundesliga,MD27,27,2018-03-18,Hannover 96,Home,24,24,1,0,1,Michy,Batshuayi,Schürrle,Schürrle,,No 2nd Assist (Schürrle corner),batshuayi,schurrle,schurrle,
+2017-18,Bundesliga,MD29,29,2018-04-08,Stuttgart,Home,38,38,1,0,1,Christian,Pulisic,Piszczek,Piszczek,Papastathopoulos,,pulisic,piszczek,piszczek,papastathopoulos
+2017-18,Bundesliga,MD29,29,2018-04-08,Stuttgart,Home,48,48,2,0,2,Michy,Batshuayi,Şahin,Şahin,Dahoud,Combination (Dahoud to Batshuayi to Şahin to Batshuayi),batshuayi,sahin,sahin,dahoud
+2017-18,Bundesliga,MD29,29,2018-04-08,Stuttgart,Home,59,59,3,0,3,Maximilian,Philipp,,Pulisic,Dahoud,No Official Assist (Philipp scored on his own rebound),philipp,,pulisic,dahoud
+2017-18,Bundesliga,MD31,31,2018-04-21,Leverkusen,Home,13,13,1,0,1,Jadon,Sancho,Pulisic,Pulisic,Götze,,sancho,pulisic,pulisic,gotze
+2017-18,Bundesliga,MD31,31,2018-04-21,Leverkusen,Home,55,55,2,0,2,Marco,Reus,Götze,Götze,Weigl,,reus,gotze,gotze,weigl
+2017-18,Bundesliga,MD31,31,2018-04-21,Leverkusen,Home,63,63,3,0,3,Maximilian,Philipp,Sancho,Sancho,Akanji,,philipp,sancho,sancho,akanji
+2017-18,Bundesliga,MD31,31,2018-04-21,Leverkusen,Home,79,79,4,0,4,Marco,Reus,Sancho,Sancho,Dahoud,,reus,sancho,sancho,dahoud
+2017-18,Bundesliga,MD32,32,2018-04-29,Werder Bremen,Away,19,19,1,0,1,Marco,Reus,,Philipp,Piszczek,No Official Assist (Philipp shot blocked and fell to Reus),reus,,philipp,piszczek
+2017-18,Bundesliga,MD33,33,2018-05-05,Mainz 05,Home,16,16,1,2,-1,Maximilian,Philipp,Sancho,Sancho,Akanji,,philipp,sancho,sancho,akanji
+2017-18,Bundesliga,MD34,34,2018-05-12,Hoffenheim,Away,58,58,1,1,0,Marco,Reus,Guerreiro,Guerreiro,Sancho,Combination (Sancho to Guerreiro to Reus to Guerreiro to Reus),reus,guerreiro,guerreiro,sancho
+2018-19,DFB-Pokal,R1,1,2018-08-20,Greuther Fürth,Away,90+5,90.5,1,1,0,Axel,Witsel,Reus,Reus,Bürki,Bürki pass took deflection before reaching Reus,witsel,reus,reus,burki
+2018-19,DFB-Pokal,R1,1,2018-08-20,Greuther Fürth,Away,120,120,2,1,1,Marco,Reus,Sancho,Sancho,Akanji,,reus,sancho,sancho,akanji
+2018-19,Bundesliga,MD1,1,2018-08-26,RB Leipzig,Home,21,21,1,1,0,Mahmoud,Dahoud,Schmelzer,Schmelzer,Philipp,,dahoud,schmelzer,schmelzer,philipp
+2018-19,Bundesliga,MD1,1,2018-08-26,RB Leipzig,Home,40,40,2,1,1,Marco,Reus,,,,Own Goal awarded to Reus; No Assists (Reus free kick),reus,,,
+2018-19,Bundesliga,MD1,1,2018-08-26,RB Leipzig,Home,43,43,3,1,2,Axel,Witsel,,Delaney,Pulisic,No Official Assist (Delaney shot saved and fell to Witsel),witsel,,delaney,pulisic
+2018-19,Bundesliga,MD1,1,2018-08-26,RB Leipzig,Home,90+1,90.1,4,1,3,Marco,Reus,Sancho,Sancho,Dahoud,,reus,sancho,sancho,dahoud
+2018-19,Bundesliga,MD3,3,2018-09-14,Frankfurt,Home,36,36,1,0,1,Abdou,Diallo,,Bruun Larsen,,"No Official Assist (Diallo scored on his third attempt), No 2nd Assist (Bruun Larsen corner)",diallo,,bruun-larsen,
+2018-19,Bundesliga,MD3,3,2018-09-14,Frankfurt,Home,72,72,2,1,1,Marius,Wolf,Sancho,Sancho,Alcácer,,wolf,sancho,sancho,alcacer
+2018-19,Bundesliga,MD3,3,2018-09-14,Frankfurt,Home,88,88,3,1,2,Paco,Alcácer,,Sancho,,No Official Assist (Sancho pass deflected to Alcácer); No 2nd Assist (Sancho corner); Combination (Sancho to Alcácer to Sancho to Alcácer),alcacer,,sancho,
+2018-19,Champions League,GR-1,1,2018-09-18,Club Brugge,Away,85,85,1,0,1,Christian,Pulisic,,,,No Assists (Pulisic won the ball),pulisic,,,
+2018-19,Bundesliga,MD4,4,2018-09-22,Hoffenheim,Away,84,84,1,1,0,Christian,Pulisic,Reus,Reus,Schmelzer,,pulisic,reus,reus,schmelzer
+2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,9,9,1,0,1,Jacob,Bruun Larsen,Pulisic,Pulisic,Hakimi,,bruun-larsen,pulisic,pulisic,hakimi
+2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,32,32,2,0,2,Marco,Reus,Philipp,Philipp,Pulisic,,reus,phillip,phillip,pulisic
+2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,49,49,3,0,3,Achraf,Hakimi,Reus,Reus,,No 2nd Assist (Reus won the ball),hakimi,reus,reus,
+2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,58,58,4,0,4,Marco,Reus,Bruun Larsen,Bruun Larsen,Delaney,Combination (Delaney to Reus to Bruun Larsen to Reus),reus,bruun-larsen,bruun-larsen,delaney
+2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,74,74,5,0,5,Manuel,Akanji,,,,No Assists (Akanji won the ball),akanji,,,
+2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,85,85,6,0,6,Jadon,Sancho,Delaney,Delaney,Akanji,,sancho,delaney,delaney,akanji
+2018-19,Bundesliga,MD5,5,2018-09-26,Nürnberg,Home,88,88,7,0,7,Julian,Weigl,Sancho,Sancho,Delaney,,weigl,sancho,sancho,delaney
+2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,65,65,1,2,-1,Jacob,Bruun Larsen,,Reus,Hakimi,No Official Assist (Reus shot saved and fell to Bruun Larsen),bruun-larsen,,reus,hakimi
+2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,69,69,2,2,0,Marco,Reus,Sancho,Sancho,Bürki,Combination (Bürki to Sancho to Reus to Sancho to Reus),reus,sancho,sancho,burki
+2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,85,85,3,2,1,Paco,Alcácer,Hakimi,Hakimi,Reus,Combination (Reus to Alcácer to Hakimi to Alcácer),alcacer,hakimi,hakimi,reus
+2018-19,Bundesliga,MD6,6,2018-09-29,Leverkusen,Away,90+4,90.4,4,2,2,Paco,Alcácer,Sancho,Sancho,Hakimi,,alcacer,sancho,sancho,hakimi
+2018-19,Champions League,GR-2,2,2018-10-03,AS Monaco,Home,51,51,1,0,1,Jacob,Bruun Larsen,Sancho,Sancho,Piszczek,,bruun-larsen,sancho,sancho,piszczek
+2018-19,Champions League,GR-2,2,2018-10-03,AS Monaco,Home,72,72,2,0,2,Paco,Alcácer,Reus,Reus,Sancho,,alcacer,reus,reus,sancho
+2018-19,Champions League,GR-2,2,2018-10-03,AS Monaco,Home,90+2,90.2,3,0,3,Marco,Reus,Bruun Larsen,Bruun Larsen,Diallo,,reus,bruun-larsen,bruun-larsen,diallo
+2018-19,Bundesliga,MD7,7,2018-10-06,Augsburg,Home,62,62,1,1,0,Paco,Alcácer,Sancho,Sancho,Witsel,,alcacer,sancho,sancho,witsel
+2018-19,Bundesliga,MD7,7,2018-10-06,Augsburg,Home,80,80,2,2,0,Paco,Alcácer,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro free kick),alcacer,guerreiro,guerreiro,
+2018-19,Bundesliga,MD7,7,2018-10-06,Augsburg,Home,84,84,3,2,1,Mario,Götze,Hakimi,Hakimi,Sancho,,gotze,hakimi,hakimi,sancho
+2018-19,Bundesliga,MD7,7,2018-10-06,Augsburg,Home,90+6,90.6,4,3,1,Paco,Alcácer,,,,No Assists (Direct free kick),alcacer,,,
+2018-19,Bundesliga,MD8,8,2018-10-20,Stuttgart,Away,3,3,1,0,1,Jadon,Sancho,,Reus,Bruun Larsen,No Official Assist (Reus pass deflected to Sancho),sancho,,reus,bruun-larsen
+2018-19,Bundesliga,MD8,8,2018-10-20,Stuttgart,Away,23,23,2,0,2,Marco,Reus,Piszczek,Piszczek,Sancho,Combination (Sancho to Reus to Piszczek to Reus),reus,piszczek,piszczek,sancho
+2018-19,Bundesliga,MD8,8,2018-10-20,Stuttgart,Away,25,25,3,0,3,Paco,Alcácer,Reus,Reus,,No 2nd Assist (Alcácer won the ball); Combination (Alcácer to Reus to Alcácer),alcacer,reus,reus,
+2018-19,Bundesliga,MD8,8,2018-10-20,Stuttgart,Away,85,85,4,0,4,Maximilian,Philipp,Pulisic,Pulisic,Witsel,,philipp,pulisic,pulisic,witsel
+2018-19,Champions League,GR-3,3,2018-10-24,Atlético Madrid,Home,83,83,1,0,1,Axel,Witsel,Hakimi,Hakimi,Dahoud,,witsel,hakimi,hakimi,dahoud
+2018-19,Champions League,GR-3,3,2018-10-24,Atlético Madrid,Home,73,73,2,0,2,Raphaël,Guerreiro,Hakimi,Hakimi,Dahoud,,guerreiro,hakimi,hakimi,dahoud
+2018-19,Champions League,GR-3,3,2018-10-24,Atlético Madrid,Home,83,83,3,0,3,Jadon,Sancho,Hakimi,Hakimi,Götze,,sancho,hakimi,hakimi,gotze
+2018-19,Champions League,GR-3,3,2018-10-24,Atlético Madrid,Home,89,89,4,0,4,Raphaël,Guerreiro,,,,No Assists (Guerreiro won the ball),guerreiro,,,
+2018-19,Bundesliga,MD9,9,2018-10-27,Hertha Berlin,Home,27,27,1,0,1,Jadon,Sancho,Götze,Götze,Dahoud,,sancho,gotze,gotze,dahoud
+2018-19,Bundesliga,MD9,9,2018-10-27,Hertha Berlin,Home,61,61,2,1,1,Jadon,Sancho,Hakimi,Hakimi,,No 2nd Assist (Hakimi won the ball immediately after it was taken from Guerreiro),sancho,hakimi,hakimi,
+2018-19,DFB-Pokal,R2,2,2018-10-31,Union Berlin,Home,40,40,1,0,1,Christian,Pulisic,,Kagawa,Dahoud,No Official Assist (Kagawa shot saved and fell to Pulisic),pulisic,,kagawa,dahoud
+2018-19,DFB-Pokal,R2,2,2018-10-31,Union Berlin,Home,73,73,2,1,1,Maximilian,Philipp,,Pulisic,Kagawa,No Official Assist (Unclear why); Combination (Kagawa to Philipp to Pulisic to Philipp),philipp,,pulisic,kagawa
+2018-19,DFB-Pokal,R2,2,2018-10-31,Union Berlin,Home,120+1,120.1,3,2,1,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2018-19,Bundesliga,MD10,10,2018-11-03,Wolfsburg,Away,27,27,1,0,1,Marco,Reus,Delaney,Delaney,Sancho,,reus,delaney,delaney,sancho
+2018-19,Bundesliga,MD11,11,2018-11-10,Bayern Munich,Home,49,49,1,1,0,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2018-19,Bundesliga,MD11,11,2018-11-10,Bayern Munich,Home,67,67,2,2,0,Marco,Reus,Piszczek,Piszczek,Dahoud,,reus,piszczek,piszczek,dahoud
+2018-19,Bundesliga,MD11,11,2018-11-10,Bayern Munich,Home,73,73,3,2,1,Paco,Alcácer,Witsel,Witsel,Reus,,alcacer,witsel,witsel,reus
+2018-19,Bundesliga,MD12,12,2018-11-24,Mainz 05,Away,66,66,1,0,1,Paco,Alcácer,Reus,Reus,Sancho,,alcacer,reus,reus,sancho
+2018-19,Bundesliga,MD12,12,2018-11-24,Mainz 05,Away,76,76,2,1,1,Łukasz,Piszczek,,Sancho,Bruun Larsen,No Official Assist (Piszczek initial shot blocked and fell back to him),piszczek,,sancho,bruun-larsen
+2018-19,Bundesliga,MD13,13,2018-12-01,Freiburg,Home,40,40,1,0,1,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2018-19,Bundesliga,MD13,13,2018-12-01,Freiburg,Home,90+1,90.1,2,0,2,Paco,Alcácer,Piszczek,Piszczek,Sancho,,alcacer,piszczek,piszczek,sancho
+2018-19,Bundesliga,MD14,14,2018-12-08,Schalke 04,Away,7,7,1,0,1,Thomas,Delaney,Reus,Reus,,No 2nd Assist (Reus free kick),delaney,reus,reus,
+2018-19,Bundesliga,MD14,14,2018-12-08,Schalke 04,Away,74,74,2,1,1,Jadon,Sancho,Guerreiro,Guerreiro,Diallo,Combination (Diallo to Sancho to Guerreiro to Sancho),sancho,guerreiro,guerreiro,diallo
+2018-19,Champions League,GR-6,6,2018-12-11,AS Monaco,Away,15,15,1,0,1,Raphaël,Guerreiro,Philipp,Philipp,Pulisic,,guerreiro,philipp,philipp,pulisic
+2018-19,Champions League,GR-6,6,2018-12-11,AS Monaco,Away,88,88,2,0,2,Raphaël,Guerreiro,Alcácer,Alcácer,Pulisic,,guerreiro,alcacer,alcacer,pulisic
+2018-19,Bundesliga,MD15,15,2018-12-15,Werder Bremen,Home,19,19,1,0,1,Paco,Alcácer,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro free kick),alcacer,guerreiro,guerreiro,
+2018-19,Bundesliga,MD15,15,2018-12-15,Werder Bremen,Home,27,27,2,0,2,Marco,Reus,Sancho,Sancho,Alcácer,Combination (Alcácer to Reus to Sancho to Reus),reus,sancho,sancho,alcacer
+2018-19,Bundesliga,MD16,16,2018-12-18,Düsseldorf,Away,81,81,1,2,-1,Paco,Alcácer,Piszczek,Piszczek,Sancho,,alcacer,piszczek,piszczek,sancho
+2018-19,Bundesliga,MD17,17,2018-12-21,Gladbach,Home,42,42,1,0,1,Jadon,Sancho,Götze,Götze,Reus,,sancho,gotze,gotze,reus
+2018-19,Bundesliga,MD17,17,2018-12-21,Gladbach,Home,54,54,2,1,1,Marco,Reus,Götze,Götze,Sancho,,reus,gotze,gotze,sancho
+2018-19,Bundesliga,MD18,18,2019-01-19,RB Leipzig,Away,19,19,1,0,1,Axel,Witsel,Piszczek,Piszczek,Guerreiro,,witsel,piszczek,piszczek,guerreiro
+2018-19,Bundesliga,MD19,19,2019-01-26,Hannover 96,Home,24,24,1,0,1,Achraf,Hakimi,Guerreiro,Guerreiro,Sancho,Combination (Sancho to Hakimi to Guerriero to Hakimi),hakimi,guerreiro,guerreiro,sancho
+2018-19,Bundesliga,MD19,19,2019-01-26,Hannover 96,Home,60,60,2,0,2,Marco,Reus,Hakimi,Hakimi,,No 2nd Assist (Hakimi won the ball),reus,hakimi,hakimi,
+2018-19,Bundesliga,MD19,19,2019-01-26,Hannover 96,Home,62,62,3,0,3,Mario,Götze,Sancho,Sancho,Delaney,,gotze,sancho,sancho,delaney
+2018-19,Bundesliga,MD19,19,2019-01-26,Hannover 96,Home,67,67,4,0,4,Raphaël,Guerreiro,Reus,Reus,Alcácer,,guerreiro,reus,reus,alcacer
+2018-19,Bundesliga,MD19,19,2019-01-26,Hannover 96,Home,90,90,5,1,4,Axel,Witsel,Sancho,Sancho,Reus,Combination (Reus to Sancho to Witsel to Sancho to Witsel),witsel,sancho,sancho,reus
+2018-19,Bundesliga,MD20,20,2019-02-02,Frankfurt,Away,22,22,1,0,1,Marco,Reus,Guerreiro,Guerreiro,Witsel,Combination (Witsel to Guerreiro to Reus to Guerreiro to Reus),reus,guerreiro,guerreiro,witsel
+2018-19,DFB-Pokal,R16,3,2019-02-05,Werder Bremen,Home,45+3,45.3,1,1,0,Marco,Reus,,,,No Assists (Direct free kick),reus,,,
+2018-19,DFB-Pokal,R16,3,2019-02-05,Werder Bremen,Home,105,105,2,1,1,Christian,Pulisic,Alcácer,Alcácer,Witsel,,pulisic,alcacer,alcacer,witsel
+2018-19,DFB-Pokal,R16,3,2019-02-05,Werder Bremen,Home,113,113,3,2,1,Achraf,Hakimi,Philipp,Philipp,Pulisic,,hakimi,philipp,philipp,pulisic
+2018-19,Bundesliga,MD21,21,2019-02-09,Hoffenheim,Home,32,32,1,0,1,Jadon,Sancho,Piszczek,Piszczek,Witsel,Combination (Witsel to Sancho to Piszczek to Sancho),sancho,piszczek,piszczek,witsel
+2018-19,Bundesliga,MD21,21,2019-02-09,Hoffenheim,Home,43,43,2,0,2,Mario,Götze,,Sancho,Witsel,No Official Assist (Sancho shot saved and fell to Götze),gotze,,sancho,witsel
+2018-19,Bundesliga,MD21,21,2019-02-09,Hoffenheim,Home,66,66,3,0,3,Raphaël,Guerreiro,Götze,Götze,Sancho,,guerreiro,gotze,gotze,sancho
+2018-19,Bundesliga,MD23,23,2019-02-24,Leverkusen,Home,30,30,1,0,1,Dan-Axel,Zagadou,Sancho,Sancho,,No 2nd Assist (Sancho corner),zagadou,sancho,sancho,
+2018-19,Bundesliga,MD23,23,2019-02-24,Leverkusen,Home,38,38,2,1,1,Jadon,Sancho,Diallo,Diallo,Guerreiro,,sancho,diallo,diallo,guerreiro
+2018-19,Bundesliga,MD23,23,2019-02-24,Leverkusen,Home,60,60,3,1,2,Mario,Götze,,Hakimi,Witsel,No Official Assist (Hakimi pass deflected to Götze),gotze,,hakimi,witsel
+2018-19,Bundesliga,MD24,24,2019-03-01,Augsburg,Away,81,81,1,2,-1,Paco,Alcácer,Götze,Götze,Sancho,,alcacer,gotze,gotze,sancho
+2018-19,Bundesliga,MD25,25,2019-03-09,Stuttgart,Home,62,62,1,0,1,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2018-19,Bundesliga,MD25,25,2019-03-09,Stuttgart,Home,82,82,2,1,1,Paco,Alcácer,Pulisic,Pulisic,Reus,Reus shot fell to Pulisic,alcacer,pulisic,pulisic,reus
+2018-19,Bundesliga,MD25,25,2019-03-09,Stuttgart,Home,90+2,90.2,3,1,2,Christian,Pulisic,Götze,Götze,Witsel,,pulisic,gotze,gotze,witsel
+2018-19,Bundesliga,MD26,26,2019-03-16,Hertha Berlin,Away,14,14,1,1,0,Thomas,Delaney,,,,No Assists (Delaney won the ball),delaney,,,
+2018-19,Bundesliga,MD26,26,2019-03-16,Hertha Berlin,Away,47,47,2,2,0,Dan-Axel,Zagadou,Sancho,Sancho,,No 2nd Assist (Sancho corner),zagadou,sancho,sancho,
+2018-19,Bundesliga,MD26,26,2019-03-16,Hertha Berlin,Away,90+2,90.2,3,2,1,Marco,Reus,Sancho,Sancho,Guerreiro,,reus,sancho,sancho,guerreiro
+2018-19,Bundesliga,MD27,27,2019-03-30,Wolfsburg,Home,90+1,90.1,1,0,1,Paco,Alcácer,,,,No Assists (Direct free kick),alcacer,,,
+2018-19,Bundesliga,MD27,27,2019-03-30,Wolfsburg,Home,90+4,90.4,2,0,2,Paco,Alcácer,Sancho,Sancho,Dahoud,,alcacer,sancho,sancho,dahoud
+2018-19,Bundesliga,MD29,29,2019-04-13,Mainz 05,Home,17,17,1,0,1,Jadon,Sancho,Götze,Götze,Wolf,,sancho,gotze,gotze,wolf
+2018-19,Bundesliga,MD29,29,2019-04-13,Mainz 05,Home,24,24,2,0,2,Jadon,Sancho,Delaney,Delaney,Götze,,sancho,delaney,delaney,gotze
+2018-19,Bundesliga,MD30,30,2019-04-21,Freiburg,Away,12,12,1,0,1,Jadon,Sancho,Reus,Reus,Guerreiro,,sancho,reus,reus,guerreiro
+2018-19,Bundesliga,MD30,30,2019-04-21,Freiburg,Away,54,54,2,0,2,Marco,Reus,Guerreiro,Guerreiro,Witsel,,reus,guerreiro,guerreiro,witsel
+2018-19,Bundesliga,MD30,30,2019-04-21,Freiburg,Away,79,79,3,0,3,Mario,Götze,Reus,Reus,Sancho,,gotze,reus,reus,sancho
+2018-19,Bundesliga,MD30,30,2019-04-21,Freiburg,Away,87,87,4,0,4,Paco,Alcácer,,,,No Assists (Penalty),alcacer,,,
+2018-19,Bundesliga,MD31,31,2019-04-27,Schalke 04,Home,14,14,1,0,1,Mario,Götze,Sancho,Sancho,Witsel,,gotze,sancho,sancho,witsel
+2018-19,Bundesliga,MD31,31,2019-04-27,Schalke 04,Home,84,84,2,3,-1,Axel,Witsel,Bruun Larsen,Bruun Larsen,Akanji,,witsel,bruun-larsen,bruun-larsen,akanji
+2018-19,Bundesliga,MD32,32,2019-05-04,Werder Bremen,Away,6,6,1,0,1,Christian,Pulisic,Delaney,Delaney,,No 2nd Assist (Delaney won the ball),pulisic,delaney,delaney,
+2018-19,Bundesliga,MD32,32,2019-05-04,Werder Bremen,Away,41,41,2,0,2,Paco,Alcácer,,,,No Assists (Direct free kick),alcacer,,,
+2018-19,Bundesliga,MD33,33,2019-05-11,Düsseldorf,Home,41,41,1,0,1,Christian,Pulisic,Delaney,Delaney,Guerreiro,,pulisic,delaney,delaney,guerreiro
+2018-19,Bundesliga,MD33,33,2019-05-11,Düsseldorf,Home,53,53,2,1,1,Thomas,Delaney,,Götze,Pulisic,No Official Assist (Delaney initial shot blocked and fell to him),delaney,,gotze,pulisic
+2018-19,Bundesliga,MD33,33,2019-05-11,Düsseldorf,Home,90+2,90.2,3,1,2,Mario,Götze,,Alcácer,Schmelzer,No Official Assist (Alcácer pass deflected to Götze); Schmelzer shot blocked to Alcácer,gotze,,alcacer,schmelzer
+2018-19,Bundesliga,MD34,34,2019-05-18,Gladbach,Away,45,45,1,0,1,Jadon,Sancho,,Reus,Delaney,"No Official Assist (Reus initial cross blocked, second cross saved and fell to Sancho)",sancho,,reus,delaney
+2018-19,Bundesliga,MD34,34,2019-05-18,Gladbach,Away,54,54,2,0,2,Marco,Reus,Pulisic,Pulisic,Sancho,,reus,pulisic,pulisic,sancho
+2019-20,DFL-Supercup,F,1,2019-08-03,Bayern Munich,Home,48,48,1,0,1,Paco,Alcácer,Sancho,Sancho,,No 2nd Assist (Sancho won the ball),alcacer,sancho,sancho,
+2019-20,DFL-Supercup,F,1,2019-08-03,Bayern Munich,Home,69,69,2,0,2,Jadon,Sancho,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro won the ball),sancho,guerreiro,guerreiro,
+2019-20,DFB-Pokal,R1,1,2019-08-09,Uerdingen,Away,49,49,1,0,1,Marco,Reus,Akanji,Akanji,Witsel,,reus,akanji,akanji,witsel
+2019-20,DFB-Pokal,R1,1,2019-08-09,Uerdingen,Away,70,70,2,0,2,Paco,Alcácer,,,,No Assists (Alcácer free kick),alcacer,,,
+2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,3,3,1,1,0,Paco,Alcácer,,Reus,Sancho,No Official Assist (Reus pass deflected off the keeper),alcacer,,reus,sancho
+2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,51,51,2,1,1,Jadon,Sancho,Witsel,Witsel,Schulz,,sancho,witsel,witsel,schulz
+2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,57,57,3,1,2,Marco,Reus,Alcácer,Alcácer,Sancho,"Sancho cross, keeper deflected to Alcácer",reus,alcacer,alcacer,sancho
+2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,59,59,4,1,3,Paco,Alcácer,Sancho,Sancho,Hummels,,alcacer,sancho,sancho,hummels
+2019-20,Bundesliga,MD1,1,2019-08-17,Augsburg,Home,82,82,5,1,4,Julian,Brandt,Witsel,Witsel,Sancho,,brandt,witsel,witsel,sancho
+2019-20,Bundesliga,MD2,2,2019-08-23,Köln,Away,70,70,1,1,0,Jadon,Sancho,Hazard,Hazard,Alcácer,,sancho,hazard,hazard,alcacer
+2019-20,Bundesliga,MD2,2,2019-08-23,Köln,Away,86,86,2,1,1,Achraf,Hakimi,Piszczek,Piszczek,Brandt,,hakimi,piszczek,piszczek,brandt
+2019-20,Bundesliga,MD2,2,2019-08-23,Köln,Away,90+4,90.4,3,1,2,Paco,Alcácer,Sancho,Sancho,Brandt,,alcacer,sancho,sancho,brandt
+2019-20,Bundesliga,MD3,3,2019-08-31,Union Berlin,Away,25,25,1,1,0,Paco,Alcácer,Sancho,Sancho,Reus,,alcacer,sancho,sancho,reus
+2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,28,28,1,0,1,Paco,Alcácer,Hakimi,Hakimi,,No 2nd Assist (Hakimi won the ball),alcacer,hakimi,hakimi,
+2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,50,50,2,0,2,Marco,Reus,Sancho,Sancho,Akanji,,reus,sancho,sancho,akanji
+2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,83,83,3,0,3,Raphaël,Guerreiro,,Sancho,Delaney,No Official Assist (Sancho pass deflected off the keeper),guerreiro,,sancho,delaney
+2019-20,Bundesliga,MD4,4,2019-09-14,Leverkusen,Home,90,90,4,0,4,Marco,Reus,Bruun Larsen,Bruun Larsen,Hazard,,reus,bruun-larsen,bruun-larsen,hazard
+2019-20,Bundesliga,MD5,5,2019-09-22,Frankfurt,Away,11,11,1,0,1,Axel,Witsel,Hazard,Hazard,Sancho,Sancho shot punched away by the keeper to Hazard,witsel,hazard,hazard,sancho
+2019-20,Bundesliga,MD5,5,2019-09-22,Frankfurt,Away,66,66,2,1,1,Jadon,Sancho,Witsel,Witsel,Guerreiro,Guerreiro free kick saved by the keeper and fell to Witsel,sancho,witsel,witsel,guerreiro
+2019-20,Bundesliga,MD6,6,2019-09-28,Werder Bremen,Home,9,9,1,1,0,Mario,Götze,Piszczek,Piszczek,Hakimi,,gotze,piszczek,piszczek,hakimi
+2019-20,Bundesliga,MD6,6,2019-09-28,Werder Bremen,Home,41,41,2,1,1,Marco,Reus,Hazard,Hazard,Witsel,,reus,hazard,hazard,witsel
+2019-20,Champions League,GR-2,2,2019-10-02,Slavia Prague,Away,35,35,1,0,1,Achraf,Hakimi,Brandt,Brandt,Piszczek,Combination (Piszczek to Hakimi to Brandt to Hakimi),hakimi,brandt,brandt,piszczek
+2019-20,Champions League,GR-2,2,2019-10-02,Slavia Prague,Away,89,89,2,0,2,Achraf,Hakimi,Brandt,Brandt,Delaney,,hakimi,brandt,brandt,delaney
+2019-20,DFB-Pokal,R2,2,2019-10-03,Gladbach,Home,77,77,1,1,0,Julian,Brandt,Piszczek,Piszczek,Witsel,,brandt,piszczek,piszczek,witsel
+2019-20,DFB-Pokal,R2,2,2019-10-3,Gladbach,Home,80,80,2,1,1,Julian,Brandt,Hazard,Hazard,Götze,,brandt,hazard,hazard,gotze
+2019-20,Bundesliga,MD7,7,2019-10-05,Freiburg,Away,20,20,1,0,1,Axel,Witsel,Hazard,Hazard,,No 2nd Assist (Hazard took the corner),witsel,hazard,hazard,
+2019-20,Bundesliga,MD7,7,2019-10-05,Freiburg,Away,67,67,2,1,1,Achraf,Hakimi,Sancho,Sancho,Brandt,,hakimi,sancho,sancho,brandt
+2019-20,Bundesliga,MD8,8,2019-10-19,Gladbach,Home,58,58,1,0,1,Marco,Reus,Hazard,Hazard,Brandt,,reus,hazard,hazard,brandt
+2019-20,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,52,52,1,0,1,Thorgan,Hazard,Hakimi,Hakimi,Hitz,Hitz long ball deflected off the defender to Hakimi,hazard,hakimi,hakimi,hitz
+2019-20,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,58,58,2,0,2,Raphaël,Guerreiro,Hazard,Hazard,Weigl,,guerreiro,hazard,hazard,weigl
+2019-20,Bundesliga,MD10,10,2019-11-02,Wolfsburg,Home,88,88,3,0,3,Mario,Götze,,,,No Assists (Penalty),gotze,,,
+2019-20,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,51,51,1,2,-1,Achraf,Hakimi,Götze,Götze,Hazard,,hakimi,götze,gotze,hazard
+2019-20,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,64,64,2,2,0,Julian,Brandt,Alcácer,Alcácer,,No 2nd Assist (Alcácer won the ball),brandt,alcácer,alcacer,
+2019-20,Champions League,GR-4,4,2019-11-05,Inter Milan,Home,77,77,3,2,1,Achraf,Hakimi,Sancho,Sancho,Brandt,,hakimi,sancho,sancho,brandt
+2019-20,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,47,47,1,3,-2,Jadon,Sancho,Hakimi,Hakimi,Brandt,,sancho,hakimi,hakimi,brandt
+2019-20,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,84,84,2,3,-1,Axel,Witsel,Hummels,Hummels,Guerreiro,Guerreiro free kick deflected off the defender to Hummels,witsel,hummels,hummels,guerreiro
+2019-20,Bundesliga,MD12,12,2019-11-22,Paderborn,Home,90+2,90.2,3,3,0,Marco,Reus,Sancho,Sancho,Weigl,Weigl long pass deflected off the defender to Sancho,reus,sancho,sancho,weigl
+2019-20,Champions League,GR-5,5,2019-11-27,Barcelona,Away,77,77,1,3,-2,Jadon,Sancho,Brandt,Brandt,Guerreiro,,sancho,brandt,brandt,guerreiro
+2019-20,Bundesliga,MD13,13,2019-11-30,Hertha Berlin,Away,15,15,1,0,1,Jadon,Sancho,Brandt,Brandt,Reus,,sancho,brandt,brandt,reus
+2019-20,Bundesliga,MD13,13,2019-11-30,Hertha Berlin,Away,17,17,2,0,2,Thorgan,Hazard,Hakimi,Hakimi,Akanji,,hazard,hakimi,hakimi,akanji
+2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,42,42,1,0,1,Marco,Reus,Piszczek,Piszczek,Brandt,,reus,piszczek,piszczek,brandt
+2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,58,58,2,0,2,Thorgan,Hazard,Sancho,Sancho,Brandt,,hazard,sancho,sancho,brandt
+2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,63,63,3,0,3,Jadon,Sancho,Reus,Reus,Guerreiro,Combination (Guerreiro to Sancho to Reus to Sancho),sancho,reus,reus,guerreiro
+2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,70,70,4,0,4,Marco,Reus,Hazard,Hazard,Hakimi,,reus,hazard,hazard,hakimi
+2019-20,Bundesliga,MD14,14,2019-12-07,Düsseldorf,Home,74,74,5,0,5,Jadon,Sancho,Hakimi,Hakimi,Brandt,Combination (Brandt to Sancho to Hakimi to Sancho),sancho,hakimi,hakimi,brandt
+2019-20,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,10,10,1,0,1,Jadon,Sancho,Reus,Reus,Brandt,,sancho,reus,reus,brandt
+2019-20,Champions League,GR-6,6,2019-12-10,Slavia Prague,Home,61,61,2,1,1,Julian,Brandt,Sancho,Sancho,Guerreiro,,brandt,sancho,sancho,guerreiro
+2019-20,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,32,32,1,0,1,Marco,Reus,,Hazard,Sancho,No Official Assist (Hazard cross cleared to Reus),reus,,hazard,sancho
+2019-20,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,66,66,2,0,2,Jadon,Sancho,Zagadou,Zagadou,,No 2nd Assist (Zagadou won the ball),sancho,zagadou,zagadou,
+2019-20,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,69,69,3,0,3,Thorgan,Hazard,Reus,Reus,Sancho,,hazard,reus,reus,sancho
+2019-20,Bundesliga,MD15,15,2019-12-14,Mainz 05,Away,84,84,4,0,4,Nico,Schulz,Sancho,Sancho,Dahoud,,schulz,sancho,sancho,dahoud
+2019-20,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,23,23,1,0,1,Julian,Weigl,Guerreiro,Guerreiro,Sancho,Sancho shot saved by the keeper and fell to Guerreiro,weigl,guerreiro,guerreiro,sancho
+2019-20,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,34,34,2,0,2,Julian,Brandt,Sancho,Sancho,Zagadou,,brandt,sancho,sancho,zagadou
+2019-20,Bundesliga,MD16,16,2019-12-17,RB Leipzig,Home,55,55,3,2,1,Jadon,Sancho,Reus,Reus,Hakimi,,sancho,reus,reus,hakimi
+2019-20,Bundesliga,MD17,17,2019-12-20,Hoffenheim,Away,17,17,1,0,1,Mario,Götze,Hakimi,Hakimi,Hazard,,gotze,hakimi,hakimi,hazard
+2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,49,49,1,2,-1,Julian,Brandt,Hazard,Hazard,Piszczek,,brandt,hazard,hazard,piszczek
+2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,59,59,2,3,-1,Erling,Haaland,Sancho,Sancho,Witsel,,haaland,sancho,sancho,witsel
+2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,61,61,3,3,0,Jadon,Sancho,Hummels,Hummels,Akanji,,sancho,hummels,hummels,akanji
+2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,70,70,4,3,1,Erling,Haaland,Hazard,Hazard,Witsel,,haaland,hazard,hazard,witsel
+2019-20,Bundesliga,MD18,18,2020-01-18,Augsburg,Away,79,79,5,3,2,Erling,Haaland,Reus,Reus,Reyna,,haaland,reus,reus,reyna
+2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,1,1,1,0,1,Raphaël,Guerreiro,Sancho,Sancho,Reus,,guerreiro,sancho,sancho,reus
+2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,29,29,2,0,2,Marco,Reus,Hummels,Hummels,Akanji,,reus,hummels,hummels,akanji
+2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,48,48,3,0,3,Jadon,Sancho,Reus,Reus,Brandt,,sancho,reus,reus,brandt
+2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,77,77,4,1,3,Erling,Haaland,,Guerreiro,Sancho,No Official Assist (Guerreiro shot saved by the keeper and fell to Haaland),haaland,,guerreiro,sancho
+2019-20,Bundesliga,MD19,19,2020-01-24,Köln,Home,87,87,5,1,4,Erling,Haaland,Dahoud,Dahoud,Hakimi,,haaland,dahoud,dahoud,hakimi
+2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,13,13,1,0,1,Jadon,Sancho,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro won the ball),sancho,guerreiro,guerreiro,
+2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,18,18,2,0,2,Erling,Haaland,,Brandt,Sancho,"No Official Assist (Unclear why, perhaps there was a deflection on Brandt’s cross)",haaland,,brandt,sancho
+2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,68,68,3,0,3,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,70,70,4,0,4,Axel,Witsel,Sancho,Sancho,Haaland,,witsel,sancho,sancho,haaland
+2019-20,Bundesliga,MD20,20,2020-02-01,Union Berlin,Home,76,76,5,0,5,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho
+2019-20,DFB-Pokal,R16,3,2020-02-04,Werder Bremen,Away,67,67,1,2,-1,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho
+2019-20,DFB-Pokal,R16,3,2020-02-04,Werder Bremen,Away,78,78,2,3,-1,Gio,Reyna,Brandt,Brandt,Schulz,,reyna,brandt,brandt,schulz
+2019-20,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,22,22,1,1,0,Mats,Hummels,Sancho,Sancho,,No 2nd Assist (Sancho took the corner),hummels,sancho,sancho,
+2019-20,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,33,33,2,1,1,Emre,Can,,Guerreiro,Witsel,No Official Assist (Deflection on Guerreiro shot); Combination (Witsel to Can to Guerreiro to Can),can,,guerreiro,witsel
+2019-20,Bundesliga,MD21,21,2020-02-08,Leverkusen,Away,64,64,3,2,1,Raphaël,Guerreiro,Hakimi,Hakimi,Sancho,,guerreiro,hakimi,hakimi,sancho
+2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,33,33,1,0,1,Łukasz,Piszczek,Hakimi,Hakimi,Guerreiro,Guerreiro cross blocked to Hakimi,piszczek,hakimi,hakimi,guerreiro
+2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,49,49,2,0,2,Jadon,Sancho,Witsel,Witsel,Hummels,,sancho,witsel,witsel,hummels
+2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,53,53,3,0,3,Erling,Haaland,Hakimi,Hakimi,Sancho,,haaland,hakimi,hakimi,sancho
+2019-20,Bundesliga,MD22,22,2020-02-14,Frankfurt,Home,74,74,4,0,4,Raphaël,Guerreiro,,,,No Assists (Guerreiro won the ball),guerreiro,,,
+2019-20,Champions League,R16-1,7,2020-02-18,PSG,Home,69,69,1,0,1,Erling,Haaland,,Guerreiro,Hakimi,No Official Assist (Guerreiro shot blocked and fell to Haaland),haaland,,guerreiro,hakimi
+2019-20,Champions League,R16-1,7,2020-02-18,PSG,Home,77,77,2,1,1,Erling,Haaland,Reyna,Reyna,Hummels,,haaland,reyna,reyna,hummels
+2019-20,Bundesliga,MD23,23,2020-02-22,Werder Bremen,Away,52,52,1,0,1,Dan-Axel,Zagadou,Sancho,Sancho,,No 2nd Assist (Sancho took the corner),zagadou,sancho,sancho,
+2019-20,Bundesliga,MD23,23,2020-02-22,Werder Bremen,Away,66,66,2,0,2,Erling,Haaland,Hakimi,Hakimi,Sancho,,haaland,hakimi,hakimi,sancho
+2019-20,Bundesliga,MD24,24,2020-02-29,Freiburg,Home,15,15,1,0,1,Jadon,Sancho,Hazard,Hazard,Brandt,,sancho,hazard,hazard,brandt
+2019-20,Bundesliga,MD25,25,2020-03-07,Gladbach,Away,8,8,1,0,1,Thorgan,Hazard,Haaland,Haaland,,No 2nd Assist (Haaland won the ball),hazard,haaland,haaland,
+2019-20,Bundesliga,MD25,25,2020-03-07,Gladbach,Away,71,71,2,1,1,Achraf,Hakimi,Sancho,Sancho,Witsel,,hakimi,sancho,sancho,witsel
+2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,29,29,1,0,1,Erling,Haaland,Hazard,Hazard,Brandt,,haaland,hazard,hazard,brandt
+2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,45,45,2,0,2,Raphaël,Guerreiro,Brandt,Brandt,Dahoud,,guerreiro,brandt,brandt,dahoud
+2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,48,48,3,0,3,Thorgan,Hazard,Brandt,Brandt,Haaland,,hazard,brandt,brandt,haaland
+2019-20,Bundesliga,MD26,26,2020-05-16,Schalke 04,Home,63,63,4,0,4,Raphaël,Guerreiro,Haaland,Haaland,Brandt,Combination (Brandt to Guerreiro to Haaland to Guerreiro),guerreiro,haaland,haaland,brandt
+2019-20,Bundesliga,MD27,27,2020-05-23,Wolfsburg,Away,32,32,1,0,1,Raphaël,Guerreiro,Hazard,Hazard,Hakimi,,guerreiro,hazard,hazard,hakimi
+2019-20,Bundesliga,MD27,27,2020-05-23,Wolfsburg,Away,78,78,2,0,2,Achraf,Hakimi,Sancho,Sancho,Dahoud,,hakimi,sancho,sancho,dahoud
+2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,54,54,1,0,1,Thorgan,Hazard,,Can,Guerreiro,No Official Assist (Can shot saved and fell to Hazard),hazard,,can,guerreiro
+2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,57,57,2,0,2,Jadon,Sancho,Brandt,Brandt,Delaney,,sancho,brandt,brandt,delaney
+2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,74,74,3,1,2,Jadon,Sancho,Hazard,Hazard,Guerreiro,,sancho,hazard,hazard,guerreiro
+2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,85,85,4,1,3,Achraf,Hakimi,Schmelzer,Schmelzer,,No 2nd Assist (Schmelzer won the ball),hakimi,schmelzer,schmelzer,
+2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,89,89,5,1,4,Marcel,Schmelzer,Witsel,Witsel,Reyna,,schmelzer,witsel,witsel,reyna
+2019-20,Bundesliga,MD29,29,2020-05-31,Paderborn,Away,90+1,90.1,6,1,5,Jadon,Sancho,Morey,Morey,Reyna,,sancho,morey,morey,reyna
+2019-20,Bundesliga,MD30,30,2020-06-06,Hertha Berlin,Home,57,57,1,0,1,Emre,Can,Brandt,Brandt,Sancho,,can,brandt,brandt,sancho
+2019-20,Bundesliga,MD31,31,2020-06-13,Düsseldorf,Away,90+5,90.5,1,0,1,Erling,Haaland,Akanji,Akanji,Brandt,,haaland,akanji,akanji,brandt
+2019-20,Bundesliga,MD33,33,2020-06-20,RB Leipzig,Away,30,30,1,0,1,Erling,Haaland,Reyna,Reyna,Brandt,,haaland,reyna,reyna,brandt
+2019-20,Bundesliga,MD33,33,2020-06-20,RB Leipzig,Away,90+3,90.3,2,0,2,Erling,Haaland,Brandt,Brandt,Sancho,,haaland,brandt,brandt,sancho
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,14,14,1,0,1,Jadon,Sancho,,,,No Assists (Penalty),sancho,,,
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,30,30,2,0,2,Jude,Bellingham,Hazard,Hazard,Meunier,,bellingham,hazard,hazard,meunier
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,39,39,3,0,3,Thorgan,Hazard,,,,No Assists (Free kick),hazard,,,
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,50,50,4,0,4,Gio,Reyna,,,,No Assists (Free kick),reyna,,,
+2020-21,DFB-Pokal,R1,1,2020-09-14,MSV Duisburg,Away,58,58,5,0,5,Marco,Reus,Sancho,Sancho,,No 2nd Assist (Sancho free kick),reus,sancho,sancho,
+2020-21,Bundesliga,MD1,1,2020-09-19,Gladbach,Home,35,35,1,0,1,Gio,Reyna,Bellingham,Bellingham,Can,Combination (Can to Reyna to Bellingham to Reyna); Initial Reyna pass blocked and fell to Bellingham,reyna,bellingham,bellingham,can
+2020-21,Bundesliga,MD1,1,2020-09-19,Gladbach,Home,54,54,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2020-21,Bundesliga,MD1,1,2020-09-19,Gladbach,Home,78,78,3,0,3,Erling,Haaland,Sancho,Sancho,Hummels,,haaland,sancho,sancho,hummels
+2020-21,DFL-Supercup,F,1,2020-09-30,Bayern Munich,Away,39,39,1,2,-1,Julian,Brandt,Haaland,Haaland,Reus,,brandt,haaland,haaland,reus
+2020-21,DFL-Supercup,F,1,2020-09-30,Bayern Munich,Away,55,55,2,2,0,Erling,Haaland,Delaney,Delaney,Akanji,,haaland,delaney,delaney,akanji
+2020-21,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,31,31,1,0,1,Erling,Haaland,Reyna,Reyna,Reus,,haaland,reyna,reyna,reus
+2020-21,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,47,47,2,0,2,Emre,Can,Reyna,Reyna,,No 2nd Assist (Reyna corner),can,reyna,reyna,
+2020-21,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,66,66,3,0,3,Erling,Haaland,Reyna,Reyna,,No 2nd Assist (Reyna won the ball),haaland,reyna,reyna,
+2020-21,Bundesliga,MD3,3,2020-10-03,Freiburg,Home,90+2,90.2,4,0,4,Felix,Passlack,Haaland,Haaland,Brandt,,passlack,haaland,haaland,brandt
+2020-21,Bundesliga,MD4,4,2020-10-17,Hoffenheim,Away,76,76,1,0,1,Marco,Reus,Haaland,Haaland,Reyna,,reus,haaland,haaland,reyna
+2020-21,Champions League,GR1,1,2020-10-20,Lazio,Away,71,71,1,2,-1,Erling,Haaland,Reyna,Reyna,Witsel,Combination (Witsel to Haaland to Reyna to Haaland),haaland,reyna,reyna,witsel
+2020-21,Bundesliga,MD5,5,2020-10-24,Schalke 04,Home,55,55,1,0,1,Manuel,Akanji,,Guerreiro,Brandt,No Official Assist (Guerreiro shot saved and fell to Akanji),akanji,,guerreiro,brandt
+2020-21,Bundesliga,MD5,5,2020-10-24,Schalke 04,Home,61,61,2,0,2,Erling,Haaland,Sancho,Sancho,Reyna,Combination (Reyna to Haaland to Sancho to Haaland),haaland,sancho,sancho,reyna
+2020-21,Bundesliga,MD5,5,2020-10-24,Schalke 04,Home,78,78,3,0,3,Mats,Hummels,Guerreiro,Guerreiro,,No 2nd Assist (Guerreiro corner),hummels,guerreiro,guerreiro,
+2020-21,Champions League,GR2,2,2020-10-24,Zenit,Home,78,78,1,0,1,Jadon,Sancho,,,,No Assists (Penalty),sancho,,,
+2020-21,Champions League,GR2,2,2020-10-24,Zenit,Home,90+1,90.1,2,0,2,Erling,Haaland,Bellingham,Bellingham,Bürki,,haaland,bellingham,bellingham,burki
+2020-21,Bundesliga,MD6,6,2020-10-31,Arminia Bielefeld,Away,52,52,1,0,1,Mats,Hummels,Meunier,Meunier,Sancho,,hummels,meunier,meunier,sancho
+2020-21,Bundesliga,MD6,6,2020-10-31,Arminia Bielefeld,Away,71,71,2,0,2,Mats,Hummels,Reus,Reus,Bellingham,,hummels,reus,reus,bellingham
+2020-21,Champions League,GR3,3,2020-11-04,Club Brugge,Away,14,14,1,0,1,Thorgan,Hazard,,Delaney,Guerreiro,No Official Assist (Delaney cross deflected to Hazard),hazard,,delaney,guerreiro
+2020-21,Champions League,GR3,3,2020-11-04,Club Brugge,Away,18,18,2,0,2,Erling,Haaland,,Witsel,Delaney,No Official Assist (Haaland scored his own rebound),haaland,,witsel,delaney
+2020-21,Champions League,GR3,3,2020-11-04,Club Brugge,Away,32,32,3,0,3,Erling,Haaland,Meunier,Meunier,Dahoud,,haaland,meunier,meunier,dahoud
+2020-21,Bundesliga,MD7,7,2020-11-07,Bayern Munich,Home,45,45,1,0,1,Marco,Reus,Guerreiro,Guerreiro,Sancho,,reus,guerreiro,guerreiro,sancho
+2020-21,Bundesliga,MD7,7,2020-11-07,Bayern Munich,Home,82,82,2,3,-1,Erling,Haaland,Guerreiro,Guerreiro,Reus,,haaland,guerreiro,guerreiro,reus
+2020-21,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,47,47,1,1,0,Erling,Haaland,Can,Can,Reus,,haaland,can,can,reus
+2020-21,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,49,49,2,1,1,Erling,Haaland,Brandt,Brandt,Bürki,,haaland,brandt,brandt,burki
+2020-21,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,62,62,3,1,2,Erling,Haaland,,,,No Assists (Haaland stole ball),haaland,,,
+2020-21,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,70,70,4,1,3,Raphaël,Guerreiro,,Meunier,Reus,No Official Assist (Guerreiro scored on own blocked shot),guerreiro,,meunier,reus
+2020-21,Bundesliga,MD8,8,2020-11-21,Hertha Berlin,Away,80,80,5,2,3,Erling,Haaland,Bellingham,Bellingham,Reyna,,haaland,bellingham,bellingham,reyna
+2020-21,Champions League,GR4,4,2020-11-24,Club Brugge,Home,18,18,1,0,1,Erling,Haaland,Sancho,Sancho,Hummels,Hummels pass deflected to Sancho,haaland,sancho,sancho,hummels
+2020-21,Champions League,GR4,4,2020-11-24,Club Brugge,Home,45,45,2,0,2,Jadon,Sancho,,,,No Assists (Sancho free kick),sancho,,,
+2020-21,Champions League,GR4,4,2020-11-24,Club Brugge,Home,60,60,3,0,3,Erling,Haaland,,Hazard,Meunier,"No Official Assist (Hazard had two blocked attempts, second fell to Haaland)",haaland,,hazard,meunier
+2020-21,Bundesliga,MD9,9,2020-11-28,Köln,Home,74,74,1,2,-1,Thorgan,Hazard,Reyna,Reyna,Moukoko,,hazard,reyna,reyna,moukoko
+2020-21,Champions League,GR5,5,2020-12-02,Lazio,Home,44,44,1,0,1,Raphaël,Guerreiro,Hazard,Hazard,Reyna,,guerreiro,hazard,hazard,reyna
+2020-21,Bundesliga,MD10,10,2020-12-05,Frankfurt,Away,56,56,1,1,0,Gio,Reyna,Sancho,Sancho,Schulz,,reyna,sancho,sancho,schulz
+2020-21,Champions League,GR6,6,2020-12-08,Zenit,Away,68,68,1,1,0,Łukasz,Piszczek,,Hummels,Reus,No Official Assist (Hummels rebound fell to Piszczek),piszczek,,hummels,reus
+2020-21,Champions League,GR6,6,2020-12-08,Zenit,Away,77,77,2,1,1,Axel,Witsel,Sancho,Sancho,Hazard,,witsel,sancho,sancho,hazard
+2020-21,Bundesliga,MD11,11,2020-12-12,Stuttgart,Home,39,39,1,1,0,Gio,Reyna,Guerreiro,Guerreiro,Can,,reyna,guerreiro,guerreiro,can
+2020-21,Bundesliga,MD12,12,2020-12-15,Werder Bremen,Away,12,12,1,0,1,Raphaël,Guerreiro,,Sancho,Reyna,No Official Assist (Sancho rebound fell to Piszczek),guerreiro,,sancho,reyna
+2020-21,Bundesliga,MD12,12,2020-12-15,Werder Bremen,Away,78,78,2,1,1,Marco,Reus,,,,No Assists (Rebound of own penalty),reus,,,
+2020-21,Bundesliga,MD13,13,2020-12-18,Union Berlin,Away,60,60,1,1,0,Youssoufa,Moukoko,Guerreiro,Guerreiro,Can,,moukoko,guerreiro,guerreiro,can
+2020-21,DFB-Pokal,R2,2,2020-12-22,Braunschweig,Away,12,12,1,0,1,Mats,Hummels,Sancho,Sancho,,No Second Assist (Sancho took free kick),hummels,sancho,sancho,
+2020-21,DFB-Pokal,R2,2,2020-12-22,Braunschweig,Away,90+2,90.2,2,0,2,Jadon,Sancho,Reus,Reus,Meunier,,sancho,reus,reus,meunier
+2020-21,Bundesliga,MD14,14,2021-01-03,Wolfsburg,Home,66,66,1,0,1,Manuel,Akanji,Sancho,Sancho,,No Second Assist (Sancho corner),akanji,sancho,sancho,
+2020-21,Bundesliga,MD14,14,2021-01-03,Wolfsburg,Home,90+1,90.1,2,0,2,Jadon,Sancho,Can,Can,Guerreiro,,sancho,can,can,guerreiro
+2020-21,Bundesliga,MD15,15,2021-01-09,RB Leipzig,Away,55,55,1,0,1,Jadon,Sancho,Reus,Reus,Haaland,,sancho,reus,reus,haaland
+2020-21,Bundesliga,MD15,15,2021-01-09,RB Leipzig,Away,71,71,2,0,2,Erling,Haaland,Sancho,Sancho,Guerreiro,,haaland,sancho,sancho,guerreiro
+2020-21,Bundesliga,MD15,15,2021-01-09,RB Leipzig,Away,84,84,3,0,3,Erling,Haaland,Reus,Reus,Guerreiro,,haaland,reus,reus,guerreiro
+2020-21,Bundesliga,MD16,16,2021-01-16,Mainz 05,Home,73,73,1,1,0,Thomas,Meunier,,Moukoko,Reus,No Official Assist (Moukoko pass half-cleared to Meunier),meunier,,moukoko,reus
+2020-21,Bundesliga,MD17,17,2021-01-19,Leverkusen,Away,67,67,1,1,0,Julian,Brandt,Guerreiro,Guerreiro,Delaney,,brandt,guerreiro,guerreiro,delaney
+2020-21,Bundesliga,MD18,18,2021-01-22,Gladbach,Away,22,22,1,1,0,Erling,Haaland,Sancho,Sancho,Guerreiro,,haaland,sancho,sancho,guerreiro
+2020-21,Bundesliga,MD18,18,2021-01-22,Gladbach,Away,28,28,2,1,1,Erling,Haaland,Sancho,Sancho,Haaland,,haaland,sancho,sancho,haaland
+2020-21,Bundesliga,MD19,19,2021-01-30,Augsburg,Home,26,26,1,1,0,Thomas,Delaney,Reus,Reus,,No Second Assist (Reus Free Kick),delaney,reus,reus,
+2020-21,Bundesliga,MD19,19,2021-01-30,Augsburg,Home,63,63,2,1,1,Jadon,Sancho,Guerreiro,Guerreiro,Hummels,,sancho,guerreiro,guerreiro,hummels
+2020-21,Bundesliga,MD19,19,2021-01-30,Augsburg,Home,75,75,3,1,2,Erling,Haaland,,Sancho,Bellingham,Own Goal awarded to Haaland,haaland,,sancho,bellingham
+2020-21,DFB-Pokal,R16,3,2021-02-02,Paderborn,Home,6,6,1,0,1,Emre,Can,Delaney,Delaney,Piszczek,,can,delaney,delaney,piszczek
+2020-21,DFB-Pokal,R16,3,2021-02-02,Paderborn,Home,16,16,2,0,2,Jadon,Sancho,Haaland,Haaland,Brandt,,sancho,haaland,haaland,brandt
+2020-21,DFB-Pokal,R16,3,2021-02-02,Paderborn,Home,95,95,3,2,1,Erling,Haaland,Delaney,Delaney,Sancho,,haaland,delaney,delaney,sancho
+2020-21,Bundesliga,MD20,20,2021-02-06,Freiburg,Away,76,76,1,2,-1,Youssoufa,Moukoko,Haaland,Haaland,Bellingham,,moukoko,haaland,haaland,bellingham
+2020-21,Bundesliga,MD21,21,2021-02-13,Hoffenheim,Home,24,24,1,0,1,Jadon,Sancho,Guerreiro,Guerreiro,Haaland,,sancho,guerreiro,guerreiro,haaland
+2020-21,Bundesliga,MD21,21,2021-02-13,Hoffenheim,Home,81,81,2,2,0,Erling,Haaland,,,,No Assists (Haaland won loose ball),haaland,,,
+2020-21,Champions League,R16-1,7,2021-02-17,Sevilla,Away,19,19,1,1,0,Mahmoud,Dahoud,Haaland,Haaland,Morey,,dahoud,haaland,haaland,morey
+2020-21,Champions League,R16-1,7,2021-02-17,Sevilla,Away,27,27,2,1,1,Erling,Haaland,Sancho,Sancho,Akanji,Combination (Akanji to Haaland to Sancho to Haaland),haaland,sancho,sancho,akanji
+2020-21,Champions League,R16-1,7,2021-02-17,Sevilla,Away,43,43,3,1,2,Erling,Haaland,Reus,Reus,,No Second Assist (Reus won ball),haaland,reus,reus,
+2020-21,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,42,42,1,0,1,Jadon,Sancho,,Morey,,"No Official Assist (Unclear why, Morey won ball)",sancho,morey,morey,
+2020-21,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,45,45,2,0,2,Erling,Haaland,Sancho,Sancho,Brandt,,haaland,sancho,sancho,brandt
+2020-21,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,60,60,3,0,3,Raphaël,Guerreiro,Reus,Reus,Brandt,Combination (Brandt to Guerreiro to Reus to Guerreiro),guerreiro,reus,reus,brandt
+2020-21,Bundesliga,MD22,22,2021-02-20,Schalke 04,Away,79,79,4,0,4,Erling,Haaland,Bellingham,Bellingham,Sancho,,haaland,bellingham,bellingham,sancho
+2020-21,Bundesliga,MD23,23,2021-02-27,Arminia Bielefeld,Home,48,48,1,0,1,Mahmoud,Dahoud,Sancho,Sancho,,No Second Assist (Dahoud won ball); Combination (Dahoud to Sancho to Dahoud),dahoud,sancho,sancho,
+2020-21,Bundesliga,MD23,23,2021-02-27,Arminia Bielefeld,Home,58,58,2,0,2,Jadon,Sancho,,,,No Assists (Penalty),sancho,,,
+2020-21,Bundesliga,MD23,23,2021-02-27,Arminia Bielefeld,Home,81,81,3,0,3,,Reinier,Haaland,Haaland,Sancho,,reinier,haaland,haaland,sancho
+2020-21,DFB-Pokal,QF,4,2021-03-02,Gladbach,Away,66,66,1,0,1,Jadon,Sancho,Reus,Reus,Haaland,,sancho,reus,reus,haaland
+2020-21,Bundesliga,MD24,24,2021-03-06,Bayern Munich,Away,2,2,1,0,1,Erling,Haaland,Delaney,Delaney,,No Second Assist (Delaney won ball),haaland,delaney,delaney,
+2020-21,Bundesliga,MD24,24,2021-03-06,Bayern Munich,Away,9,9,2,0,2,Erling,Haaland,Hazard,Hazard,Schulz,,haaland,hazard,hazard,schulz
+2020-21,Champions League,R16-2,8,2021-03-09,Sevilla,Home,35,35,1,0,1,Erling,Haaland,Reus,Reus,Dahoud,,haaland,reus,reus,dahoud
+2020-21,Champions League,R16-2,8,2021-03-09,Sevilla,Home,54,54,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2020-21,Bundesliga,MD25,25,2021-03-13,Hertha Berlin,Home,54,54,1,0,1,Julian,Brandt,Reus,Reus,Haaland,Combination (Brandt to Reus to Brandt),brandt,reus,reus,haaland
+2020-21,Bundesliga,MD25,25,2021-03-13,Hertha Berlin,Home,90+1,91,2,0,2,Youssoufa,Moukoko,,Haaland,Dahoud,,moukoko,,haaland,dahoud
+2020-21,Bundesliga,MD26,26,2021-03-20,Köln,Away,3,3,1,0,1,Erling,Haaland,Can,Can,Hummels,,haaland,can,can,hummels
+2020-21,Bundesliga,MD26,26,2021-03-20,Köln,Away,90,90,2,2,0,Erling,Haaland,Knauff,Knauff,Can,,haaland,knauff,knauff,can
+2020-21,Bundesliga,MD27,27,2021-04-03,Frankfurt,Home,45,45,1,1,0,Mats,Hummels,Can,Can,Reus,,hummels,can,can,reus
+2020-21,Champions League,QF-1,9,2021-04-06,Manchester City,Away,84,84,1,1,0,Marco,Reus,Haaland,Haaland,Bellingham,,reus,haaland,haaland,bellingham
+2020-21,Bundesliga,MD28,28,2021-04-10,Stuttgart,Away,47,47,1,1,0,Jude,Bellingham,Reyna,Reyna,Dahoud,,bellingham,reyna,reyna,dahoud
+2020-21,Bundesliga,MD28,28,2021-04-10,Stuttgart,Away,52,52,2,1,1,Marco,Reus,Morey,Morey,Reyna,,reus,morey,morey,reyna
+2020-21,Bundesliga,MD28,28,2021-04-10,Stuttgart,Away,80,80,3,1,2,Ansgar,Knauff,Haaland,Haaland,Morey,,knauff,haaland,haaland,morey
+2020-21,Champions League,QF-2,10,2021-04-14,Manchester City,Home,15,15,1,0,1,Jude,Bellingham,,Dahoud,Haaland,No Official Assist (Dahoud shot blocked,bellingham,,dahoud,haaland
+2020-21,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,29,29,1,1,0,Gio,Reyna,Morey,Morey,Akanji,,reyna,morey,morey,akanji
+2020-21,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,34,34,2,1,1,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2020-21,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,38,38,3,1,2,Erling,Haaland,,Reyna,Bellingham,No Official Assist (Reyna cross deflected),haaland,,reyna,bellingham
+2020-21,Bundesliga,MD29,29,2021-04-18,Werder Bremen,Home,87,87,4,1,3,Mats,Hummels,Hazard,Hazard,,No Second Assist (Hazard Corner),hummels,hazard,hazard,
+2020-21,Bundesliga,MD30,30,2021-04-21,Union Berlin,Home,27,27,1,0,1,Marco,Reus,,Haaland,,No Official Assist (Haaland saved penalty),reus,,haaland,
+2020-21,Bundesliga,MD30,30,2021-04-21,Union Berlin,Home,88,88,2,0,2,Raphaël,Guerreiro,Brandt,Brandt,Haaland,No Official Assist (Haaland saved penalty),guerreiro,brandt,brandt,haaland
+2020-21,Bundesliga,MD31,31,2021-04-24,Wolfsburg,Away,12,12,1,0,1,Erling,Haaland,,,,No Assists (Haaland won ball),haaland,,,
+2020-21,Bundesliga,MD31,31,2021-04-24,Wolfsburg,Away,68,68,2,0,2,Erling,Haaland,Dahoud,Dahoud,,No Second Assist (Dahoud won ball),haaland,dahoud,dahoud,
+2020-21,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,16,16,1,0,1,Gio,Reyna,Sancho,Sancho,Hummels,,reyna,sancho,sancho,hummels
+2020-21,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,22,22,2,0,2,Gio,Reyna,Guerreiro,Guerreiro,Reus,,reyna,guerreiro,guerreiro,reus
+2020-21,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,26,26,3,0,3,Marco,Reus,Can,Can,Reyna,,reus,can,can,reyna
+2020-21,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,32,32,4,0,4,Thorgan,Hazard,,,,No Assists (Hazard won ball),hazard,,,
+2020-21,DFB-Pokal,SF,5,2021-05-01,Holstein Kiel,Home,41,41,5,0,5,Jude,Bellingham,Sancho,Sancho,Hazard,,bellingham,sancho,sancho,hazard
+2020-21,Bundesliga,MD32,32,2021-05-08,RB Leipzig,Home,7,7,1,0,1,Marco,Reus,Hazard,Hazard,Piszczek,,reus,hazard,hazard,piszczek
+2020-21,Bundesliga,MD32,32,2021-05-08,RB Leipzig,Home,51,51,2,0,2,Jadon,Sancho,Guerreiro,Guerreiro,Can,,sancho,guerreiro,guerreiro,can
+2020-21,Bundesliga,MD32,32,2021-05-08,RB Leipzig,Home,51,87,3,2,1,Jadon,Sancho,Guerreiro,Guerreiro,Brandt,Combination (Brandt-Sancho-Guerreiro-Sancho),sancho,guerreiro,guerreiro,brandt
+2020-21,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,5,5,1,0,1,Jadon,Sancho,Dahoud,Dahoud,Haaland,,sancho,dahoud,dahoud,haaland
+2020-21,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,28,28,2,0,2,Erling,Haaland,Reus,Reus,,No Second Assist (Reus won loose ball),haaland,reus,reus,
+2020-21,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,45+1,45.1,3,0,3,Jadon,Sancho,Reus,Reus,Dahoud,,sancho,reus,reus,dahoud
+2020-21,DFB-Pokal,F,6,2021-05-13,RB Leipzig,Neutral,87,87,4,1,3,Erling,Haaland,Sancho,Sancho,Reus,,haaland,sancho,sancho,reus
+2020-21,Bundesliga,MD33,33,2021-05-16,Mainz 05,Away,23,23,1,0,1,Raphaël,Guerreiro,Sancho,Sancho,Meunier,,guerreiro,sancho,sancho,meunier
+2020-21,Bundesliga,MD33,33,2021-05-16,Mainz 05,Away,42,42,2,0,2,Marco,Reus,Sancho,Sancho,Guerreiro,,reus,sancho,sancho,guerreiro
+2020-21,Bundesliga,MD33,33,2021-05-16,Mainz 05,Away,80,80,3,0,3,Julian,Brandt,Haaland,Haaland,Bürki,,brandt,haaland,haaland,burki
+2020-21,Bundesliga,MD34,34,2021-05-22,Leverkusen,Home,5,5,1,0,1,Erling,Haaland,Reinier,Reinier,Brandt,,haaland,reinier,reinier,brandt
+2020-21,Bundesliga,MD34,34,2021-05-22,Leverkusen,Home,51,51,2,0,2,Marco,Reus,,,,No Assists (Direct free kick),reus,,,
+2020-21,Bundesliga,MD34,34,2021-05-22,Leverkusen,Home,84,84,3,0,3,Erling,Haaland,,,,No Assists (Haaland won ball),haaland,,,
+2021-22,DFB-Pokal,R1,1,2021-08-07,Wiesbaden,Away,26,26,1,0,1,Erling,Haaland,Reus,Reus,Reyna,,haaland,reus,reus,reyna
+2021-22,DFB-Pokal,R1,1,2021-08-07,Wiesbaden,Away,31,31,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2021-22,DFB-Pokal,R1,1,2021-08-07,Wiesbaden,Away,51,51,3,0,3,Erling,Haaland,,Reyna,Reus,,haaland,,reyna,reus
+2021-22,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,23,23,1,0,1,Marco,Reus,Haaland,Haaland,Hazard,,reus,haaland,haaland,hazard
+2021-22,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,32,32,2,1,1,Thorgan,Hazard,Haaland,Haaland,Reus,,hazard,haaland,haaland,reus
+2021-22,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,34,34,3,1,2,Erling,Haaland,Reus,Reus,Kobel,,haaland,reus,reus,kobel
+2021-22,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,58,58,4,1,3,Gio,Reyna,Haaland,Haaland,Reus,"Reus possession broken up, landed with Haaland",reyna,haaland,haaland,reus
+2021-22,Bundesliga,MD1,1,2021-08-14,Frankfurt,Home,70,70,5,1,4,Erling,Haaland,Reus,Reus,,No 2nd Assist (Reus interception),haaland,reus,reus,
+2021-22,DFL-Supercup,F,1,2021-08-17,Bayern Munich,Home,64,64,1,2,-1,Marco,Reus,Bellingham,Bellingham,Passlack,,reus,bellingham,bellingham,passlack
+2021-22,Bundesliga,MD2,2,2021-08-21,Freiburg,Away,59,59,1,2,-1,Felix,Passlack,,Reyna,Bellingham,Own Goal awarded to Passlack,passlack,,reyna,bellingham
+2021-22,Bundesliga,MD3,3,2021-08-27,Hoffenheim,Home,49,49,1,0,1,Gio,Reyna,Bellingham,Bellingham,Reus,,reyna,bellingham,bellingham,reus
+2021-22,Bundesliga,MD3,3,2021-08-27,Hoffenheim,Home,69,69,2,1,1,Jude,Bellingham,,Guerreiro,Akanji,,bellingham,,guerreiro,akanji
+2021-22,Bundesliga,MD3,3,2021-08-27,Hoffenheim,Home,90+1,90.1,3,2,1,Erling,Haaland,,Moukoko,Wolf,,haaland,,moukoko,wolf
+2021-22,Bundesliga,MD4,4,2021-09-11,Leverkusen,Away,37,37,1,1,0,Erling,Haaland,Meunier,Meunier,Brandt,,haaland,meunier,meunier,brandt
+2021-22,Bundesliga,MD4,4,2021-09-11,Leverkusen,Away,49,49,2,2,0,Julian,Brandt,Haaland,Haaland,Meunier,,brandt,haaland,haaland,meunier
+2021-22,Bundesliga,MD4,4,2021-09-11,Leverkusen,Away,71,71,3,3,0,Raphaël,Guerreiro,,,,No assists (Guerreiro free kick),guerreiro,,,
+2021-22,Bundesliga,MD4,4,2021-09-11,Leverkusen,Away,77,77,4,3,1,Erling,Haaland,,,,No assists (Haaland penalty),haaland,,,
+2021-22,Champions League,GR,1,2021-09-15,Beşiktaş,Away,20,20,1,0,1,Jude,Bellingham,Meunier,Meunier,Dahoud,,bellingham,meunier,meunier,dahoud
+2021-22,Champions League,GR,1,2021-09-15,Beşiktaş,Away,45+3,45.3,2,0,2,Erling,Haaland,Bellingham,Bellingham,Guerreiro,,haaland,bellingham,bellingham,guerreiro
+2021-22,Bundesliga,MD5,5,2021-09-19,Union Berlin,Home,10,10,1,0,1,Raphaël,Guerreiro,,Dahoud,Malen,No official assist (Dahoud pass deflected); Combination (Malen-Guerreiro-Dahoud-Guerreiro),guerreiro,,dahoud,malen
+2021-22,Bundesliga,MD5,5,2021-09-19,Union Berlin,Home,24,24,2,0,2,Erling,Haaland,Meunier,Meunier,Dahoud,,haaland,meunier,meunier,dahoud
+2021-22,Bundesliga,MD5,5,2021-09-19,Union Berlin,Home,52,52,3,0,3,Marco,Reus,,Bellingham,Meunier,Own Goal awarded to Reus,reus,,bellingham,meunier
+2021-22,Bundesliga,MD5,5,2021-09-19,Union Berlin,Home,83,83,4,2,2,Erling,Haaland,Hummels,Hummels,Guerreiro,,haaland,hummels,hummels,guerreiro
+2021-22,Champions League,GR,2,2021-09-28,Sporting CP,Home,37,37,1,0,1,Donyell,Malen,Bellingham,Bellingham,Akanji,,malen,bellingham,bellingham,akanji
+2021-22,Bundesliga,MD7,7,2021-10-02,Augsburg,Away,9,9,1,0,1,Raphaël,Guerreiro,,,,No Assists (Penalty),guerreiro,,,
+2021-22,Bundesliga,MD7,7,2021-10-02,Augsburg,Away,51,51,2,1,1,Julian,Brandt,Reus,Reus,Wolf,,brandt,reus,reus,wolf
+2021-22,Bundesliga,MD8,8,2021-10-16,Mainz 05,Home,3,3,1,0,1,Marco,Reus,,Meunier,Brandt,No Official Assist (cross hit a defender),reus,,meunier,brandt
+2021-22,Bundesliga,MD8,8,2021-10-16,Mainz 05,Home,54,54,2,0,2,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2021-22,Bundesliga,MD8,8,2021-10-16,Mainz 05,Home,90+4,90.4,3,1,2,Erling,Haaland,Bellingham,Bellingham,,No Second Assist (Bellingham won the ball),haaland,bellingham,bellingham,
+2021-22,Bundesliga,MD9,9,2021-10-23,Arminia Bielefeld,Away,31,31,1,0,1,Emre,Can,,,,No Assists (Penalty),can,,,
+2021-22,Bundesliga,MD9,9,2021-10-23,Arminia Bielefeld,Away,45,45,2,0,2,Mats,Hummels,,Akanji,Hazard,No Official Assist (clearance fell to Hummels),hummels,,akanji,hazard
+2021-22,Bundesliga,MD9,9,2021-10-23,Arminia Bielefeld,Away,73,73,3,0,3,Jude,Bellingham,Reus,Reus,Brandt,,bellingham,reus,reus,brandt
+2021-22,DFB-Pokal,R2,2,2021-10-26,Ingolstadt 04,Home,72,72,1,0,1,Thorgan,Hazard,Brandt,Brandt,Reinier,,hazard,brandt,brandt,reinier
+2021-22,DFB-Pokal,R2,2,2021-10-26,2021-10-26,Home,82,82,1,0,1,Thorgan,Hazard,Brandt,Brandt,Wolf,,hazard,brandt,brandt,wolf
+2021-22,Bundesliga,MD10,10,2021-10-30,Köln,Home,40,40,1,0,1,Thorgan,Hazard,Bellingham,Bellingham,Brandt,,hazard,bellingham,bellingham,brandt
+2021-22,Bundesliga,MD10,10,2021-10-30,Köln,Home,64,64,2,0,2,Steffen,Tigges,Brandt,Brandt,,No Second Assist (Brandt corner),tigges,brandt,brandt,
+2021-22,Champions League,GR,4,2021-11-03,Ajax,Home,37,37,1,0,1,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2021-22,Bundesliga,MD11,11,2021-11-06,RB Leipzig,Away,52,52,1,1,0,Marco,Reus,Meunier,Meunier,Brandt,,reus,meunier,meunier,brandt
+2021-22,Bundesliga,MD12,12,2021-11-20,Stuttgart,Home,56,56,1,0,1,Donyell,Malen,Guerreiro,Guerreiro,Bellingham,,malen,guerreiro,guerreiro,bellingham
+2021-22,Bundesliga,MD12,12,2021-11-20,Stuttgart,Home,85,85,2,1,1,Marco,Reus,,Hazard,Tigges,No Official Assist (Reus scores on Hazard Rebound); Combination (Tigges-Reus-Hazard-Reus),reus,,hazard,tigges
+2021-22,Champions League,GR,5,2021-11-24,Sporting CP,Away,90+3,93,1,3,-2,Donyell,Malen,Reus,Reus,Brandt,,malen,reus,reus,brandt
+2021-22,Bundesliga,MD13,13,2021-11-27,Wolfsburg,Away,35,35,1,1,0,Emre,Can,,,,No Assists (Penalty),can,,,
+2021-22,Bundesliga,MD13,13,2021-11-27,Wolfsburg,Away,55,55,2,1,1,Donyell,Malen,Reus,Reus,Schulz,,malen,reus,reus,schulz
+2021-22,Bundesliga,MD13,13,2021-11-27,Wolfsburg,Away,81,81,3,1,2,Erling,Haaland,Brandt,Brandt,Reus,,haaland,brandt,brandt,reus
+2021-22,Bundesliga,MD14,14,2021-12-04,Bayern Munich,Home,5,5,1,0,1,Julian,Brandt,Bellingham,Bellingham,Guerreiro,,brandt,bellingham,bellingham,guerreiro
+2021-22,Bundesliga,MD14,14,2021-12-04,Bayern Munich,Home,48,48,2,2,0,Erling,Haaland,Bellingham,Bellingham,Meunier,Meunier cross struck defender and fell to Bellingham,haaland,bellingham,bellingham,meunier
+2021-22,Champions League,GR,6,2021-12-07,Beşiktaş,Home,29,29,1,0,1,Donyell,Malen,Bellingham,Bellingham,Schulz,,malen,bellingham,bellingham,schulz
+2021-22,Champions League,GR,6,2021-12-07,Beşiktaş,Home,45+2,45.2,2,0,2,Marco,Reus,,,,No Assists (Penalty),reus,,,
+2021-22,Champions League,GR,6,2021-12-07,Beşiktaş,Home,53,53,3,0,3,Marco,Reus,Dahoud,Dahoud,Reinier,Combination (Reinier-Dahoud-Reus-Dahoud-Reus),reus,dahoud,dahoud,reinier
+2021-22,Champions League,GR,6,2021-12-07,Beşiktaş,Home,68,68,4,0,4,Erling,Haaland,Schulz,Schulz,Dahoud,,haaland,schulz,schulz,dahoud
+2021-22,Champions League,GR,6,2021-12-07,Beşiktaş,Home,81,81,5,0,5,Erling,Haaland,Dahoud,Dahoud,,No Second Assist (Dahoud corner),haaland,dahoud,dahoud,
+2021-22,Bundesliga,MD15,15,2021-12-11,VfL Bochum,Away,85,85,1,1,0,Julian,Brandt,Haaland,Haaland,Reus,,brandt,haaland,haaland,reus
+2021-22,Bundesliga,MD16,16,2021-12-15,Greuther Fürth,Home,33,33,1,0,1,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2021-22,Bundesliga,MD16,16,2021-12-15,Greuther Fürth,Home,82,82,2,0,2,Erling,Haaland,Brandt,Brandt,,No Second Assist (Brandt Free Kick),haaland,brandt,brandt,
+2021-22,Bundesliga,MD16,16,2021-12-15,Greuther Fürth,Home,89,89,3,0,3,Donyell,Malen,Brandt,Brandt,Meunier,,malen,brandt,brandt,meunier
+2021-22,Bundesliga,MD17,17,2021-12-18,Hertha BSC,Away,31,31,1,0,1,Julian,Brandt,,Haaland,Dahoud,No Official Assist (Defender deflected to Brandt),brandt,,haaland,dahoud
+2021-22,Bundesliga,MD17,17,2021-12-18,Hertha BSC,Away,83,83,2,3,-1,Steffen,Tigges,Guerreiro,Guerreiro,Dahoud,,tigges,guerreiro,guerrerio,dahoud
+2021-22,Bundesliga,MD18,18,2022-01-08,Frankfurt,Away,71,71,1,2,-1,Thorgan,Hazard,Haaland,Haaland,Reus,,hazard,haaland,haaland,reus
+2021-22,Bundesliga,MD18,18,2022-01-08,Frankfurt,Away,87,87,2,2,0,Jude,Bellingham,Meunier,Meunier,Haaland,Haaland pass blocked to Meunier,bellingham,meunier,meunier,haaland
+2021-22,Bundesliga,MD18,18,2022-01-08,Frankfurt,Away,89,89,3,2,1,Mahmoud,Dahoud,,Haaland,Hazard,No Official Assist (Haaland pass blocked to Dahoud),dahoud,,haaland,hazard
+2021-22,Bundesliga,MD19,19,2022-01-14,Freiburg,Home,14,14,1,0,1,Thomas,Meunier,Brandt,Brandt,,No Second Assist (Brandt corner),meunier,brandt,brandt,
+2021-22,Bundesliga,MD19,19,2022-01-14,Freiburg,Home,29,29,2,0,2,Thomas,Meunier,Brandt,Brandt,,No Second Assist (Brandt corner),meunier,brandt,brandt,
+2021-22,Bundesliga,MD19,19,2022-01-14,Freiburg,Home,45+1,45.1,3,0,3,Erling,Haaland,Bellingham,Bellingham,,No Second Assist (Bellingham won the ball),haaland,bellingham,bellingham,
+2021-22,Bundesliga,MD19,19,2022-01-14,Freiburg,Home,75,75,4,1,3,Erling,Haaland,Dahoud,Dahoud,,No Second Assist (Dahoud won the ball),haaland,dahoud,dahoud,
+2021-22,Bundesliga,MD19,19,2022-01-14,Freiburg,Home,86,86,5,1,4,Mahmoud,Dahoud,Schulz,Schulz,Malen,,dahoud,schulz,schulz,malen
+2021-22,DFB-Pokal,R16,3,2022-01-18,St. Pauli,Away,58,58,1,2,-1,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2021-22,Bundesliga,MD20,20,2022-01-22,Hoffenheim,Away,6,6,1,0,1,Erling,Haaland,Malen,Malen,Bellingham,,haaland,malen,malen,bellingham
+2021-22,Bundesliga,MD20,20,2022-01-22,Hoffenheim,Away,58,58,2,1,1,Marco,Reus,Malen,Malen,Haaland,,reus,malen,malen,haaland
+2021-22,Bundesliga,MD20,20,2022-01-22,Hoffenheim,Away,67,67,3,1,2,Donyell,Malen,,Guerreiro,Dahoud,Own Goal Awarded to Malen,malen,,guerreiro,dahoud
+2021-22,Bundesliga,MD21,21,2022-02-06,Leverkusen,Home,16,16,1,1,0,Julian,Brandt,,,,Own Goal Awarded to Brandt; No Assists (Direct Free Kick),brandt,,,
+2021-22,Bundesliga,MD21,21,2022-02-06,Leverkusen,Home,90+1,90.1,2,5,-3,Steffen,Tigges,,Moukoko,Guerreiro,No Official Assist (Unclear why),tigges,,moukoko,guerreiro
+2021-22,Bundesliga,MD22,22,2022-02-13,Union Berlin,Away,18,18,1,0,1,Marco,Reus,Dahoud,Dahoud,,No Second Assist (Dahoud picked up loose ball),reus,dahoud,dahoud,
+2021-22,Bundesliga,MD22,22,2022-02-13,Union Berlin,Away,25,25,2,0,2,Marco,Reus,Malen,Malen,Zagadou,,reus,malen,malen,zagadou
+2021-22,Bundesliga,MD22,22,2022-02-13,Union Berlin,Away,71,71,3,0,3,Raphaël,Guerreiro,,Malen,Bellingham,No Official Assist (Malen shot saved),guerreiro,,malen,bellingham
+2021-22,Europa League,KPO-1,7,2022-02-17,Rangers,Home,51,51,1,3,-2,Jude,Bellingham,Guerreiro,Guerreiro,,No Second Assist (Guerreiro picked up loose ball),bellingham,guerreiro,guerreiro,
+2021-22,Europa League,KPO-1,7,2022-02-17,Rangers,Home,82,82,2,4,-2,Raphaël,Guerreiro,Bellingham,Bellingham,,No Second Assist (Bellingham picked up loose ball),guerreiro,bellingham,bellingham,
+2021-22,Bundesliga,MD23,23,2022-02-20,Gladbach,Home,26,26,1,0,1,Marco,Reus,,Malen,Guerreiro,No Official Assist (Malen shot saved),reus,,malen,guerreiro
+2021-22,Bundesliga,MD23,23,2022-02-20,Gladbach,Home,32,32,2,0,2,Donyell,Malen,Reus,Reus,Brandt,,malen,reus,reus,brandt
+2021-22,Bundesliga,MD23,23,2022-02-20,Gladbach,Home,70,70,3,0,3,Marius,Wolf,Reus,Reus,,No Second Assist (Reus won loose ball),wolf,reus,reus,
+2021-22,Bundesliga,MD23,23,2022-02-20,Gladbach,Home,74,74,4,0,4,Youssoufa,Moukoko,Reus,Reus,Wolf,,moukoko,reus,reus,wolf
+2021-22,Bundesliga,MD23,23,2022-02-20,Gladbach,Home,81,81,5,0,5,Marco,Reus,Hummels,Hummels,Kobel,,reus,hummels,hummels,kobel
+2021-22,Bundesliga,MD23,23,2022-02-20,Gladbach,Home,90+1,90.1,6,0,6,Emre,Can,,,,No Assists (Penalty),can,,,
+2021-22,Europa League,KPO-2,8,2022-02-24,Rangers,Away,31,31,1,1,0,Jude,Bellingham,,Malen,Meunier,No Official Assist (Malen pass hit a defender); Combination (Meunier-Bellingham-Malen-Bellingham),bellingham,,malen,meunier
+2021-22,Europa League,KPO-2,8,2022-02-24,Rangers,Away,42,42,2,1,1,Donyell,Malen,Bellingham,Bellingham,Brandt,,malen,bellingham,bellingham,brandt
+2021-22,Bundesliga,MD24,24,2022-02-27,Augsburg,Away,35,35,1,0,1,Thorgan,Hazard,Dahoud,Dahoud,Brandt,,hazard,dahoud,dahoud,brandt
+2021-22,Bundesliga,MD26,26,2022-03-13,Arminia Bielefeld,Home,21,21,1,0,1,Marius,Wolf,Hazard,Hazard,Bellingham,,wolf,hazard,hazard,bellingham
+2021-22,Bundesliga,MD25,25,2022-03-16,Mainz 05,Away,87,87,1,0,1,Axel,Witsel,Reyna,Reyna,,,witsel,reyna,reyna,
+2021-22,Bundesliga,MD27,27,2022-03-20,Köln,Away,8,8,1,0,1,Marius,Wolf,Bellingham,Bellingham,Guerreiro,,wolf,bellingham,bellingham,guerreiro
+2021-22,Bundesliga,MD28,28,2022-04-02,RB Leipzig,Home,84,84,1,3,-2,Donyell,Malen,Can,Can,Bellingham,Combination (Malen-Can-Malen),malen,can,can,bellingham
+2021-22,Bundesliga,MD29,29,2022-04-08,Stuttgart,Away,12,12,1,0,1,Julian,Brandt,Haaland,Haaland,Bellingham,,brandt,haaland,haaland,bellingham
+2021-22,Bundesliga,MD29,29,2022-04-08,Stuttgart,Away,71,71,2,0,2,Julian,Brandt,Reus,Reus,Witsel,Combination (Brandt-Reus-Brandt),brandt,reus,reus,witsel
+2021-22,Bundesliga,MD30,30,2022-04-16,Wolfsburg,Home,24,24,1,0,1,Tom,Rothe,Brandt,Brandt,, ,rothe,brandt,brandt,
+2021-22,Bundesliga,MD30,30,2022-04-16,Wolfsburg,Home,26,26,2,0,2,Axel,Witsel,Haaland,Haaland,,No Second assist (Witsel won ball); Combination (Witsel-Haaland-Witsel),witsel,haaland,haaland,
+2021-22,Bundesliga,MD30,30,2022-04-16,Wolfsburg,Home,28,28,3,0,3,Manuel,Akanji,Reus,Reus,,No Second Assist (Reus free kick),akanji,reus,reus,
+2021-22,Bundesliga,MD30,30,2022-04-16,Wolfsburg,Home,35,35,4,0,4,Emre,Can,Wolf,Wolf,Haaland,,can,wolf,wolf,haaland
+2021-22,Bundesliga,MD30,30,2022-04-16,Wolfsburg,Home,38,38,5,0,5,Erling,Haaland,Reus,Reus,Brandt,,haaland,reus,reus,brandt
+2021-22,Bundesliga,MD30,30,2022-04-16,Wolfsburg,Home,54,54,6,0,6,Erling,Haaland,Brandt,Brandt,Reus,,haaland,brandt,brandt,reus
+2021-22,Bundesliga,MD31,31,2022-04-23,Bayern Munich,Away,52,52,1,2,-1,Emre,Can,,,,No Assists (Penalty),can,,,
+2021-22,Bundesliga,MD32,32,2022-04-30,VfL Bochum,Home,18,18,1,2,-1,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2021-22,Bundesliga,MD32,32,2022-04-30,VfL Bochum,Home,30,30,2,2,0,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2021-22,Bundesliga,MD32,32,2022-04-30,VfL Bochum,Home,62,62,3,2,1,Erling,Haaland,Reus,Reus,Bynoe-Gittens,,haaland,reus,reus,bynoe-gittens
+2021-22,Bundesliga,MD33,33,2022-05-07,Greuther Fürth,Away,26,26,1,0,1,Julian,Brandt,,Guerreiro,Haaland,No Official Assist (Guerreiro shot rebounded),brandt,,guerreiro,haaland
+2021-22,Bundesliga,MD33,33,2022-05-07,Greuther Fürth,Away,72,72,2,1,1,Julian,Brandt,Schulz,Schulz,Bellingham,,brandt,schulz,schulz,bellingham
+2021-22,Bundesliga,MD33,33,2022-05-07,Greuther Fürth,Away,77,77,3,1,2,Felix,Passlack,Reus,Reus,Brandt,,passlack,reus,reus,brandt
+2021-22,Bundesliga,MD34,34,2022-05-14,Hertha Berlin,Home,68,68,1,1,0,Erling,Haaland,,,,No Assists (Penalty),haaland,,,
+2021-22,Bundesliga,MD34,34,2022-05-14,Hertha Berlin,Home,84,84,2,1,1,Youssoufa,Moukoko,Bellingham,Bellingham,Guerreiro,,moukoko,bellingham,bellingham,guerreiro

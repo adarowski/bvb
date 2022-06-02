@@ -20,6 +20,6 @@ id,date,opponent,comp,round,venue,gf,ga,result,stream,time,recap,fussball_de
 19,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,142906,20:15,https://www.bvb.de/Mannschaften/Frauen/News/BVB-steht-nach-4-1-gegen-Wambeler-SV-im-Kreispokal-Endspiel,https://www.fussball.de/spiel/borussia-dortmund-wambeler-sv/-/spiel/02GJCVFJTS000000VS5489B4VSM5S7RJ#!/
 20,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,,12:00,https://www.bvb.de/Mannschaften/Frauen/News/17-0!-BVB-schlaegt-Luenen-mit-Rekordergebnis,https://www.fussball.de/spiel/luener-sv-borussia-dortmund/-/spiel/02FCK030NG000000VS5489B4VSG06PAH#!/
 21,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home,7,0,Win,116359,16:30,https://www.bvb.de/Mannschaften/Frauen/News/BVB-Frauen-nach-7-0-Sieg-gegen-Kirchderne-weiter-auf-Erfolgskurs,https://www.fussball.de/spiel/borussia-dortmund-bv-viktoria-kirchderne/-/spiel/02FCK0307K000000VS5489B4VSG06PAH#!/
-22,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,,,,147300,15:00,,
-23,2022-05-25,TBD (likely TV Brechten II),Playoffs,,,,,,,,,
-24,2022-05-29,TV Brechten,Kreispokal,F,Home,,,,,15:30,,
+22,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,147300,15:30,https://www.bvb.de/Mannschaften/Frauen/News/BVB-Frauen-siegen-2-1-durch-Goosmann-Doppelpack,https://www.fussball.de/spiel/borussia-dortmund-sv-koerne/-/spiel/02FCK02V4S000000VS5489B4VSG06PAH#!/
+23,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,151878,19:30,https://www.bvb.de/News/Uebersicht/4-0-gegen-Brechten-BVB-Frauen-steigen-in-die-Bezirksliga-auf,https://www.fussball.de/spiel/borussia-dortmund-tv-brechten-ii/-/spiel/02I84R8IT4000000VS5489B3VU9O46OC#!/
+24,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,,15:30,https://www.bvb.de/News/Uebersicht/Die-BVB-Frauen-sind-Pokalsieger,https://www.fussball.de/spiel/borussia-dortmund-tv-brechten/-/spiel/02HSDTEUS4000000VS5489B4VT4FVGVG#!/

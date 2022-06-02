@@ -247,6 +247,10 @@ th, td {
   }
 }
 
+td.empty {
+  background-color: #f6f6f6;
+}
+
 thead {
   tr:first-child {
     th {

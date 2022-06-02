@@ -1,0 +1,153 @@
+---
+layout: default
+title: Hockey-Style Scoring for the Borussia Dortmund Men’s Team
+body_class: men
+---
+
+<h1>{{ page.title }}</h1>
+
+<p style="max-width: 800px;">This site was previously dedicated to publishing hockey-style scoring stats for the Borussia Dortmund men’s team. The site pivoted to cover the women’s team, but this is a simplified version of the data from the old site. This page has the stats for 2021-22. Also see:</p>
+<ul>
+  <li><a href="hockey-goals.html">All {{ site.data.men-goals.size }} goals</a> Borussia Dortmund has scored in all competitions since 2015-16.</li>
+  <li><a href="hockey-stats.html">All scoring data</a> for Borussia Dortmund in all competitions since 2015-16.</li>
+</ul>
+
+<h2>Player Stats</h2>
+
+<div class="table-container">
+  <table id="men-stats" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left"></th>
+        <th colspan="4">ALL</th>
+        <th colspan="4">BULI</th>
+        <th colspan="4">UCL</th>
+        <th colspan="4">UEL</th>
+        <th colspan="4">CUP</th>
+        <th colspan="4">SCUP</th>
+      </tr>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right" data-sort-default>PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.men-stats %}
+        {% if player.season == "2021-22" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+            </td>
+            <td class="right" data-value="{{ player.g_all }}">{{ player.g_all }}</td>
+            <td class="right" data-value="{{ player.1a_all }}">{{ player.1a_all }}</td>
+            <td class="right" data-value="{{ player.2a_all }}">{{ player.2a_all }}</td>
+            <td class="right" data-value="{{ player.pts_all }}">{{ player.pts_all }}</td>
+            <td class="right" data-value="{{ player.g_lg }}">{{ player.g_lg }}</td>
+            <td class="right" data-value="{{ player.1a_lg }}">{{ player.1a_lg }}</td>
+            <td class="right" data-value="{{ player.2a_lg }}">{{ player.2a_lg }}</td>
+            <td class="right" data-value="{{ player.pts_lg }}">{{ player.pts_lg }}</td>
+            <td class="right" data-value="{{ player.g_ucl }}">{{ player.g_ucl }}</td>
+            <td class="right" data-value="{{ player.1a_ucl }}">{{ player.1a_ucl }}</td>
+            <td class="right" data-value="{{ player.2a_ucl }}">{{ player.2a_ucl }}</td>
+            <td class="right" data-value="{{ player.pts_ucl }}">{{ player.pts_ucl }}</td>
+            <td class="right" data-value="{{ player.g_uel }}">{{ player.g_uel }}</td>
+            <td class="right" data-value="{{ player.1a_uel }}">{{ player.1a_uel }}</td>
+            <td class="right" data-value="{{ player.2a_uel }}">{{ player.2a_uel }}</td>
+            <td class="right" data-value="{{ player.pts_uel }}">{{ player.pts_uel }}</td>
+            <td class="right" data-value="{{ player.g_cup }}">{{ player.g_cup }}</td>
+            <td class="right" data-value="{{ player.1a_cup }}">{{ player.1a_cup }}</td>
+            <td class="right" data-value="{{ player.2a_cup }}">{{ player.2a_cup }}</td>
+            <td class="right" data-value="{{ player.pts_cup }}">{{ player.pts_cup }}</td>
+            <td class="right" data-value="{{ player.g_scup }}">{{ player.g_scup }}</td>
+            <td class="right" data-value="{{ player.1a_scup }}">{{ player.1a_scup }}</td>
+            <td class="right" data-value="{{ player.2a_scup }}">{{ player.2a_scup }}</td>
+            <td class="right" data-value="{{ player.pts_scup }}">{{ player.pts_scup }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2>Goals</h2>
+
+<div class="goal-table-filter">
+  <label for="goal-filter">Filter Goals</label>
+  <input id="goal-filter" type="text" class="table-filter" data-table="goals-table" placeholder="Search for player, opponent, competition, etc." />
+</div>
+
+<div class="table-container">
+  <table id="men-goals" class="goals-table">
+    <thead>
+      <tr>
+        <th class="left">Scorer</th>
+        <th class="left">Official Assist</th>
+        <th class="left">1st Assist</th>
+        <th class="left">2nd Assist</th>
+        <th class="left">Date</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="right">Min</th>
+        <th class="left">Opponent</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
+        <th class="left">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for goal in site.data.men-goals %}
+        {% if goal.season == "2021-22" %}
+        <tr>
+          <td class="left" data-sort="{{ goal.id_scorer }}">
+            <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
+          </td>
+          <td class="left">{{ goal.assist_1st }}</td>
+          <td class="left">{{ goal.assist_2nd }}</td>
+          <td class="left">{{ goal.date }}</td>
+          <td class="left">{{ goal.comp }}</td>
+          <td class="left" data-sort="{{ goal.id }}">{{ goal.round }}</td>
+          <td class="right" data-sort="{{ goal.min_alt }}"> {{ goal.min }}</td>
+          <td class="left">{{ goal.opponent }}</td>
+          <td class="left">{{ goal.venue }}</td>
+          <td class="right">{{ goal.gf }}</td>
+          <td class="right">{{ goal.ga }}</td>
+          <td class="right">{{ goal.gd }}</td>
+          <td class="left"><span>{{ goal.note }}</span></td>
+        </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  new Tablesort(document.getElementById('men-stats'), { descending: true });
+  new Tablesort(document.getElementById('men-goals'));
+</script>
+
+{% include table-search-script.html %}

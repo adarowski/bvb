@@ -1,0 +1,143 @@
+---
+layout: default
+title: "Hockey-Style Scoring: Player Stats"
+body_class: men
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>This table shows the {{ site.data.men-goals.size }} goals Borussia Dortmund has scored in all competitions since 2015-16. Search tips:</p>
+
+<ul>
+  <li>Search for a name to reveal all season stats by that player since 2015-16.</li>
+  <li>Search for a season to reveal all stats for that season.</li>
+</ul>
+
+<p><a href="hockey.html">Back to 2022 data</a><p>
+
+<div class="goal-table-filter">
+  <label for="goal-filter">Filter Stats</label>
+  <input id="goal-filter" type="text" class="table-filter" data-table="stats-table" placeholder="Search for player, opponent, competition, etc." />
+</div>
+
+<div class="table-container">
+  <table id="men-stats" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left"></th>
+        <th class="left"></th>
+        <th colspan="4">ALL</th>
+        <th colspan="4">BULI</th>
+        <th colspan="4">UCL</th>
+        <th colspan="4">UEL</th>
+        <th colspan="4">UELQ</th>
+        <th colspan="4">CUP</th>
+        <th colspan="4">SCUP</th>
+      </tr>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Season</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+        <th class="right">G</th>
+        <th class="left">1A</th>
+        <th class="right">2A</th>
+        <th class="right">PTS</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.men-stats %}
+        <tr>
+          <td class="left" data-sort="{{ player.id }}">
+            <strong><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</strong>
+          </td>
+          <td class="right" data-value="{{ player.season }}">{{ player.season }}</td>
+          <td class="right" data-value="{{ player.g_all }}">{{ player.g_all }}</td>
+          <td class="right" data-value="{{ player.1a_all }}">{{ player.1a_all }}</td>
+          <td class="right" data-value="{{ player.2a_all }}">{{ player.2a_all }}</td>
+          <td class="right" data-value="{{ player.pts_all }}">{{ player.pts_all }}</td>
+          <td class="right" data-value="{{ player.g_lg }}">{{ player.g_lg }}</td>
+          <td class="right" data-value="{{ player.1a_lg }}">{{ player.1a_lg }}</td>
+          <td class="right" data-value="{{ player.2a_lg }}">{{ player.2a_lg }}</td>
+          <td class="right" data-value="{{ player.pts_lg }}">{{ player.pts_lg }}</td>
+          {% unless player.season == "2015-16" %}
+            <td class="right" data-value="{{ player.g_ucl }}">{{ player.g_ucl }}</td>
+            <td class="right" data-value="{{ player.1a_ucl }}">{{ player.1a_ucl }}</td>
+            <td class="right" data-value="{{ player.2a_ucl }}">{{ player.2a_ucl }}</td>
+            <td class="right" data-value="{{ player.pts_ucl }}">{{ player.pts_ucl }}</td>
+          {% else %}
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+          {% endunless %}
+          {% if player.season == "2021-22" or player.season == "2017-18" or player.season == "2015-16" %}
+            <td class="right" data-value="{{ player.g_uel }}">{{ player.g_uel }}</td>
+            <td class="right" data-value="{{ player.1a_uel }}">{{ player.1a_uel }}</td>
+            <td class="right" data-value="{{ player.2a_uel }}">{{ player.2a_uel }}</td>
+            <td class="right" data-value="{{ player.pts_uel }}">{{ player.pts_uel }}</td>
+          {% else %}
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+          {% endif %}
+          {% if player.season == "2015-16" %}
+            <td class="right" data-value="{{ player.g_uelq }}">{{ player.g_uelq }}</td>
+            <td class="right" data-value="{{ player.1a_uelq }}">{{ player.1a_uelq }}</td>
+            <td class="right" data-value="{{ player.2a_uelq }}">{{ player.2a_uelq }}</td>
+            <td class="right" data-value="{{ player.pts_uelq }}">{{ player.pts_uelq }}</td>
+          {% else %}
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+          {% endif %}
+          <td class="right" data-value="{{ player.g_cup }}">{{ player.g_cup }}</td>
+          <td class="right" data-value="{{ player.1a_cup }}">{{ player.1a_cup }}</td>
+          <td class="right" data-value="{{ player.2a_cup }}">{{ player.2a_cup }}</td>
+          <td class="right" data-value="{{ player.pts_cup }}">{{ player.pts_cup }}</td>
+          {% if player.season == "2021-22" or player.season == "2020-21" or player.season == "2019-20" or player.season == "2017-18" or player.season == "2016-17" %}
+            <td class="right" data-value="{{ player.g_scup }}">{{ player.g_scup }}</td>
+            <td class="right" data-value="{{ player.1a_scup }}">{{ player.1a_scup }}</td>
+            <td class="right" data-value="{{ player.2a_scup }}">{{ player.2a_scup }}</td>
+            <td class="right" data-value="{{ player.pts_scup }}">{{ player.pts_scup }}</td>
+          {% else %}
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+            <td class="empty"></td>
+          {% endif %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  new Tablesort(document.getElementById('men-stats'), { descending: true });
+</script>
+
+{% include table-search-script.html %}

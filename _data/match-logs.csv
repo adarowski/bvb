@@ -4,7 +4,7 @@ bergmann,1,DM,60,0,2,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,H
 gerres,1,RB,45,0,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Allegra,Gerres
 glanzer,1,CB,90,1,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Virginia,Glänzer
 goosmann,1,ST,90,1,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Hannah,Goosmann
-heim,1,LW,75,2,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Vanessa,Heim
+kuhl,1,LW,75,2,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Vanessa,Kuhl
 herbig,1,,15,0,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Annika,Herbig
 hohl,1,,15,0,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Laura,Höhl
 jung,1,CB,90,0,0,0,0,2021-09-12,BV Brambauer 13/​45 e.V.,Kreisliga A,MD1,Home,8,0,Win,Marina,Jung
@@ -19,7 +19,7 @@ billig,2,,34,0,0,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,W
 gerres,2,RB,64,0,0,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Allegra,Gerres
 glanzer,2,LB,90,0,0,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Virginia,Glänzer
 goosmann,2,,26,1,0,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Hannah,Goosmann
-heim,2,LW,56,2,4,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Vanessa,Heim
+kuhl,2,LW,56,2,4,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Vanessa,Kuhl
 herbig,2,,34,1,0,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Annika,Herbig
 hohl,2,RW,90,1,2,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Laura,Höhl
 jung,2,CB,90,1,1,0,0,2021-09-17,Urania Lütgendortmund,Kreispokal,R1,Away,12,0,Win,Marina,Jung
@@ -34,7 +34,7 @@ billig,3,,32,0,1,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Anni
 gerres,3,,13,0,0,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Allegra,Gerres
 glanzer,3,LB,90,0,1,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Virginia,Glänzer
 goosmann,3,ST,77,1,1,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Hannah,Goosmann
-heim,3,LW,90,0,0,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Vanessa,Heim
+kuhl,3,LW,90,0,0,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Vanessa,Kuhl
 herbig,3,,13,0,0,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Annika,Herbig
 jung,3,CB,90,0,0,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Marina,Jung
 kaul,3,AM,58,1,0,0,0,2021-09-26,SF Sölderholz,Kreisliga A,MD2,Away,4,0,Win,Carolin,Kaul
@@ -50,7 +50,7 @@ billig,4,AM,67,2,2,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0
 gerres,4,RB,90,0,1,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Allegra,Gerres
 glanzer,4,LB,90,1,1,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Virginia,Glänzer
 goosmann,4,ST,90,6,1,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Hannah,Goosmann
-heim,4,LW,58,2,1,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Vanessa,Heim
+kuhl,4,LW,58,2,1,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Vanessa,Kuhl
 herbig,4,RW,58,1,0,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Annika,Herbig
 hohl,4,,32,0,0,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Laura,Höhl
 jung,4,CB,90,1,0,0,0,2021-10-03,BV Teutonia Lanstrop,Kreisliga A,MD3,Home,15,0,Win,Marina,Jung
@@ -92,7 +92,7 @@ bergmann,7,DM,90,0,1,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,
 billig,7,,28,1,0,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Annika,Billig
 glanzer,7,CB,90,0,0,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Virginia,Glänzer
 goosmann,7,ST,70,0,0,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Hannah,Goosmann
-heim,7,LW,62,2,2,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Vanessa,Heim
+kuhl,7,LW,62,2,2,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Vanessa,Kuhl
 herbig,7,,24,0,0,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Annika,Herbig
 jung,7,CB,90,0,0,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Marina,Jung
 kaul,7,,20,0,0,0,0,2021-10-24,SF Ay Yildiz Derne,Kreisliga A,MD6,Away,6,0,Win,Carolin,Kaul
@@ -121,7 +121,7 @@ bergmann,9,DM,90,0,1,1,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Wi
 billig,9,,17,0,0,0,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Annika,Billig
 glanzer,9,CB,90,0,1,0,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Virginia,Glänzer
 goosmann,9,ST,58,0,0,0,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Hannah,Goosmann
-heim,9,LW,58,2,0,0,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Vanessa,Heim
+kuhl,9,LW,58,2,0,0,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Vanessa,Kuhl
 herbig,9,,32,0,0,0,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Annika,Herbig
 hohl,9,,26,0,0,1,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Laura,Höhl
 jung,9,CB,90,0,0,0,0,2021-11-02,SF Ay Yildiz Derne,Kreispokal,R2,Home,5,0,Win,Marina,Jung
@@ -137,7 +137,7 @@ billig,10,AM,62,0,0,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3
 falker,10,LW,45,0,0,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Annika,Fälker
 gerres,10,RB,90,0,0,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Allegra,Gerres
 glanzer,10,,28,0,0,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Virginia,Glänzer
-heim,10,,45,1,1,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Vanessa,Heim
+kuhl,10,,45,1,1,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Vanessa,Kuhl
 hohl,10,RW,90,0,0,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Laura,Höhl
 jung,10,CB,90,0,0,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Marina,Jung
 kaul,10,ST,45,0,0,0,0,2021-11-07,BV Viktoria Kirchderne,Kreisliga A,MD8,Away,3,0,Win,Carolin,Kaul
@@ -152,7 +152,7 @@ bergmann,11,DM,90,0,0,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3
 billig,11,,23,0,1,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Annika,Billig
 glanzer,11,CB,90,0,0,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Virginia,Glänzer
 goosmann,11,ST,67,0,0,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Hannah,Goosmann
-heim,11,LW,90,1,1,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Vanessa,Heim
+kuhl,11,LW,90,1,1,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Vanessa,Kuhl
 jung,11,CB,90,0,0,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Marina,Jung
 kaul,11,,14,1,0,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Carolin,Kaul
 klemann,11,LB,90,0,0,0,0,2021-11-22,SV Eintracht Dorstfeld,Kreispokal,QF,Home,3,0,Win,Lisa,Klemann
@@ -167,7 +167,7 @@ billig,12,AM,90,0,0,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Ann
 falker,12,LB,45,0,0,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Annika,Fälker
 gerres,12,RB,90,0,0,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Allegra,Gerres
 glanzer,12,CB,90,0,0,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Virginia,Glänzer
-heim,12,LW,71,2,2,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Vanessa,Heim
+kuhl,12,LW,71,2,2,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Vanessa,Kuhl
 hohl,12,RW,90,1,1,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Laura,Höhl
 jung,12,CB,90,0,0,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Marina,Jung
 kaul,12,ST,54,2,0,0,0,2021-11-28,SV Körne 83,Kreisliga A,MD9,Away,5,0,Win,Carolin,Kaul
@@ -181,7 +181,7 @@ bergmann,13,DM,90,0,0,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10
 billig,13,AM,60,0,0,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Annika,Billig
 gerres,13,RB,45,0,0,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Allegra,Gerres
 glanzer,13,CB,90,0,1,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Virginia,Glänzer
-heim,13,LW,90,2,0,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Vanessa,Heim
+kuhl,13,LW,90,2,0,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Vanessa,Kuhl
 hohl,13,,20,1,1,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Laura,Höhl
 jung,13,CB,90,1,0,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Marina,Jung
 kaul,13,ST,90,0,0,0,0,2022-03-05,BV Brambauer 13/​45 e.V.,Kreisliga A,MD10,Away,6,0,Win,Carolin,Kaul
@@ -196,7 +196,7 @@ bergmann,14,GK,90,0,0,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,
 falker,14,LW,77,1,0,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Annika,Fälker
 gerres,14,RB,90,0,0,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Allegra,Gerres
 goosmann,14,,13,1,0,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Hannah,Goosmann
-heim,14,RW,90,0,7,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Vanessa,Heim
+kuhl,14,RW,90,0,7,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Vanessa,Kuhl
 herbig,14,,13,0,1,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Annika,Herbig
 kaul,14,AM,61,3,1,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Carolin,Kaul
 klemann,14,CB,90,1,0,0,0,2022-03-27,BV Teutonia Lanstrop,Kreisliga A,MD12,Away,14,0,Win,Lisa,Klemann
@@ -227,7 +227,7 @@ billig,16,,31,1,0,1,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,An
 falker,16,LB,90,0,1,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Annika,Fälker
 glanzer,16,CB,90,0,0,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Virginia,Glänzer
 goosmann,16,,16,0,0,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Hannah,Goosmann
-heim,16,LW,90,1,1,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Vanessa,Heim
+kuhl,16,LW,90,1,1,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Vanessa,Kuhl
 jung,16,CB,90,0,0,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Marina,Jung
 kaul,16,ST,74,0,0,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Carolin,Kaul
 lau,16,RW,59,0,0,0,0,2022-04-06,SF Sölderholz,Kreisliga A,MD11,Home,3,1,Win,Ann-Katrin,Lau
@@ -241,7 +241,7 @@ billig,17,,29,0,0,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Annik
 gerres,17,RB,90,0,1,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Allegra,Gerres
 glanzer,17,CB,90,0,0,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Virginia,Glänzer
 goosmann,17,,45,2,0,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Hannah,Goosmann
-heim,17,LW,90,2,2,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Vanessa,Heim
+kuhl,17,LW,90,2,2,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Vanessa,Kuhl
 herbig,17,RW,67,1,0,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Annika,Herbig
 kaul,17,ST,45,0,0,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Carolin,Kaul
 lau,17,,23,1,0,0,0,2022-04-10,TuRa Asseln,Kreisliga A,MD14,Away,8,0,Win,Ann-Katrin,Lau
@@ -255,7 +255,7 @@ bergmann,18,DM,57,0,0,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,
 billig,18,AM,70,0,0,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Annika,Billig
 glanzer,18,CB,90,0,0,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Virginia,Glänzer
 goosmann,18,,33,1,0,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Hannah,Goosmann
-heim,18,LW,90,3,1,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Vanessa,Heim
+kuhl,18,LW,90,3,1,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Vanessa,Kuhl
 herbig,18,,16,0,0,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Annika,Herbig
 jung,18,CB,90,0,0,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Marina,Jung
 kaul,18,ST,57,1,0,0,0,2022-04-24,SF Ay Yildiz Derne,Kreisliga A,MD15,Home,6,0,Win,Carolin,Kaul
@@ -270,7 +270,7 @@ bergmann,19,DM,66,0,0,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Luis
 falker,19,,20,1,0,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Annika,Fälker
 glanzer,19,CB,90,1,0,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Virginia,Glänzer
 goosmann,19,,33,0,1,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Hannah,Goosmann
-heim,19,LW,90,0,0,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Vanessa,Heim
+kuhl,19,LW,90,0,0,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Vanessa,Kuhl
 hohl,19,RW,70,0,0,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Laura,Höhl
 jung,19,CB,90,0,1,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Marina,Jung
 kaul,19,ST,57,0,0,0,0,2022-04-28,Wambeler SV,Kreispokal,SF,Home,4,1,Win,Carolin,Kaul
@@ -285,7 +285,7 @@ billig,20,AM,90,2,2,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Anni
 falker,20,LW,67,0,4,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Annika,Fälker
 gerres,20,RB,90,1,0,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Allegra,Gerres
 goosmann,20,ST,67,4,0,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Hannah,Goosmann
-heim,20,,23,1,1,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Vanessa,Heim
+kuhl,20,,23,1,1,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Vanessa,Kuhl
 herbig,20,RW,67,0,1,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Annika,Herbig
 hohl,20,,23,1,0,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Laura,Höhl
 jung,20,CB,90,1,2,0,0,2022-05-01,Lüner SV,Kreisliga A,MD16,Away,17,0,Win,Marina,Jung
@@ -310,3 +310,48 @@ prinzen,21,CB,90,0,0,1,0,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home
 rogge-herper,21,,30,1,1,0,0,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home,7,0,Win,Lea,Rogge-Herper
 schroer,21,GK,90,0,0,0,0,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home,7,0,Win,Sandra,Schröer
 zabell,21,AM,90,2,2,0,0,2022-05-08,BV Viktoria Kirchderne,Kreisliga A,MD17,Home,7,0,Win,Ana,Zabell
+becker,22,AM,90,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Kimberly,Becker
+bergmann,22,DM,59,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Luisa,Bergmann
+falker,22,,45,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Annika,Fälker
+gerres,22,RB,19,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Allegra,Gerres
+goosmann,22,ST,90,2,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Hannah,Goosmann
+herbig,22,LW,45,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Annika,Herbig
+hohl,22,RW,59,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Laura,Höhl
+jung,22,CB,90,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Marina,Jung
+klemann,22,LB,90,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Lisa,Klemann
+kolmel,22,GK,90,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Lena,Kölmel
+lau,22,,31,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Ann-Katrin,Lau
+prinzen,22,CB,90,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Lilli,Prinzen
+rogge-herper,22,,31,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Lea,Rogge-Herper
+schneider,22,,71,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Hanna,Schneider
+zabell,22,AM,90,0,0,0,0,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,Ana,Zabell
+becker,23,,31,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Kimberly,Becker
+bergmann,23,DM,59,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Luisa,Bergmann
+billig,23,AM,79,1,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Annika,Billig
+falker,23,,63,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Annika,Fälker
+glanzer,23,CB,90,0,1,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Virginia,Glänzer
+kuhl,23,LW,90,2,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Vanessa,Kuhl
+jung,23,CB,19,0,1,0,1,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Marina,Jung
+kaul,23,ST,22,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Carolin,Kaul
+klemann,23,LB,90,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Lisa,Klemann
+lau,23,RW,90,1,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Ann-Katrin,Lau
+prinzen,23,,68,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Lilli,Prinzen
+rogge-herper,23,,11,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Lea,Rogge-Herper
+schneider,23,RB,27,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Hanna,Schneider
+schroer,23,GK,90,0,0,0,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Sandra,Schröer
+zabell,23,AM,90,0,0,1,0,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,Ana,Zabell
+becker,24,DM,90,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Kimberly,Becker
+bergmann,24,,16,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Luisa,Bergmann
+billig,24,,31,1,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Annika,Billig
+glanzer,24,CB,90,1,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Virginia,Glänzer
+goosmann,24,ST,45,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Hannah,Goosmann
+kuhl,24,LW,87,1,1,1,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Vanessa,Kuhl
+herbig,24,,3,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Annika,Herbig
+jung,24,CB,90,0,1,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Marina,Jung
+kaul,24,,45,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Carolin,Kaul
+klemann,24,RB,90,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Lisa,Klemann
+lau,24,RW,59,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Ann-Katrin,Lau
+porteners,24,LB,90,0,1,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Denise,Pörteners
+rogge-herper,24,AM,74,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Lea,Rogge-Herper
+schroer,24,GK,90,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Sandra,Schröer
+zabell,24,AM,90,0,0,0,0,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,Ana,Zabell

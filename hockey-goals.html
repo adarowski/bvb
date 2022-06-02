@@ -1,0 +1,77 @@
+---
+layout: default
+title: "Hockey-Style Scoring: All Goals"
+body_class: men
+---
+
+<h1>{{ page.title }}</h1>
+
+<div class="goal-table-filter">
+  <label for="goal-filter">Filter Goals</label>
+  <input id="goal-filter" type="text" class="table-filter" data-table="goals-table" placeholder="Search for player, opponent, competition, etc." />
+</div>
+
+<p>This table shows the {{ site.data.men-goals.size }} goals Borussia Dortmund has scored in all competitions since 2015-16. Search tips:</p>
+
+<ul>
+  <li>Search for a last name to reveal all goals that players was involved in since 2015-16.</li>
+  <li>Search for a first and last name to reveal all goals that the player scored himself.</li>
+  <li>Search by competition, opponent, season, date, or more to find only those goals.</li>
+  <li>Sort by minute to find earliest and latest goals.</li>
+  <li>Sort by GD (goal differential) and find “0” for game-tying goals and “1” for go-ahead goals.</li>
+</ul>
+
+<p><a href="hockey.html">Back to 2022 data</a><p>
+
+<div class="table-container">
+  <table id="men-goals" class="goals-table">
+    <thead>
+      <tr>
+        <th class="left">Scorer</th>
+        <th class="left">Official Assist</th>
+        <th class="left">1st Assist</th>
+        <th class="left">2nd Assist</th>
+        <th class="left">Season</th>
+        <th class="left">Date</th>
+        <th class="left">Competition</th>
+        <th class="left">Round</th>
+        <th class="right">Min</th>
+        <th class="left">Opponent</th>
+        <th class="left">Venue</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
+        <th class="left">Note</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for goal in site.data.men-goals %}
+        <tr>
+          <td class="left" data-sort="{{ goal.id_scorer }}">
+            <strong><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</strong>
+          </td>
+          <td class="left">{{ goal.assist_official }}</td>
+          <td class="left">{{ goal.assist_1st }}</td>
+          <td class="left">{{ goal.assist_2nd }}</td>
+          <td class="left">{{ goal.season }}</td>
+          <td class="left">{{ goal.date }}</td>
+          <td class="left">{{ goal.comp }}</td>
+          <td class="left" data-sort="{{ goal.id }}">{{ goal.round }}</td>
+          <td class="right" data-sort="{{ goal.min_alt }}"> {{ goal.min }}</td>
+          <td class="left">{{ goal.opponent }}</td>
+          <td class="left">{{ goal.venue }}</td>
+          <td class="right">{{ goal.gf }}</td>
+          <td class="right">{{ goal.ga }}</td>
+          <td class="right">{{ goal.gd }}</td>
+          <td class="left"><span>{{ goal.note }}</span></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  new Tablesort(document.getElementById('men-goals'));
+</script>
+
+{% include table-search-script.html %}
