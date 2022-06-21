@@ -267,6 +267,9 @@
         <li><strong>Joined BVB:</strong> {{ player.joined | date: '%B %-d, %Y' }}</li>
       {% endif %}
       <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
+      {% if player.note %}
+        <li><strong>Note:</strong> {{ player.note }}</li>
+      {% endif %}
     </ul>
   {% endif %}
 {% endfor %}
