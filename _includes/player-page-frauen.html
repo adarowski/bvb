@@ -264,7 +264,7 @@
         <li><strong>Club History:</strong> {{ player.club_history }}</li>
       {% endif %}
       {% if player.joined %}
-        <li><strong>Joined BVB:</strong> {{ player.joined | date: '%B %-d, %Y' }}</li>
+        <li><strong>Joined BVB:</strong> {{ player.joined_date | date: '%B %-d, %Y' }}</li>
       {% endif %}
       <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
       {% if player.note %}
