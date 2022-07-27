@@ -249,7 +249,9 @@
 
     <ul>
       {% if player.bvb_de %}
-        <li><strong>BVB Profile:</strong> <a href="https://www.bvb.de/Mannschaften/Frauen/Mannschaft/Frauen/{{ player.bvb_de }}">{{ player.first }} {{ player.last }}</a></li>
+        {% if player.active == "1" %}
+          <li><strong>BVB Profile:</strong> <a href="https://www.bvb.de/Mannschaften/Frauen/Mannschaft/Frauen/{{ player.bvb_de }}">{{ player.first }} {{ player.last }}</a></li>
+        {% endif %}
       {% endif %}
       {% if player.fupa %}
         <li><strong>FUPA Profile:</strong> <a href="https://www.fupa.net/player/{{ player.fupa }}">{{ player.first }} {{ player.last }}</a></li>
@@ -266,7 +268,9 @@
       {% if player.joined %}
         <li><strong>Joined BVB:</strong> {{ player.joined_date | date: '%B %-d, %Y' }}</li>
       {% endif %}
-      <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
+      {% if player.nation %}
+        <li><strong>Nationality:</strong> &nbsp;{{ player.flag }} {{ player.nation }}</li>
+      {% endif %}
       {% if player.note %}
         <li><strong>Note:</strong> {{ player.note }}</li>
       {% endif %}

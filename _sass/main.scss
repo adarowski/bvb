@@ -185,6 +185,30 @@ ul {
   }
 }
 
+.subnav {
+  background-color: #f2f2f2;
+  padding: 4px 16px;
+  display: inline-block;
+  margin: -10px -20px 20px;
+
+  @media all and (max-width: 900px) {
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 4px 6px;
+  }
+
+  a {
+    padding: 4px;
+    display: inline-block;
+
+    &.current {
+      color: $black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}
+
 .table-container {
   overflow-x: scroll;
   margin-right: -20px;
@@ -487,7 +511,8 @@ body.home li.home > a,
 body.goals li.goals > a,
 body.player li.players > a,
 body.players li.players > a,
-body.matches li.matches > a {
+body.matches li.matches > a,
+body.ii li.ii > a {
   border-color: rgba($black,0.4);
 }
 

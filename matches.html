@@ -7,159 +7,161 @@ body_class: matches
 <h1>{{ page.title }}</h1>
 
 {% for match in site.data.matches %}
-  {% if match.result %}
-    <div id="match-{{ match.id }}" class="match-summary">
-      <h2><span class="{{ match.result | downcase }}">{{ match.gf }}–{{ match.ga }}</span> {{ match.venue }} {{ match.result }} vs. {{ match.opponent }}</h2>
-      <ul class="match-meta-info">
-        <li>{{ match.date | date: '%B %-d, %Y' }}, {{ match.time }}</li>
-        <li>{{ match.comp }} ({{ match.round }})</li>
-      </ul>
+  {% if match.season == "2021-2022" %}
+    {% if match.result %}
+      <div id="match-{{ match.id }}" class="match-summary">
+        <h2><span class="{{ match.result | downcase }}">{{ match.gf }}–{{ match.ga }}</span> {{ match.venue }} {{ match.result }} vs. {{ match.opponent }}</h2>
+        <ul class="match-meta-info">
+          <li>{{ match.date | date: '%B %-d, %Y' }}, {{ match.time }}</li>
+          <li>{{ match.comp }} ({{ match.round }})</li>
+        </ul>
 
-      <ul class="match-goals">
-        {% for goal in site.data.goals %}
-          {% if goal.match == match.id %}
-          <li>
-            ⚽️ {{ goal.min }}’ –
-            {% if goal.id_scorer %}
-              <a href="{{ goal.id_scorer }}.html"><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</a>
-            {% else %}
-              Own Goal
-            {% endif %}
-            {% if goal.id_assist_official %}
-              <em>(Assisted by <a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>)</em>
-            {% endif %}
-            {% if goal.note %}
-              <em>({{ goal.note }})</em>
-            {% endif %}
-          </li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-
-      <div class="match-formation">
-        <div>
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "ST" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        </div>
-        <div>
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "LW" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "AM" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "RW" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        </div>
-        <div>
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "DM" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        </div>
-        <div>
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "LB" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "CB" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "RB" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        </div>
-        <div>
-        {% for log in site.data.match-logs %}
-          {% if log.match == match.id %}
-            {% if log.start == "GK" %}
-              <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
-            {% endif %}
-          {% endif %}
-        {% endfor %}
-        </div>
-      </div>
-
-      <div class="table-container">
-        <table id="match-table-{{ match.id }}" class="players-table">
-          <thead>
-            <tr>
-              <th class="left">Player</th>
-              <th class="left">Start</th>
-              <th class="right">Minutes</th>
-              <th class="right">Goals</th>
-              <th class="right">Assists</th>
-              <th class="right">Yellow</th>
-              <th class="right">Red</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for log in site.data.match-logs %}
-              {% if log.match == match.id %}
-                <tr>
-                  <td class="left"><a href="{{ log.id }}.html"><span class="hide-on-small">{{ log.first }}</span> {{ log.last }}</a></td>
-                  <td class="left">{{ log.start }}</td>
-                  <td class="right">{{ log.mins }}</td>
-                  <td class="right" data-value="{{ log.goals }}">{{ log.goals }}</td>
-                  <td class="right" data-value="{{ log.assists }}">{{ log.assists }}</td>
-                  <td class="right" data-value="{{ log.yellow }}">{{ log.yellow }}</td>
-                  <td class="right" data-value="{{ log.red }}">{{ log.red }}</td>
-                </tr>
+        <ul class="match-goals">
+          {% for goal in site.data.goals %}
+            {% if goal.match == match.id %}
+            <li>
+              ⚽️ {{ goal.min }}’ –
+              {% if goal.id_scorer %}
+                <a href="{{ goal.id_scorer }}.html"><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</a>
+              {% else %}
+                Own Goal
               {% endif %}
-            {% endfor %}
-          </tbody>
-        </table>
+              {% if goal.id_assist_official %}
+                <em>(Assisted by <a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>)</em>
+              {% endif %}
+              {% if goal.note %}
+                <em>({{ goal.note }})</em>
+              {% endif %}
+            </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
+        <div class="match-formation">
+          <div>
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "ST" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </div>
+          <div>
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "LW" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "AM" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "RW" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </div>
+          <div>
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "DM" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </div>
+          <div>
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "LB" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "CB" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "RB" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </div>
+          <div>
+          {% for log in site.data.match-logs %}
+            {% if log.match == match.id %}
+              {% if log.start == "GK" %}
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </div>
+        </div>
+
+        <div class="table-container">
+          <table id="match-table-{{ match.id }}" class="players-table">
+            <thead>
+              <tr>
+                <th class="left">Player</th>
+                <th class="left">Start</th>
+                <th class="right">Minutes</th>
+                <th class="right">Goals</th>
+                <th class="right">Assists</th>
+                <th class="right">Yellow</th>
+                <th class="right">Red</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for log in site.data.match-logs %}
+                {% if log.match == match.id %}
+                  <tr>
+                    <td class="left"><a href="{{ log.id }}.html"><span class="hide-on-small">{{ log.first }}</span> {{ log.last }}</a></td>
+                    <td class="left">{{ log.start }}</td>
+                    <td class="right">{{ log.mins }}</td>
+                    <td class="right" data-value="{{ log.goals }}">{{ log.goals }}</td>
+                    <td class="right" data-value="{{ log.assists }}">{{ log.assists }}</td>
+                    <td class="right" data-value="{{ log.yellow }}">{{ log.yellow }}</td>
+                    <td class="right" data-value="{{ log.red }}">{{ log.red }}</td>
+                  </tr>
+                {% endif %}
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+        <script>
+          new Tablesort(document.getElementById('match-table-{{ match.id }}'), { descending: true });
+        </script>
+
+        <ul class="match-meta-info">
+          <li><a href="{{ match.fussball_de }}">Match Report at Fussball.de</a></li>
+          {% if match.stream %}
+            <li><a href="https://soccerwatch.tv/video/{{ match.stream }}">Stream</a></li>
+          {% endif %}
+          {% if match.stream %}
+            <li><a href="https://soccerwatch.tv/video/{{ match.stream }}/highlight">Highlights</a></li>
+          {% endif %}
+          {% if match.recap %}
+            <li><a href="{{ match.recap }}">Recap</a></li>
+          {% endif %}
+        </ul>
       </div>
-
-      <script>
-        new Tablesort(document.getElementById('match-table-{{ match.id }}'), { descending: true });
-      </script>
-
-      <ul class="match-meta-info">
-        <li><a href="{{ match.fussball_de }}">Match Report at Fussball.de</a></li>
-        {% if match.stream %}
-          <li><a href="https://soccerwatch.tv/video/{{ match.stream }}">Stream</a></li>
-        {% endif %}
-        {% if match.stream %}
-          <li><a href="https://soccerwatch.tv/video/{{ match.stream }}/highlight">Highlights</a></li>
-        {% endif %}
-        {% if match.recap %}
-          <li><a href="{{ match.recap }}">Recap</a></li>
-        {% endif %}
-      </ul>
-    </div>
+    {% endif %}
   {% endif %}
 {% endfor %}
 

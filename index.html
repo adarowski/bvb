@@ -8,312 +8,17 @@ body_class: home
 
 <h1>Borussia Dortmund Frauen</h1>
 
+<div class="subnav">
+  <a class="current" href="./">2022–23</a>
+  <a href="2021-2022.html">2021–22</a>
+</div>
+
 <div class="article-body">
-  <p>This fan site is dedicated to Borussia Dortmund’s first women’s squad. This site is the definitive source of information about the Borussia Dortmund women, including player pages, match logs, statistics, and more.</p>
+  <p style="margin-top: 0;">This fan site is dedicated to Borussia Dortmund’s first women’s squad. This site is the definitive source of information about the Borussia Dortmund women, including player pages, match logs, statistics, and more.</p>
   <p>This site is not affiliated with Borussia Dortmund.</p>
-
-  <h2>2022-23 Season</h2>
-
-  <p>The site will be updated for the 2022-23 season soon, as more information becomes availble. But there are a few personnel updates to share. The following five players have been added to the <strong>first</strong> team of BVB Frauen:</p>
-  <ol>
-    <li>Lea Auffenberg (Defense)</li>
-    <li>Nora Rechenbach (Defense)</li>
-    <li>Mia Macarena Bedarf (Midfield)</li>
-    <li>Marie Grote (Midfield)</li>
-    <li>Mandy Reinhardt (Attack)</li>
-  </ol>
-
-  <p>Four players from the first team in 2021-22 will not be a part of the team in 2022-23. I will keep you posted on whether they will be joining the newly formed second team or if they are leaving the club. They are:</p>
-  <ol>
-    <li>Neele Droter</li>
-    <li>Ana Lena West</li>
-    <li>Lilli Prinzen</li>
-    <li>Laura Höhl</li>
-  </ol>
-
-  <p>The following players have been confirmed for the second team. They are shown with their previous club:</p>
-  <ol>
-    <li>Merle Maria Bergins (Victoria Habinghorst)</li>
-    <li>Gina Brandner (Borussia Dröschede)</li>
-    <li>Dense de Boer (TuS Vosswinkel)</li>
-    <li>Michelle Hölter (Victoria Habinghorst)</li>
-    <li>Hilke Jeurissen (TuS Germania Lohauserholz)</li>
-    <li>Jennifer Kaleja (SF Berghofen)</li>
-    <li>Eda Kasumovic (VfL Bochum)</li>
-    <li>Iryna Khishchenko (Without a Club)</li>
-    <li>Luisa Kieseheier (VfL Bochum)</li>
-    <li>Anna Kurenbach (Wambeler SV)</li>
-    <li>Marjana Naceva (Without a Club)</li>
-    <li>Ana Teresa Schönenberg (FFC Lüdenscheid)</li>
-    <li>Nina Schulze (Kamener SC)</li>
-    <li>Analena Stracke (TSG Herdecke)</li>
-    <li>Lisa Timmermann (Werner SC)</li>
-    <li>Celina Vajnberger (BV Brambauer)</li>
-    <li>Laura Wasmuth (MSV Duisburg)</li>
-    <li>Katharina Wiese (Südwest Köln)</li>
-    <li>Jana Wojcinski (Eintracht Dorstfeld)</li>
-  </ol>
-
 </div>
 
-<h2>2021-22 Season</h2>
-
-<div class="table-container">
-  <table id="season-summary" class="season-table">
-    <thead>
-      <tr>
-        <th class="left">Competition</th>
-        <th class="right">W</th>
-        <th class="right">D</th>
-        <th class="right">L</th>
-        <th class="right">GF</th>
-        <th class="right">GA</th>
-        <th class="right">GD</th>
-        <th class="left">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for season in site.data.history %}
-        <tr>
-          <td class="left"><strong>League</strong> (Kreisliga A)</td>
-          <td class="right">{{ season.lg_w }}</td>
-          <td class="right">{{ season.lg_l }}</td>
-          <td class="right">{{ season.lg_d }}</td>
-          <td class="right">{{ season.lg_gf }}</td>
-          <td class="right">{{ season.lg_ga }}</td>
-          <td class="right">
-            {% assign lg_gd = season.lg_gd | plus: 0 %}
-            {% if lg_gd > 0 %}+{% endif %}{{ lg_gd }}
-          </td>
-          <td class="left">Won league</td>
-        </tr>
-        <tr>
-          <td class="left"><strong>Playoffs</strong> (Promotion)</td>
-          <td class="right">{{ season.pp_w }}</td>
-          <td class="right">{{ season.pp_l }}</td>
-          <td class="right">{{ season.pp_d }}</td>
-          <td class="right">{{ season.pp_gf }}</td>
-          <td class="right">{{ season.pp_ga }}</td>
-          <td class="right">
-            {% assign pp_gd = season.pp_gd | plus: 0 %}
-            {% if pp_gd > 0 %}+{% endif %}{{ pp_gd }}
-          </td>
-          <td class="left">Won promotion playoff to Bezirksliga (6th tier)</td>
-        </tr>
-        <tr>
-          <td class="left"><strong>Cup</strong> (Kreispokal)</td>
-          <td class="right">{{ season.cup_w }}</td>
-          <td class="right">{{ season.cup_l }}</td>
-          <td class="right">{{ season.cup_d }}</td>
-          <td class="right">{{ season.cup_gf }}</td>
-          <td class="right">{{ season.cup_ga }}</td>
-          <td class="right">
-            {% assign cup_gd = season.cup_gd | plus: 0 %}
-            {% if cup_gd > 0 %}+{% endif %}{{ cup_gd }}
-          </td>
-          <td class="left">Won Kreispokal</td>
-        </tr>
-        <tr class="row-all">
-          <td class="left">All Competitions</td>
-          <td class="right">{{ season.all_w }}</td>
-          <td class="right">{{ season.all_l }}</td>
-          <td class="right">{{ season.all_d }}</td>
-          <td class="right">{{ season.all_gf }}</td>
-          <td class="right">{{ season.all_ga }}</td>
-          <td class="right">
-            {% assign all_gd = season.all_gd | plus: 0 %}
-            {% if all_gd > 0 %}+{% endif %}{{ all_gd }}
-          </td>
-          <td class="left"></td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<h2>Statistics</h2>
-<p><strong>Note:</strong> Four own goals scored.</p>
-
-<ul class="table-toggles">
-  <li><button class="table-toggle show-league">League</button></li>
-  <li><button class="table-toggle show-playoffs">Playoffs</button></li>
-  <li><button class="table-toggle show-cup">Cup</button></li>
-  <li><button class="table-toggle show-all">All <span class="hide-on-small">Competitions</span></button></li>
-</ul>
-
-<div class="table-container">
-  <table id="stats-league" class="stats-table">
-    <thead>
-      <tr>
-        <th class="left">Player</th>
-        <th class="right">Number</th>
-        <th class="left">Position</th>
-        <th class="right">Matches</th>
-        <th class="right">Starts</th>
-        <th class="right">Minutes</th>
-        <th class="right" data-sort-default>Goals</th>
-        <th class="right">Assists</th>
-        <th class="right">G+A/90</th>
-        <th class="right">Yellow</th>
-        <th class="right">Red</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for player in site.data.players %}
-        {% assign min = player.lg_min | plus: 0 %}
-        {% if min > 0 %}
-          <tr>
-            <td class="left" data-sort="{{ player.id }}">
-              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
-              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
-            </td>
-            <td class="right">{{ player.number }}</td>
-            <td class="left">{{ player.position }}</td>
-            <td class="right" data-value="{{ player.lg_m }}">{{ player.lg_m }}</td>
-            <td class="right" data-value="{{ player.lg_s }}">{{ player.lg_s }}</td>
-            <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
-            <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
-            <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
-            <td class="right" data-value="{{ player.lg_ga90 }}">{{ player.lg_ga90 }}</td>
-            <td class="right" data-value="{{ player.lg_y }}">{{ player.lg_y }}</td>
-            <td class="right" data-value="{{ player.lg_r }}">{{ player.lg_r }}</td>
-          </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<div class="table-container">
-  <table id="stats-playoffs" class="stats-table">
-    <thead>
-      <tr>
-        <th class="left">Player</th>
-        <th class="right">Number</th>
-        <th class="left">Position</th>
-        <th class="right">Matches</th>
-        <th class="right">Starts</th>
-        <th class="right">Minutes</th>
-        <th class="right" data-sort-default>Goals</th>
-        <th class="right">Assists</th>
-        <th class="right">G+A/90</th>
-        <th class="right">Yellow</th>
-        <th class="right">Red</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for player in site.data.players %}
-        {% assign min = player.pp_min | plus: 0 %}
-        {% if min > 0 %}
-          <tr>
-            <td class="left" data-sort="{{ player.id }}">
-              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
-              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
-            </td>
-            <td class="right">{{ player.number }}</td>
-            <td class="left">{{ player.position }}</td>
-            <td class="right" data-value="{{ player.pp_m }}">{{ player.pp_m }}</td>
-            <td class="right" data-value="{{ player.pp_s }}">{{ player.pp_s }}</td>
-            <td class="right" data-value="{{ player.pp_min }}">{{ player.pp_min }}</td>
-            <td class="right" data-value="{{ player.pp_g }}">{{ player.pp_g }}</td>
-            <td class="right" data-value="{{ player.pp_a }}">{{ player.pp_a }}</td>
-            <td class="right" data-value="{{ player.pp_ga90 }}">{{ player.pp_ga90 }}</td>
-            <td class="right" data-value="{{ player.pp_y }}">{{ player.pp_y }}</td>
-            <td class="right" data-value="{{ player.pp_r }}">{{ player.pp_r }}</td>
-          </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<div class="table-container">
-  <table id="stats-cup" class="stats-table">
-    <thead>
-      <tr>
-        <th class="left">Player</th>
-        <th class="right">Number</th>
-        <th class="left">Position</th>
-        <th class="right">Matches</th>
-        <th class="right">Starts</th>
-        <th class="right">Minutes</th>
-        <th class="right" data-sort-default>Goals</th>
-        <th class="right">Assists</th>
-        <th class="right">G+A/90</th>
-        <th class="right">Yellow</th>
-        <th class="right">Red</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for player in site.data.players %}
-        {% assign min = player.cup_min | plus: 0 %}
-        {% if min > 0 %}
-          <tr>
-            <td class="left" data-sort="{{ player.id }}">
-              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
-              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
-            </td>
-            <td class="right">{{ player.number }}</td>
-            <td class="left">{{ player.position }}</td>
-            <td class="right" data-value="{{ player.cup_m }}">{{ player.cup_m }}</td>
-            <td class="right" data-value="{{ player.cup_s }}">{{ player.cup_s }}</td>
-            <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
-            <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
-            <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
-            <td class="right" data-value="{{ player.cup_ga90 }}">{{ player.cup_ga90 }}</td>
-            <td class="right" data-value="{{ player.cup_y }}">{{ player.cup_y }}</td>
-            <td class="right" data-value="{{ player.cup_r }}">{{ player.cup_r }}</td>
-          </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<div class="table-container">
-  <table id="stats-all" class="stats-table">
-    <thead>
-      <tr>
-        <th class="left">Player</th>
-        <th class="right">Number</th>
-        <th class="left">Position</th>
-        <th class="right">Matches</th>
-        <th class="right">Starts</th>
-        <th class="right">Minutes</th>
-        <th class="right" data-sort-default>Goals</th>
-        <th class="right">Assists</th>
-        <th class="right">G+A/90</th>
-        <th class="right">Yellow</th>
-        <th class="right">Red</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for player in site.data.players %}
-        {% assign min = player.all_min | plus: 0 %}
-        {% if min > 0 %}
-          <tr>
-            <td class="left" data-sort="{{ player.id }}">
-              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
-              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
-            </td>
-            <td class="right">{{ player.number }}</td>
-            <td class="left">{{ player.position }}</td>
-            <td class="right" data-value="{{ player.all_m }}">{{ player.all_m }}</td>
-            <td class="right" data-value="{{ player.all_s }}">{{ player.all_s }}</td>
-            <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
-            <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
-            <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
-            <td class="right" data-value="{{ player.all_ga90 }}">{{ player.all_ga90 }}</td>
-            <td class="right" data-value="{{ player.all_y }}">{{ player.all_y }}</td>
-            <td class="right" data-value="{{ player.all_r }}">{{ player.all_r }}</td>
-          </tr>
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<h2>Season Schedule</h2>
+<h2>Matches</h2>
 
 <div class="table-container">
   <table id="fixtures-list" class="players-table">
@@ -335,40 +40,42 @@ body_class: home
     </thead>
     <tbody>
       {% for match in site.data.matches %}
-        <tr>
-          <td class="left">
-            {% if match.result %}
-              <a href="matches.html#match-{{ match.id }}">{{ match.date }}</a>
-            {% else %}
-              {{ match.date }}
-            {% endif %}
-          </td>
-          <td class="left">{{ match.time }}</td>
-          <td class="left">{{ match.opponent }}</td>
-          <td class="left">{{ match.comp }}</td>
-          <td class="left">{{ match.round }}</td>
-          <td class="left">{{ match.venue }}</td>
-          <td class="right">{{ match.gf }}</td>
-          <td class="right">{{ match.ga }}</td>
-          <td class="left {{ match.result | downcase }}">{{ match.result }}</td>
-          <td class="left">
-            {% if match.stream %}
-            <a href="https://soccerwatch.tv/video/{{ match.stream }}">Stream</a>
-            {% endif %}
-          </td>
-          <td class="left">
-            {% if match.result %}
-              {% if match.stream %}
-                <a href="https://soccerwatch.tv/video/{{ match.stream }}/highlight">Highlights</a>
+        {% if match.season == "2022-2023" %}
+          <tr>
+            <td class="left">
+              {% if match.result %}
+                <a href="matches.html#match-{{ match.id }}">{{ match.date }}</a>
+              {% else %}
+                {{ match.date }}
               {% endif %}
-            {% endif %}
-          </td>
-          <td class="left">
-            {% if match.recap %}
-              <a href="{{ match.recap }}">Recap</a>
-            {% endif %}
-          </td>
-        </tr>
+            </td>
+            <td class="left">{{ match.time }}</td>
+            <td class="left">{{ match.opponent }}</td>
+            <td class="left">{{ match.comp }}</td>
+            <td class="left">{{ match.round }}</td>
+            <td class="left">{{ match.venue }}</td>
+            <td class="right">{{ match.gf }}</td>
+            <td class="right">{{ match.ga }}</td>
+            <td class="left {{ match.result | downcase }}">{{ match.result }}</td>
+            <td class="left">
+              {% if match.stream %}
+              <a href="https://soccerwatch.tv/video/{{ match.stream }}">Stream</a>
+              {% endif %}
+            </td>
+            <td class="left">
+              {% if match.result %}
+                {% if match.stream %}
+                  <a href="https://soccerwatch.tv/video/{{ match.stream }}/highlight">Highlights</a>
+                {% endif %}
+              {% endif %}
+            </td>
+            <td class="left">
+              {% if match.recap %}
+                <a href="{{ match.recap }}">Recap</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endif %}
       {% endfor %}
     </tbody>
   </table>
@@ -393,36 +100,50 @@ body_class: home
     <tbody>
       {% for player in site.data.players %}
         {% unless player.id == "schlenker" %}
-          <tr>
-            <td class="left" data-sort="{{ player.id }}">
-              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
-              <a href="{{ player.id }}.html">
-                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
-              </a>
-            </td>
-            <td class="right">{{ player.number }}</td>
-            <td class="left">{{ player.position }}</td>
-            <td class="left" data-sort="{{ player.dob }}">{{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span></td>
-            <td class="right" data-sort="{{ player.height }}">{{ player.height }} cm</td>
-            <td class="left">{{ player.prev_club }}</td>
-            <td class="left"><a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a></td>
-            <td class="left">
-              {% if player.twitter %}
-                <a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a>
-              {% endif %}
-            </td>
-            <script>
-              function calculate_age(dob) {
-                var diff_ms = Date.now() - dob.getTime();
-                var age_dt = new Date(diff_ms);
-                return Math.abs(age_dt.getUTCFullYear() - 1970);
-              }
+          {% if player.active == "1" %}
+            <tr>
+              <td class="left" data-sort="{{ player.id }}">
+                <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+                <a href="{{ player.id }}.html">
+                  <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+                </a>
+              </td>
+              <td class="right">{{ player.number }}</td>
+              <td class="left">{{ player.position }}</td>
+              <td class="left" data-sort="{{ player.dob }}">
+                {% if player.dob %}
+                  {{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span>
+                {% endif %}
+              </td>
+              <td class="right" data-sort="{{ player.height }}">
+                {% if player.height %}
+                  {{ player.height }} cm
+                {% endif %}
+              </td>
+              <td class="left">{{ player.prev_club }}</td>
+              <td class="left">
+                {% if player.instagram %}
+                  <a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a>
+                {% endif %}
+              </td>
+              <td class="left">
+                {% if player.twitter %}
+                  <a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a>
+                {% endif %}
+              </td>
+              <script>
+                function calculate_age(dob) {
+                  var diff_ms = Date.now() - dob.getTime();
+                  var age_dt = new Date(diff_ms);
+                  return Math.abs(age_dt.getUTCFullYear() - 1970);
+                }
 
-              var playerAge = document.querySelector('.{{ player.id }}-age');
+                var playerAge = document.querySelector('.{{ player.id }}-age');
 
-              playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
-            </script>
-          </tr>
+                playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+              </script>
+            </tr>
+          {% endif %}
         {% endunless %}
       {% endfor %}
     </tbody>
@@ -493,28 +214,14 @@ body_class: home
   </table>
 </div>
 
-<h2>Additional Coverage</h2>
-
-<ul>
-  <li>
-    <strong><a href="2021-08-05-frauen-podcast.html">BVB Frauen Podcast Translation by Julia Poblotzki</a>:</strong> On August 5, 2021 Borussia Dortmund published <a href="https://www.bvb.de/Mannschaften/Frauen/News/Frauenfussball-beim-BVB-im-Podcast-Ein-Traum-geht-in-Erfuellung!">a podcast episode</a> with Svenja Schlenker (Borussia Dortmund’s Department Head, Womens Football), Lisa Klemann (Borussia Dortmund Frauen player), and Thomas Sulewski (Borussia Dortmund Frauen head coach). The podcast, of course, is in German. But Fear the Wall’s Julia Poblotzki (<a href="http://twitter.com/jpoblo">@jpoblo</a> on Twitter) graciously translated it to English for the site. Thank you, Julia!
-  </li>
-  <li>
-    <strong><a href="https://internationalfanapp.bvb.de/contents/09-stats-breakdown-bvb-frauen/">09 Stats Breakdown - BVB Frauen</a></strong> <em>(December 14, 2021)</em>
-  </li>
-  <li>
-    <strong><a href="https://www.bvb.de/eng/News/Overview/Borussia-Dortmund-launches-Girls-and-Women-s-Football-department">Borussia Dortmund launches "Girls' and Women's Football" department</a></strong>: Original announcement of the establishment of a women’s football department at Borussia Dortmund. <em>(September 10, 2020)</em>
-  </li>
-</ul>
-
 <h2>Team Information</h2>
 
 <ul>
   <li><strong>Department Head, Womens Football:</strong> <a href="schlenker.html">Svenja Schlenker</a></li>
-  <li><strong>League:</strong> <a href="https://www.fussball.de/spieltagsuebersicht/frauen-kl-a-dortmund-gruppe-2-kreis-dortmund-frauen-kreisliga-a-frauen-saison2122-westfalen/-/staffel/02EHD0KC5S00000DVS5489B3VT9UQ08G-G#!/">Frauen Kreisliga A Dortmund, Group 2</a> (7th Tier)</li>
+  <li><strong>League:</strong> <a href="https://www.fussball.de/spieltagsuebersicht/frauen-bezirksliga-staffel-4-bezirk-westfalen-frauen-bezirksliga-frauen-saison2223-westfalen/-/staffel/02IM9BVKVG00000RVS5489B4VS7CGIFK-G#!/">Frauen Bezirksliga, Staffel 4</a> (6th Tier)</li>
   <li><strong>Website:</strong> <a href="https://www.bvb.de/frauen/">bvb.de/frauen</a></li>
   <li><strong>Instagram:</strong> <a href="https://www.instagram.com/bvb09frauen/">bvb09frauen</a></li>
-  <li><strong>Schedule, Results, and Table:</strong> <a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2122/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">via Fussball.de</a></li>
+  <li><strong>Schedule, Results, and Table:</strong> <a href="https://www.fussball.de/mannschaft/borussia-dortmund-borussia-dortmund-westfalen/-/saison/2223/team-id/02EM2C1FF4000000VS5489B1VU24SJ9U#!/">via Fussball.de</a></li>
 </ul>
 
 </div>

@@ -1,0 +1,80 @@
+---
+layout: default
+title: Borussia Dortmund Frauen II
+body_class: ii
+---
+
+<img src="assets/images/frauen/ii.jpg" alt="Team Photo of BVB Frauen II" style="width: calc(100% + 40px); height: auto; margin: -20px -20px 20px;" />
+
+<h1>Borussia Dortmund Frauen II</h1>
+
+<div class="article-body">
+  <p>The Borussia Dortmund Frauen second team will being play this season in the Kreisliga.</p>
+</div>
+
+<h2>Squad</h2>
+
+<div class="table-container">
+  <table id="players-list" class="players-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="left">Date of Birth</th>
+        <th class="right">Height</th>
+        <th class="left">Previous Club</th>
+        <th class="left">Instagram</th>
+        <th class="left">Twitter</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.players %}
+        {% unless player.id == "schlenker" %}
+          {% if player.active == "2" %}
+            <tr>
+              <td class="left" data-sort="{{ player.id }}">
+                <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+                <span class="hide-on-small">{{ player.first }}</span> {{ player.last }}
+              </td>
+              <td class="right">{{ player.number }}</td>
+              <td class="left">{{ player.position }}</td>
+              <td class="left" data-sort="{{ player.dob }}">
+                {% if player.dob %}
+                  {{ player.dob | date: '%B %-d, %Y' }} <span class="{{ player.id }}-age"></span>
+                {% endif %}
+              </td>
+              <td class="right" data-sort="{{ player.height }}">
+                {% if player.height %}
+                  {{ player.height }} cm
+                {% endif %}
+              </td>
+              <td class="left">{{ player.prev_club }}</td>
+              <td class="left">
+                {% if player.instagram %}
+                  <a href="http://instagram.com/{{ player.instagram }}">{{ player.instagram }}</a>
+                {% endif %}
+              </td>
+              <td class="left">
+                {% if player.twitter %}
+                  <a href="http://twitter.com/{{ player.twitter }}">{{ player.twitter }}</a>
+                {% endif %}
+              </td>
+              <script>
+                function calculate_age(dob) {
+                  var diff_ms = Date.now() - dob.getTime();
+                  var age_dt = new Date(diff_ms);
+                  return Math.abs(age_dt.getUTCFullYear() - 1970);
+                }
+
+                var playerAge = document.querySelector('.{{ player.id }}-age');
+
+                playerAge.appendChild(document.createTextNode("(" + calculate_age(new Date("{{ player.dob }}")) + ")"));
+              </script>
+            </tr>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>

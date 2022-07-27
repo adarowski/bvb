@@ -1,23 +1,23 @@
 ---
 layout: default
-title: Players
+title: 2021-22 Players
 body_class: players
 ---
 
 <h1>{{ page.title }}</h1>
 
 <div class="subnav">
-  <a class="current" href="players.html">2022–23</a>
-  <a href="2021-2022-players.html">2021–22</a>
+  <a href="players.html">2022–23</a>
+  <a class="current" href="2021-2022-players.html">2021–22</a>
 </div>
 
 <div class="frauen-cards">
   {% for player in site.data.players %}
     {% unless player.id == "schlenker" %}
-      {% if player.active == "1" %}
+      {% if player.2021-22 == "1" %}
       <div class="frauen-card">
         <a href="{{ player.id }}.html">
-          <img src="assets/images/frauen/365/{{ player.id }}.jpg" alt="Photo of {{ player.first }} {{ player.last }}" />
+          <img src="assets/images/frauen/2021-2022/365/{{ player.id }}.jpg" alt="Photo of {{ player.first }} {{ player.last }}" />
           <h4 class="frauen-card-name">{{ player.first }} {{ player.last }}</h4>
           <span class="frauen-card-dob"><span class="{{ player.id }}-card-age"></span></span>
           <span class="frauen-card-number">{{ player.number }}</span>

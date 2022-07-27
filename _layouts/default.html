@@ -15,7 +15,7 @@
     <title>{% unless page.body_class == "home" %}{{ page.title }}: {% endunless %}Borussia Dortmund Frauen</title>
     <meta name="description" content="Dedicated to Borussia Dortmund’s first women’s squad. Includes squad information, statistics, and match reports as the team begins its climb up the German football pyramid.">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/styles.css?44">
+    <link rel="stylesheet" href="assets/css/styles.css?45">
     <script src="assets/js/tablesort.js"></script>
     <script src="assets/js/tablesort.number.js"></script>
     <link rel="icon" type="image/png" href="assets/images/favicon.ico">
@@ -47,24 +47,27 @@
         </h1>
         <nav>
           <ul>
-            <li class="home"><a href="./">Home</a></li>
+            <li class="home"><a href="./">Stats</a></li>
             <li class="players">
               <a href="players.html">Players</a>
               <div class="player-list">
                 <ul>
                   {% for player in site.data.players %}
+                    {% if player.active == "1" %}
                       <li>
                         <a href="{{ player.id }}.html">
                           <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
                           <span>{{ player.first }} {{ player.last }}</span>
                         </a>
                       </li>
+                    {% endif %}
                   {% endfor %}
                 </ul>
               </div>
             </li>
             <li class="goals"><a href="goals.html">Goals</a></li>
             <li class="matches"><a href="matches.html">Matches</a></li>
+            <li class="ii"><a href="ii.html">BVB II</a></li>
           </ul>
         </nav>
       </div>
