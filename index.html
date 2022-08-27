@@ -18,6 +18,265 @@ body_class: home
   <p>This site is not affiliated with Borussia Dortmund.</p>
 </div>
 
+<h2>Competitions</h2>
+
+<div class="table-container">
+  <table id="season-summary" class="season-table">
+    <thead>
+      <tr>
+        <th class="left">Competition</th>
+        <th class="right">W</th>
+        <th class="right">D</th>
+        <th class="right">L</th>
+        <th class="right">GF</th>
+        <th class="right">GA</th>
+        <th class="right">GD</th>
+        <th class="left">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for season in site.data.history %}
+        {% if season.season == "2022-2023" %}
+          <tr>
+            <td class="left"><strong>League</strong> (Bezirksliga Staffel 4)</td>
+            <td class="right">{{ season.lg_w }}</td>
+            <td class="right">{{ season.lg_l }}</td>
+            <td class="right">{{ season.lg_d }}</td>
+            <td class="right">{{ season.lg_gf }}</td>
+            <td class="right">{{ season.lg_ga }}</td>
+            <td class="right">
+              {% assign lg_gd = season.lg_gd | plus: 0 %}
+              {% if lg_gd > 0 %}+{% endif %}{{ lg_gd }}
+            </td>
+            <td class="left"></td>
+          </tr>
+          <!-- <tr>
+            <td class="left"><strong>Playoffs</strong> (Promotion)</td>
+            <td class="right">{{ season.pp_w }}</td>
+            <td class="right">{{ season.pp_l }}</td>
+            <td class="right">{{ season.pp_d }}</td>
+            <td class="right">{{ season.pp_gf }}</td>
+            <td class="right">{{ season.pp_ga }}</td>
+            <td class="right">
+              {% assign pp_gd = season.pp_gd | plus: 0 %}
+              {% if pp_gd > 0 %}+{% endif %}{{ pp_gd }}
+            </td>
+            <td class="left">Won promotion playoff to Bezirksliga (6th tier)</td>
+          </tr> -->
+          <tr>
+            <td class="left"><strong>Cup</strong> (Verbands-Pokal)</td>
+            <td class="right">{{ season.cup_w }}</td>
+            <td class="right">{{ season.cup_l }}</td>
+            <td class="right">{{ season.cup_d }}</td>
+            <td class="right">{{ season.cup_gf }}</td>
+            <td class="right">{{ season.cup_ga }}</td>
+            <td class="right">
+              {% assign cup_gd = season.cup_gd | plus: 0 %}
+              {% if cup_gd > 0 %}+{% endif %}{{ cup_gd }}
+            </td>
+            <td class="left"></td>
+          </tr>
+          <tr class="row-all">
+            <td class="left">All Competitions</td>
+            <td class="right">{{ season.all_w }}</td>
+            <td class="right">{{ season.all_l }}</td>
+            <td class="right">{{ season.all_d }}</td>
+            <td class="right">{{ season.all_gf }}</td>
+            <td class="right">{{ season.all_ga }}</td>
+            <td class="right">
+              {% assign all_gd = season.all_gd | plus: 0 %}
+              {% if all_gd > 0 %}+{% endif %}{{ all_gd }}
+            </td>
+            <td class="left"></td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2>Statistics</h2>
+<!-- <p><strong>Note:</strong> Four own goals scored.</p> -->
+
+<ul class="table-toggles">
+  <!-- <li><button class="table-toggle show-league">League</button></li>
+  <li><button class="table-toggle show-playoffs">Playoffs</button></li> -->
+  <li><button class="table-toggle show-cup">Cup</button></li>
+  <!-- <li><button class="table-toggle show-all">All <span class="hide-on-small">Competitions</span></button></li> -->
+</ul>
+
+<!-- <div class="table-container">
+  <table id="stats-league" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Matches</th>
+        <th class="right">Starts</th>
+        <th class="right">Minutes</th>
+        <th class="right" data-sort-default>Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Yellow</th>
+        <th class="right">Red</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.stats %}
+        {% assign min = player.lg_min | plus: 0 %}
+        {% if min > 0 and player.season == "2022-2023" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.lg_m }}">{{ player.lg_m }}</td>
+            <td class="right" data-value="{{ player.lg_s }}">{{ player.lg_s }}</td>
+            <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
+            <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
+            <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
+            <td class="right" data-value="{{ player.lg_ga90 }}">{{ player.lg_ga90 }}</td>
+            <td class="right" data-value="{{ player.lg_y }}">{{ player.lg_y }}</td>
+            <td class="right" data-value="{{ player.lg_r }}">{{ player.lg_r }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<div class="table-container">
+  <table id="stats-playoffs" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Matches</th>
+        <th class="right">Starts</th>
+        <th class="right">Minutes</th>
+        <th class="right" data-sort-default>Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Yellow</th>
+        <th class="right">Red</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.stats %}
+        {% assign min = player.pp_min | plus: 0 %}
+        {% if min > 0 and player.season == "2022-2023" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.pp_m }}">{{ player.pp_m }}</td>
+            <td class="right" data-value="{{ player.pp_s }}">{{ player.pp_s }}</td>
+            <td class="right" data-value="{{ player.pp_min }}">{{ player.pp_min }}</td>
+            <td class="right" data-value="{{ player.pp_g }}">{{ player.pp_g }}</td>
+            <td class="right" data-value="{{ player.pp_a }}">{{ player.pp_a }}</td>
+            <td class="right" data-value="{{ player.pp_ga90 }}">{{ player.pp_ga90 }}</td>
+            <td class="right" data-value="{{ player.pp_y }}">{{ player.pp_y }}</td>
+            <td class="right" data-value="{{ player.pp_r }}">{{ player.pp_r }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div> -->
+
+<div class="table-container">
+  <table id="stats-cup" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Matches</th>
+        <th class="right">Starts</th>
+        <th class="right">Minutes</th>
+        <th class="right" data-sort-default>Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Yellow</th>
+        <th class="right">Red</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.stats %}
+        {% assign min = player.cup_min | plus: 0 %}
+        {% if min > 0 and player.season == "2022-2023" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.cup_m }}">{{ player.cup_m }}</td>
+            <td class="right" data-value="{{ player.cup_s }}">{{ player.cup_s }}</td>
+            <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
+            <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
+            <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
+            <td class="right" data-value="{{ player.cup_ga90 }}">{{ player.cup_ga90 }}</td>
+            <td class="right" data-value="{{ player.cup_y }}">{{ player.cup_y }}</td>
+            <td class="right" data-value="{{ player.cup_r }}">{{ player.cup_r }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<!-- <div class="table-container">
+  <table id="stats-all" class="stats-table">
+    <thead>
+      <tr>
+        <th class="left">Player</th>
+        <th class="right">Number</th>
+        <th class="left">Position</th>
+        <th class="right">Matches</th>
+        <th class="right">Starts</th>
+        <th class="right">Minutes</th>
+        <th class="right" data-sort-default>Goals</th>
+        <th class="right">Assists</th>
+        <th class="right">G+A/90</th>
+        <th class="right">Yellow</th>
+        <th class="right">Red</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for player in site.data.stats %}
+        {% assign min = player.all_min | plus: 0 %}
+        {% if min > 0 and player.season == "2022-2023" %}
+          <tr>
+            <td class="left" data-sort="{{ player.id }}">
+              <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ player.id }}.jpg)"></div>
+              <a href="{{ player.id }}.html"><span class="hide-on-small">{{ player.first }}</span> {{ player.last }}</a>
+            </td>
+            <td class="right">{{ player.number }}</td>
+            <td class="left">{{ player.position }}</td>
+            <td class="right" data-value="{{ player.all_m }}">{{ player.all_m }}</td>
+            <td class="right" data-value="{{ player.all_s }}">{{ player.all_s }}</td>
+            <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
+            <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
+            <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
+            <td class="right" data-value="{{ player.all_ga90 }}">{{ player.all_ga90 }}</td>
+            <td class="right" data-value="{{ player.all_y }}">{{ player.all_y }}</td>
+            <td class="right" data-value="{{ player.all_r }}">{{ player.all_r }}</td>
+          </tr>
+        {% endif %}
+      {% endfor %}
+    </tbody>
+  </table>
+</div> -->
+
 <h2>Matches</h2>
 
 <div class="table-container">
@@ -226,7 +485,7 @@ body_class: home
 
 </div>
 
-<script>
+<!-- <script>
   var showLeague = document.querySelector('.show-league');
   var showPlayoffs = document.querySelector('.show-playoffs');
   var showCup = document.querySelector('.show-cup');
@@ -295,14 +554,14 @@ body_class: home
     tableAll.classList.remove('hide');
     showAll.classList.add('selected');
   });
-</script>
+</script> -->
 
 <script>
   new Tablesort(document.getElementById('players-list'));
   new Tablesort(document.getElementById('staff-list'));
-  new Tablesort(document.getElementById('stats-league'), { descending: true });
-  new Tablesort(document.getElementById('stats-playoffs'), { descending: true });
+  // new Tablesort(document.getElementById('stats-league'), { descending: true });
+  // new Tablesort(document.getElementById('stats-playoffs'), { descending: true });
   new Tablesort(document.getElementById('stats-cup'), { descending: true });
-  new Tablesort(document.getElementById('stats-all'), { descending: true });
+  // new Tablesort(document.getElementById('stats-all'), { descending: true });
   new Tablesort(document.getElementById('fixtures-list'));
 </script>

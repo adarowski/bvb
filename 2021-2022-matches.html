@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Matches
+title: 2021-22 Matches
 body_class: matches
 ---
 
 <h1>{{ page.title }}</h1>
 
 <div class="subnav">
-  <a class="current" href="matches.html">2022–23</a>
-  <a href="2021-2022-matches.html">2021–22</a>
+  <a href="matches.html">2022–23</a>
+  <a class="current" href="2021-2022-matches.html">2021–22</a>
 </div>
 
 {% for match in site.data.matches %}
-  {% if match.season == "2022-2023" %}
+  {% if match.season == "2021-2022" %}
     {% if match.result %}
       <div id="match-{{ match.id }}" class="match-summary">
         <h2><span class="{{ match.result | downcase }}">{{ match.gf }}–{{ match.ga }}</span> {{ match.venue }} {{ match.result }} vs. {{ match.opponent }}</h2>
@@ -47,7 +47,7 @@ body_class: matches
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "ST" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -56,21 +56,21 @@ body_class: matches
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "LW" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "AM" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "RW" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -79,7 +79,7 @@ body_class: matches
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "DM" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -88,21 +88,21 @@ body_class: matches
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "LB" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "CB" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "RB" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}
@@ -111,7 +111,7 @@ body_class: matches
           {% for log in site.data.match-logs %}
             {% if log.match == match.id %}
               {% if log.start == "GK" %}
-                <img src="assets/images/frauen/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
+                <img src="assets/images/frauen/2021-2022/100/{{ log.id }}.jpg" alt="Photo of {{ log.first }} {{ log.last }}" />
               {% endif %}
             {% endif %}
           {% endfor %}

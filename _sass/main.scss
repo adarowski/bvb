@@ -655,6 +655,14 @@ blockquote {
   font-weight: bold;
 }
 
+.loss {
+  color: red;
+}
+
+.draw, .tie {
+  color: blue;
+}
+
 .match-summary {
   margin-bottom: 40px;
   padding-bottom: 40px;

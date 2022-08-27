@@ -29,58 +29,60 @@ body_class: home
     </thead>
     <tbody>
       {% for season in site.data.history %}
-        <tr>
-          <td class="left"><strong>League</strong> (Kreisliga A)</td>
-          <td class="right">{{ season.lg_w }}</td>
-          <td class="right">{{ season.lg_l }}</td>
-          <td class="right">{{ season.lg_d }}</td>
-          <td class="right">{{ season.lg_gf }}</td>
-          <td class="right">{{ season.lg_ga }}</td>
-          <td class="right">
-            {% assign lg_gd = season.lg_gd | plus: 0 %}
-            {% if lg_gd > 0 %}+{% endif %}{{ lg_gd }}
-          </td>
-          <td class="left">Won league</td>
-        </tr>
-        <tr>
-          <td class="left"><strong>Playoffs</strong> (Promotion)</td>
-          <td class="right">{{ season.pp_w }}</td>
-          <td class="right">{{ season.pp_l }}</td>
-          <td class="right">{{ season.pp_d }}</td>
-          <td class="right">{{ season.pp_gf }}</td>
-          <td class="right">{{ season.pp_ga }}</td>
-          <td class="right">
-            {% assign pp_gd = season.pp_gd | plus: 0 %}
-            {% if pp_gd > 0 %}+{% endif %}{{ pp_gd }}
-          </td>
-          <td class="left">Won promotion playoff to Bezirksliga (6th tier)</td>
-        </tr>
-        <tr>
-          <td class="left"><strong>Cup</strong> (Kreispokal)</td>
-          <td class="right">{{ season.cup_w }}</td>
-          <td class="right">{{ season.cup_l }}</td>
-          <td class="right">{{ season.cup_d }}</td>
-          <td class="right">{{ season.cup_gf }}</td>
-          <td class="right">{{ season.cup_ga }}</td>
-          <td class="right">
-            {% assign cup_gd = season.cup_gd | plus: 0 %}
-            {% if cup_gd > 0 %}+{% endif %}{{ cup_gd }}
-          </td>
-          <td class="left">Won Kreispokal</td>
-        </tr>
-        <tr class="row-all">
-          <td class="left">All Competitions</td>
-          <td class="right">{{ season.all_w }}</td>
-          <td class="right">{{ season.all_l }}</td>
-          <td class="right">{{ season.all_d }}</td>
-          <td class="right">{{ season.all_gf }}</td>
-          <td class="right">{{ season.all_ga }}</td>
-          <td class="right">
-            {% assign all_gd = season.all_gd | plus: 0 %}
-            {% if all_gd > 0 %}+{% endif %}{{ all_gd }}
-          </td>
-          <td class="left"></td>
-        </tr>
+        {% if season.season == "2021-2022" %}
+          <tr>
+            <td class="left"><strong>League</strong> (Kreisliga A)</td>
+            <td class="right">{{ season.lg_w }}</td>
+            <td class="right">{{ season.lg_l }}</td>
+            <td class="right">{{ season.lg_d }}</td>
+            <td class="right">{{ season.lg_gf }}</td>
+            <td class="right">{{ season.lg_ga }}</td>
+            <td class="right">
+              {% assign lg_gd = season.lg_gd | plus: 0 %}
+              {% if lg_gd > 0 %}+{% endif %}{{ lg_gd }}
+            </td>
+            <td class="left">Won league</td>
+          </tr>
+          <tr>
+            <td class="left"><strong>Playoffs</strong> (Promotion)</td>
+            <td class="right">{{ season.pp_w }}</td>
+            <td class="right">{{ season.pp_l }}</td>
+            <td class="right">{{ season.pp_d }}</td>
+            <td class="right">{{ season.pp_gf }}</td>
+            <td class="right">{{ season.pp_ga }}</td>
+            <td class="right">
+              {% assign pp_gd = season.pp_gd | plus: 0 %}
+              {% if pp_gd > 0 %}+{% endif %}{{ pp_gd }}
+            </td>
+            <td class="left">Won promotion playoff to Bezirksliga (6th tier)</td>
+          </tr>
+          <tr>
+            <td class="left"><strong>Cup</strong> (Kreispokal)</td>
+            <td class="right">{{ season.cup_w }}</td>
+            <td class="right">{{ season.cup_l }}</td>
+            <td class="right">{{ season.cup_d }}</td>
+            <td class="right">{{ season.cup_gf }}</td>
+            <td class="right">{{ season.cup_ga }}</td>
+            <td class="right">
+              {% assign cup_gd = season.cup_gd | plus: 0 %}
+              {% if cup_gd > 0 %}+{% endif %}{{ cup_gd }}
+            </td>
+            <td class="left">Won Kreispokal</td>
+          </tr>
+          <tr class="row-all">
+            <td class="left">All Competitions</td>
+            <td class="right">{{ season.all_w }}</td>
+            <td class="right">{{ season.all_l }}</td>
+            <td class="right">{{ season.all_d }}</td>
+            <td class="right">{{ season.all_gf }}</td>
+            <td class="right">{{ season.all_ga }}</td>
+            <td class="right">
+              {% assign all_gd = season.all_gd | plus: 0 %}
+              {% if all_gd > 0 %}+{% endif %}{{ all_gd }}
+            </td>
+            <td class="left"></td>
+          </tr>
+        {% endif %}
       {% endfor %}
     </tbody>
   </table>
@@ -116,7 +118,7 @@ body_class: home
     <tbody>
       {% for player in site.data.stats %}
         {% assign min = player.lg_min | plus: 0 %}
-        {% if min > 0 %}
+        {% if min > 0 and player.season == "2021-2022" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
               <div class="player-photo" style="background-image: url(assets/images/frauen/2021-2022/100/{{ player.id }}.jpg)"></div>
@@ -159,7 +161,7 @@ body_class: home
     <tbody>
       {% for player in site.data.stats %}
         {% assign min = player.pp_min | plus: 0 %}
-        {% if min > 0 %}
+        {% if min > 0 and player.season == "2021-2022" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
               <div class="player-photo" style="background-image: url(assets/images/frauen/2021-2022/100/{{ player.id }}.jpg)"></div>
@@ -202,7 +204,7 @@ body_class: home
     <tbody>
       {% for player in site.data.stats %}
         {% assign min = player.cup_min | plus: 0 %}
-        {% if min > 0 %}
+        {% if min > 0 and player.season == "2021-2022" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
               <div class="player-photo" style="background-image: url(assets/images/frauen/2021-2022/100/{{ player.id }}.jpg)"></div>
@@ -245,7 +247,7 @@ body_class: home
     <tbody>
       {% for player in site.data.stats %}
         {% assign min = player.all_min | plus: 0 %}
-        {% if min > 0 %}
+        {% if min > 0 and player.season == "2021-2022" %}
           <tr>
             <td class="left" data-sort="{{ player.id }}">
               <div class="player-photo" style="background-image: url(assets/images/frauen/2021-2022/100/{{ player.id }}.jpg)"></div>

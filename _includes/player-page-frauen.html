@@ -44,205 +44,203 @@
 
 {% for player in site.data.players %}
   {% if player.id == include.player %}
-    {% if player.all_min != "0" %}
-      <h2>Match Logs</h2>
+    <h2>Match Logs</h2>
+
+    <div class="table-container">
+      <table id="logs-list" class="players-table">
+        <thead>
+          <tr>
+            <th class="left">Date</th>
+            <th class="left">Opponent</th>
+            <th class="left">Competition</th>
+            <th class="left">Round</th>
+            <th class="left">Venue</th>
+            <th class="left">Result</th>
+            <th class="right">Start</th>
+            <th class="right">Minutes</th>
+            <th class="right">Goals</th>
+            <th class="right">Assists</th>
+            <th class="right">Yellow</th>
+            <th class="right">Red</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for match in site.data.match-logs %}
+            {% if match.id == include.player %}
+              <tr>
+                <td class="left"><a href="matches.html#match-{{ match.match }}">{{ match.date }}</a></td>
+                <td class="left">{{ match.opponent }}</td>
+                <td class="left">{{ match.comp }}</td>
+                <td class="left">{{ match.round }}</td>
+                <td class="left">{{ match.venue }}</td>
+                <td class="left {{ match.result | downcase }}">{{ match.result }} {{ match.gf }}–{{ match.ga }}</td>
+                <td class="right">{{ match.start }}</td>
+                <td class="right">{{ match.mins }}</td>
+                <td class="right" data-value="{{ match.goals }}">{{ match.goals }}</td>
+                <td class="right" data-value="{{ match.assists }}">{{ match.assists }}</td>
+                <td class="right" data-value="{{ match.yellow }}">{{ match.yellow }}</td>
+                <td class="right" data-value="{{ match.red }}">{{ match.red }}</td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+          <!-- {% for player in site.data.stats %}
+            {% if player.id == include.player %}
+
+              {% assign lg_minutes = player.lg_m | plus: 0 %}
+              {% if lg_minutes > 0 %}
+                <tr class="row-all">
+                  <td class="left">League</td>
+                  <td class="left">
+                    {{ player.lg_m }}
+                    {% if player.lg_m == "1" %}
+                      match
+                    {% else %}
+                      matches
+                    {% endif %}
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="right" data-value="{{ player.lg_s }}">{{ player.lg_s }}</td>
+                  <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
+                  <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
+                  <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
+                  <td class="right" data-value="{{ player.lg_y }}">{{ player.lg_y }}</td>
+                  <td class="right" data-value="{{ player.lg_r }}">{{ player.lg_r }}</td>
+                </tr>
+              {% endif %}
+
+              {% assign pp_minutes = player.pp_m | plus: 0 %}
+              {% if pp_minutes > 0 %}
+                <tr class="row-all">
+                  <td class="left">Playoffs</td>
+                  <td class="left">
+                    {{ player.pp_m }}
+                    {% if player.pp_m == "1" %}
+                      match
+                    {% else %}
+                      matches
+                    {% endif %}
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="right" data-value="{{ player.pp_s }}">{{ player.pp_s }}</td>
+                  <td class="right" data-value="{{ player.pp_min }}">{{ player.pp_min }}</td>
+                  <td class="right" data-value="{{ player.pp_g }}">{{ player.pp_g }}</td>
+                  <td class="right" data-value="{{ player.pp_a }}">{{ player.pp_a }}</td>
+                  <td class="right" data-value="{{ player.pp_y }}">{{ player.pp_y }}</td>
+                  <td class="right" data-value="{{ player.pp_r }}">{{ player.pp_r }}</td>
+                </tr>
+              {% endif %}
+
+              {% assign cup_minutes = player.cup_m | plus: 0 %}
+              {% if cup_minutes > 0 %}
+                <tr class="row-all">
+                  <td class="left">Cup</td>
+                  <td class="left">
+                    {{ player.cup_m }}
+                    {% if player.cup_m == "1" %}
+                      match
+                    {% else %}
+                      matches
+                    {% endif %}
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="right" data-value="{{ player.cup_s }}">{{ player.cup_s }}</td>
+                  <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
+                  <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
+                  <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
+                  <td class="right" data-value="{{ player.cup_y }}">{{ player.cup_y }}</td>
+                  <td class="right" data-value="{{ player.cup_r }}">{{ player.cup_r }}</td>
+                </tr>
+              {% endif %}
+
+              {% if lg_minutes > 0 and cup_minutes > 0 %}
+                <tr class="row-all">
+                  <td class="left">All Comps</td>
+                  <td class="left">
+                    {{ player.all_m }}
+                    {% if player.all_m == "1" %}
+                      match
+                    {% else %}
+                      matches
+                    {% endif %}
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="left"></td>
+                  <td class="right" data-value="{{ player.lg_s }}">{{ player.all_s }}</td>
+                  <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
+                  <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
+                  <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
+                  <td class="right" data-value="{{ player.all_y }}">{{ player.all_y }}</td>
+                  <td class="right" data-value="{{ player.all_r }}">{{ player.all_r }}</td>
+                </tr>
+              {% endif %}
+            {% endif %}
+          {% endfor %} -->
+        </tbody>
+      </table>
+    </div>
+
+    {% assign all_involvements = player.inv | plus: 0 %}
+
+    {% if all_involvements > 0 %}
+      <h2>Goal Involvements</h2>
 
       <div class="table-container">
-        <table id="logs-list" class="players-table">
+        <table id="player-goals" class="goals-table">
           <thead>
             <tr>
+              <th class="left">Scorer</th>
+              <th class="left">Assist</th>
               <th class="left">Date</th>
-              <th class="left">Opponent</th>
               <th class="left">Competition</th>
               <th class="left">Round</th>
+              <th class="right">Min</th>
+              <th class="left">Opponent</th>
               <th class="left">Venue</th>
-              <th class="left">Result</th>
-              <th class="right">Start</th>
-              <th class="right">Minutes</th>
-              <th class="right">Goals</th>
-              <th class="right">Assists</th>
-              <th class="right">Yellow</th>
-              <th class="right">Red</th>
+              <th class="right">GF</th>
+              <th class="right">GA</th>
+              <th class="right">GD</th>
+              <th class="left">Note</th>
             </tr>
           </thead>
           <tbody>
-            {% for match in site.data.match-logs %}
-              {% if match.id == include.player %}
+            {% for goal in site.data.goals %}
+              {% if goal.id_scorer == include.player or goal.id_assist_official == include.player %}
                 <tr>
-                  <td class="left"><a href="matches.html#match-{{ match.match }}">{{ match.date }}</a></td>
-                  <td class="left">{{ match.opponent }}</td>
-                  <td class="left">{{ match.comp }}</td>
-                  <td class="left">{{ match.round }}</td>
-                  <td class="left">{{ match.venue }}</td>
-                  <td class="left {{ match.result | downcase }}">{{ match.result }} {{ match.gf }}–{{ match.ga }}</td>
-                  <td class="right">{{ match.start }}</td>
-                  <td class="right">{{ match.mins }}</td>
-                  <td class="right" data-value="{{ match.goals }}">{{ match.goals }}</td>
-                  <td class="right" data-value="{{ match.assists }}">{{ match.assists }}</td>
-                  <td class="right" data-value="{{ match.yellow }}">{{ match.yellow }}</td>
-                  <td class="right" data-value="{{ match.red }}">{{ match.red }}</td>
+                  <td class="left" data-sort="{{ goal.id_scorer }}">
+                    <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)">
+                    </div>
+                    <a href="{{ goal.id_scorer }}.html">
+                      <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
+                    </a>
+                  </td>
+                  <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.id_assist_official != nil %}<a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>{% endif %}</td>
+                  <td class="left" data-sort="{{ goal.date }}-{{ goal.gf }}"><a href="matches.html#match-{{ goal.match }}">{{ goal.date }}</a></td>
+                  <td class="left">{{ goal.comp }}</td>
+                  <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
+                  <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
+                  <td class="left">{{ goal.opponent }}</td>
+                  <td class="left">{{ goal.venue }}</td>
+                  <td class="right">{{ goal.gf }}</td>
+                  <td class="right">{{ goal.ga }}</td>
+                  <td class="right">{{ goal.gd }}</td>
+                  <td class="left"><span>{{ goal.note }}</span></td>
                 </tr>
-              {% endif %}
-            {% endfor %}
-            {% for player in site.data.players %}
-              {% if player.id == include.player %}
-
-                {% assign lg_minutes = player.lg_m | plus: 0 %}
-                {% if lg_minutes > 0 %}
-                  <tr class="row-all">
-                    <td class="left">League</td>
-                    <td class="left">
-                      {{ player.lg_m }}
-                      {% if player.lg_m == "1" %}
-                        match
-                      {% else %}
-                        matches
-                      {% endif %}
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="right" data-value="{{ player.lg_s }}">{{ player.lg_s }}</td>
-                    <td class="right" data-value="{{ player.lg_min }}">{{ player.lg_min }}</td>
-                    <td class="right" data-value="{{ player.lg_g }}">{{ player.lg_g }}</td>
-                    <td class="right" data-value="{{ player.lg_a }}">{{ player.lg_a }}</td>
-                    <td class="right" data-value="{{ player.lg_y }}">{{ player.lg_y }}</td>
-                    <td class="right" data-value="{{ player.lg_r }}">{{ player.lg_r }}</td>
-                  </tr>
-                {% endif %}
-
-                {% assign pp_minutes = player.pp_m | plus: 0 %}
-                {% if pp_minutes > 0 %}
-                  <tr class="row-all">
-                    <td class="left">Playoffs</td>
-                    <td class="left">
-                      {{ player.pp_m }}
-                      {% if player.pp_m == "1" %}
-                        match
-                      {% else %}
-                        matches
-                      {% endif %}
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="right" data-value="{{ player.pp_s }}">{{ player.pp_s }}</td>
-                    <td class="right" data-value="{{ player.pp_min }}">{{ player.pp_min }}</td>
-                    <td class="right" data-value="{{ player.pp_g }}">{{ player.pp_g }}</td>
-                    <td class="right" data-value="{{ player.pp_a }}">{{ player.pp_a }}</td>
-                    <td class="right" data-value="{{ player.pp_y }}">{{ player.pp_y }}</td>
-                    <td class="right" data-value="{{ player.pp_r }}">{{ player.pp_r }}</td>
-                  </tr>
-                {% endif %}
-
-                {% assign cup_minutes = player.cup_m | plus: 0 %}
-                {% if cup_minutes > 0 %}
-                  <tr class="row-all">
-                    <td class="left">Cup</td>
-                    <td class="left">
-                      {{ player.cup_m }}
-                      {% if player.cup_m == "1" %}
-                        match
-                      {% else %}
-                        matches
-                      {% endif %}
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="right" data-value="{{ player.cup_s }}">{{ player.cup_s }}</td>
-                    <td class="right" data-value="{{ player.cup_min }}">{{ player.cup_min }}</td>
-                    <td class="right" data-value="{{ player.cup_g }}">{{ player.cup_g }}</td>
-                    <td class="right" data-value="{{ player.cup_a }}">{{ player.cup_a }}</td>
-                    <td class="right" data-value="{{ player.cup_y }}">{{ player.cup_y }}</td>
-                    <td class="right" data-value="{{ player.cup_r }}">{{ player.cup_r }}</td>
-                  </tr>
-                {% endif %}
-
-                {% if lg_minutes > 0 and cup_minutes > 0 %}
-                  <tr class="row-all">
-                    <td class="left">All Comps</td>
-                    <td class="left">
-                      {{ player.all_m }}
-                      {% if player.all_m == "1" %}
-                        match
-                      {% else %}
-                        matches
-                      {% endif %}
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="left"></td>
-                    <td class="right" data-value="{{ player.lg_s }}">{{ player.all_s }}</td>
-                    <td class="right" data-value="{{ player.all_min }}">{{ player.all_min }}</td>
-                    <td class="right" data-value="{{ player.all_g }}">{{ player.all_g }}</td>
-                    <td class="right" data-value="{{ player.all_a }}">{{ player.all_a }}</td>
-                    <td class="right" data-value="{{ player.all_y }}">{{ player.all_y }}</td>
-                    <td class="right" data-value="{{ player.all_r }}">{{ player.all_r }}</td>
-                  </tr>
-                {% endif %}
               {% endif %}
             {% endfor %}
           </tbody>
         </table>
       </div>
 
-      {% assign all_involvements = player.all_inv | plus: 0 %}
-      {% if all_involvements > 0 %}
-
-        <h2>Goal Involvements</h2>
-
-        <div class="table-container">
-          <table id="player-goals" class="goals-table">
-            <thead>
-              <tr>
-                <th class="left">Scorer</th>
-                <th class="left">Assist</th>
-                <th class="left">Date</th>
-                <th class="left">Competition</th>
-                <th class="left">Round</th>
-                <th class="right">Min</th>
-                <th class="left">Opponent</th>
-                <th class="left">Venue</th>
-                <th class="right">GF</th>
-                <th class="right">GA</th>
-                <th class="right">GD</th>
-                <th class="left">Note</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for goal in site.data.goals %}
-                {% if goal.id_scorer == include.player or goal.id_assist_official == include.player %}
-                  <tr>
-                    <td class="left" data-sort="{{ goal.id_scorer }}">
-                      <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)">
-                      </div>
-                      <a href="{{ goal.id_scorer }}.html">
-                        <span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}
-                      </a>
-                    </td>
-                    <td class="left" data-sort="{{ goal.id_assist_official }}">{% if goal.id_assist_official != nil %}<a href="{{ goal.id_assist_official }}.html"><span class="hide-on-small">{{ goal.assist_first }}</span> {{ goal.assist_last }}</a>{% endif %}</td>
-                    <td class="left" data-sort="{{ goal.date }}-{{ goal.gf }}"><a href="matches.html#match-{{ goal.match }}">{{ goal.date }}</a></td>
-                    <td class="left">{{ goal.comp }}</td>
-                    <td class="left" data-sort="{{ goal.round_alt }}">{{ goal.round }}</td>
-                    <td class="right" data-sort="{{ goal.min_alt }}">{{ goal.min }}</td>
-                    <td class="left">{{ goal.opponent }}</td>
-                    <td class="left">{{ goal.venue }}</td>
-                    <td class="right">{{ goal.gf }}</td>
-                    <td class="right">{{ goal.ga }}</td>
-                    <td class="right">{{ goal.gd }}</td>
-                    <td class="left"><span>{{ goal.note }}</span></td>
-                  </tr>
-                {% endif %}
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
-
-        <script>
-          new Tablesort(document.getElementById('player-goals'));
-        </script>
-      {% endif %}
+      <script>
+        new Tablesort(document.getElementById('player-goals'));
+      </script>
     {% endif %}
 
     <h2>More Information</h2>

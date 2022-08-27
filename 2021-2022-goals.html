@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Goals
+title: 2021-22 Goals
 body_class: goals
 ---
 
 <h1>{{ page.title }}</h1>
 
 <div class="subnav">
-  <a class="current" href="goals.html">2022–23</a>
-  <a href="2021-2022-goals.html">2021–22</a>
+  <a href="goals.html">2022–23</a>
+  <a class="current" href="2021-2022-goals.html">2021–22</a>
 </div>
 
 <div class="goal-table-filter">
@@ -36,11 +36,11 @@ body_class: goals
     </thead>
     <tbody>
       {% for goal in site.data.goals %}
-        {% if goal.season == "2022-2023" %}
+        {% if goal.season == "2021-2022" %}
           <tr>
             <td class="left" data-sort="{{ goal.id_scorer }}">
               {% if goal.id_scorer %}
-                <div class="player-photo" style="background-image: url(assets/images/frauen/100/{{ goal.id_scorer }}.jpg)"></div>
+                <div class="player-photo" style="background-image: url(assets/images/frauen/2021-2022/100/{{ goal.id_scorer }}.jpg)"></div>
                 <a href="{{ goal.id_scorer }}.html"><span class="hide-on-small">{{ goal.scorer_first }}</span> {{ goal.scorer_last }}</a>
               {% else %}
                 Own Goal

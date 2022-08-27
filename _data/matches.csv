@@ -23,14 +23,14 @@ id,date,opponent,comp,round,venue,gf,ga,result,stream,time,recap,fussball_de,sea
 22,2022-05-22,SV Körne 83,Kreisliga A,MD18,Home,2,1,Win,147300,15:30,https://www.bvb.de/Mannschaften/Frauen/News/BVB-Frauen-siegen-2-1-durch-Goosmann-Doppelpack,https://www.fussball.de/spiel/borussia-dortmund-sv-koerne/-/spiel/02FCK02V4S000000VS5489B4VSG06PAH#!/,2021-2022
 23,2022-05-25,TV Brechten II,Playoffs,PO,Neutral,4,0,Win,151878,19:30,https://www.bvb.de/News/Uebersicht/4-0-gegen-Brechten-BVB-Frauen-steigen-in-die-Bezirksliga-auf,https://www.fussball.de/spiel/borussia-dortmund-tv-brechten-ii/-/spiel/02I84R8IT4000000VS5489B3VU9O46OC#!/,2021-2022
 24,2022-05-29,TV Brechten,Kreispokal,F,Home,3,0,Win,,15:30,https://www.bvb.de/News/Uebersicht/Die-BVB-Frauen-sind-Pokalsieger,https://www.fussball.de/spiel/borussia-dortmund-tv-brechten/-/spiel/02HSDTEUS4000000VS5489B4VT4FVGVG#!/,2021-2022
-,2022-08-14,TuS Wadersloh,Verbands-Pokal,,Home,,,,,15:00,,,2022-2023
-,2022-08-21,SF Westfalia Hagen,Bezirksliga,MD1,Away,,,,,13:00,,,2022-2023
+25,2022-08-21,TuS Wadersloh,Verbands-Pokal,R1,Home,3,0,Win,158949,15:00,https://www.bvb.de/Mannschaften/Frauen/News/Dank-Kuhl-und-Kaul-BVB-Frauen-in-der-2.-Runde-des-Westfalenpokals,https://www.fussball.de/spiel/borussia-dortmund-tus-wadersloh/-/spiel/02IJTL7A2G000000VS5489B3VVETK79U#!/,2022-2023
+,2022-08-28,SF Westfalia Hagen,Bezirksliga,MD1,Away,,,,,13:00,,,2022-2023
 ,2022-09-04,Rot Weiss Ahlen,Bezirksliga,MD2,Home,,,,,15:00,,,2022-2023
 ,2022-09-11,SV Hohenlimburg 1910 II,Bezirksliga,MD3,Away,,,,,13:00,,,2022-2023
 ,2022-09-18,TuS Eichlinghofen,Bezirksliga,MD4,Home,,,,,15:00,,,2022-2023
-,2022-09-25,TuS Germania Lohauserholz,Bezirksliga,MD5,Away,,,,,15:00,,,2022-2023
+,2022-09-25,TuS Germania Lohauserholz,Bezirksliga,MD5,Away,,,,165595,15:00,,,2022-2023
 ,2022-10-02,SV Eintracht Dorstfeld,Bezirksliga,MD6,Home,,,,,15:00,,,2022-2023
-,2022-10-09,Wambeler SV,Bezirksliga,MD7,Away,,,,,15:00,,,2022-2023
+,2022-10-09,Wambeler SV,Bezirksliga,MD7,Away,,,,167728,15:00,,,2022-2023
 ,2022-10-23,FC SW Silschede,Bezirksliga,MD8,Away,,,,,15:00,,,2022-2023
 ,2022-10-30,VfL Senden,Bezirksliga,MD9,Home,,,,,15:00,,,2022-2023
 ,2022-11-06,Rot Weiß Unna,Bezirksliga,MD10,Home,,,,,14:30,,,2022-2023
